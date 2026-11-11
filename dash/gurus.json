@@ -1,5 +1,18 @@
 [
  {
+  "id": "elerian-1105",
+  "date": "2026-11-05",
+  "name": "모하메드 엘에리언",
+  "role": "알리안츠 수석 경제고문",
+  "stance": "중립",
+  "topic": "AI 공포에 따른 매도세는 과하다",
+  "summary": "엘에리언은 CNBC 인터뷰에서 나스닥 조정을 두고 시장이 AI 역풍에 과잉 반응하고 있다며 AI의 장기 잠재력에는 여전히 긍정적이라고 밝혔습니다. 다만 미국 경제가 AI에 크게 기대고 있어 기술주 급락이 실물로 번질 수 있고, 연준이 한 번 더 인상하겠지만 시장이 반영한 세 차례까지는 아닐 것이라고 봤습니다.",
+  "check": "보도",
+  "src": "CNBC 인터뷰 인용(Stocktwits/Yahoo Finance)",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/el-erian-says-stock-market-174818425.html",
+  "channel": "CNBC 인터뷰"
+ },
+ {
   "id": "singer-1105",
   "date": "2026-11-05",
   "name": "폴 싱어",
