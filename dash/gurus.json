@@ -1,5 +1,44 @@
 [
  {
+  "id": "wood-1107",
+  "date": "2026-11-07",
+  "name": "캐시 우드",
+  "role": "ARK 인베스트 CEO",
+  "stance": "강세",
+  "topic": "AI 인프라 투자 둔화는 오히려 호재",
+  "summary": "우드는 11월 'In the Know' 코멘터리에서 전력·칩 부족으로 AI 인프라 지출이 둔화되면 기업들이 더 신중하게 투자하게 돼 AI 붐이 끝나기보다 오히려 길어질 수 있다고 주장했습니다. 그는 초기 효율화가 기술 혁명을 \"longer-lasting and much healthier\"하게 만들 것이라고 봤습니다.",
+  "check": "보도",
+  "src": "ARK 'In the Know' 코멘터리 인용(IBTimes UK)",
+  "url": "https://www.ibtimes.co.uk/cathie-wood-says-ai-slowdown-could-strengthen-boom-after-3t-us-stock-market-sell-off-1831050",
+  "channel": "월간 코멘터리"
+ },
+ {
+  "id": "mcelligott-1105",
+  "date": "2026-11-05",
+  "name": "찰리 맥엘리곳",
+  "role": "노무라 크로스에셋 전략가",
+  "stance": "중립",
+  "topic": "'장군들을 쏘고 있다' — 연말 차익실현",
+  "summary": "맥엘리곳은 리서치 노트에서 2026년 붐볐던 모멘텀·AI 트레이드의 청산이 한 달 넘게 극심하게 진행 중이라고 진단했습니다. 다만 이는 펀더멘털 악화가 아니라 헤지펀드들이 연말 전에 올해 수익을 지키려는 차익실현 때문이라고 해석했습니다.",
+  "check": "보도",
+  "src": "노무라 리서치 노트 인용(Yahoo Finance)",
+  "url": "https://finance.yahoo.com/markets/article/theyre-shooting-the-generals-ai-trade-stocks-drop-as-hedge-funds-rush-to-protect-2026-gains-185019432.html",
+  "channel": "리서치 노트"
+ },
+ {
+  "id": "tomlee-1104",
+  "date": "2026-11-04",
+  "name": "톰 리",
+  "role": "펀드스트랫 공동창업자",
+  "stance": "강세",
+  "topic": "기술주 15~20% 반등 전망",
+  "summary": "톰 리는 CNBC 인터뷰에서 데이터센터·AI 매도세를 단기적 '반사적 반응'으로 규정하고 기술주가 최소 15%, 많게는 20% 반등할 수 있다고 내다봤습니다. AI 트레이드 자체는 훼손되지 않았고 헤지펀드 포지션도 여전히 기술주에 집중돼 있다고 봤습니다.",
+  "check": "보도",
+  "src": "CNBC 인터뷰 인용(Stocktwits)",
+  "url": "https://stocktwits.com/news-articles/markets/equity/tom-lee-expects-20-tech-rally-but-dan-ives-warns-of-more-downside/cNGLr3UR9Ec",
+  "channel": "CNBC 인터뷰"
+ },
+ {
   "id": "elerian-1105",
   "date": "2026-11-05",
   "name": "모하메드 엘에리언",
