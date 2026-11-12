@@ -1,15 +1,15 @@
 {
- "run": "2026-11-12T07:55:30Z",
+ "run": "2026-11-12T08:00:02Z",
  "log": [
   "[실패] kr: ECOS_API_KEY 없음",
-  "[실패] us_hy: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Max retries exceeded with url: /graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2025-09-08 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-  "[실패] us_ig: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Max retries exceeded with url: /graph/fredgraph.csv?id=BAMLC0A0CM&cosd=2025-09-08 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-  "[실패] us_netliq: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Max retries exceeded with url: /graph/fredgraph.csv?id=WALCL&cosd=2025-09-08 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-  "[실패] us_curve: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Max retries exceeded with url: /graph/fredgraph.csv?id=T10Y2Y&cosd=2025-09-08 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+  "[실패] us_hy: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)",
+  "[실패] us_ig: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)",
+  "[실패] us_netliq: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)",
+  "[실패] us_curve: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)",
   "Yahoo %5EVIX: 300개, 최근 2026-11-11 17.49",
   "Yahoo %5EVIX: 300개, 최근 2026-11-11 17.49",
   "Yahoo %5EVIX3M: 298개, 최근 2026-11-11 19.24",
   "Yahoo %5EMOVE: 294개, 최근 2026-11-10 92.43",
-  "[실패] vkospi: KRX: HTTPSConnectionPool(host='data.krx.co.kr', port=443): Max retries exceeded with url: /comm/bldAttendant/getJsonData.cmd (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+  "[실패] vkospi: KRX: Expecting value: line 1 column 1 (char 0)"
  ]
 }
