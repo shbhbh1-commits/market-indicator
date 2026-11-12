@@ -1,6 +1,6 @@
 # 유동성·신용 모니터: 12개 지표를 받아 liq_series.json(일별)·liq_summary.json(지표별 현재값·경보) 생성
 # GitHub Actions에서 매일 실행(FRED·ECOS·KRX는 클라우드 샌드박스에서 막혀 있어 여기서 받음).
-# 한국 금리는 ECOS_API_KEY(한국은행 ECOS 인증키, 저장소 Secret)가 있어야 받습니다.
+# 저장소 Secret: ECOS_API_KEY(한국 금리), FRED_API_KEY(미국 신용·유동성), KRX_API_KEY(VKOSPI) — 모두 무료 발급
 import os, io, json, datetime as dt, traceback
 import requests, pandas as pd, numpy as np
 
@@ -14,12 +14,23 @@ def note(msg):
     print(msg); log.append(msg)
 
 def fred(sid):
-    u = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={START}'
-    r = requests.get(u, headers=UA, timeout=60); r.raise_for_status()
-    df = pd.read_csv(io.StringIO(r.text))
-    df.columns = ['date', 'v']
-    df['v'] = pd.to_numeric(df['v'], errors='coerce')
-    s = df.dropna().set_index(pd.to_datetime(df.dropna()['date']))['v']
+    key = os.environ.get('FRED_API_KEY', '').strip()
+    if key:  # 공식 API(무료 키) — fredgraph.csv가 클라우드 IP에서 자주 막혀서 우선 사용
+        u = f'https://api.stlouisfed.org/fred/series/observations?series_id={sid}&api_key={key}&file_type=json&observation_start={START}'
+        obs = requests.get(u, timeout=60).json()['observations']
+        s = pd.Series([float(o['value']) if o['value'] not in ('.', '') else np.nan for o in obs], index=pd.to_datetime([o['date'] for o in obs])).dropna()
+    else:
+        last = None
+        for h in (UA, {}):
+            try:
+                r = requests.get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={START}', headers=h, timeout=40); r.raise_for_status(); break
+            except Exception as e:
+                last = e; r = None
+        if r is None:
+            raise RuntimeError(f'{last} (FRED_API_KEY 등록 시 공식 API 사용)')
+        df = pd.read_csv(io.StringIO(r.text)); df.columns = ['date', 'v']
+        df['v'] = pd.to_numeric(df['v'], errors='coerce'); df = df.dropna()
+        s = pd.Series(df['v'].values, index=pd.to_datetime(df['date']))
     note(f'FRED {sid}: {len(s)}개, 최근 {s.index[-1].date()} {s.iloc[-1]}')
     return s
 
@@ -45,24 +56,26 @@ def ecos(code):
     note(f'ECOS {code} {rows[-1]["ITEM_NAME1"]}: {len(s)}개, 최근 {s.index[-1].date()} {s.iloc[-1]}')
     return s
 
-def vkospi():
-    errs = []
-    # 1) KRX 정보데이터시스템 (파생상품지수 시세추이)
-    try:
-        h = dict(UA, Referer='https://data.krx.co.kr/contents/MDC/MDI/mdiLoader/index.cmd?menuId=MDC0201010106')
-        form = {'bld': 'dbms/MDC/STAT/standard/MDCSTAT01201', 'locale': 'ko_KR', 'indIdx': '1', 'indIdx2': '300',
-                'strtDd': f'{START:%Y%m%d}', 'endDd': f'{TODAY:%Y%m%d}', 'share': '2', 'money': '3', 'csvxls_isNo': 'false'}
-        r = requests.post('https://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd', data=form, headers=h, timeout=60)
-        j = r.json(); rows = j.get('output') or []
-        if rows:
-            s = pd.Series([float(str(x['CLSPRC_IDX']).replace(',', '')) for x in rows], index=pd.to_datetime([x['TRD_DD'] for x in rows], format='%Y/%m/%d')).sort_index()
-            if 10 < s.iloc[-1] < 150:
-                note(f'KRX VKOSPI: {len(s)}개, 최근 {s.index[-1].date()} {s.iloc[-1]}')
-                return s
-        errs.append(f'KRX: {r.status_code} {str(j)[:150]}')
-    except Exception as e:
-        errs.append(f'KRX: {e}')
-    raise RuntimeError(' / '.join(errs))
+def vkospi(have):
+    """KRX OpenAPI(파생상품지수 일별시세, 무료 인증키 KRX_API_KEY). 하루 1회 호출이라 이력에 없는 날만 받음(회당 최대 270일)."""
+    key = os.environ.get('KRX_API_KEY', '').strip()
+    if not key:
+        raise RuntimeError('KRX_API_KEY 없음')
+    days = [d for d in pd.bdate_range(START + dt.timedelta(days=60), TODAY) if d.strftime('%Y-%m-%d') not in have][-270:]
+    out, err = {}, None
+    for d in days:
+        try:
+            j = requests.get(f'https://data-dbg.krx.co.kr/svc/apis/idx/drvprod_dd_trd?basDd={d:%Y%m%d}', headers={'AUTH_KEY': key}, timeout=30).json()
+            for x in j.get('OutBlock_1', []):
+                if '변동성' in x.get('IDX_NM', '') and '200' in x.get('IDX_NM', '') and x.get('CLSPRC_IDX') not in (None, '', '-'):
+                    out[d] = float(str(x['CLSPRC_IDX']).replace(',', '')); break
+        except Exception as e:
+            err = e
+    if not out and not have:
+        raise RuntimeError(f'KRX 응답에 VKOSPI 없음 {err or ""}')
+    s = pd.Series(out, dtype=float).sort_index()
+    note(f'KRX VKOSPI: 새로 {len(s)}일' + (f', 최근 {s.index[-1].date()} {s.iloc[-1]}' if len(s) else ''))
+    return s
 
 # id, 제목, 부제, 단위, 위험방향(+1=오를수록 위험, -1=내릴수록 위험), 절대 경보선, 출처
 META = [
@@ -80,7 +93,7 @@ META = [
     ('vkospi',  'VKOSPI', '코스피200 30일 내재변동성', '', 1, 30, 'KRX'),
 ]
 
-def build():
+def build(old):
     S = {}
     def tryset(k, fn):
         try:
@@ -110,24 +123,24 @@ def build():
         return (v / v3).dropna()
     tryset('vix_ratio', ratio)
     tryset('move', lambda: yahoo('%5EMOVE'))
-    tryset('vkospi', vkospi)
+    tryset('vkospi', lambda: vkospi(set(old.get('vkospi', {}))))
     return S
 
 def main():
-    S = build()
     # 이전 파일과 합쳐 하루 실패해도 이력 유지
     old = {}
     p = os.path.join(HERE, 'liq_series.json')
     if os.path.exists(p):
         for r in json.load(open(p)):
             old.setdefault(r['id'], {})[r['date']] = r['value']
+    S = build(old)
     rows, summ = [], []
     cut = pd.Timestamp(TODAY - dt.timedelta(days=400))
     for order, (k, title, sub, unit, sign, line, src) in enumerate(META):
         d = dict(old.get(k, {}))
         if k in S:
             s = S[k].dropna()
-            s = s[s.index >= cut]
+            s = s[s.index >= cut] if len(s) else s
             for i, v in s.items():
                 d[i.strftime('%Y-%m-%d')] = round(float(v), 4 if unit == 'x' else 2)
         d = {a: b for a, b in d.items() if a >= cut.strftime('%Y-%m-%d')}
@@ -136,7 +149,7 @@ def main():
         for i, v in s.items():
             rows.append({'id': k, 'date': i.strftime('%Y-%m-%d'), 'value': v})
         r = {'id': k, 'order': order, 'title': title, 'subtitle': sub, 'unit': unit, 'risk_dir': sign, 'line': line, 'src': src,
-             'fresh': k in S, 'value': None, 'asof': None, 'chg_1w': None, 'chg_1m': None, 'pct_1y': None, 'median_1y': None, 'alert': False, 'why': ''}
+             'fresh': k in S and len(S[k]) > 0, 'value': None, 'asof': None, 'chg_1w': None, 'chg_1m': None, 'pct_1y': None, 'median_1y': None, 'alert': False, 'why': ''}
         if len(s) > 30:
             last, L = s.index[-1], s.iloc[-1]
             def ago(days):
