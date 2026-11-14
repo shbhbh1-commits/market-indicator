@@ -1,0 +1,182 @@
+[
+ {
+  "id": "berkshire",
+  "name": "워런 버핏·그레그 에이블",
+  "firm": "버크셔 해서웨이",
+  "cik": 1067983,
+  "style": "가치·장기 집중",
+  "focus": true
+ },
+ {
+  "id": "duquesne",
+  "name": "스탠리 드러켄밀러",
+  "firm": "듀케인 패밀리오피스",
+  "cik": 1536411,
+  "style": "매크로·성장 모멘텀",
+  "focus": true
+ },
+ {
+  "id": "oaktree",
+  "name": "하워드 막스",
+  "firm": "오크트리 캐피털",
+  "cik": 949509,
+  "style": "크레딧·부실채권·역발상",
+  "focus": true
+ },
+ {
+  "id": "pabrai",
+  "name": "모니시 파브라이",
+  "firm": "달랄 스트리트(파브라이 펀드)",
+  "cik": 1549575,
+  "style": "딥밸류·초집중",
+  "focus": true,
+  "note": "13F는 미국 상장 주식만 담습니다. 파브라이 왜건스 펀드 등 비미국(인도·터키·한국 등) 보유분은 13F에 나오지 않아 연례 서한·인터뷰로 보완합니다."
+ },
+ {
+  "id": "tudor",
+  "name": "폴 튜더 존스",
+  "firm": "튜더 인베스트먼트",
+  "cik": 923093,
+  "style": "매크로·트레이딩",
+  "focus": true
+ },
+ {
+  "id": "coatue",
+  "name": "필리프 라퐁",
+  "firm": "코투 매니지먼트",
+  "cik": 1135730,
+  "style": "테크 성장",
+  "focus": true
+ },
+ {
+  "id": "pershing",
+  "name": "빌 애크먼",
+  "firm": "퍼싱 스퀘어",
+  "cik": [
+   1336528,
+   2026053
+  ],
+  "style": "행동주의·집중",
+  "focus": true
+ },
+ {
+  "id": "ark",
+  "name": "캐시 우드",
+  "firm": "ARK 인베스트",
+  "cik": 1697748,
+  "style": "파괴적 혁신 성장",
+  "focus": true
+ },
+ {
+  "id": "ima",
+  "name": "비탈리 카체넬슨",
+  "firm": "IMA(Investment Management Associates)",
+  "cik": 52024,
+  "style": "가치·퀄리티",
+  "focus": true
+ },
+ {
+  "id": "rvcap",
+  "name": "로버트 비널",
+  "firm": "RV 캐피탈",
+  "cik": 1766596,
+  "style": "퀄리티 장기 집중",
+  "focus": true
+ },
+ {
+  "id": "spier",
+  "name": "가이 스피어",
+  "firm": "아쿠아마린 캐피털",
+  "cik": 1953324,
+  "style": "가치·장기 집중",
+  "focus": false
+ },
+ {
+  "id": "himalaya",
+  "name": "리루",
+  "firm": "히말라야 캐피털",
+  "cik": 1709323,
+  "style": "가치·초집중",
+  "focus": false
+ },
+ {
+  "id": "baupost",
+  "name": "세스 클라먼",
+  "firm": "바우포스트 그룹",
+  "cik": 1061768,
+  "style": "안전마진 가치",
+  "focus": false
+ },
+ {
+  "id": "appaloosa",
+  "name": "데이비드 테퍼",
+  "firm": "아팔루사",
+  "cik": 1656456,
+  "style": "부실·매크로 역발상",
+  "focus": false
+ },
+ {
+  "id": "soros",
+  "name": "조지 소로스",
+  "firm": "소로스 펀드 매니지먼트",
+  "cik": 1029160,
+  "style": "매크로",
+  "focus": false
+ },
+ {
+  "id": "bridgewater",
+  "name": "레이 달리오",
+  "firm": "브리지워터",
+  "cik": 1350694,
+  "style": "매크로·분산",
+  "focus": false
+ },
+ {
+  "id": "thirdpoint",
+  "name": "댄 로브",
+  "firm": "서드 포인트",
+  "cik": 1040273,
+  "style": "행동주의·이벤트",
+  "focus": false
+ },
+ {
+  "id": "icahn",
+  "name": "칼 아이칸",
+  "firm": "아이칸 엔터프라이즈",
+  "cik": 921669,
+  "style": "행동주의",
+  "focus": false
+ },
+ {
+  "id": "akre",
+  "name": "척 아크레 계열",
+  "firm": "아크레 캐피털",
+  "cik": 1112520,
+  "style": "복리 기계 장기보유",
+  "focus": false
+ },
+ {
+  "id": "fundsmith",
+  "name": "테리 스미스",
+  "firm": "펀드스미스",
+  "cik": 1569205,
+  "style": "퀄리티 장기보유",
+  "focus": false
+ },
+ {
+  "id": "russo",
+  "name": "톰 루소",
+  "firm": "가드너 루소 앤 퀸",
+  "cik": 860643,
+  "style": "글로벌 소비재 장기보유",
+  "focus": false
+ },
+ {
+  "id": "harris",
+  "name": "빌 나이그렌",
+  "firm": "해리스 어소시에이츠(오크마크)",
+  "cik": 813917,
+  "style": "가치",
+  "focus": false
+ }
+]
