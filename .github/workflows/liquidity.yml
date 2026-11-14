@@ -1,4 +1,4 @@
-name: 유동성·신용 데이터
+name: 유동성·거시 데이터
 on:
   schedule:
     - cron: '17 21 * * *'   # 매일 06:17 KST (대시보드 갱신 07:30 KST 전)
@@ -8,6 +8,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -16,7 +17,6 @@ jobs:
       - run: pip install -q requests pandas numpy
       - run: python dash/liq.py
         env:
-          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           KRX_API_KEY: ${{ secrets.KRX_API_KEY }}
       - name: 커밋
@@ -25,5 +25,5 @@ jobs:
           git config user.email 'github-actions@users.noreply.github.com'
           git add dash/liq_series.json dash/liq_summary.json dash/liq_log.json dash/liq_keys.json
           git diff --cached --quiet && exit 0
-          git commit -m "유동성·신용 데이터 $(date -u +%F)"
+          git commit -m "유동성·거시 데이터 $(date -u +%F)"
           git pull --rebase -q && git push
