@@ -20,9 +20,10 @@ def keyset(name):
     return bool(os.environ.get(name, '').strip())
 
 # ---------------- 수집기 ----------------
-_FRED = {}
+_FRED, _FRED_FAIL = {}, {}
 def fred(sid, start):
     if sid in _FRED: return _FRED[sid]
+    if sid in _FRED_FAIL: raise RuntimeError(_FRED_FAIL[sid])
     key = os.environ.get('FRED_API_KEY', '').strip()
     if key:
         u = f'https://api.stlouisfed.org/fred/series/observations?series_id={sid}&api_key={key}&file_type=json&observation_start={start}'
@@ -30,19 +31,32 @@ def fred(sid, start):
         s = pd.Series([float(o['value']) if o['value'] not in ('.', '') else np.nan for o in obs], index=pd.to_datetime([o['date'] for o in obs])).dropna()
     else:
         last, r = None, None
-        for h in (UA, {}):
+        for h in (UA, UA):
             try:
-                r = requests.get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}', headers=h, timeout=(15, 120)); r.raise_for_status(); break
+                r = requests.get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}', headers=h, timeout=(15, 150)); r.raise_for_status(); break
             except Exception as e:
                 last, r = e, None
         if r is None:
-            raise RuntimeError(f'{str(last)[:120]} (FRED_API_KEY 등록 시 공식 API 사용)')
+            _FRED_FAIL[sid] = f'{str(last)[:120]} (FRED_API_KEY 등록 시 공식 API 사용)'
+            raise RuntimeError(_FRED_FAIL[sid])
         df = pd.read_csv(io.StringIO(r.text)); df.columns = ['date', 'v']
         df['v'] = pd.to_numeric(df['v'], errors='coerce'); df = df.dropna()
         s = pd.Series(df['v'].values, index=pd.to_datetime(df['date']))
     note(f'FRED {sid}: {len(s)}개, 최근 {s.index[-1].date()} {s.iloc[-1]}')
     _FRED[sid] = s
     return s
+
+FRED_IDS = {'BAMLH0A0HYM2': 'D', 'BAMLC0A0CM': 'D', 'WALCL': 'D', 'WTREGEN': 'D', 'RRPONTSYD': 'D', 'NFCI': 'L', 'DRTSCILM': 'L', 'T10Y2Y': 'D', 'T10Y3M': 'D',
+            'DGS2': 'D', 'DFF': 'D', 'DFII10': 'D', 'T5YIFR': 'D', 'CPILFESL': 'L', 'PCEPILFE': 'L', 'PPIFIS': 'L', 'UNRATE': 'L', 'SAHMREALTIME': 'L', 'ICSA': 'L',
+            'DTWEXBGS': 'D', 'M2SL': 'L'}
+def prefetch_fred():
+    """FRED를 병렬로 미리 받는다(키 없는 공개 경로는 한 건에 수십 초씩 걸려서). 실패한 것은 개별 지표에서 다시 오류로 잡힌다."""
+    from concurrent.futures import ThreadPoolExecutor
+    def one(sid):
+        try: fred(sid, START_D if FRED_IDS[sid] == 'D' else START_L)
+        except Exception as e: note(f'[FRED 실패] {sid}: {str(e)[:120]}')
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(one, FRED_IDS))
 
 def yoy(s, n=12):
     return (s / s.shift(n) - 1) * 100
@@ -215,6 +229,7 @@ def main():
     if os.path.exists(p):
         for r in json.load(open(p)):
             old.setdefault(r['id'], {})[r['date']] = r['value']
+    prefetch_fred()
     rows, summ = [], []
     for order, (grp, k, title, sub, unit, sign, line, src, fq, fn) in enumerate(SERIES):
         try:
