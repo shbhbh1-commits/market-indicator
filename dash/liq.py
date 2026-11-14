@@ -93,6 +93,8 @@ META = [
     ('vkospi',  'VKOSPI', '코스피200 30일 내재변동성', '', 1, 30, 'KRX'),
 ]
 
+ERR = {}
+
 def build(old):
     S = {}
     def tryset(k, fn):
@@ -100,6 +102,7 @@ def build(old):
             S[k] = fn()
         except Exception as e:
             note(f'[실패] {k}: {e}')
+            ERR[k] = str(e)[:160]
     tryset('kr', lambda: {k: ecos(c) for k, c in ECOS_ITEMS.items()})
     if 'kr' in S:
         e = pd.DataFrame(S.pop('kr')).sort_index().ffill()
@@ -107,6 +110,8 @@ def build(old):
         S['kr_bbb'] = (e.bbb3 - e.ktb3) * 100
         S['kr_cpcd'] = (e.cp91 - e.cd91) * 100
         S['kr_curve'] = (e.ktb10 - e.ktb3) * 100
+    elif 'kr' in ERR:
+        for k in ('kr_aa', 'kr_bbb', 'kr_cpcd', 'kr_curve'): ERR[k] = ERR['kr']
     tryset('us_hy', lambda: fred('BAMLH0A0HYM2') * 100)
     tryset('us_ig', lambda: fred('BAMLC0A0CM') * 100)
     def netliq():
@@ -125,6 +130,36 @@ def build(old):
     tryset('move', lambda: yahoo('%5EMOVE'))
     tryset('vkospi', lambda: vkospi(set(old.get('vkospi', {}))))
     return S
+
+def keyset(name):
+    return bool(os.environ.get(name, '').strip())
+
+KEYS = [('한국은행 ECOS', 'ECOS_API_KEY', '한국 신용·금리 4종', 'https://ecos.bok.or.kr/api/ → 인증키 신청'),
+        ('FRED', 'FRED_API_KEY', '미국 신용·유동성 4종', 'https://fredaccount.stlouisfed.org/apikeys'),
+        ('KRX', 'KRX_API_KEY', 'VKOSPI', 'https://openapi.krx.co.kr → 인증키 신청 후 파생상품지수 API 이용신청')]
+
+SRCKEY = {'한국은행 ECOS': 'ECOS_API_KEY', 'FRED': 'FRED_API_KEY', 'KRX': 'KRX_API_KEY'}
+
+def status_of(k, src):
+    key = SRCKEY.get(src)
+    if k in ERR:
+        if key and not keyset(key): return f'{key} 미등록 → 수집 안 됨'
+        return '수집 실패: ' + ERR[k][:80]
+    if key == 'FRED_API_KEY' and not keyset(key):
+        return 'FRED 키 미등록 · 공개 CSV로 우회 수집 중'
+    return '정상 수집'
+
+def write_keys():
+    rows = []
+    for name, key, affect, how in KEYS:
+        reg = keyset(key)
+        bad = [m[0] for m in META if m[6] == name and m[0] in ERR]
+        if reg and not bad: st = '등록됨 · 정상 수집'
+        elif reg: st = '등록됨 · 수집 오류: ' + ERR[bad[0]][:60]
+        elif not bad: st = '미등록 · 공개 경로로 우회 수집 중'
+        else: st = '미등록 · 수집 안 됨'
+        rows.append({'source': name, 'key': key, 'registered': '등록' if reg else '미등록', 'state': st, 'affect': affect, 'issue_at': how, 'ok': bool(reg and not bad)})
+    json.dump(rows, open(os.path.join(HERE, 'liq_keys.json'), 'w'), ensure_ascii=False, indent=1)
 
 def main():
     # 이전 파일과 합쳐 하루 실패해도 이력 유지
@@ -149,7 +184,7 @@ def main():
         for i, v in s.items():
             rows.append({'id': k, 'date': i.strftime('%Y-%m-%d'), 'value': v})
         r = {'id': k, 'order': order, 'title': title, 'subtitle': sub, 'unit': unit, 'risk_dir': sign, 'line': line, 'src': src,
-             'fresh': k in S and len(S[k]) > 0, 'value': None, 'asof': None, 'chg_1w': None, 'chg_1m': None, 'pct_1y': None, 'median_1y': None, 'alert': False, 'why': ''}
+             'fresh': k in S and len(S[k]) > 0, 'value': None, 'asof': None, 'chg_1w': None, 'chg_1m': None, 'pct_1y': None, 'median_1y': None, 'alert': False, 'why': '', 'status': status_of(k, src)}
         if len(s) > 30:
             last, L = s.index[-1], s.iloc[-1]
             def ago(days):
@@ -172,6 +207,7 @@ def main():
     json.dump(rows, open(p, 'w'), ensure_ascii=False, separators=(',', ':'))
     json.dump(summ, open(os.path.join(HERE, 'liq_summary.json'), 'w'), ensure_ascii=False, indent=0)
     json.dump({'run': dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'), 'log': log}, open(os.path.join(HERE, 'liq_log.json'), 'w'), ensure_ascii=False, indent=1)
+    write_keys()
     a = [x['title'] for x in summ if x['alert']]
     print(f'경보 {len(a)}개: {", ".join(a)}')
 

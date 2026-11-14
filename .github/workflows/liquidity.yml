@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name 'github-actions'
           git config user.email 'github-actions@users.noreply.github.com'
-          git add dash/liq_series.json dash/liq_summary.json dash/liq_log.json
+          git add dash/liq_series.json dash/liq_summary.json dash/liq_log.json dash/liq_keys.json
           git diff --cached --quiet && exit 0
           git commit -m "유동성·신용 데이터 $(date -u +%F)"
           git pull --rebase -q && git push
