@@ -16,7 +16,8 @@
 "pct_1y": null,
 "median_1y": null,
 "alert": false,
-"why": ""
+"why": "",
+"status": "ECOS_API_KEY 미등록 → 수집 안 됨"
 },
 {
 "id": "kr_bbb",
@@ -35,7 +36,8 @@
 "pct_1y": null,
 "median_1y": null,
 "alert": false,
-"why": ""
+"why": "",
+"status": "ECOS_API_KEY 미등록 → 수집 안 됨"
 },
 {
 "id": "kr_cpcd",
@@ -54,7 +56,8 @@
 "pct_1y": null,
 "median_1y": null,
 "alert": false,
-"why": ""
+"why": "",
+"status": "ECOS_API_KEY 미등록 → 수집 안 됨"
 },
 {
 "id": "kr_curve",
@@ -73,7 +76,8 @@
 "pct_1y": null,
 "median_1y": null,
 "alert": false,
-"why": ""
+"why": "",
+"status": "ECOS_API_KEY 미등록 → 수집 안 됨"
 },
 {
 "id": "us_hy",
@@ -92,7 +96,8 @@
 "pct_1y": 89,
 "median_1y": 284.0,
 "alert": false,
-"why": ""
+"why": "",
+"status": "FRED 키 미등록 · 공개 CSV로 우회 수집 중"
 },
 {
 "id": "us_ig",
@@ -111,7 +116,8 @@
 "pct_1y": 93,
 "median_1y": 80.0,
 "alert": true,
-"why": "1년 백분위 93%"
+"why": "1년 백분위 93%",
+"status": "FRED 키 미등록 · 공개 CSV로 우회 수집 중"
 },
 {
 "id": "us_netliq",
@@ -130,7 +136,8 @@
 "pct_1y": 72,
 "median_1y": 5796.56,
 "alert": false,
-"why": ""
+"why": "",
+"status": "FRED 키 미등록 · 공개 CSV로 우회 수집 중"
 },
 {
 "id": "us_curve",
@@ -149,7 +156,8 @@
 "pct_1y": 4,
 "median_1y": 49.0,
 "alert": true,
-"why": "1년 백분위 4%"
+"why": "1년 백분위 4%",
+"status": "FRED 키 미등록 · 공개 CSV로 우회 수집 중"
 },
 {
 "id": "vix",
@@ -168,7 +176,8 @@
 "pct_1y": 75,
 "median_1y": 17.16,
 "alert": false,
-"why": ""
+"why": "",
+"status": "정상 수집"
 },
 {
 "id": "vix_ratio",
@@ -187,7 +196,8 @@
 "pct_1y": 80,
 "median_1y": 0.8665,
 "alert": false,
-"why": ""
+"why": "",
+"status": "정상 수집"
 },
 {
 "id": "move",
@@ -206,7 +216,8 @@
 "pct_1y": 89,
 "median_1y": 73.38,
 "alert": false,
-"why": ""
+"why": "",
+"status": "정상 수집"
 },
 {
 "id": "vkospi",
@@ -225,6 +236,7 @@
 "pct_1y": null,
 "median_1y": null,
 "alert": false,
-"why": ""
+"why": "",
+"status": "KRX_API_KEY 미등록 → 수집 안 됨"
 }
 ]
