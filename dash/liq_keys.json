@@ -1,19 +1,10 @@
 [
  {
-  "source": "한국은행 ECOS",
-  "key": "ECOS_API_KEY",
-  "registered": "미등록",
-  "state": "미등록 · 수집 안 됨",
-  "affect": "한국 신용·금리 4종",
-  "issue_at": "https://ecos.bok.or.kr/api/ → 인증키 신청",
-  "ok": false
- },
- {
   "source": "FRED",
   "key": "FRED_API_KEY",
   "registered": "미등록",
-  "state": "미등록 · 공개 경로로 우회 수집 중",
-  "affect": "미국 신용·유동성 4종",
+  "state": "미등록 · 수집 안 됨",
+  "affect": "미국 신용·금리·물가·고용 전부",
   "issue_at": "https://fredaccount.stlouisfed.org/apikeys",
   "ok": false
  },
