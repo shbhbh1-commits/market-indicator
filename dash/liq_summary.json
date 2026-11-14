@@ -142,14 +142,14 @@
 "line": null,
 "src": "FRED",
 "fresh": true,
-"value": 24.0,
-"asof": "2026-11-12",
-"chg_1w": -14.0,
-"chg_1m": -18.0,
-"pct_1y": 1,
-"median_1y": 49.5,
+"value": 27.0,
+"asof": "2026-11-13",
+"chg_1w": -8.0,
+"chg_1m": -10.0,
+"pct_1y": 4,
+"median_1y": 49.0,
 "alert": true,
-"why": "1년 백분위 1%"
+"why": "1년 백분위 4%"
 },
 {
 "id": "vix",
