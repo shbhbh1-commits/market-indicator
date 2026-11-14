@@ -31,9 +31,9 @@ def fred(sid, start):
         s = pd.Series([float(o['value']) if o['value'] not in ('.', '') else np.nan for o in obs], index=pd.to_datetime([o['date'] for o in obs])).dropna()
     else:
         last, r = None, None
-        for h in (UA, UA):
+        for h in (UA,):
             try:
-                r = requests.get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}', headers=h, timeout=(15, 150)); r.raise_for_status(); break
+                r = requests.get(f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}', headers=h, timeout=(15, 90)); r.raise_for_status(); break
             except Exception as e:
                 last, r = e, None
         if r is None:
@@ -57,6 +57,30 @@ def prefetch_fred():
         except Exception as e: note(f'[FRED 실패] {sid}: {str(e)[:120]}')
     with ThreadPoolExecutor(max_workers=8) as ex:
         list(ex.map(one, FRED_IDS))
+
+_UST = {}
+def ust(kind):
+    """미 재무부 일별 금리 CSV(명목: daily_treasury_yield_curve, 실질: daily_treasury_real_yield_curve). FRED가 막힐 때 대체."""
+    if kind in _UST: return _UST[kind]
+    frames = []
+    for y in range(START_D.year, TODAY.year + 1):
+        u = (f'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/{y}/all'
+             f'?type={kind}&field_tdr_date_value={y}&page&_format=csv')
+        r = requests.get(u, headers=UA, timeout=(15, 60)); r.raise_for_status()
+        df = pd.read_csv(io.StringIO(r.text)); df['Date'] = pd.to_datetime(df['Date']); frames.append(df.set_index('Date'))
+    df = pd.concat(frames).sort_index(); df.columns = [c.strip().upper() for c in df.columns]
+    df = df[~df.index.duplicated(keep='last')]
+    note(f'미 재무부 {kind}: {len(df)}일, 최근 {df.index[-1].date()}')
+    _UST[kind] = df
+    return df
+
+def fred_or(sid, start, alt):
+    try:
+        return fred(sid, start)
+    except Exception as e:
+        s = alt()
+        note(f'{sid}: FRED 실패 → 미 재무부 자료로 대체'); USED_ALT.add({'T10Y2Y': 'us_curve', 'T10Y3M': 'us_curve3m', 'DGS2': 'us_2y', 'DFII10': 'us_real10'}[sid])
+        return s
 
 def yoy(s, n=12):
     return (s / s.shift(n) - 1) * 100
@@ -171,11 +195,11 @@ SERIES = [
     ('us_credit', 'us_netliq', '미국 순유동성', '연준자산 − TGA − 역레포 ($B)', '$B', -1, None, 'FRED', 'D', lambda o: netliq()),
     ('us_credit', 'us_nfci', '시카고 연준 금융여건지수', 'NFCI · 0 초과 = 평균보다 긴축', '', 1, 0, 'FRED', 'W', lambda o: fred('NFCI', START_L)),
     ('us_credit', 'us_sloos', '은행 대출태도(기업대출 기준 강화 비율)', '시니어 론 오피서 서베이 · 순비율 %', '%', 1, 20, 'FRED', 'Q', lambda o: fred('DRTSCILM', START_L)),
-    ('us_rates', 'us_curve', '미국 10년 − 2년', '장단기 금리차', 'bp', -1, 0, 'FRED', 'D', lambda o: fred('T10Y2Y', START_D) * 100),
-    ('us_rates', 'us_curve3m', '미국 10년 − 3개월', '뉴욕 연준 경기침체 확률 모델의 입력', 'bp', -1, 0, 'FRED', 'D', lambda o: fred('T10Y3M', START_D) * 100),
-    ('us_rates', 'us_2y', '미국 2년 국채금리', '향후 2년 연준 금리 경로 기대', '%', 1, None, 'FRED', 'D', lambda o: fred('DGS2', START_D)),
+    ('us_rates', 'us_curve', '미국 10년 − 2년', '장단기 금리차', 'bp', -1, 0, 'FRED', 'D', lambda o: fred_or('T10Y2Y', START_D, lambda: ust('daily_treasury_yield_curve')['10 YR'] - ust('daily_treasury_yield_curve')['2 YR']) * 100),
+    ('us_rates', 'us_curve3m', '미국 10년 − 3개월', '뉴욕 연준 경기침체 확률 모델의 입력', 'bp', -1, 0, 'FRED', 'D', lambda o: fred_or('T10Y3M', START_D, lambda: ust('daily_treasury_yield_curve')['10 YR'] - ust('daily_treasury_yield_curve')['3 MO']) * 100),
+    ('us_rates', 'us_2y', '미국 2년 국채금리', '향후 2년 연준 금리 경로 기대', '%', 1, None, 'FRED', 'D', lambda o: fred_or('DGS2', START_D, lambda: ust('daily_treasury_yield_curve')['2 YR'])),
     ('us_rates', 'us_ffr', '연방기금 실효금리', '현재 정책금리', '%', 1, None, 'FRED', 'D', lambda o: fred('DFF', START_D)),
-    ('us_rates', 'us_real10', '미국 10년 실질금리', 'TIPS 10년 · 성장주 할인율', '%', 1, 2.0, 'FRED', 'D', lambda o: fred('DFII10', START_D)),
+    ('us_rates', 'us_real10', '미국 10년 실질금리', 'TIPS 10년 · 성장주 할인율', '%', 1, 2.0, 'FRED', 'D', lambda o: fred_or('DFII10', START_D, lambda: ust('daily_treasury_real_yield_curve')['10 YR'])),
     ('us_rates', 'us_be5y5', '5년 후 5년 기대인플레이션', '5y5y forward', '%', 1, 2.8, 'FRED', 'D', lambda o: fred('T5YIFR', START_D)),
     ('us_infl', 'us_ccpi', '근원 CPI (전년비)', '식품·에너지 제외 소비자물가', '%', 1, None, 'FRED', 'M', lambda o: yoy(fred('CPILFESL', START_L))),
     ('us_infl', 'us_cpce', '근원 PCE (전년비)', '연준 목표(2%) 기준 물가', '%', 1, None, 'FRED', 'M', lambda o: yoy(fred('PCEPILFE', START_L))),
@@ -202,7 +226,9 @@ KEYS = [('FRED', 'FRED_API_KEY', '미국 신용·금리·물가·고용 전부',
         ('KRX', 'KRX_API_KEY', 'VKOSPI', 'https://openapi.krx.co.kr → 인증키 신청 후 파생상품지수 API 이용신청')]
 SRCKEY = {'FRED': 'FRED_API_KEY', 'KRX': 'KRX_API_KEY'}
 
+USED_ALT = set()
 def status_of(k, src):
+    if k in USED_ALT: return 'FRED 막힘 · 미 재무부 자료로 대체 수집'
     key = SRCKEY.get(src)
     if k in ERR:
         if key and not keyset(key): return f'{key} 미등록 → 수집 안 됨'
