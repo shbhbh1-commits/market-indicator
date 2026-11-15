@@ -1,5 +1,31 @@
 [
  {
+  "id": "ackman-1114",
+  "date": "2026-11-14",
+  "name": "빌 애크먼",
+  "role": "퍼싱스퀘어 캐피털 CEO",
+  "stance": "신중",
+  "topic": "하이퍼스케일러 컨센서스의 '괴리'",
+  "summary": "애크먼은 3분기 주주서한에서 아마존·MS·메타·알파벳에 대한 컨센서스가 높은 설비투자 강도는 유지된다고 보면서 매출 성장 가속은 거의 반영하지 않는다고 지적했습니다. 그는 AI 데이터센터 1GW에 400억~500억 달러가 들고 연 150억~200억 달러 매출이 나와 투하자본수익률이 15~25% 수준이라고 추산했습니다.",
+  "check": "보도",
+  "src": "The Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/14/bill-ackman-huge-disconnect-wall-street-expectations-for-hyperscalers/",
+  "channel": "주주서한(보도)"
+ },
+ {
+  "id": "burry-1112",
+  "date": "2026-11-12",
+  "name": "마이클 버리",
+  "role": "사이언 자산운용 창업자",
+  "stance": "약세",
+  "topic": "'Behold the bull-trap' — 나스닥100 풋 2배",
+  "summary": "버리는 11월 12일 서브스택 글에서 나스닥100이 27,000선에서 반등하자 2027년 초 만기·약 20% 외가격 풋 포지션을 두 배로 늘렸고, 10월 6일 고점을 2000년 3월식 꼭지로 봤습니다. 반도체 ETF(SMH) 풋도 다시 늘렸으며 2027년 칩주 하락을 예상했고, 같은 날 엔비디아에는 기계적 매수세가 받치고 있다며 승계 계획을 문제 삼았습니다.",
+  "check": "보도",
+  "src": "Business Insider(AOL 전재)·Stocktwits",
+  "url": "https://aol.com/articles/behold-bull-trap-michael-burry-173942000.html",
+  "channel": "서브스택·X(보도)"
+ },
+ {
   "id": "marks-1111",
   "date": "2026-11-11",
   "name": "하워드 막스",

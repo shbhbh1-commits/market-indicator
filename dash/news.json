@@ -1,5 +1,57 @@
 [
  {
+  "id": "n1115-hormuz",
+  "date": "2026-11-15",
+  "region": "중동",
+  "category": "지정학·정책",
+  "impact": "혼재",
+  "headline": "이란 혁명수비대 \"호르무즈서 기뢰로 초대형 유조선 침몰\"",
+  "summary": "이란 혁명수비대는 원유 200만 배럴 이상을 실은 초대형 유조선이 호르무즈 해협에서 기뢰에 부딪혀 불이 난 뒤 침몰했고 다른 유조선 1척도 기뢰에 맞았다고 주장했습니다. 독립적 확인은 없으며 영국 해사무역기구(UKMTO)는 선원은 안전하다고 밝혔습니다.",
+  "why": "월요일 개장 시 브렌트·LNG 운임과 유럽 가스(TTF) 변동성이 커질 수 있어 에너지·해운주와 원가 부담 업종을 함께 봐야 합니다.",
+  "src": "RTÉ(AFP)",
+  "url": "https://www.rte.ie/news/middle-east/2026/1115/1599293-iran-tanker-hormuz/",
+  "check": "원문"
+ },
+ {
+  "id": "n1115-nvda-dg",
+  "date": "2026-11-15",
+  "region": "미국",
+  "category": "테크·반도체·AI",
+  "impact": "하락",
+  "headline": "황 사임 후 엔비디아 투자의견 하향 10곳 이상…17일 실적 발표",
+  "summary": "젠슨 황 사임 이후 최소 10개 증권사가 엔비디아를 매수에서 보유로 내렸고, 번스타인은 목표가 200달러의 시장수익률로 조정했습니다. 엔비디아는 13일 162.85달러(−2.0%)로 마감했으며 콜레트 크레스 CFO가 임시 CEO를 맡아 17일 실적을 발표합니다.",
+  "why": "엔비디아 실적·가이던스가 AI 반도체·HBM(하이닉스·삼성)·장비주 전반의 단기 방향을 가를 이벤트입니다.",
+  "src": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/markets/article/massive-shoes-to-fill-wall-street-weighs-nvidia-stock-amid-ceo-fallout-131854664.html",
+  "check": "원문"
+ },
+ {
+  "id": "n1115-ant-amd",
+  "date": "2026-11-15",
+  "region": "미국",
+  "category": "테크·반도체·AI",
+  "impact": "혼재",
+  "headline": "앤트로픽 IR 자료 \"AMD MI355 이식 사흘 만에\"…칩 공급사 다변화",
+  "summary": "앤트로픽은 상장 앞 투자자 자료에서 자사 모델이 커널을 전부 작성해 Claude를 AMD MI355 GPU로 사흘 만에 이식·최적화했다고 밝혔습니다. 칩 제조사를 가리지 않는 '대체 가능한 연산 풀'을 목표로 내세웠습니다.",
+  "why": "엔비디아 CUDA 종속 약화 신호로 AMD엔 긍정, 엔비디아 가격결정력엔 부담 요인으로 읽힐 수 있습니다.",
+  "src": "The Motley Fool",
+  "url": "https://www.fool.com/investing/2026/11/15/anthropic-just-delivered-great-news-for-amd-investors-and-bad-news-for-nvidia/",
+  "check": "원문"
+ },
+ {
+  "id": "n1113-week",
+  "date": "2026-11-13",
+  "region": "미국",
+  "category": "시장 전반·매크로",
+  "impact": "혼재",
+  "headline": "이번 주 변수: 엔비디아 실적(17일)·앤트로픽 IPO·12월 인상 확률 90%",
+  "summary": "CME 페드워치 기준 12월 0.25%p 금리 인상 확률이 90%로 높아졌고, 10월 PPI는 전년 대비 6.5% 올랐습니다. 앤트로픽은 주당 70~78달러에 8억2,500만 주를 공모해 수요일 가격 확정, 목요일 나스닥(ANT) 상장이 예상됩니다.",
+  "why": "금리 인상 경로가 굳어지면 고밸류 AI·성장주에 부담이고, 대형 IPO 수급이 기존 AI주 자금을 빨아들일 수 있습니다.",
+  "src": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/stocks/nasdaq-drops-friday-on-nvidia-fallout-but-ends-the-week-up-stock-market-today",
+  "check": "원문"
+ },
+ {
   "id": "n1113-us",
   "date": "2026-11-13",
   "region": "미국",
@@ -10,19 +62,6 @@
   "why": "지수 하락이 기술주에 집중돼 있습니다. 반도체 비중이 큰 포트폴리오일수록 체감 낙폭이 큽니다.",
   "src": "Yahoo Finance",
   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-  "check": "보도"
- },
- {
-  "id": "n1111-nvda",
-  "date": "2026-11-11",
-  "region": "미국",
-  "category": "테크·반도체·AI",
-  "impact": "하락",
-  "headline": "젠슨 황, 엔비디아 CEO 사임…이사회 조사·의회 소환까지",
-  "summary": "엔비디아가 8-K로 CEO 교체를 공시했고 젠슨 황이 물러났습니다. 보도에 따르면 이사회 조사가 계기였고 콜레트 크레스 CFO가 후임 체제의 중심으로 거론됩니다. 황은 의회 증언 요구도 받았습니다.",
-  "why": "AI 반도체 대장주의 리더십 공백으로 SOX·한국 반도체·장비주 투자심리가 함께 흔들리는 구간입니다. 실적 발표 일정과 가이던스 유지 여부를 확인할 필요가 있습니다.",
-  "src": "NVIDIA 8-K · CNN · Al Jazeera",
-  "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
   "check": "보도"
  },
  {
@@ -91,6 +130,58 @@
   "check": "보도"
  },
  {
+  "id": "n1112-eugas",
+  "date": "2026-11-12",
+  "region": "유럽",
+  "category": "에너지",
+  "impact": "상승",
+  "headline": "유럽 가스 저장률 71.6%…2020년대 최저 수준으로 겨울 진입",
+  "summary": "EU 가스 저장률은 11월 11일 71.6%(독일 58%)로 5년 평균을 크게 밑돌았고, 아시아 현물 LNG는 MMBtu당 30달러를 넘었습니다. 반면 미 EIA는 11~3월 헨리허브 평균을 2.87달러로 전망해 미·유럽 가스 가격차가 큽니다.",
+  "why": "유럽·아시아 가스 강세는 미국 LNG 수출·석탄 대체 수요(뉴캐슬 석탄, 피바디)에 우호적입니다.",
+  "src": "OilPrice.com",
+  "url": "https://oilprice.com/Energy/Natural-Gas/Europe-Enters-Winter-With-Its-Lowest-Gas-Inventory-of-the-2020s.amp.html",
+  "check": "원문"
+ },
+ {
+  "id": "n11-anthropic",
+  "date": "2026-11-12",
+  "region": "미국",
+  "category": "기타 주목",
+  "impact": "혼재",
+  "headline": "앤트로픽 IPO 임박…추수감사절 전 상장 전망",
+  "summary": "앤트로픽이 SEC에 S-1을 제출했고, 보도들은 추수감사절 전 상장과 대규모 공모를 전망합니다. 초대형 AI 공모가 기존 AI 종목의 수급에 영향을 줄 수 있다는 관측이 나옵니다.",
+  "why": "대형 공모는 기존 AI·반도체 종목에서 자금을 빨아들이는 수급 변수입니다. 공모가와 첫 거래 성적이 AI 심리의 온도계가 될 수 있습니다.",
+  "src": "TechCrunch · Renaissance Capital",
+  "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+  "check": "보도"
+ },
+ {
+  "id": "n1111-nvda",
+  "date": "2026-11-11",
+  "region": "미국",
+  "category": "테크·반도체·AI",
+  "impact": "하락",
+  "headline": "젠슨 황, 엔비디아 CEO 사임…이사회 조사·의회 소환까지",
+  "summary": "엔비디아가 8-K로 CEO 교체를 공시했고 젠슨 황이 물러났습니다. 보도에 따르면 이사회 조사가 계기였고 콜레트 크레스 CFO가 후임 체제의 중심으로 거론됩니다. 황은 의회 증언 요구도 받았습니다.",
+  "why": "AI 반도체 대장주의 리더십 공백으로 SOX·한국 반도체·장비주 투자심리가 함께 흔들리는 구간입니다. 실적 발표 일정과 가이던스 유지 여부를 확인할 필요가 있습니다.",
+  "src": "NVIDIA 8-K · CNN · Al Jazeera",
+  "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+  "check": "보도"
+ },
+ {
+  "id": "n1110-eia",
+  "date": "2026-11-10",
+  "region": "미국",
+  "category": "에너지",
+  "impact": "하락",
+  "headline": "EIA, 따뜻한 11월 초에 미국 가스 재고 전망 상향",
+  "summary": "미 에너지정보청(EIA)은 11월 단기전망에서 월초 날씨가 따뜻해 11월 천연가스 재고 전망을 올렸다고 밝혔습니다. 같은 전망에서 헨리허브 가격 전망치는 낮아진 것으로 보도됐습니다.",
+  "why": "미국 내 가스 가격 약세는 가스 발전 원가엔 우호적이나 미국 가스 생산업체엔 부담입니다.",
+  "src": "EIA·FXEmpire",
+  "url": "https://www.eia.gov/pressroom/releases/press594.php",
+  "check": "보도"
+ },
+ {
   "id": "n11-coal",
   "date": "2026-11-10",
   "region": "글로벌",
@@ -114,19 +205,6 @@
   "why": "AI 전력·연료전지 밸류체인(관련 국내 부품주 포함)의 주가는 수주보다 정책·금리 뉴스에 더 민감하게 움직이는 국면입니다.",
   "src": "TIKR · Political.org",
   "url": "https://www.tikr.com/blog/bloom-energy-sinks-16-despite-900-mw-ntt-data-deal-as-midterm-fears-hit-ai-power-stocks",
-  "check": "보도"
- },
- {
-  "id": "n11-anthropic",
-  "date": "2026-11-12",
-  "region": "미국",
-  "category": "기타 주목",
-  "impact": "혼재",
-  "headline": "앤트로픽 IPO 임박…추수감사절 전 상장 전망",
-  "summary": "앤트로픽이 SEC에 S-1을 제출했고, 보도들은 추수감사절 전 상장과 대규모 공모를 전망합니다. 초대형 AI 공모가 기존 AI 종목의 수급에 영향을 줄 수 있다는 관측이 나옵니다.",
-  "why": "대형 공모는 기존 AI·반도체 종목에서 자금을 빨아들이는 수급 변수입니다. 공모가와 첫 거래 성적이 AI 심리의 온도계가 될 수 있습니다.",
-  "src": "TechCrunch · Renaissance Capital",
-  "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
   "check": "보도"
  }
 ]
