@@ -1,0 +1,221 @@
+{
+ "kosis": {
+  "st": 200,
+  "ct": "text/html;charset=UTF-8",
+  "txt": "{\"err\":\"11\",\"errMsg\":\"유효하지않은 인증KEY입니다.\"}"
+ },
+ "kosis_s": 1.0,
+ "datagokr": {
+  "st": 403,
+  "ct": "application/xml",
+  "txt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<OpenAPI_ServiceResponse>\n<cmmMsgHeader>\n  <errMsg>SERVICE_KEY_IS_NOT_REGISTERED_ERROR</errMsg>\n  <returnAuthMsg>등록되지 않은 서비스키</returnAuthMsg>\n  <returnReasonCode>30</returnReasonCode>\n</cmmMsgHeader>\n</OpenAPI_ServiceResponse>\n"
+ },
+ "datagokr_s": 0.7,
+ "jnto_page": {
+  "st": 200,
+  "xlsx": [
+   "/statistics/data/_files/20261021_1615-5.xlsx"
+  ]
+ },
+ "jnto_page_s": 0.6,
+ "worldsteel": {
+  "st": 200,
+  "ct": "text/html; charset=UTF-8",
+  "txt": "<!doctype html><html\nlang=en-US><head><style>img.lazy{min-height:1px}</style><link\nhref=https://worldsteel.org/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js as=script><meta\ncharset=\"UTF-8\"><meta\nname=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta\nname=\"google-site-verification\" content=\"uCrytJfpinMfWxa-XaBm3NlWJ9rGh4OgliRHOlI2CKA\"/><link\nrel=profile href=https://gmpg.org"
+ },
+ "worldsteel_s": 2.7,
+ "reb": {
+  "st": 200,
+  "ct": "text/html;charset=UTF-8",
+  "txt": "{\"RESULT\":{\"CODE\":\"ERROR-290\",\"MESSAGE\":\"인증키가 유효하지 않습니다. 인증키가 없는 경우, 홈페이지에서 인증키를 신청하십시오.\"}}"
+ },
+ "reb_s": 0.9,
+ "fred_POILDUBUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_POILDUBUSDM_s": 0.3,
+ "fred_PIORECRUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PIORECRUSDM_s": 0.2,
+ "fred_PCOALAUUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PCOALAUUSDM_s": 0.2,
+ "fred_PNICKUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PNICKUSDM_s": 1.6,
+ "fred_PZINCUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PZINCUSDM_s": 0.4,
+ "fred_PALUMUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PALUMUSDM_s": 0.3,
+ "fred_PWHEAMTUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PWHEAMTUSDM_s": 0.3,
+ "fred_PMAIZMTUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PMAIZMTUSDM_s": 0.4,
+ "fred_PSOYBUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PSOYBUSDM_s": 0.8,
+ "fred_PSUGAISAUSDM": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PSUGAISAUSDM_s": 1.5,
+ "fred_PCU335311335311": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_PCU335311335311_s": 0.7,
+ "fred_WPU101": {
+  "n": 0,
+  "last": {
+   "error_code": 400,
+   "error_message": "Bad Request.  The value for variable api_key is not a 32 character alpha-numeric lower-case string.  Read https://fred.stlouisfed.org/docs/api/api_key.html for more information."
+  }
+ },
+ "fred_WPU101_s": 0.6,
+ "y_091160.KS": "Kodex Semicon 98520.0",
+ "y_091160.KS_s": 0.2,
+ "y_000660.KS": "SK hynix Inc. 1216000.0",
+ "y_000660.KS_s": 0.1,
+ "y_005930.KS": "Samsung Electronics Co., Ltd. 206000.0",
+ "y_005930.KS_s": 0.1,
+ "y_267260.KS": "HD Hyundai Electric Co., Ltd. 416000.0",
+ "y_267260.KS_s": 0.1,
+ "y_010120.KS": "LS ELECTRIC Co., Ltd. 123300.0",
+ "y_010120.KS_s": 0.1,
+ "y_298040.KS": "Hyosung Heavy Industries Corporation 1807000.0",
+ "y_298040.KS_s": 0.1,
+ "y_009540.KS": "HD Korea Shipbuilding & Offshore Engineering Co., Ltd. 237500.0",
+ "y_009540.KS_s": 0.1,
+ "y_010140.KS": "Samsung Heavy Industries Co., Ltd. 16610.0",
+ "y_010140.KS_s": 0.2,
+ "y_011200.KS": "HMM Co.,Ltd 21450.0",
+ "y_011200.KS_s": 0.2,
+ "y_091180.KS": "Kodex Autos 22240.0",
+ "y_091180.KS_s": 0.1,
+ "y_005380.KS": "Hyundai Motor Company 269500.0",
+ "y_005380.KS_s": 0.2,
+ "y_305720.KS": "Samsung Kodex Secondary Battery Industry ETF 12780.0",
+ "y_305720.KS_s": 0.1,
+ "y_117460.KS": "Kodex Energy & Chemicals 10945.0",
+ "y_117460.KS_s": 0.1,
+ "y_096770.KS": "SK Innovation Co., Ltd. 109200.0",
+ "y_096770.KS_s": 0.1,
+ "y_011170.KS": "Lotte Chemical Corporation 46450.0",
+ "y_011170.KS_s": 0.2,
+ "y_117680.KS": "KODEX Steels 9965.0",
+ "y_117680.KS_s": 0.1,
+ "y_005490.KS": "POSCO Holdings Inc. 275000.0",
+ "y_005490.KS_s": 0.1,
+ "y_010130.KS": "Korea Zinc Company, Ltd. 866000.0",
+ "y_010130.KS_s": 0.1,
+ "y_117700.KS": "KODEX Constructions 5955.0",
+ "y_117700.KS_s": 0.1,
+ "y_000720.KS": "Hyundai Engineering & Construction Co.,Ltd. 83800.0",
+ "y_000720.KS_s": 0.1,
+ "y_300720.KS": "Hanil Cement Co., Ltd. 16800.0",
+ "y_300720.KS_s": 0.1,
+ "y_102960.KS": "Kodex Shipbuilding 9280.0",
+ "y_102960.KS_s": 0.1,
+ "y_042670.KS": "ERR TypeError(\"'NoneType' object is not subscriptable\")",
+ "y_042670.KS_s": 0.1,
+ "y_241560.KS": "Doosan Bobcat Inc. 53000.0",
+ "y_241560.KS_s": 0.1,
+ "y_139260.KS": "Mirae Asset TIGER 200 IT ETF 99500.0",
+ "y_139260.KS_s": 0.1,
+ "y_023530.KS": "Lotte Shopping Co., Ltd. 77700.0",
+ "y_023530.KS_s": 0.1,
+ "y_004170.KS": "SHINSEGAE Inc. 249000.0",
+ "y_004170.KS_s": 0.1,
+ "y_228800.KS": "Mirae Asset Tiger Tour Leisure ETF 2540.0",
+ "y_228800.KS_s": 0.1,
+ "y_008770.KS": "Hotel Shilla Co.,Ltd 34950.0",
+ "y_008770.KS_s": 0.1,
+ "y_090430.KS": "Amorepacific Corporation 126200.0",
+ "y_090430.KS_s": 0.1,
+ "y_7532.T": "Pan Pacific International Holdings Corporation 814.4",
+ "y_7532.T_s": 0.1,
+ "y_3099.T": "Isetan Mitsukoshi Holdings Ltd. 1839.5",
+ "y_3099.T_s": 0.2,
+ "y_8801.T": "Mitsui Fudosan Co., Ltd. 1623.0",
+ "y_8801.T_s": 0.2,
+ "y_097950.KS": "CJ Cheiljedang Corporation 174800.0",
+ "y_097950.KS_s": 0.1,
+ "y_003230.KS": "Samyang Foods Co., Ltd. 1210000.0",
+ "y_003230.KS_s": 0.1,
+ "y_033780.KS": "KT&G Corporation 176000.0",
+ "y_033780.KS_s": 0.1,
+ "y_002310.KS": "Asia Paper Manufacturing. Co., Ltd 7190.0",
+ "y_002310.KS_s": 0.2,
+ "y_213500.KS": "Hansol Paper Co., Ltd. 6400.0",
+ "y_213500.KS_s": 0.1,
+ "y_^SOX": "PHLX Semiconductor 10146.323",
+ "y_^SOX_s": 0.1,
+ "y_HG=F": "Copper Dec 26 6.0905",
+ "y_HG=F_s": 0.1,
+ "y_BZ=F": "Brent Crude Oil Last Day Financial Futures 95.84",
+ "y_BZ=F_s": 0.1,
+ "y_CL=F": "Crude Oil Dec 26 88.56",
+ "y_CL=F_s": 0.1,
+ "y_NG=F": "Natural Gas Dec 26 3.23",
+ "y_NG=F_s": 0.1,
+ "y_JPY=X": "USD/JPY 159.795",
+ "y_JPY=X_s": 0.1,
+ "y_1343.T": "NEXT FUNDS REIT INDEX ETF 1792.5",
+ "y_1343.T_s": 0.2,
+ "y_8233.T": "Takashimaya Company, Limited 2316.5",
+ "y_8233.T_s": 0.1
+}
