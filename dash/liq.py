@@ -215,16 +215,14 @@ SERIES = [
     ('kr', 'kr_credit', '신용거래융자 잔고', '빚투 규모 · 조원', '조원', 1, None, '금융투자협회', 'D', lambda o: kofia_credit()[KOFIA_COLS['credit']] / 1e6),
     ('kr', 'kr_margin', '미수금 반대매매 금액', '하루 강제청산 규모 · 억원', '억원', 1, None, '금융투자협회', 'D', lambda o: kofia()['TMPV6'] / 100),
     ('kr', 'kr_cratio', '신용잔고 ÷ 예탁금', '레버리지 과열도 · %', '%', 1, None, '금융투자협회', 'D', lambda o: kr_credit_ratio()),
-    ('kr', 'vkospi', 'VKOSPI', '코스피200 30일 내재변동성', '', 1, 30, 'KRX', 'D', lambda o: vkospi(set(o.get('vkospi', {})))),
 ]
 ACCUM = {'vkospi'}   # 매일 받은 값을 이력에 쌓는 지표(나머지는 매번 전체를 다시 받음)
 # 주기별: (짧은 변화 일수, 라벨, 긴 변화 일수, 라벨, 백분위 기간(일), 보관 기간(일))
 FREQ = {'D': (7, '1주', 30, '1개월', 365, 400), 'W': (7, '1주', 91, '3개월', 365 * 3, 365 * 5),
         'M': (35, '전월', 365, '1년', 365 * 3, 365 * 5), 'Q': (95, '전분기', 365, '1년', 365 * 5, 365 * 6)}
 
-KEYS = [('FRED', 'FRED_API_KEY', '미국 신용·금리·물가·고용 전부', 'https://fredaccount.stlouisfed.org/apikeys'),
-        ('KRX', 'KRX_API_KEY', 'VKOSPI', 'https://openapi.krx.co.kr → 인증키 신청 후 파생상품지수 API 이용신청')]
-SRCKEY = {'FRED': 'FRED_API_KEY', 'KRX': 'KRX_API_KEY'}
+KEYS = [('FRED', 'FRED_API_KEY', '미국 신용·금리·물가·고용 전부', 'https://fredaccount.stlouisfed.org/apikeys')]
+SRCKEY = {'FRED': 'FRED_API_KEY'}
 
 USED_ALT = set()
 def status_of(k, src):

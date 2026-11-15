@@ -7,14 +7,5 @@
   "affect": "미국 신용·금리·물가·고용 전부",
   "issue_at": "https://fredaccount.stlouisfed.org/apikeys",
   "ok": true
- },
- {
-  "source": "KRX",
-  "key": "KRX_API_KEY",
-  "registered": "미등록",
-  "state": "미등록 · 수집 안 됨",
-  "affect": "VKOSPI",
-  "issue_at": "https://openapi.krx.co.kr → 인증키 신청 후 파생상품지수 API 이용신청",
-  "ok": false
  }
 ]

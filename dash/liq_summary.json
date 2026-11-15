@@ -623,30 +623,5 @@
 "alert": false,
 "why": "",
 "status": "정상 수집"
-},
-{
-"id": "vkospi",
-"group": "kr",
-"order": 25,
-"title": "VKOSPI",
-"subtitle": "코스피200 30일 내재변동성",
-"unit": "",
-"risk_dir": 1,
-"line": 30,
-"src": "KRX",
-"freq": "D",
-"lab_a": "1주",
-"lab_b": "1개월",
-"pct_years": 1,
-"fresh": false,
-"value": null,
-"asof": null,
-"chg_1w": null,
-"chg_1m": null,
-"pct_1y": null,
-"median_1y": null,
-"alert": false,
-"why": "",
-"status": "KRX_API_KEY 미등록 → 수집 안 됨"
 }
 ]
