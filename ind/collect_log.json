@@ -1,0 +1,363 @@
+{
+ "exp_volume": {
+  "ok": [
+   "총지수",
+   "반도체",
+   "자동차및부품",
+   "화학제품"
+  ],
+  "err": []
+ },
+ "cli": {
+  "ok": [
+   "선행지수 순환변동치",
+   "동행지수 순환변동치"
+  ],
+  "err": []
+ },
+ "cli_parts": {
+  "ok": [
+   "재고순환지표(전월차)(%p)",
+   "경제심리지수(전월차)(p)",
+   "기계류내수출하지수(선박제외)(전월비)(%)",
+   "건설수주액(전월비)(%)",
+   "수출입물가비율(전월비)(%)",
+   "코스피(전월비)(%)",
+   "장단기금리차(전월차)(%p)"
+  ],
+  "err": []
+ },
+ "ipi_sector": {
+  "ok": [
+   "제조업 출하",
+   "제조업 재고"
+  ],
+  "err": []
+ },
+ "semi_hs_mem": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=854232 (Caused b",
+   "중국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=CN&hsSgn=854232 (Caused",
+   "대만: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=TW&hsSgn=854232 (Caused",
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=854232 (Caused"
+  ]
+ },
+ "semi_cycle": {
+  "ok": [
+   "반도체 출하",
+   "반도체 재고"
+  ],
+  "err": []
+ },
+ "sox": {
+  "ok": [
+   "필라델피아 반도체지수(SOX)"
+  ],
+  "err": []
+ },
+ "xfmr_exp": {
+  "ok": [],
+  "err": [
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8504 (Caused b",
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8504 (Caused by "
+  ]
+ },
+ "cable_exp": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8544 (Caused by ",
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8544 (Caused b"
+  ]
+ },
+ "us_xfmr_ppi": {
+  "ok": [
+   "미국 변압기 생산자물가"
+  ],
+  "err": []
+ },
+ "copper": {
+  "ok": [
+   "구리 가격"
+  ],
+  "err": []
+ },
+ "ship_exp": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=89 (Caused by Co"
+  ]
+ },
+ "car_exp": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8703 (Caused by ",
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8703 (Caused b"
+  ]
+ },
+ "parts_exp": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8708 (Caused by ",
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8708 (Caused b"
+  ]
+ },
+ "battery_exp": {
+  "ok": [],
+  "err": [
+   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=850760 (Caused b",
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=850760 (Caused"
+  ]
+ },
+ "dubai": {
+  "ok": [
+   "두바이유"
+  ],
+  "err": []
+ },
+ "brent": {
+  "ok": [
+   "브렌트유(일별)"
+  ],
+  "err": []
+ },
+ "wti": {
+  "ok": [
+   "WTI(일별)"
+  ],
+  "err": []
+ },
+ "natgas": {
+  "ok": [
+   "미국 천연가스"
+  ],
+  "err": []
+ },
+ "iron_ore": {
+  "ok": [
+   "철광석"
+  ],
+  "err": []
+ },
+ "coking_coal": {
+  "ok": [
+   "호주 석탄"
+  ],
+  "err": []
+ },
+ "rebar_trade": {
+  "ok": [],
+  "err": [
+   "수입: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=7214 (Caused by ",
+   "수출: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=7214 (Caused by "
+  ]
+ },
+ "pipe_us": {
+  "ok": [],
+  "err": [
+   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=7305 (Caused b"
+  ]
+ },
+ "needle_coke": {
+  "ok": [
+   "수입"
+  ],
+  "err": []
+ },
+ "us_steel_ppi": {
+  "ok": [
+   "미국 철강 PPI"
+  ],
+  "err": []
+ },
+ "nickel": {
+  "ok": [
+   "니켈"
+  ],
+  "err": []
+ },
+ "zinc": {
+  "ok": [
+   "아연"
+  ],
+  "err": []
+ },
+ "alum": {
+  "ok": [
+   "알루미늄"
+  ],
+  "err": []
+ },
+ "permit": {
+  "ok": [
+   "전국",
+   "수도권"
+  ],
+  "err": []
+ },
+ "start": {
+  "ok": [
+   "전국"
+  ],
+  "err": []
+ },
+ "unsold": {
+  "ok": [
+   "미분양(전국)",
+   "준공후 미분양"
+  ],
+  "err": []
+ },
+ "orders": {
+  "ok": [
+   "수주총액",
+   "건축",
+   "토목"
+  ],
+  "err": []
+ },
+ "cement_ppi": {
+  "ok": [
+   "포틀랜드시멘트",
+   "레미콘"
+  ],
+  "err": []
+ },
+ "mt_exp": {
+  "ok": [
+   "전체",
+   "미국",
+   "중국"
+  ],
+  "err": []
+ },
+ "excav_exp": {
+  "ok": [
+   "전체"
+  ],
+  "err": []
+ },
+ "csi": {
+  "ok": [
+   "소비자심리지수"
+  ],
+  "err": []
+ },
+ "retail_fmt": {
+  "ok": [
+   "백화점",
+   "대형마트",
+   "면세점",
+   "편의점",
+   "인터넷 쇼핑"
+  ],
+  "err": []
+ },
+ "online": {
+  "ok": [
+   "합계",
+   "음·식료품",
+   "화장품"
+  ],
+  "err": []
+ },
+ "parcel": {
+  "ok": [
+   "소화물 전문 운송업"
+  ],
+  "err": []
+ },
+ "cpi": {
+  "ok": [
+   "근원(식료품·에너지 제외)",
+   "식료품"
+  ],
+  "err": [
+   "총지수: HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/statisticsData.do?method=getMeta&type=ITM&orgId=101&tblId=DT_1J22001&apiKey=***&format=json&jsonVD=Y (Caused by "
+  ]
+ },
+ "inbound": {
+  "ok": [
+   "총계",
+   "중국",
+   "일본",
+   "미국",
+   "대만"
+  ],
+  "err": []
+ },
+ "outbound": {
+  "ok": [
+   "국민 해외출국"
+  ],
+  "err": []
+ },
+ "cosme_exp": {
+  "ok": [
+   "전체",
+   "중국",
+   "미국",
+   "일본"
+  ],
+  "err": []
+ },
+ "usdjpy": {
+  "ok": [
+   "엔/달러"
+  ],
+  "err": []
+ },
+ "wheat": {
+  "ok": [
+   "밀"
+  ],
+  "err": []
+ },
+ "corn": {
+  "ok": [
+   "옥수수"
+  ],
+  "err": []
+ },
+ "soy": {
+  "ok": [
+   "대두"
+  ],
+  "err": []
+ },
+ "sugar": {
+  "ok": [
+   "원당"
+  ],
+  "err": []
+ },
+ "ramen_exp": {
+  "ok": [
+   "전체",
+   "미국",
+   "중국"
+  ],
+  "err": []
+ },
+ "snack_exp": {
+  "ok": [
+   "전체"
+  ],
+  "err": []
+ },
+ "pulp_imp": {
+  "ok": [
+   "수입 단가",
+   "수입액"
+  ],
+  "err": []
+ },
+ "fluting": {
+  "ok": [
+   "수출",
+   "수입"
+  ],
+  "err": []
+ },
+ "_run": "2026-11-16T04:29:58Z"
+}
