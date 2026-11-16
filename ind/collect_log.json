@@ -35,13 +35,13 @@
   "err": []
  },
  "semi_hs_mem": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=854232 (Caused b",
-   "중국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=CN&hsSgn=854232 (Caused",
-   "대만: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=TW&hsSgn=854232 (Caused",
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=854232 (Caused"
-  ]
+  "ok": [
+   "전체",
+   "중국",
+   "대만",
+   "미국"
+  ],
+  "err": []
  },
  "semi_cycle": {
   "ok": [
@@ -57,18 +57,18 @@
   "err": []
  },
  "xfmr_exp": {
-  "ok": [],
-  "err": [
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8504 (Caused b",
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8504 (Caused by "
-  ]
+  "ok": [
+   "미국",
+   "전체"
+  ],
+  "err": []
  },
  "cable_exp": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8544 (Caused by ",
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8544 (Caused b"
-  ]
+  "ok": [
+   "전체",
+   "미국"
+  ],
+  "err": []
  },
  "us_xfmr_ppi": {
   "ok": [
@@ -83,31 +83,31 @@
   "err": []
  },
  "ship_exp": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=89 (Caused by Co"
-  ]
+  "ok": [
+   "전체"
+  ],
+  "err": []
  },
  "car_exp": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8703 (Caused by ",
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8703 (Caused b"
-  ]
+  "ok": [
+   "전체",
+   "미국"
+  ],
+  "err": []
  },
  "parts_exp": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8708 (Caused by ",
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8708 (Caused b"
-  ]
+  "ok": [
+   "전체",
+   "미국"
+  ],
+  "err": []
  },
  "battery_exp": {
-  "ok": [],
-  "err": [
-   "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=850760 (Caused b",
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=850760 (Caused"
-  ]
+  "ok": [
+   "전체",
+   "미국"
+  ],
+  "err": []
  },
  "dubai": {
   "ok": [
@@ -146,17 +146,17 @@
   "err": []
  },
  "rebar_trade": {
-  "ok": [],
-  "err": [
-   "수입: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=7214 (Caused by ",
-   "수출: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=7214 (Caused by "
-  ]
+  "ok": [
+   "수입",
+   "수출"
+  ],
+  "err": []
  },
  "pipe_us": {
-  "ok": [],
-  "err": [
-   "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=7305 (Caused b"
-  ]
+  "ok": [
+   "미국"
+  ],
+  "err": []
  },
  "needle_coke": {
   "ok": [
@@ -269,12 +269,11 @@
  },
  "cpi": {
   "ok": [
+   "총지수",
    "근원(식료품·에너지 제외)",
    "식료품"
   ],
-  "err": [
-   "총지수: HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/statisticsData.do?method=getMeta&type=ITM&orgId=101&tblId=DT_1J22001&apiKey=***&format=json&jsonVD=Y (Caused by "
-  ]
+  "err": []
  },
  "inbound": {
   "ok": [
@@ -359,5 +358,5 @@
   ],
   "err": []
  },
- "_run": "2026-11-16T04:29:58Z"
+ "_run": "2026-11-16T04:39:16Z"
 }

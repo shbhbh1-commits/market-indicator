@@ -74,7 +74,7 @@
 "basis": "전년비(%)",
 "signal_value": 43.89,
 "avg3": 34.0,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -119,17 +119,15 @@
 "role": "선행",
 "freq": "M",
 "release": "익월 말",
-"transform": "yoy",
+"transform": "level",
 "why": "선행지수가 왜 움직였는지 분해. 재고순환지표(출하−재고 증가율)는 제조업 사이클의 핵심.",
 "value": -0.2,
 "unit": "",
 "asof": "2026-09",
 "main": "재고순환지표(전월차)(%p)",
-"basis": "전년비(%)",
+"basis": "수준 (전년비 참고)",
+"trend": "상승",
 "signal_value": -88.24,
-"avg3": -132.31,
-"trend": "개선",
-"sign_flip": false,
 "status": "정상 수집",
 "series": [
 "재고순환지표(전월차)(%p)",
@@ -153,14 +151,14 @@
 "release": "익월 말",
 "transform": "yoy",
 "why": "업종별 재고순환(출하 YoY − 재고 YoY) 계산의 재료. 플러스 전환이 업황 바닥 신호.",
-"value": 108.4,
-"unit": "2010＝100",
-"asof": "2017-12",
+"value": 114.0,
+"unit": "2020＝100",
+"asof": "2026-09",
 "main": "제조업 출하",
 "basis": "전년비(%)",
-"signal_value": -7.98,
-"avg3": -5.13,
-"trend": "악화",
+"signal_value": -1.21,
+"avg3": -0.43,
+"trend": "보합",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -194,8 +192,22 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "메모리만 따로. 수출금액÷중량으로 단가 추세를 근사.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=854232 (Caused b"
+"value": 34325.7188,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": 286.26,
+"avg3": 292.59,
+"trend": "가속",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"전체",
+"중국",
+"대만",
+"미국"
+]
 },
 {
 "id": "semi_cycle",
@@ -209,15 +221,15 @@
 "release": "익월 말",
 "transform": "spread",
 "why": "출하 YoY − 재고 YoY가 마이너스→플러스면 바닥, 플러스 고점에서 꺾이면 고점 신호. 주가는 보통 이 바닥에서 반등을 시작했다.",
-"value": 206.3,
-"unit": "2010＝100",
-"asof": "2017-12",
+"value": 247.4,
+"unit": "2020＝100",
+"asof": "2026-09",
 "main": "반도체 출하",
 "basis": "출하 전년비 − 재고 전년비(%p)",
-"signal_value": -34.96,
-"avg3": -4.58,
-"trend": "악화",
-"sign_flip": true,
+"signal_value": -15.28,
+"avg3": -11.94,
+"trend": "둔화",
+"sign_flip": false,
 "status": "정상 수집",
 "series": [
 "반도체 출하",
@@ -316,8 +328,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "미국 송배전·데이터센터 투자가 한국 전력기기 수주로 오는 통로. HD현대일렉트릭·효성중공업·LS일렉트릭.",
-"status": "수집 실패",
-"error": "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=8504 (Caused b"
+"value": 310.1633,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "미국",
+"basis": "전년비(%)",
+"signal_value": 109.27,
+"avg3": 70.95,
+"trend": "가속",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"미국",
+"전체"
+]
 },
 {
 "id": "cable_exp",
@@ -331,8 +355,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "해저·초고압 케이블 수요. LS전선·대한전선.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8544 (Caused by "
+"value": 556.9908,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": 68.16,
+"avg3": 27.94,
+"trend": "가속",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"전체",
+"미국"
+]
 },
 {
 "id": "us_xfmr_ppi",
@@ -353,7 +389,7 @@
 "basis": "전년비(%)",
 "signal_value": 5.58,
 "avg3": 7.57,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -372,14 +408,14 @@
 "release": "매일",
 "transform": "yoy",
 "why": "전선 원가이자 경기 선행. 전선업체는 판가 전가로 금액 성장.",
-"value": 6.0165,
+"value": 6.013,
 "unit": "USD",
 "asof": "2026-11-16",
 "main": "구리 가격",
 "basis": "전년비(%)",
-"signal_value": 16.03,
-"avg3": 23.96,
-"trend": "악화",
+"signal_value": 15.96,
+"avg3": 23.94,
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -398,8 +434,19 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "인도 시점 매출. 수주 이후 2~3년 뒤에 찍히는 후행 지표.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=89 (Caused by Co"
+"value": 2459.2899,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": -46.33,
+"avg3": -20.86,
+"trend": "둔화",
+"sign_flip": true,
+"status": "정상 수집",
+"series": [
+"전체"
+]
 },
 {
 "id": "newbuild",
@@ -469,8 +516,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "관세·환율 영향을 같이 본다.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8703 (Caused by "
+"value": 6101.8251,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": 16.31,
+"avg3": -6.47,
+"trend": "둔화",
+"sign_flip": true,
+"status": "정상 수집",
+"series": [
+"전체",
+"미국"
+]
 },
 {
 "id": "parts_exp",
@@ -484,8 +543,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "현지 생산 확대 시 완성차 대신 부품 수출이 는다.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=8708 (Caused by "
+"value": 1449.4912,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": 14.37,
+"avg3": -1.58,
+"trend": "가속",
+"sign_flip": true,
+"status": "정상 수집",
+"series": [
+"전체",
+"미국"
+]
 },
 {
 "id": "hk_sales",
@@ -513,8 +584,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "배터리 셀 수출. 미국 현지생산 전환으로 해석 주의.",
-"status": "수집 실패",
-"error": "전체: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=850760 (Caused b"
+"value": 401.3153,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "전체",
+"basis": "전년비(%)",
+"signal_value": 20.74,
+"avg3": 8.82,
+"trend": "둔화",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"전체",
+"미국"
+]
 },
 {
 "id": "us_ev",
@@ -590,13 +673,13 @@
 "release": "매일",
 "transform": "level",
 "why": "미국 유가.",
-"value": 88.47,
+"value": 88.43,
 "unit": "USD",
 "asof": "2026-11-16",
 "main": "WTI(일별)",
 "basis": "수준 (전년비 참고)",
 "trend": "상승",
-"signal_value": 51.1,
+"signal_value": 51.03,
 "status": "정상 수집",
 "series": [
 "WTI(일별)"
@@ -621,7 +704,7 @@
 "basis": "전년비(%)",
 "signal_value": -34.76,
 "avg3": -24.4,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -689,7 +772,7 @@
 "basis": "전년비(%)",
 "signal_value": -5.61,
 "avg3": -2.93,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -715,7 +798,7 @@
 "basis": "전년비(%)",
 "signal_value": 36.71,
 "avg3": 25.1,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -762,8 +845,20 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "수입 철근 증가 = 국내 철근 가격 압박(건설 경기).",
-"status": "수집 실패",
-"error": "수입: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=&hsSgn=7214 (Caused by "
+"value": 17.1684,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "수입",
+"basis": "전년비(%)",
+"signal_value": 42.58,
+"avg3": 89.99,
+"trend": "가속",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"수입",
+"수출"
+]
 },
 {
 "id": "pipe_us",
@@ -777,8 +872,19 @@
 "release": "매월 15일",
 "transform": "yoy",
 "why": "미국 셰일·인프라 수요, 관세 영향.",
-"status": "수집 실패",
-"error": "미국: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1220000/nitemtrade/getNitemtradeList?serviceKey=***&strtYymm=202511&endYymm=202610&cntyCd=US&hsSgn=7305 (Caused b"
+"value": 169.6067,
+"unit": "백만달러",
+"asof": "2026-10",
+"main": "미국",
+"basis": "전년비(%)",
+"signal_value": 302.39,
+"avg3": 165.72,
+"trend": "가속",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"미국"
+]
 },
 {
 "id": "needle_coke",
@@ -799,7 +905,7 @@
 "basis": "전년비(%)",
 "signal_value": 70.44,
 "avg3": 27.39,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": true,
 "status": "정상 수집",
 "series": [
@@ -825,7 +931,7 @@
 "basis": "전년비(%)",
 "signal_value": 25.08,
 "avg3": 21.24,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -851,7 +957,7 @@
 "basis": "전년비(%)",
 "signal_value": 8.08,
 "avg3": 10.25,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -877,7 +983,7 @@
 "basis": "전년비(%)",
 "signal_value": 36.91,
 "avg3": 35.4,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -903,7 +1009,7 @@
 "basis": "전년비(%)",
 "signal_value": 23.68,
 "avg3": 23.31,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -956,7 +1062,7 @@
 "basis": "12개월 합계 전년비(%)",
 "signal_value": -3.0,
 "avg3": 1.42,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": true,
 "status": "정상 수집",
 "series": [
@@ -1007,7 +1113,7 @@
 "basis": "12개월 합계 전년비(%)",
 "signal_value": 13.07,
 "avg3": 11.31,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1104,7 +1210,7 @@
 "basis": "전년비(%)",
 "signal_value": 21.61,
 "avg3": 17.14,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1160,7 +1266,7 @@
 "basis": "전년비(%)",
 "signal_value": -9.63,
 "avg3": -10.12,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1210,7 +1316,7 @@
 "basis": "전년비(%)",
 "signal_value": 2.3,
 "avg3": 4.41,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1240,7 +1346,7 @@
 "basis": "전년비(%)",
 "signal_value": 4.07,
 "avg3": 6.43,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1268,7 +1374,7 @@
 "basis": "전년비(%)",
 "signal_value": -1.77,
 "avg3": 6.22,
-"trend": "악화",
+"trend": "둔화",
 "sign_flip": true,
 "status": "정상 수집",
 "series": [
@@ -1287,8 +1393,21 @@
 "release": "매월 초",
 "transform": "yoy",
 "why": "소비 여력·금리 경로. 식료품·외식 물가는 식품주 판가.",
-"status": "수집 실패",
-"error": "총지수: HTTPSConnectionPool(host='kosis.kr', port=443): Max retries exceeded with url: /openapi/statisticsData.do?method=getMeta&type=ITM&orgId=101&tblId=DT_1J22001&apiKey=***&format=json&jsonVD=Y (Caused by "
+"value": 120.73,
+"unit": "2020＝100",
+"asof": "2026-10",
+"main": "총지수",
+"basis": "전년비(%)",
+"signal_value": 2.82,
+"avg3": 2.93,
+"trend": "보합",
+"sign_flip": false,
+"status": "정상 수집",
+"series": [
+"총지수",
+"근원(식료품·에너지 제외)",
+"식료품"
+]
 },
 {
 "id": "card",
@@ -1323,7 +1442,7 @@
 "basis": "전년비(%)",
 "signal_value": 21.1,
 "avg3": 21.74,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1353,7 +1472,7 @@
 "basis": "전년비(%)",
 "signal_value": 1.46,
 "avg3": 0.4,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1407,7 +1526,7 @@
 "basis": "전년비(%)",
 "signal_value": 53.32,
 "avg3": 40.71,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1457,7 +1576,7 @@
 "release": "매일",
 "transform": "level",
 "why": "엔저 강도. 150엔 이상이면 방일 수요 강세 구간.",
-"value": 159.662,
+"value": 159.667,
 "unit": "JPY",
 "asof": "2026-11-16",
 "main": "엔/달러",
@@ -1530,7 +1649,7 @@
 "basis": "전년비(%)",
 "signal_value": 59.14,
 "avg3": 48.95,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1556,7 +1675,7 @@
 "basis": "전년비(%)",
 "signal_value": 20.79,
 "avg3": 17.49,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1582,7 +1701,7 @@
 "basis": "전년비(%)",
 "signal_value": 30.7,
 "avg3": 23.05,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1608,7 +1727,7 @@
 "basis": "전년비(%)",
 "signal_value": 13.6,
 "avg3": 2.26,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1634,7 +1753,7 @@
 "basis": "전년비(%)",
 "signal_value": 32.8,
 "avg3": 27.99,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1662,7 +1781,7 @@
 "basis": "전년비(%)",
 "signal_value": 27.33,
 "avg3": 9.03,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": true,
 "status": "정상 수집",
 "series": [
@@ -1702,7 +1821,7 @@
 "basis": "전년비(%)",
 "signal_value": 6.98,
 "avg3": 5.28,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
@@ -1729,7 +1848,7 @@
 "basis": "전년비(%)",
 "signal_value": 4.33,
 "avg3": 7.36,
-"trend": "개선",
+"trend": "가속",
 "sign_flip": false,
 "status": "정상 수집",
 "series": [
