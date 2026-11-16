@@ -2,7 +2,8 @@ import requests, json, time, os
 H = {'User-Agent': 'Mozilla/5.0'}
 out = {}
 K = os.environ.get('KOSIS_API_KEY', '').strip(); D = os.environ.get('DATA_GO_KR_KEY', '').strip(); F = os.environ.get('FRED_API_KEY', '').strip()
-out['lens'] = {'kosis': len(K), 'datagokr': len(D), 'fred': len(F)}
+import re as _re
+out['lens'] = {'kosis': len(K), 'datagokr': len(D), 'fred': len(F), 'kosis_ends_eq': K.endswith('='), 'kosis_has_odd_chars': bool(_re.search(r'[^A-Za-z0-9+/=]', K)), 'run': time.strftime('%H:%M:%S')}
 def rec(k, f):
     try: out[k] = f()
     except Exception as e: out[k] = 'ERR ' + repr(e)[:250]
