@@ -5,7 +5,8 @@
 # GitHub Actions에서 매일 실행. Secret: KOSIS_API_KEY, DATA_GO_KR_KEY, FRED_API_KEY
 import os, re, json, time, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
-import requests
+import requests, threading
+DG_LOCK = threading.Lock()   # data.go.kr는 동시 접속 시 연결을 끊는다 → 한 번에 하나씩
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 K_KOSIS = os.environ.get('KOSIS_API_KEY', '').strip(); K_DG = os.environ.get('DATA_GO_KR_KEY', '').strip(); K_FRED = os.environ.get('FRED_API_KEY', '').strip()
@@ -20,7 +21,7 @@ def get(url, params=None, timeout=(15, 90), tries=3):
         try:
             r = requests.get(url, params=params, headers=UA, timeout=timeout); r.raise_for_status(); return r
         except Exception as e:
-            last = e; time.sleep(2 + 3 * a)
+            last = e; time.sleep(3 + 5 * a)
     raise RuntimeError(re.sub(r'(apiKey|serviceKey|api_key)=[^&\s]+', r'\1=***', str(last))[:200])
 
 def ym(s):  # 'YYYYMM' / 'YYYY.MM' / 'YYYY-MM' -> 'YYYY-MM'
@@ -78,7 +79,9 @@ def customs(hs_list, cnty='', field='expDlr'):
     for back in range(3):
         e = dt.date(end.year - back, end.month, 1); s = dt.date(e.year - 1, e.month, 1) + dt.timedelta(days=32); s = s.replace(day=1)
         for hs in hs_list:
-            r = get('https://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList', dict(serviceKey=K_DG, strtYymm=s.strftime('%Y%m'), endYymm=e.strftime('%Y%m'), cntyCd=cnty, hsSgn=hs), timeout=(15, 120))
+            with DG_LOCK:
+                r = get('https://apis.data.go.kr/1220000/nitemtrade/getNitemtradeList', dict(serviceKey=K_DG, strtYymm=s.strftime('%Y%m'), endYymm=e.strftime('%Y%m'), cntyCd=cnty, hsSgn=hs), timeout=(20, 150), tries=5)
+                time.sleep(0.5)
             code = re.search(r'<resultCode>(\d+)</resultCode>', r.text)
             if code and code.group(1) not in ('00', '0'):
                 raise RuntimeError(re.search(r'<resultMsg>(.*?)</resultMsg>', r.text).group(1))
@@ -126,8 +129,8 @@ SPEC = {
                 ('자동차및부품', lambda: kosis('301', 'DT_403Y002', '수출물량지수', ['자동차및부품'])), ('화학제품', lambda: kosis('301', 'DT_403Y002', '수출물량지수', ['화학제품']))],
  'cli': [('선행지수 순환변동치', lambda: kosis('101', 'DT_1C8015', '경기종합지수', ['선행지수 순환변동치'])), ('동행지수 순환변동치', lambda: kosis('101', 'DT_1C8015', '경기종합지수', ['동행지수 순환변동치']))],
  'cli_parts': [(n, (lambda n=n: kosis('101', 'DT_1C8015', '경기종합지수', [n]))) for n in ['재고순환지표(전월차)(%p)', '경제심리지수(전월차)(p)', '기계류내수출하지수(선박제외)(전월비)(%)', '건설수주액(전월비)(%)', '수출입물가비율(전월비)(%)', '코스피(전월비)(%)', '장단기금리차(전월차)(%p)']],
- 'ipi_sector': [('제조업 출하', lambda: kosis('101', 'DT_1F01001', '생산자제품 출하지수(원지수)', ['전국', '제조업'])), ('제조업 재고', lambda: kosis('101', 'DT_1F01001', '생산자제품 재고지수(원지수)', ['전국', '제조업']))],
- 'semi_cycle': [('반도체 출하', lambda: kosis('101', 'DT_1F01001', '생산자제품 출하지수(원지수)', ['전국', '반도체 제조업'])), ('반도체 재고', lambda: kosis('101', 'DT_1F01001', '생산자제품 재고지수(원지수)', ['전국', '반도체 제조업']))],
+ 'ipi_sector': [('제조업 출하', lambda: kosis('101', 'DT_1F02001', '생산자제품 출하지수(원지수)', ['전국', '제조업'])), ('제조업 재고', lambda: kosis('101', 'DT_1F02001', '생산자제품 재고지수(원지수)', ['전국', '제조업']))],
+ 'semi_cycle': [('반도체 출하', lambda: kosis('101', 'DT_1F02001', '생산자제품 출하지수(원지수)', ['전국', '반도체 제조업'])), ('반도체 재고', lambda: kosis('101', 'DT_1F02001', '생산자제품 재고지수(원지수)', ['전국', '반도체 제조업']))],
  'permit': [('전국', lambda: kosis('116', 'DT_MLTM_1948', '인허가실적', ['전국', '합계(가구수기준)'], 'ytd')), ('수도권', lambda: kosis('116', 'DT_MLTM_1948', '인허가실적', ['수도권', '합계(가구수기준)'], 'ytd'))],
  'start': [('전국', lambda: kosis('116', 'DT_MLTM_5386', '착공실적', ['총계', '총계', '전국']))],
  'unsold': [('미분양(전국)', lambda: kosis('101', 'DT_1YL202004E', '미분양현황', ['ALL', '계'], 'sum')), ('준공후 미분양', lambda: kosis('116', 'DT_MLTM_5328', '호', ['전국', '합계', '계', '계']))],
@@ -213,7 +216,7 @@ def summarize(x, series):
         avg = lambda arr: sum(arr) / len(arr) if arr else None
         a3, p3 = avg([sig[k] for k in ks[-3:]]), avg([sig[k] for k in ks[-6:-3]])
         row['avg3'] = round(a3, 2) if a3 is not None else None
-        row['trend'] = None if p3 is None else ('개선' if a3 - p3 > 0.5 else '악화' if a3 - p3 < -0.5 else '보합')
+        row['trend'] = None if p3 is None else ('가속' if a3 - p3 > 0.5 else '둔화' if a3 - p3 < -0.5 else '보합')
         row['sign_flip'] = len(ks) >= 2 and (sig[ks[-1]] > 0) != (sig[ks[-2]] > 0)
     else:
         ks = sorted(ms); vals = [ms[k] for k in ks]

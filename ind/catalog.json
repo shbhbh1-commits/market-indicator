@@ -227,7 +227,7 @@
    "freq": "M",
    "release": "익월 말",
    "role": "선행",
-   "transform": "yoy",
+   "transform": "level",
    "why": "선행지수가 왜 움직였는지 분해. 재고순환지표(출하−재고 증가율)는 제조업 사이클의 핵심.",
    "legacy": "경기선행지수"
   },
