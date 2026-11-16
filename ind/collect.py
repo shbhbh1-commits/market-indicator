@@ -6,7 +6,7 @@
 import os, re, json, time, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 import requests, threading
-DG_LOCK = threading.Lock()   # data.go.kr는 동시 접속 시 연결을 끊는다 → 한 번에 하나씩
+DG_LOCK = threading.Lock(); HSLOG = {}   # data.go.kr는 동시 접속 시 연결을 끊는다 → 한 번에 하나씩
 
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 K_KOSIS = os.environ.get('KOSIS_API_KEY', '').strip(); K_DG = os.environ.get('DATA_GO_KR_KEY', '').strip(); K_FRED = os.environ.get('FRED_API_KEY', '').strip()
@@ -85,9 +85,13 @@ def customs(hs_list, cnty='', field='expDlr'):
             code = re.search(r'<resultCode>(\d+)</resultCode>', r.text)
             if code and code.group(1) not in ('00', '0'):
                 raise RuntimeError(re.search(r'<resultMsg>(.*?)</resultMsg>', r.text).group(1))
-            for it in re.findall(r'<item>(.*?)</item>', r.text, re.S):
-                f = dict(re.findall(r'<(\w+)>([^<]*)</\1>', it))
-                if f.get('year', '총계') == '총계' or f.get('hsCd', '-') == '-': continue
+            items = [dict(re.findall(r'<(\w+)>([^<]*)</\1>', it)) for it in re.findall(r'<item>(.*?)</item>', r.text, re.S)]
+            items = [f for f in items if f.get('year', '총계') != '총계' and f.get('hsCd', '-') != '-']
+            codes = {f['hsCd'] for f in items}
+            leaf = {c for c in codes if not any(o != c and o.startswith(c) for o in codes)}   # 상위 코드 소계와 하위 코드가 같이 오면 이중 합산 방지
+            HSLOG.setdefault(hs, set()).update(leaf)
+            for f in items:
+                if f['hsCd'] not in leaf: continue
                 d = ym(f['year'])
                 if field == 'unit':
                     a = tot.setdefault(d, [0.0, 0.0]); a[0] += float(f.get('impDlr') or 0); a[1] += float(f.get('impWgt') or 0)
@@ -223,7 +227,7 @@ def summarize(x, series):
         if len(vals) >= 6:
             a3, p3 = sum(vals[-3:]) / 3, sum(vals[-6:-3]) / 3
             row['trend'] = '상승' if a3 > p3 * 1.005 else '하락' if a3 < p3 * 0.995 else '보합'
-        if len(vals) >= 13 and vals[-13]: row['signal_value'] = round((vals[-1] / vals[-13] - 1) * 100, 2); row['basis'] = '수준 (전년비 참고)'
+        if len(vals) >= 13 and vals[-13] and min(vals) > 0: row['signal_value'] = round((vals[-1] / vals[-13] - 1) * 100, 2); row['basis'] = '수준 (전년비 참고)'
     return row, sig
 
 def main():
@@ -263,6 +267,7 @@ def main():
     json.dump(summary, open(os.path.join(ROOT, 'dash', 'ind_summary.json'), 'w'), ensure_ascii=False, indent=0)
     json.dump(series, open(os.path.join(ROOT, 'dash', 'ind_series.json'), 'w'), ensure_ascii=False, separators=(',', ':'))
     LOG['_run'] = dt.datetime.utcnow().isoformat(timespec='seconds') + 'Z'
+    LOG['_hs_leaf'] = {k: sorted(v)[:30] for k, v in HSLOG.items()}
     json.dump(LOG, open(os.path.join(HERE, 'collect_log.json'), 'w'), ensure_ascii=False, indent=1)
     ok = sum(1 for r in summary if r['status'] in ('정상 수집', '일부 실패'))
     print(f'API 지표 {len(SPEC)}개 중 {ok}개 수집 · 시계열 {len(series)}행')
