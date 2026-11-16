@@ -272,7 +272,7 @@ def main():
     ok = sum(1 for r in summary if r['status'] in ('정상 수집', '일부 실패'))
     print(f'API 지표 {len(SPEC)}개 중 {ok}개 수집 · 시계열 {len(series)}행')
     for k, v in LOG.items():
-        if k != '_run' and v['err']: print(' 실패', k, v['err'][:2])
+        if not k.startswith('_') and v['err']: print(' 실패', k, v['err'][:2])
 
 if __name__ == '__main__':
     main()
