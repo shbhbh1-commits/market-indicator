@@ -1,95 +1,100 @@
 {
- "date": "2026-11-16",
- "session": "11월 16일(월) 미국장",
- "headline": "‘악재가 없었다’기보다, 장중에 나온 대중국 AI칩 규제가 금리·실적 경계로 이미 약해진 반도체 투심을 한 번 더 때린 날",
- "lead": "월요일 하락의 직접적 방아쇠는 미 상무부의 ‘중국의 원격 AI칩 접근 차단’ 잠정 규칙이었습니다. 여기에 12월 금리 인상이 이미 100% 반영된 고금리 환경, 젠슨 황 사임 뒤 엔비디아 실적(17일) 경계, 이번 주 앤트로픽 상장에 따른 수급 부담이 겹쳤습니다. 나스닥100(−2.7%)이 다우(−1.4%)보다 크게 빠지고 헬스케어·필수소비재가 오른 것은 ‘비싼 성장주를 줄이고 방어주로 옮기는’ 전형적인 고금리 조정 패턴입니다.",
+ "date": "2026-11-17",
+ "session": "11월 17일(화) 미국장",
+ "headline": "반도체는 엔비디아 실적 앞두고 버텼지만(SOX +0.3%), 물가·금리 부담과 AI 경계가 소프트웨어·금리 민감주로 번지며 다우가 848포인트 빠진 날 — 장 마감 후 엔비디아는 예상을 웃돈 실적",
+ "lead": "하루 전 하락은 대중 AI칩 규제가 반도체를 직접 때린 ‘반도체발’이었다면, 화요일은 양상이 달랐습니다. 반도체지수는 오히려 0.3% 올랐고, 다우(−1.64%)·러셀2000(−1.50%)이 나스닥(−0.74%)보다 더 빠졌습니다. 10월 수입물가가 두 달 연속 1.1% 올라 12월 금리 인상 부담을 키웠고, 마이크로소프트(−2.3%)·세일즈포스·홈디포(−2.4%) 같은 다우 구성 대형주와 소프트웨어가 밀렸습니다. 유럽(STOXX600 −1.75%, 8개월 만의 최악)과 코스피(5,000 붕괴)도 같은 날 AI 불안에 크게 빠졌습니다. 장 마감 후 엔비디아는 매출 1,158억 달러(+103%), 4분기 가이던스 1,300억 달러로 예상을 웃돌아 시간외에서 1~4% 올랐습니다.",
  "moves": [
   {
    "name": "S&P500",
-   "chg": "−1.92%",
-   "note": "7,416.59"
-  },
-  {
-   "name": "나스닥100",
-   "chg": "−2.67%",
-   "note": "27,197.15"
+   "chg": "−1.03%",
+   "note": "7,340.53 · 장중 −1.6%에서 낙폭 축소"
   },
   {
    "name": "다우",
-   "chg": "−1.41%",
-   "note": "51,608.17"
+   "chg": "−1.64%",
+   "note": "50,759.42 (−848.75p)"
+  },
+  {
+   "name": "나스닥 종합",
+   "chg": "−0.74%",
+   "note": "24,328.38 · 장중 −2.1%"
+  },
+  {
+   "name": "러셀2000",
+   "chg": "−1.50%",
+   "note": "2,701.87"
   },
   {
    "name": "필라델피아 반도체(SOX)",
-   "chg": "−5.3%",
-   "note": "장중 최대 −5.5%"
+   "chg": "+0.3%",
+   "note": "9,642.88 (대시보드 종가)"
   },
   {
    "name": "엔비디아",
-   "chg": "−4.12%",
-   "note": "156.14달러"
+   "chg": "−0.44%",
+   "note": "155.46달러 · 시간외 약 +1~4%"
   },
   {
    "name": "코스피(같은 날 낮)",
-   "chg": "−3.59%",
-   "note": "5,100.50 · 외국인 매도"
+   "chg": "−2.59%",
+   "note": "4,968.48 · 외국인 1.4조원 순매도"
   }
  ],
- "movers": "하락: 샌디스크 −8.6%, 시에나 −8.2%, 마이크론 −7.6%, 델 −7.0%, 네비우스 −6% 안팎 등 AI 하드웨어 전반. 상승: 몰리나 헬스케어 +11.3%, 타이슨푸드 +8.7%, 센틴 +4.9% — 헬스케어·필수소비재가 각각 +0.8%로 버팀목.",
+ "movers": "하락: 레드캣 −31.7%(연간 매출 목표 철회), 넥스트파워 −12.1%, JD닷컴 −7.7%, 마이크로소프트 −2.3%, 홈디포 −2.4%, 세일즈포스 장중 약 −9%·워크데이·인튜이트·어도비 등 소프트웨어 약세. 상승: 셀라스 +156%(3상 성공), 에너자이저 +12.5%, 에이컴 +11.1%, 브로드컴 +2.5%.",
  "drivers": [
   {
    "rank": 1,
    "weight": "핵심",
-   "title": "미 상무부, 중국의 ‘원격’ AI칩 접근 차단 잠정 규칙 발표",
-   "detail": "중국 등 제재국 기업에 연산을 제공할 수 있는 데이터센터라면 국가와 무관하게 AI칩·서버 수출에 허가를 요구합니다. 기준은 엔비디아 H100·H200 약 750개 규모(1,200만 TPP)이고, 말레이시아·싱가포르·인도네시아·태국·브라질도 허가 대상에 추가됐습니다(미국 본사 기업은 예외, 기존 사업자 90일 유예). 엔비디아의 싱가포르 매출은 2025회계연도 약 240억 달러(약 18%)였습니다.",
-   "path": "동남아 데이터센터를 통한 우회 수요가 막힐 수 있다는 우려 → 엔비디아·AI 서버·네트워크·메모리 매출 추정치 하향 위험 → SOX 장중 −5.5%, 한국·대만 반도체로 전이",
-   "src": "TechCrunch · Fortune · Bloomberg(Yahoo)",
-   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
-   "check": "원문"
+   "title": "물가 지표가 12월 금리 인상 부담을 다시 키움",
+   "detail": "10월 수입물가가 전월 대비 1.1% 올라 9월(1.1%)에 이어 두 달 연속 높았고, 비연료 수입물가도 0.8% 올랐습니다. 소매판매는 0.2% 증가에 그쳐 ‘물가는 뜨겁고 소비는 식는’ 조합이었습니다. 뉴욕 연은 윌리엄스 총재가 큰 폭 인상 필요성은 부인했다는 보도가 있었지만, 인상 자체는 여전히 기본 시나리오입니다.",
+   "path": "물가↑ → 금리 인상 기대 유지 → 자금 조달 비용에 민감한 소형주(러셀 −1.5%)·주택 관련주(홈디포 −2.4%)와 경기 민감 대형주가 더 크게 하락 → 다우 −848p",
+   "src": "Vista Partners · StockTitan",
+   "url": "https://vistapglobal.com/stock-market-today-november-17-2026-dow-falls-848-points-as-inflation-and-ai-uncertainty-weigh-aapl-ant-dis-eprx-gld-googl-modd-nvda-ser-sls-spcx-vix/",
+   "check": "보도"
   },
   {
    "rank": 2,
    "weight": "핵심",
-   "title": "엔비디아 경영 공백 + 17일 실적 앞둔 경계",
-   "detail": "젠슨 황이 사생활 문제로 CEO·이사직에서 물러난 뒤 첫 실적입니다. 그 상대가 미국이 수출통제 위반을 의심하는 싱가포르 업체 출신이라 이번 규제와 직접 연결됐습니다. 분석가들은 다음 분기 가이던스를 낮추는지가 관건이라고 봅니다.",
-   "path": "실적 전 포지션 축소 → AI 대표주 약세가 AI 인프라 전반(전력·광통신·메모리)으로 확산",
-   "src": "Reuters(MarketScreener) · Fortune",
-   "url": "https://www.marketscreener.com/news/s-p-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-ce785eded080f124",
+   "title": "AI 불안이 반도체에서 소프트웨어·빅테크로 이동",
+   "detail": "반도체는 실적 직전이라 매도가 멈췄지만 마이크로소프트(−2.3%)·메타(−1.2%)·알파벳(−1.3%)과 세일즈포스·워크데이·인튜이트·어도비 등 소프트웨어가 일제히 밀렸습니다. 같은 날 나온 BofA 펀드매니저 설문에서 기술주 비중이 2006년 이후 최대폭으로 줄었고, 52%가 6개월 안에 하이퍼스케일러 설비투자 축소 발표를 예상했습니다.",
+   "path": "‘AI 투자 회수 의문’ → 기관의 기술주 비중 축소 → 다우·S&P 비중이 큰 빅테크·소프트웨어 매도 → 지수 하락 폭 확대",
+   "src": "Fortune · Irish Times",
+   "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/",
    "check": "원문"
   },
   {
    "rank": 3,
    "weight": "배경",
-   "title": "고금리: 12월 인상 100% 반영, 10년물 5% 위",
-   "detail": "CME 페드워치 기준 12월 금리 인상이 완전히 반영됐고 50bp 인상 확률도 약 9%입니다. 지난주 10월 PPI가 전년비 6.5%로 뜨거웠고, 미 10년물은 5.12%, 10년 실질금리는 2.91%(1년 백분위 98%)입니다. 월요일에는 주가 약세로 국채가 소폭 강세(금리 하락)였습니다.",
-   "path": "할인율↑ → 먼 미래 이익에 기대는 고PER 성장주 가치가 더 크게 줄어듦(멀티플 압축) → 나스닥·반도체가 다우·가치주보다 더 빠짐",
-   "src": "Reuters(MarketScreener) · CNBC · 대시보드 유동성 탭",
-   "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html",
-   "check": "보도"
+   "title": "엔비디아 실적 직전 ‘포지션 정리’와 유럽·아시아 동반 급락",
+   "detail": "유럽 STOXX600은 −1.75%로 8개월 만에 가장 크게 떨어졌고 ASML이 −5.3%, 유럽 기술주가 −3.9%였습니다. 코스피는 9개월 만에 5,000 아래(4,968.48)로 마감했습니다. 미국 장중엔 NSA 네트워크 장애 보도가 잠시 불안을 키웠으나 NSA는 ‘유지보수 중 일시적 저하’라고 설명했습니다.",
+   "path": "이벤트 전 위험 축소 → 글로벌 AI 관련주 동반 매도 → 미국 장 마지막 1시간 저가 매수로 낙폭 일부 회복",
+   "src": "Reuters(MarketScreener) · Korea JoongAng Daily",
+   "url": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723",
+   "check": "원문"
   },
   {
    "rank": 4,
    "weight": "배경",
-   "title": "앤트로픽 상장(이번 주) — 수급과 ‘AI 밸류 시험대’",
-   "detail": "초대형 IPO는 청약 자금을 위해 기존 AI 보유주를 파는 수급 부담을 만들고, 동시에 AI 기업가치의 바로미터가 됩니다. 시장에선 ‘IPO 성공 여부와 엔비디아 실적이 방향을 정할 것’이라는 평가가 나왔습니다(Equiti 나디아 엘빌라시).",
-   "path": "AI 비중 축소·교체 매매 → AI 하드웨어주 매도 압력",
-   "src": "Reuters(MarketScreener)",
-   "url": "https://www.marketscreener.com/news/s-p-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-ce785eded080f124",
-   "check": "원문"
+   "title": "앤트로픽 19일 상장 — 청약 수급",
+   "detail": "앤트로픽은 공모가 범위 70~78달러를 유지했고 19일 나스닥 데뷔 예정이며, 블룸버그는 상단 이상 가격 가능성을 보도했습니다. 공모 규모가 커서 기존 AI·소프트웨어 보유분을 팔아 청약 자금을 마련하는 수급이 생길 수 있습니다.",
+   "path": "청약 자금 마련 → 기존 AI·소프트웨어주 교체 매도 → 소프트웨어 약세에 가세",
+   "src": "Irish Times(블룸버그 인용)",
+   "url": "https://www.irishtimes.com/business/2026/11/17/european-shares-fall-as-investors-eye-nvidia-results-and-jensen-huangs-return-hopes/",
+   "check": "보도"
   },
   {
    "rank": 5,
    "weight": "배경",
-   "title": "연준 의장도 ‘AI 기대 조절’ — 워시 “AI가 실망시킬 수도”",
-   "detail": "AI 낙관론자로 분류되던 워시 의장이 기대치를 낮추는 발언을 했다고 CNBC가 전했습니다. 정책 당국이 AI 생산성 기대를 근거로 금리를 낮추기 어렵다는 신호로 읽힐 수 있습니다.",
-   "path": "‘AI 생산성 → 물가 안정 → 금리 인하’ 시나리오 후퇴 → 성장주 밸류 부담",
-   "src": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html",
+   "title": "장 마감 후: 엔비디아 ‘숫자는 강했다’",
+   "detail": "매출 1,158억 달러(+103%, 예상 약 1,091억), 데이터센터 1,076억 달러(+110%), 4분기 가이던스 1,300억 달러±3%(예상 약 1,253억, 중국 제외). 다만 4분기 총이익률 가이던스 71~72%는 이번 분기 74.9%보다 낮고, 이사회는 젠슨 황 복귀를 검토하지 않는다고 했습니다.",
+   "path": "수요 확인 → 18일 반도체·메모리(한국 포함) 반등 재료, 단 마진 하락·경영 공백은 남은 변수",
+   "src": "Decrypt · TradingKey",
+   "url": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit",
    "check": "보도"
   }
  ],
- "rates_note": "금리와 테크주 밸류의 연결 고리: 주가 = 미래 이익 ÷ (1+할인율)ⁿ 이라서, 이익이 먼 미래에 몰려 있는 고성장·고PER 주식일수록 금리 1%p 변화에 더 민감합니다(듀레이션이 긴 자산). 지금처럼 10년물 5%·실질금리 3% 가까운 구간에서는 ‘실적은 좋아도 PER이 내려가는’ 조정이 흔하고, 이번 하락도 나스닥100(−2.7%)이 다우(−1.4%)의 약 2배, 방어 업종은 상승이라는 점에서 이 패턴과 맞습니다. 다만 하이일드 스프레드(323bp)·HYG/IEF가 아직 평온해 ‘신용 경색형’ 하락은 아닙니다 — 주식 내부의 밸류·수급 조정에 가깝습니다.",
- "dash_read": "CNN 공포·탐욕 31.0(공포, 전일 38.6) — 하위지표 중 시장 모멘텀 9.2·안전자산 수요 11.8·풋/콜 19.6이 ‘극단적 공포’. VIX 22.9로 ‘경계’, VIX9D/VIX 1.01로 단기 역전(당장의 불안이 큼), 다만 VIX/VIX3M 0.995로 기간구조 전체 역전은 아님. 정크본드 수요 52.4(중립)로 신용은 버티는 중.",
+ "rates_note": "이날은 ‘금리발 멀티플 조정’보다는 ‘물가발 금리 부담 + AI 실적 의문’이 섞인 하락입니다. 미 10년물은 5.10%로 오히려 소폭 내렸고(대시보드), 나스닥100(−0.7%)이 다우(−1.6%)보다 덜 빠져 전날처럼 고PER 성장주만 두들겨 맞는 패턴은 아니었습니다. 다만 10년 실질금리 2.92%(1년 백분위 99%)·2년물 4.83%(97%)는 여전히 성장주 밸류의 천장 역할을 합니다. 신용은 HYG/IEF가 1개월 −0.8%로 ‘평온’ 범위지만, 하이일드 스프레드 334bp가 1년 백분위 97%로 경보선 안쪽에서 높아지고 있어 ‘밸류 조정 → 신용발’로 넘어가는지 지켜볼 구간입니다.",
+ "dash_read": "CNN 공포·탐욕 25.2(공포, 전일 31.0·1주 전 37.4). 하위지표 중 시장 모멘텀 5.2·안전자산 수요 7.2·풋/콜 15.0·변동성 17.8이 ‘극단적 공포’, 정크본드 수요 50.0만 ‘중립’. VIX 25.46(+11%)·VIX/VIX3M 1.019로 기간구조가 역전(백워데이션)됐고 VIX9D/VIX 1.049, VVIX 121.3(헤지 수요 급증). 주식 쪽 공포는 커졌지만 신용(정크본드·HYG/IEF)은 아직 버티는 ‘주식만 공포’ 국면.",
  "lessons": [
   {
    "name": "워런 버핏",
@@ -149,106 +154,111 @@
   }
  ],
  "habits": [
-  "미리 정한 규칙(현금 비중·리밸런싱 구간)대로 움직이고, 하락 당일에 새 규칙을 만들지 않는다",
-  "가격이 아니라 ‘보유 이유’가 바뀌었는지를 본다 — 이번 규제가 내 종목 매출에 직접 닿는지 숫자로 확인",
+  "이벤트(실적·상장) 직전에 포지션을 새로 만들지 않는다 — 결과를 보고 ‘보유 이유’가 바뀌었는지만 판단한다",
+  "가격이 아니라 ‘보유 이유’가 바뀌었는지를 본다 — 엔비디아 숫자가 내 종목 매출에 어떻게 닿는지 확인",
   "빚(신용·미수) 없이 버틸 수 있는 크기로만 들고 있어 공포를 기회로 쓴다",
-  "개별 뉴스보다 연준·금리·유동성을 먼저 본다(드러켄밀러) — 지금은 10년물 5%·12월 인상이 큰 배경",
-  "틀렸으면 빨리 인정하고 크기를 줄인다 — 버티기와 고집은 다르다"
+  "개별 뉴스보다 연준·금리·신용을 먼저 본다(드러켄밀러) — 지금은 실질금리 2.9%·HY 스프레드 백분위 97%가 배경",
+  "확신이 없을 땐 크기를 줄이고 쉰다 — 드러켄밀러도 ‘이틀일 수도 6개월일 수도 있는 휴식’을 택했다"
  ],
  "f13": [
   {
    "name": "스탠리 드러켄밀러 (듀케인)",
-   "period": "2026년 3분기 13F(11/16 마감)",
-   "facts": "보도(원문 미확인): TSMC 94.5% 축소(FourWeekMBA)·사실상 전량 매도와 금광주·소규모 스페이스X 신규(mlq.ai), 샌디스크·AMD·알파벳 전량 매도(X 트래커 보도), 상위 보유: 나테라·시게이트·아마존·폭스·YPF. 참고로 2분기엔 TSMC를 19% 늘리고(58만9,680주) 시게이트를 141% 늘렸으며(12만2,000주) AMD를 새로 담았었습니다.",
-   "why_official": "이번 분기 매매에 대한 본인 설명은 아직 없습니다. 2026년 그는 AI 밸류에이션에 경계심을 드러낸 것으로 보도됐습니다.",
-   "my_read": "① 시게이트는 SSD가 아니라 대용량 하드디스크(HDD) 회사입니다 — AI 학습·추론 데이터를 저렴하게 쌓아두는 데이터센터 ‘대용량 저장’ 수요의 수혜주. SSD(낸드)는 샌디스크 쪽인데, 보도대로라면 낸드(샌디스크)는 팔고 HDD(시게이트)는 남겨 공급이 과점·규율된 쪽으로 옮긴 셈입니다(추정). ② TSMC 대폭 축소는 대만 지정학·관세와 반도체 기대 과열을 줄인 것으로 보이며, 이번 주 대중 규제 같은 정책 리스크를 미리 덜어낸 모양새입니다(추정). ③ 금광주는 고금리에도 재정적자·달러 신뢰·지정학 헤지 수요를 본 매크로 베팅으로 보입니다(추정). ④ 13F는 9월 말 기준 사진이라 그 뒤 이미 바뀌었을 수 있습니다 — 그는 매매 회전율이 높은 편입니다.",
-   "check": "보도(공시 원문 미확인)",
-   "src": "mlq.ai · FourWeekMBA · Hedge Fund Alpha(2분기)",
-   "url": "https://mlq.ai/news/druckenmiller-sells-nearly-all-his-tsmc-and-buys-gold-miners-and-a-small-spacex-stake-13f-shows/"
-  },
-  {
-   "name": "모니시 파브라이 (달랄 스트리트)",
-   "period": "2026년 3분기 13F(11/13 제출)",
-   "facts": "알파 메탈러지컬 리소시스(티커 AMR, 제철용 석탄)를 약 67% 줄였습니다 — 남은 지분 약 17만 744주, 비중 약 7.9%. 대신 워리어 멧 콜(HCC, 역시 제철용 석탄)을 7% 늘려 비중 약 45%로 최대 종목, 트랜스오션(RIG, 해양 시추)을 40% 늘려 약 41%, 카스피(KSPI, 카자흐스탄 핀테크)는 거의 새로 담아 약 5.4%. 전체 4종목·약 3.6억 달러.",
-   "why_official": "이번 매매에 대한 본인 발언은 아직 확인되지 않았습니다.",
-   "my_read": "석탄을 버린 게 아니라 ‘제철탄 안에서 AMR → HCC로 집중’한 것입니다. 워리어는 블루크릭 신규 광산으로 생산이 늘어나는 성장형, AMR은 대규모 자사주 매입형이라 성장 여력이 큰 쪽에 몰아준 것으로 보입니다(추정). 카스피는 공매도 리포트로 약 22% 급락한 뒤 추가로 샀다는 분석이 있는데(서브스택 필자 해석), ‘앞면이면 내가 이기고 뒷면이면 조금만 잃는’ 그의 단도(Dhandho) 원칙대로 공포로 싸진 자산을 산 사례입니다.",
-   "check": "보도(집계 사이트 기준)",
-   "src": "Geopolitics Alpha · Stockcircle · Fundamental Deep Dive(11/15)",
-   "url": "https://www.geopoliticsalpha.com/billionaires/mohnish-pabrai"
+   "period": "2026년 3분기 13F",
+   "facts": "TSMC를 94.5% 줄여 비중 0.36%(−6.1%p)로 사실상 정리했고, ST마이크로(유럽 반도체)도 47.9% 줄였으며 알파벳·유나이티드항공은 전량 매도했습니다. 반대로 시게이트(대용량 HDD 저장장치 회사)를 180% 늘려 비중 7.6%(+4.9%p), 유니티(게임엔진·광고 소프트웨어)를 435% 늘려 3.9%로 키웠습니다.",
+   "why_official": "9월 비공개 행사에서 AI 투자를 6개월 전의 약 20% 수준으로 줄였다고 말한 것으로 전해졌고, 11/17 TomorrowX 콘퍼런스에서는 구리 공매도·주식 순노출 최소화와 함께 ‘AI 인프라보다 활용 사례를 찾는다’고 밝혔습니다(보도).",
+   "my_read": "반도체 제조(TSMC·ST)는 줄이고 저장장치(시게이트)·소프트웨어(유니티)를 남긴 건 본인 말대로 ‘인프라 → 활용’ 이동과 맞습니다(추정). 구리 공매도와 2027년 하반기 경기 우려를 보면, 이번 조정을 단순 AI 밸류 문제가 아니라 금리·경기 사이클 문제로 보는 것으로 읽힙니다(추정). 13F는 9월 말 사진이라 이미 바뀌었을 수 있습니다(추정).",
+   "check": "공시 집계(f13_changes) + 보도",
+   "src": "대시보드 13F 집계 · CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
   },
   {
    "name": "데이비드 테퍼 (아팔루사)",
    "period": "2026년 3분기 13F",
-   "facts": "마이크론과 엔비디아를 추가 매수한 것으로 보도됐습니다. 같은 분기 댄 로브는 메타를 사고, 바이킹은 메타를 절반으로 줄였습니다.",
-   "why_official": "본인 설명은 없습니다.",
-   "my_read": "테퍼는 2009년처럼 ‘공포가 과하다’고 볼 때 크게 베팅하는 스타일입니다. 9월 말 기준 AI 반도체를 늘린 것이라 최근 급락으로 손실 구간일 가능성이 높고, 4분기에 계속 들고 갔는지는 다음 13F(2월)에서 확인해야 합니다.",
-   "check": "보도(원문 미확인)",
-   "src": "mlq.ai",
+   "facts": "마이크론(메모리 반도체)을 28.2% 늘려 비중 17.6%로 최대 보유를 유지했고, 엔비디아를 31.1% 늘려 6.0%로 키웠으며 오라클(클라우드)을 새로 샀습니다. 반면 알파벳을 45.9% 줄였고(비중 −4.2%p), 스페이스X(SPCX)는 주식 수를 약 17배로 늘려 7.4%가 됐습니다.",
+   "why_official": "없음",
+   "my_read": "AI 플랫폼(알파벳)에서 차익을 실현해 메모리·GPU 같은 하드웨어로 옮긴 것으로 보입니다(추정). 9월 말 이후 반도체가 크게 빠져 현재는 손실 구간일 가능성이 높고(추정), 2009년처럼 공포가 과하다고 볼 때 더 사는 스타일이라 4분기 대응은 2월 13F에서 확인해야 합니다(추정).",
+   "check": "공시 집계(f13_changes)",
+   "src": "대시보드 13F 집계 · mlq.ai",
    "url": "https://mlq.ai/news/13f-roundup-tepper-adds-micron-and-nvidia-loeb-buys-meta-viking-halves-meta-and-lone-pine-buys-amazon-and-intel/"
+  },
+  {
+   "name": "버크셔 해서웨이 (그레그 에이블)",
+   "period": "2026년 3분기 13F",
+   "facts": "뱅크오브아메리카를 5.7%(약 15억 달러) 더 줄여 7개 분기 연속 축소했고(비중 8.2%), 베리사인(인터넷 도메인 등록 관리)을 34.1%, 캐피털원을 61.7% 줄였습니다. 반대로 주택건설사 레나를 98.6% 늘려 약 2배로 키웠습니다.",
+   "why_official": "없음",
+   "my_read": "금융주 비중을 꾸준히 줄이고 주택건설에 베팅하는 흐름은 ‘금리가 결국 내려가면 주택이 수혜’라는 장기 관점으로 보입니다(추정). AI 관련 매수는 보이지 않아, 현 국면에서 버크셔는 여전히 현금 쪽에 무게를 둔 것으로 읽힙니다(추정).",
+   "check": "공시 집계(f13_changes) + 언론 분석",
+   "src": "대시보드 13F 집계 · Yahoo Finance(TIKR)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/watch-berkshire-hathaway-files-13f-1635424"
   }
  ],
  "watch": [
   {
-   "when": "11/17(화) 미국 장 마감 후 · 한국시간 18일 새벽",
-   "what": "엔비디아 실적",
-   "why": "새 대중 규제·싱가포르 매출 영향에 대한 회사 설명과 다음 분기 가이던스가 반도체 전체 방향을 정합니다."
+   "when": "11/18(수) 한국 장중",
+   "what": "엔비디아 실적 반영 — 삼성전자·SK하이닉스 수급",
+   "why": "전날 외국인 1.4조원 순매도가 멈추는지, 코스피 5,000 회복 여부."
+  },
+  {
+   "when": "11/18(수) 미국 장 · 한국시간 19일 새벽",
+   "what": "엔비디아 실적 후 첫 정규장 + FOMC 의사록",
+   "why": "시간외 상승이 정규장에서 유지되는지, 4분기 총이익률 하락 가이던스에 대한 해석, 12월 인상 폭 논의."
+  },
+  {
+   "when": "11/19(목) · 한국시간 19일 밤~20일 새벽",
+   "what": "앤트로픽 나스닥 상장(ANT)",
+   "why": "공모가가 범위 상단 이상이면 AI 투심 회복, 부진하면 AI 밸류 재평가 가속."
   },
   {
    "when": "이번 주",
-   "what": "앤트로픽 상장",
-   "why": "흥행하면 AI 투심 회복, 부진하면 AI 밸류 재평가 가속 — ‘AI 바로미터’."
-  },
-  {
-   "when": "11/18(수)",
-   "what": "FOMC 의사록 · 연준 인사 발언",
-   "why": "12월 인상 폭(25 vs 50bp)과 내년 경로 — 10년물 5% 유지 여부가 성장주 멀티플을 좌우."
-  },
-  {
-   "when": "연방관보 게재 후 90일",
-   "what": "상무부 AI칩 규칙 시행·허가 절차",
-   "why": "말레이시아·싱가포르 데이터센터에 납품하는 서버·네트워크·메모리 공급망(한국 메모리 포함)의 실제 매출 영향 확인."
-  },
-  {
-   "when": "이번 주",
-   "what": "트럼프 방중·시진핑 회담",
-   "why": "칩 규제가 협상 카드로 완화되거나 강화될 수 있는 변수."
+   "what": "트럼프 방중 일정",
+   "why": "대중 AI칩 규제가 협상 카드로 완화·강화될 수 있는 변수."
   },
   {
    "when": "상시",
-   "what": "하이일드 스프레드·HYG/IEF",
-   "why": "지금은 평온 — 이게 벌어지기 시작하면 ‘밸류 조정’이 ‘신용 위기형’으로 바뀌는 신호."
+   "what": "하이일드 스프레드(334bp, 1년 백분위 97%)",
+   "why": "더 벌어지면 ‘주식만 공포’가 ‘신용 경색형’으로 바뀌는 신호."
+  },
+  {
+   "when": "12월 FOMC 전",
+   "what": "10월 물가·고용 후속 지표",
+   "why": "수입물가 두 달 연속 +1.1% 이후 인상 폭(25 vs 50bp) 기대 변화."
   }
  ],
  "sources": [
   {
-   "title": "US tightens AI chip export controls…",
-   "src": "TechCrunch",
-   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+   "title": "Stock Market Today, Nov. 17: Nvidia slides ahead of earnings but soars in after hours",
+   "src": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/"
   },
   {
-   "title": "New Commerce rule targets Singapore and Malaysia",
-   "src": "Fortune",
-   "url": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+   "title": "Dow falls 848 points as inflation and AI uncertainty weigh",
+   "src": "Vista Partners",
+   "url": "https://vistapglobal.com/stock-market-today-november-17-2026-dow-falls-848-points-as-inflation-and-ai-uncertainty-weigh-aapl-ant-dis-eprx-gld-googl-modd-nvda-ser-sls-spcx-vix/"
   },
   {
-   "title": "US moves to curb China's remote access to Nvidia's AI chips",
-   "src": "Bloomberg(Yahoo)",
-   "url": "https://sg.news.yahoo.com/us-moves-to-curb-chinas-remote-access-to-nvidias-ai-chips-223055761.html"
+   "title": "Stock Market Today Live, November 17, 2026",
+   "src": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
   },
   {
-   "title": "Wall St falls as Nvidia jitters cloud sentiment",
+   "title": "Nvidia shares rise after earnings beat in first report since Jensen Huang's exit",
+   "src": "Decrypt",
+   "url": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit"
+  },
+  {
+   "title": "European stocks mark worst day in eight months on AI jitters",
    "src": "Reuters(MarketScreener)",
-   "url": "https://www.marketscreener.com/news/s-p-500-nasdaq-futures-slide-as-nvidia-earnings-anthropic-debut-loom-ce785eded080f124"
+   "url": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
   },
   {
-   "title": "Treasury prices catch a small bid as Warsh says AI might ‘disappoint’",
-   "src": "CNBC",
-   "url": "https://www.cnbc.com/2026/11/16/treasury-yields-bonds-inflation.html"
+   "title": "Fund managers cut tech by the most since 2006",
+   "src": "Fortune",
+   "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/"
   },
   {
-   "title": "Mohnish Pabrai Q3 2026 13F",
-   "src": "Geopolitics Alpha",
-   "url": "https://www.geopoliticsalpha.com/billionaires/mohnish-pabrai"
+   "title": "Druckenmiller says he is short copper",
+   "src": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
   }
  ]
 }

@@ -1,5 +1,31 @@
 [
  {
+  "id": "druck-1117",
+  "date": "2026-11-17",
+  "name": "스탠리 드러켄밀러",
+  "role": "듀케인 패밀리오피스",
+  "stance": "신중",
+  "topic": "구리 공매도·주식 순노출 최소화, 'AI는 인프라보다 활용처'",
+  "summary": "TomorrowX 콘퍼런스에서 구리를 공매도하고 있고 주식은 롱·숏을 모두 줄여 순노출이 거의 없다고 밝혔습니다. 연준이 더는 금리를 내리지 않고 원자재 약세·신용 스프레드 확대가 보인다며 2027년 하반기 경기가 실망스러울 수 있다고 경고했고, 주식에선 AI 인프라보다 'AI 활용 사례'를 찾는다고 했습니다. 지금은 자본 보전이 우선이며 이 휴식은 이틀일 수도 6개월일 수도 있다고 했습니다.",
+  "check": "보도",
+  "src": "CoinDesk (Bloomberg 동일 보도)",
+  "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027",
+  "channel": "콘퍼런스 발언(보도)"
+ },
+ {
+  "id": "burry-1116",
+  "date": "2026-11-16",
+  "name": "마이클 버리",
+  "role": "전 사이언 에셋",
+  "stance": "혼재",
+  "topic": "풋 일부 청산·어도비 추가 매수, AMD는 '늘 너무 비싸'",
+  "summary": "본인 서브스택 'Trading Post'에서 일부 풋 포지션을 정리하고 롱을 늘렸으며, 어도비를 약 246달러에 더 사 '풀 포지션'이 됐다고 밝혔습니다(유료 구간 이후 내용은 미확인). 별도로 AMD를 '영원한 대안이라 늘 너무 비싸다'고 평가했고 반도체 ETF(SMH) 풋을 공개했다는 보도가 있습니다.",
+  "check": "원문(일부)·보도",
+  "src": "Michael Burry Substack · Admirals(Stocktwits 인용)",
+  "url": "https://michaeljburry.substack.com/p/trading-post-november-16-2026",
+  "channel": "본인 서브스택"
+ },
+ {
   "id": "druck-1116",
   "date": "2026-11-16",
   "name": "스탠리 드러켄밀러",
