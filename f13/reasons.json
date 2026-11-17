@@ -17,19 +17,19 @@
  },
  "berkshire:247361702": {
   "key": "berkshire:247361702",
-  "reason": "1분기 신규 편입(약 26억 달러)한 델타항공을 1,750만 주 늘렸다(44%). 공식 설명은 없고, 언론은 기록적 매출·잉여현금흐름, 프리미엄 고객 전략, 자체 정유소를 통한 연료비 상쇄를 이유로 꼽았다.",
+  "reason": "공개된 설명 없음. 1분기 신규 편입 후 2분기에 44%, 3분기에 12% 늘려 6,445만 주(약 54억 달러)가 됐다. 버핏이 오랫동안 항공주를 피해 온 것과 대비된다(언론 분석).",
   "basis": "언론 분석",
-  "src": "Yahoo Finance / Kiplinger",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-opens-2-220700663.html",
-  "period": "2026-06-30"
+  "src": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+  "period": "2026-09-30"
  },
  "berkshire:501044101": {
   "key": "berkshire:501044101",
-  "reason": "크로거 약 1,100만 주(22%)를 팔았다. 버크셔는 개별 매매 이유를 공개하지 않는다. 공개된 설명 없음 — 추정: 에이블 체제의 소비재 비중 조정.",
-  "basis": "추정",
-  "src": "IBTimes UK",
-  "url": "https://www.ibtimes.co.uk/berkshire-hathaway-portfolio-shift-2026-1814750",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 에이블 체제에서 크로거를 계속 줄여 10% 이상 축소했다(언론 분석). 추정으로는 소형 포지션을 정리하는 과정이다.",
+  "basis": "언론 분석",
+  "src": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+  "period": "2026-09-30"
  },
  "berkshire:23918K108": {
   "key": "berkshire:23918K108",
@@ -41,19 +41,19 @@
  },
  "berkshire:060505104": {
   "key": "berkshire:060505104",
-  "reason": "BoA 약 3,020만 주(약 16억 달러)를 팔며 5분기 연속 축소했다. 공개된 설명 없음. 키플링어는 반복된 소폭 매도로 '아직 당황할 때는 아니다'라고 평가했다.",
+  "reason": "공개된 설명 없음. 7개 분기 연속 축소로 5.7%(약 15억 달러)를 더 팔았고, 3분기 자금세탁 통제 관련 12억 달러 벌금과 목표에 못 미치는 ROTCE, 10년 평균보다 높은 주가순자산비율(1.84배)이 언급된다(언론 분석). 금융주 비중 축소 흐름의 연장으로 보인다.",
   "basis": "언론 분석",
-  "src": "Kiplinger / IBTimes UK",
-  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q2-2026",
-  "period": "2026-06-30"
+  "src": "Yahoo Finance (TIKR)",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/watch-berkshire-hathaway-files-13f-163542466.html",
+  "period": "2026-09-30"
  },
  "berkshire:14040H105": {
   "key": "berkshire:14040H105",
-  "reason": "캐피털원 약 420만 주를 팔아 58% 줄였다. 공개된 설명 없음. 키플링어는 금융주 노출 축소의 일환으로만 언급했다.",
+  "reason": "공개된 설명 없음. 2분기 절반 이상을 판 데 이어 62%를 더 팔아 비중이 0.1% 미만인 '반올림 오차' 수준이 됐다(언론 분석). 추정으로는 사실상 정리 수순이다.",
   "basis": "언론 분석",
   "src": "Kiplinger",
-  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q2-2026",
-  "period": "2026-06-30"
+  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+  "period": "2026-09-30"
  },
  "duquesne:013872106": {
   "key": "duquesne:013872106",
@@ -73,11 +73,11 @@
  },
  "duquesne:02079K305": {
   "key": "duquesne:02079K305",
-  "reason": "1분기에 전량 매도한 알파벳 A주를 약 33.6만 주 재매수했다. 본인 설명은 없다. 언론은 구글클라우드 호실적과, 5월 고점 400달러대에서 약 346달러로 내린 주가 조정을 배경으로 해석했다.",
-  "basis": "언론 분석",
-  "src": "Webull / Institutional Investor",
-  "url": "https://www.webull.ca/news-detail/15415937789895680",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음 — 추정: 2분기에 다시 샀던 알파벳을 한 분기 만에 전량 정리했다. 9월 'AI 투자 20%로 축소' 발언과 맞물린 AI 노출 축소로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "duquesne:023135106": {
   "key": "duquesne:023135106",
@@ -89,11 +89,11 @@
  },
  "duquesne:35137L105": {
   "key": "duquesne:35137L105",
-  "reason": "폭스 A주 약 220만 주를 새로 사서 신규 종목 중 2번째 규모가 됐다. 공개된 설명 없음 — 추정: 경기민감·저평가 미디어(지역방송·스포츠)에 대한 가치 베팅.",
+  "reason": "공개된 설명 없음 — 추정: 2분기 신규 편입한 폭스를 더 늘렸다. AI와 무관한 현금흐름·자사주 매입형 미디어주로 보인다(추정).",
   "basis": "추정",
-  "src": "Institutional Investor",
-  "url": "https://www.institutionalinvestor.com/article/stan-druckenmillers-buying-binge",
-  "period": "2026-06-30"
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "duquesne:12514G108": {
   "key": "duquesne:12514G108",
@@ -105,11 +105,11 @@
  },
  "duquesne:861012102": {
   "key": "duquesne:861012102",
-  "reason": "ST마이크로를 19% 늘려 310만 주를 보유했다. 공개된 설명 없음 — 추정: TSMC·AMD 신규 편입과 함께 AI 이외 반도체(아날로그·차량용) 경기 회복에 베팅.",
+  "reason": "공개된 설명 없음 — 추정: TSMC와 함께 반도체 비중을 줄이는 흐름(AMD·Arm·램리서치도 전량 매도)의 일부로 보인다.",
   "basis": "추정",
-  "src": "Webull",
-  "url": "https://www.webull.ca/news-detail/15415937789895680",
-  "period": "2026-06-30"
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "oaktree:8676EP108": {
   "key": "oaktree:8676EP108",
@@ -201,19 +201,19 @@
  },
  "tudor:464287200": {
   "key": "tudor:464287200",
-  "reason": "IVV를 730% 늘려 최대 보유 종목이 됐다. 같은 분기 SPY를 62.6% 줄인 것과 맞물려, 지수 노출을 저비용 동일 지수 ETF로 옮긴 것으로 보인다(추정). 분석 기사는 ETF로 시장 수익을 깔고 개별주로 AI 테마를 노리는 구조로 해석했다.",
-  "basis": "언론 분석",
-  "src": "InnovestX",
-  "url": "https://www.innovestx.co.th/cafeinvest/en/articles/paultudorjones-q22026-28082026",
-  "period": "2026-06-30"
+  "reason": "2분기에 SPY에서 IVV로 옮겼던 S&P500 ETF를 이번에는 IVV 80% 축소, SPY 증액으로 되돌렸다. 시장 방향 베팅이 아니라 유동성·옵션 헤지·거래비용에 따른 ETF 간 교체로 보인다 (추정).",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "tudor:78462F103": {
   "key": "tudor:78462F103",
-  "reason": "SPY를 62.6% 줄였다(비중 4.08%→1.36%). IVV 확대와 함께 보면 S&P500 노출을 줄였다기보다 상품을 갈아탄 것으로 추정된다. 공개된 설명 없음.",
+  "reason": "SPY를 260% 늘려 비중이 1.29%→4.99%가 됐다. IVV 감소분과 합치면 S&P500 ETF 총노출은 6.29%→6.06%로 비슷하다. 지수 헤지·트레이딩 수단을 바꾼 것으로 추정된다.",
   "basis": "추정",
-  "src": "InnovestX",
-  "url": "https://www.innovestx.co.th/cafeinvest/en/articles/paultudorjones-q22026-28082026",
-  "period": "2026-06-30"
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "tudor:874039100": {
   "key": "tudor:874039100",
@@ -233,11 +233,11 @@
  },
  "tudor:594918104": {
   "key": "tudor:594918104",
-  "reason": "MSFT를 148% 늘렸다. 종목별 설명은 없고, 존스의 AI 낙관론('더 샀다')과 같은 흐름으로 해석된다.",
+  "reason": "MSFT를 93.9% 팔아 비중이 2.58%→0.23%가 됐다. 언론은 매도 사실만 보도했다. 존스가 10월에 AI 지출과 부채로 시장이 한계점에 다가간다고 경고한 흐름과 같은 방향이다 (추정).",
   "basis": "언론 분석",
-  "src": "InnovestX",
-  "url": "https://www.innovestx.co.th/cafeinvest/en/articles/paultudorjones-q22026-28082026",
-  "period": "2026-06-30"
+  "src": "Yahoo Finance (CNBC 인터뷰)",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/paul-tudor-jones-sees-ai-134457284.html",
+  "period": "2026-09-30"
  },
  "tudor:67066G104": {
   "key": "tudor:67066G104",
@@ -281,27 +281,27 @@
  },
  "coatue:15675D103": {
   "key": "coatue:15675D103",
-  "reason": "세레브라스(2026년 5월 14일 나스닥 상장, 첫날 약 70% 상승)를 신규 편입했다. 코투의 사전 투자 여부와 편입 이유는 확인하지 못했다.",
+  "reason": "5월 IPO 뒤 보유하던 세레브라스를 53.6% 줄여 비중이 3.19%→1.06%가 됐다. IPO 급등과 보호예수 해제 이후의 차익실현으로 추정되며, 회사 설명은 없다.",
   "basis": "추정",
-  "src": "Fortune",
-  "url": "https://fortune.com/2026/05/15/cerebras-soars-almost-70-by-market-close-in-a-true-blockbuster-ipo/",
-  "period": "2026-06-30"
+  "src": "Rallies.ai",
+  "url": "https://rallies.ai/news/coatue-management-raises-stake-in-meta-reports-stake-in-sk-hynix-86575d2eeb64ee54",
+  "period": "2026-09-30"
  },
  "coatue:30303M102": {
   "key": "coatue:30303M102",
-  "reason": "메타를 10% 줄였다(비중 5.5%→2.9%). 공개된 설명 없음. 코투는 5월 업데이트에서 지금은 AI 하드웨어 '공급자'가 보상받고 대규모 투자하는 '구매자'는 회수가 느리다고 봤다.",
+  "reason": "주식 수를 78.7% 늘려 비중이 2.93%→6.01%로 회복됐다(2분기에는 축소). 언론은 매수 사실만 보도했고 이유는 나오지 않았다.",
   "basis": "추정",
-  "src": "Coatue 5월 업데이트",
-  "url": "https://www.globaldatacenterhub.com/p/15-key-takeaways-from-philippe-laffonts",
-  "period": "2026-06-30"
+  "src": "Rallies.ai",
+  "url": "https://rallies.ai/news/coatue-management-raises-stake-in-meta-reports-stake-in-sk-hynix-86575d2eeb64ee54",
+  "period": "2026-09-30"
  },
  "coatue:34631F102": {
   "key": "coatue:34631F102",
-  "reason": "포전트 파워 솔루션(전력장비, 2026년 2월 주당 27달러 IPO)을 신규 편입했다. 코투가 터빈 등 전력을 칩·메모리와 같은 '희소 투입재'로 분류한 논리와 일치한다(종목 직접 언급은 없음).",
-  "basis": "추정",
-  "src": "Coatue 5월 업데이트 / StreetInsider",
-  "url": "https://www.globaldatacenterhub.com/p/15-key-takeaways-from-philippe-laffonts",
-  "period": "2026-06-30"
+  "reason": "2월 IPO로 들어온 전력장비 업체 포전트 파워(2.35%)를 전량 매도했다. 같은 분기 GE버노바·이튼도 줄여 전력 인프라 비중 전반을 낮췄다. 상장 후 차익실현으로 추정되며, 공개된 이유는 없다.",
+  "basis": "언론 분석",
+  "src": "TradingView (Seeking Alpha)",
+  "url": "https://www.tradingview.com/news/seekingalpha:4b22285e3094b:0-coatue-management-takes-new-stake-in-salesforce-increases-meta-holdings-among-q3-moves/",
+  "period": "2026-09-30"
  },
  "coatue:44812J104": {
   "key": "coatue:44812J104",
@@ -321,19 +321,19 @@
  },
  "pershing:92826C839": {
   "key": "pershing:92826C839",
-  "reason": "비자를 신규 편입했다. 반기 서한에 따르면 스테이블코인·에이전틱 커머스·규제 우려로 주가가 디레이팅됐으나 그 우려는 과도하며, 세계 최고 수준의 우량 사업이라고 판단했다.",
-  "basis": "회사 서한/메모",
-  "src": "Pershing Square Holdings 반기보고서",
-  "url": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 2분기 신규 편입 직후 12.2%를 줄였다. 추정으로는 ICE·알콘 매수를 위한 비중 조절이다(2분기 매수 근거는 스테이블코인·규제 우려가 과도하다는 판단이었다).",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "pershing:57636Q104": {
   "key": "pershing:57636Q104",
-  "reason": "마스터카드를 신규 편입했다. 비자와 같은 논리로, 스테이블코인·AI 결제·규제 우려에 따른 밸류에이션 하락을 매수 기회로 봤다.",
-  "basis": "회사 서한/메모",
-  "src": "Pershing Square Holdings 반기보고서",
-  "url": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 비자와 함께 약 11%를 줄였다. 추정으로는 결제 네트워크 합산 비중을 조절한 것이다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "pershing:78409V104": {
   "key": "pershing:78409V104",
@@ -345,11 +345,11 @@
  },
  "pershing:11271J107": {
   "key": "pershing:11271J107",
-  "reason": "브룩필드를 3.7% 소폭 줄였다(비중 하락은 주가 영향 포함). 서한은 사모신용·소프트웨어 리스크 노출이 미미하고 운용사 이익 대비 14배라 저평가라며 핵심 보유를 유지했다. 소폭 축소 사유는 공개된 설명 없음.",
-  "basis": "회사 서한/메모",
-  "src": "Pershing Square Holdings 반기보고서",
-  "url": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 주식은 10.7% 줄었지만 비중 하락 폭(9.6%→6.1%)이 더 큰 것은 주가 약세와 전체 포트폴리오 증가(255억→308억 달러) 효과로 보인다(추정). 2분기에 이은 추가 축소로 신규 종목 매수 재원을 마련한 것으로 추정된다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "pershing:64110L106": {
   "key": "pershing:64110L106",
@@ -361,11 +361,11 @@
  },
  "pershing:594918104": {
   "key": "pershing:594918104",
-  "reason": "MSFT를 9.8% 늘렸다. 애크먼은 알파벳을 팔아 MSFT를 샀다며 M365·애저가 AI 경쟁에도 견고하다고 했고, 서한은 지난 10년 중 가장 낮은 수준의 PER이라고 평가했다.",
-  "basis": "본인 발언",
-  "src": "Stocktwits (애크먼 X 게시물) / 반기보고서",
-  "url": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-swaps-googl-stake-for-new-msft-position-clarifies-sale-not-a-bet-against-search-giant/cZXr5jkRelO",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 34.5%를 줄였다. 퍼싱은 3분기 실적에서 MSFT·메타가 수익을 이끌었다고 밝혔다. 추정으로는 2026년 5월 매수 후 크게 오른 데 따른 차익 실현과 ICE·알콘·넷플릭스 매수 재원 마련이다.",
+  "basis": "추정",
+  "src": "TIKR",
+  "url": "https://www.tikr.com/blog/bill-ackmans-next-13f-is-due-monday-heres-what-to-watch",
+  "period": "2026-09-30"
  },
  "ark:007903107": {
   "key": "ark:007903107",
@@ -481,35 +481,35 @@
  },
  "rvcap:225310101": {
   "key": "rvcap:225310101",
-  "reason": "이번 분기 매도 이유는 공개되지 않았습니다. 비널은 2025년 서한에서 크레딧억셉턴스의 자사주 매입으로 10년간 지분율이 거의 두 배가 됐다며 단기 전망에 자신감을 보였습니다. 추정: 주가가 올라 비중이 커지자 일부를 덜어낸 것.",
+  "reason": "공개된 설명 없음 — 추정: 주식 수는 2.6% 늘렸지만 주가가 떨어져 비중이 18.0%에서 14.6%로 줄었다. 하락 국면에서 소폭 추가 매수한 것으로 보인다.",
   "basis": "추정",
-  "src": "Hedge Fund Alpha(RV Capital 서한)",
-  "url": "https://hedgefundalpha.com/?p=2194996",
-  "period": "2026-06-30"
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "rvcap:44332N106": {
   "key": "rvcap:44332N106",
-  "reason": "공개된 설명 없음 — 추정: 중국 소비 관련 비중을 소폭 조정한 것.",
+  "reason": "공개된 설명 없음 — 추정: 2년간 보유한 H월드를 모두 팔았다. 같은 분기 아투어(ATAT)를 비슷한 비중(5%)으로 새로 사, 중국 호텔 업종 안에서 종목을 바꾼 것으로 보인다. H월드가 2026년 상반기 실적 호조로 가이던스를 올린 뒤라 차익실현일 가능성도 있다.",
   "basis": "추정",
   "src": "",
   "url": "",
-  "period": "2026-06-30"
+  "period": "2026-09-30"
  },
  "rvcap:30303M102": {
   "key": "rvcap:30303M102",
-  "reason": "이번 분기 매도 이유는 공개되지 않았습니다. 비널은 2025년 서한에서 메타의 해자가 처음 샀을 때보다 넓어졌고 주가도 싸다고 평가했습니다. 추정: 소폭 비중 조절.",
-  "basis": "추정",
-  "src": "Hedge Fund Alpha(RV Capital 서한)",
-  "url": "https://hedgefundalpha.com/?p=2194996",
-  "period": "2026-06-30"
- },
- "rvcap:98850P109": {
-  "key": "rvcap:98850P109",
-  "reason": "공개된 설명 없음 — 추정: 소폭 비중 조절.",
+  "reason": "공개된 설명 없음 — 추정: 주식 수를 6.4% 줄였지만 주가 상승으로 비중은 20.5%에서 23.4%로 커졌다. 비중이 커져 일부 덜어낸 것으로 보인다.",
   "basis": "추정",
   "src": "",
   "url": "",
-  "period": "2026-06-30"
+  "period": "2026-09-30"
+ },
+ "rvcap:98850P109": {
+  "key": "rvcap:98850P109",
+  "reason": "공개된 설명 없음 — 추정: 얌차이나 주식 수를 8.3% 늘렸고 비중은 4.4%로 거의 같다. 중국 소비주 노출은 유지한 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "rvcap:594918104": {
   "key": "rvcap:594918104",
@@ -521,11 +521,11 @@
  },
  "rvcap:146869102": {
   "key": "rvcap:146869102",
-  "reason": "비널은 카바나를 최대 확신 종목으로 보며 \"게임은 카바나가 질 때만 끝난다\"는 취지로 썼습니다. 다만 이번 분기 주식 수가 크게 늘었는데도 비중은 거의 같아, 실제로 더 산 것인지는 13F만으로 확인되지 않습니다(추정).",
-  "basis": "회사 서한/메모",
-  "src": "Hedge Fund Alpha(RV Capital 서한)",
+  "reason": "공개된 설명 없음 — 추정: 카바나 주식 수를 15% 늘려 비중 31.4%로 최대 종목을 유지했다. 비널은 2025년 서한에서 카바나 논리에 여전히 확신한다고 밝힌 바 있다.",
+  "basis": "추정",
+  "src": "Hedge Fund Alpha(RV Capital 2025년 서한)",
   "url": "https://hedgefundalpha.com/?p=2194996",
-  "period": "2026-06-30"
+  "period": "2026-09-30"
  },
  "rvcap:45841N107": {
   "key": "rvcap:45841N107",
@@ -537,11 +537,11 @@
  },
  "himalaya:722304102": {
   "key": "himalaya:722304102",
-  "reason": "리루의 직접 설명은 없습니다. 2025년 2분기 재매수에 이어 비중을 22%까지 키웠는데, 언론은 미국 대형 펀드들이 중국 비중을 줄이던 때의 역발상 매수로 해석합니다.",
-  "basis": "언론 분석",
-  "src": "InvestorLens",
-  "url": "https://www.investorlens.capital/blog/2026-10-04-li-lu-himalaya-q2-2026-pdd",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음 — 추정: PDD 주식 수를 9.3% 더 늘려 비중이 24.2%로 최대 종목이 됐다. GuruFocus는 이를 리루의 3분기 최대 변화로 보도했지만 리루 본인의 설명은 없다. 2분기에 이어 저평가된 중국 플랫폼에 확신을 키운 것으로 보인다.",
+  "basis": "추정",
+  "src": "GuruFocus",
+  "url": "https://www.gurufocus.com/news/9202778/li-lus-top-q3-2026-move-pdd-holdings-inc-at-a-206-portfolio-impact",
+  "period": "2026-09-30"
  },
  "himalaya:060505104": {
   "key": "himalaya:060505104",
@@ -649,11 +649,11 @@
  },
  "appaloosa:595112103": {
   "key": "appaloosa:595112103",
-  "reason": "1분기까지 세 배로 늘렸던 마이크론을 2분기에 약 69만 주 줄였습니다. 언론은 '일부를 덜었지만 떠나지는 않았다'며 차익 실현으로 해석합니다. 주가가 올라 비중은 오히려 15%로 커졌습니다.",
-  "basis": "언론 분석",
-  "src": "24/7 Wall St.",
-  "url": "https://247wallst.com/investing/2026/08/18/the-billionaire-famous-for-betting-big-on-micron-just-bought-airline-stocks/",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음 — 추정: 2분기에 줄였던 마이크론을 28% 다시 늘려 17.6%로 최대 보유를 유지했다. 메모리 업황에 대한 확신은 여전한 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "appaloosa:01609W102": {
   "key": "appaloosa:01609W102",
@@ -761,19 +761,19 @@
  },
  "bridgewater:78462F103": {
   "key": "bridgewater:78462F103",
-  "reason": "2분기 약 7.1억 달러를 SPY에 넣어 최대 보유가 됐다. 회사 설명은 없고, AI 주식 매도 대금 일부를 지수 ETF로 옮긴 것으로 분석됐다.",
+  "reason": "2분기 최대 보유였던 SPY를 36% 줄여 비중이 16.3%→11.29%가 됐다. 언론은 S&P500 ETF 대폭 축소를 보도했지만 회사 설명은 없다. 미국 주식 베타 노출 자체를 줄인 것으로 보인다 (추정).",
   "basis": "언론 분석",
-  "src": "InvestorLens",
-  "url": "https://www.investorlens.capital/blog/2026-11-02-bridgewater-q2-2026-sells-ai-buys-index",
-  "period": "2026-06-30"
+  "src": "ChainCatcher",
+  "url": "https://www.chaincatcher.com/en/article/2305342",
+  "period": "2026-09-30"
  },
  "bridgewater:023135106": {
   "key": "bridgewater:023135106",
-  "reason": "1분기 두 배로 늘렸던 아마존을 약 54% 줄였다. 주가가 분기 14% 올랐음에도 축소한 이유는 공시상 설명되지 않는다고 분석가들은 지적했다.",
+  "reason": "아마존을 52.1% 줄였다. 2분기 약 54%에 이은 연속 축소로, 비중은 1.98%→1.05%가 됐다. 언론은 100만 주 이상 축소를 보도했지만 이유는 나오지 않았다.",
   "basis": "언론 분석",
-  "src": "Navnoor Bawa Research",
-  "url": "https://www.navnoorbawaresearch.com/p/how-bridgewater-trades-ai-in-its",
-  "period": "2026-06-30"
+  "src": "ChainCatcher",
+  "url": "https://www.chaincatcher.com/en/article/2305342",
+  "period": "2026-09-30"
  },
  "bridgewater:595112103": {
   "key": "bridgewater:595112103",
@@ -793,11 +793,11 @@
  },
  "bridgewater:464287200": {
   "key": "bridgewater:464287200",
-  "reason": "약 2.4억 달러 추가. AI 개별주 매도 대금을 S&P500 지수 ETF로 옮긴 흐름의 일부로 분석됐다.",
+  "reason": "IVV도 49.8% 줄여 비중이 9.22%→5.02%가 됐다. SPY·VOO와 함께 S&P500 ETF 합계 비중이 약 26.8%에서 약 16.5%로 낮아졌다. 2분기 지수 ETF 확대를 되돌린 것이다.",
   "basis": "언론 분석",
-  "src": "InvestorLens",
-  "url": "https://www.investorlens.capital/blog/2026-11-02-bridgewater-q2-2026-sells-ai-buys-index",
-  "period": "2026-06-30"
+  "src": "ChainCatcher",
+  "url": "https://www.chaincatcher.com/en/article/2305342",
+  "period": "2026-09-30"
  },
  "bridgewater:36828A101": {
   "key": "bridgewater:36828A101",
@@ -809,27 +809,27 @@
  },
  "bridgewater:922908363": {
   "key": "bridgewater:922908363",
-  "reason": "약 2.1억 달러 추가해 SPY·IVV와 함께 지수 노출을 늘렸다. 이유에 대한 회사 설명은 없다.",
-  "basis": "언론 분석",
-  "src": "InvestorLens",
-  "url": "https://www.investorlens.capital/blog/2026-11-02-bridgewater-q2-2026-sells-ai-buys-index",
-  "period": "2026-06-30"
+  "reason": "2분기 189% 늘렸던 VOO를 83.3% 줄였다. S&P500 ETF 3종을 함께 줄인 같은 맥락이다 (추정).",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "thirdpoint:934423104": {
   "key": "thirdpoint:934423104",
-  "reason": "2,000만 주(약 5.3억 달러) 신규로 최대 보유가 됐다. 당시 파라마운트의 주당 31달러 인수안에 약 14% 차익 스프레드가 있어 합병차익 성격으로 보이며(추정), 로브 서한에는 설명이 없다.",
-  "basis": "언론 분석",
-  "src": "Barron's 요약(Pulse)",
-  "url": "https://www.pulse.bot/television/news/warner-bros-discovery-investors-eyeing-14-return-if-paramount-merger-closes-by-sept-30-61bf4ed3-3a1b-42e9-ab46-14eb98f44bdc",
-  "period": "2026-06-30"
+  "reason": "3분기 서한은 WBD를 분기 상위 5대 수익 종목으로 꼽았다. 2분기에 산 파라마운트 인수 합병차익 포지션을 인수 종결(10월 초 보도) 전에 정리한 것으로 보인다(정리 이유는 추정).",
+  "basis": "회사 서한/메모",
+  "src": "Third Point Q3 2026 서한",
+  "url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1760/Third_Point_Q3_2026_Investor_Letter_MLHL.pdf",
+  "period": "2026-09-30"
  },
  "thirdpoint:023135106": {
   "key": "thirdpoint:023135106",
-  "reason": "약 19만 주만 팔아 여전히 상위 보유다. 이유는 공개되지 않았고 분석가들은 차익실현·리밸런싱으로 해석했다.",
-  "basis": "언론 분석",
-  "src": "Daniel Scrivner",
-  "url": "https://www.danielscrivner.com/dan-loeb-trades-and-holdings-q2-2026/",
-  "period": "2026-06-30"
+  "reason": "서한은 하이퍼스케일러 포지션을 줄였다고 밝혔으나 종목명은 밝히지 않았다. 아마존 175만 주 전량 매도가 이에 해당하는 것으로 보인다(연결은 추정).",
+  "basis": "회사 서한/메모",
+  "src": "Third Point Q3 2026 서한",
+  "url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1760/Third_Point_Q3_2026_Investor_Letter_MLHL.pdf",
+  "period": "2026-09-30"
  },
  "thirdpoint:879433829": {
   "key": "thirdpoint:879433829",
@@ -841,11 +841,11 @@
  },
  "thirdpoint:02079K305": {
   "key": "thirdpoint:02079K305",
-  "reason": "알파벳을 약 85만 주 늘렸다. 서한에 직접 설명은 없고, 분석가들은 클라우드 매출 82% 증가 등 AI 성과를 배경으로 들었다.",
-  "basis": "언론 분석",
-  "src": "Daniel Scrivner",
-  "url": "https://www.danielscrivner.com/dan-loeb-trades-and-holdings-q2-2026/",
-  "period": "2026-06-30"
+  "reason": "서한은 하이퍼스케일러 포지션 축소를 밝혔다. 알파벳을 103만 주에서 17.5만 주로 줄인 것이 그 일부로 보인다(종목 연결은 추정).",
+  "basis": "회사 서한/메모",
+  "src": "Third Point Q3 2026 서한",
+  "url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1760/Third_Point_Q3_2026_Investor_Letter_MLHL.pdf",
+  "period": "2026-09-30"
  },
  "thirdpoint:G25508105": {
   "key": "thirdpoint:G25508105",
@@ -993,11 +993,11 @@
  },
  "fundsmith:57636Q104": {
   "key": "fundsmith:57636Q104",
-  "reason": "네트워크 효과와 현금→디지털 결제 전환 성장을 근거로 했고, 비자와 함께 보유해 UCITS 집중 규제를 넘지 않고 결제 노출을 늘렸다.",
+  "reason": "반기 서한에서 네트워크 효과, 약 14억 명의 금융소외 성인과 B2B 결제의 성장 여지, 비자와 함께 보유해 개별 종목 위험 없이 결제 산업에 노출된다는 점을 들었다. 3분기에 17% 더 늘려 최대 비중 종목이 됐다(7월 말 팩트시트 1위).",
   "basis": "회사 서한/메모",
   "src": "Fundsmith 반기 서한",
   "url": "https://www.fundsmith.co.uk/media/lfhpxi1x/fundsmith-equity-fund-semi-annual-letter-to-shareholders-2026.pdf",
-  "period": "2026-06-30"
+  "period": "2026-09-30"
  },
  "fundsmith:874039100": {
   "key": "fundsmith:874039100",
@@ -1025,11 +1025,11 @@
  },
  "fundsmith:36828A101": {
   "key": "fundsmith:36828A101",
-  "reason": "2025년 매출의 약 4배인 1,630억 달러 수주잔고와 서비스 기반 독점적 해자를 근거로 매수했다.",
-  "basis": "회사 서한/메모",
-  "src": "Fundsmith 반기 서한",
-  "url": "https://www.fundsmith.co.uk/media/lfhpxi1x/fundsmith-equity-fund-semi-annual-letter-to-shareholders-2026.pdf",
-  "period": "2026-06-30"
+  "reason": "공개된 설명 없음. 상반기에 1,630억 달러 수주잔고를 근거로 매수했지만 3분기에 56.5%를 줄였다. 추정으로는 급등 후 비중 관리다. 단, 13F에는 펀드스미스 여러 펀드가 합산돼 있다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  },
  "russo:57636Q104": {
   "key": "russo:57636Q104",
@@ -1142,5 +1142,453 @@
   "src": "GuruFocus (Yahoo Finance)",
   "url": "https://finance.yahoo.com/markets/stocks/articles/bill-nygrens-bold-q2-2026-000043522.html",
   "period": "2026-06-30"
+ },
+ "berkshire:526057104": {
+  "key": "berkshire:526057104",
+  "reason": "공개된 설명 없음. 보유 주식을 약 2배로 늘렸고, 7월 68억 달러 테일러 모리슨 인수를 마무리한 점과 함께 '주택건설업을 분명히 좋아한다'는 해석이 나온다(언론 분석).",
+  "basis": "언론 분석",
+  "src": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+  "period": "2026-09-30"
+ },
+ "berkshire:T19377109": {
+  "key": "berkshire:T19377109",
+  "reason": "7월 나스닥 상장 때 약 6억 달러를 투자했다. 10월에는 주당 33달러, 3.3억 달러 사모 투자를 더해 지분이 약 4%가 됐다. 회사 측은 이 자금으로 인수 여력이 커진다고 밝혔고(회사 발표), 버크셔는 이유를 밝히지 않았다.",
+  "basis": "언론 분석",
+  "src": "The Next Web",
+  "url": "https://thenextweb.com/news/berkshire-hathaway-bending-spoons-330m-stake",
+  "period": "2026-09-30"
+ },
+ "berkshire:92343E102": {
+  "key": "berkshire:92343E102",
+  "reason": "공개된 설명 없음. 보유 지분의 34%(약 8.65억 달러)를 팔았다. 2025년 7월 2차 매각으로 지분을 10% 아래로 낮춘 데 이은 추가 축소다. 추정으로는 장기 보유분의 차익 실현과 기술·인프라 비중 조정이다.",
+  "basis": "언론 분석",
+  "src": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
+  "period": "2026-09-30"
+ },
+ "berkshire:670346105": {
+  "key": "berkshire:670346105",
+  "reason": "공개된 설명 없음. 2분기 50% 이상 축소에 이어 약 15%를 더 줄였다(언론 분석). 추정으로는 철강 경기 둔화에 따른 소형 포지션 정리 과정이다.",
+  "basis": "언론 분석",
+  "src": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+  "period": "2026-09-30"
+ },
+ "duquesne:874039100": {
+  "key": "duquesne:874039100",
+  "reason": "드러켄밀러는 9월 10일 파이퍼샌들러 비공개 행사에서 AI 투자를 6개월 전의 약 20% 수준으로 줄였고 AI 인프라 증설이 우려할 단계라고 말했다(FT 보도). TSMC 94.5% 매도는 이 AI 비중 축소의 일부로 보인다(연결은 추정).",
+  "basis": "본인 발언",
+  "src": "FT (TechNews 인용)",
+  "url": "https://finance.technews.tw/2026/09/11/druckenmiller-says-yields-are-actually-a-bit-low/",
+  "period": "2026-09-30"
+ },
+ "duquesne:G7997R103": {
+  "key": "duquesne:G7997R103",
+  "reason": "본인 설명은 없다. 언론은 1분기 시게이트 편입 당시 AI 데이터센터의 대용량 스토리지(HDD) 병목에 대한 베팅으로 해석했고, 이번 분기 웨스턴디지털 신규 편입과 함께 HDD 쪽으로 집중한 것으로 보인다(추정).",
+  "basis": "언론 분석",
+  "src": "Yahoo Finance / Newsquawk",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-dumped-every-145823004.html",
+  "period": "2026-09-30"
+ },
+ "duquesne:91332U101": {
+  "key": "duquesne:91332U101",
+  "reason": "공개된 설명 없음 — 추정: 게임엔진·광고 플랫폼 회복 기대로 소규모 포지션을 크게 늘린 것으로 보이며, 같은 분기 앱러빈·팔란티어 신규 편입과 함께 AI 활용 소프트웨어 쪽으로 옮긴 흐름(추정).",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "duquesne:910047109": {
+  "key": "duquesne:910047109",
+  "reason": "공개된 설명 없음 — 추정: 2분기에 샀던 항공주를 단기 트레이드로 정리한 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "duquesne:80004C200": {
+  "key": "duquesne:80004C200",
+  "reason": "공개된 설명 없음 — 추정: 1분기에 산 샌디스크(NAND)를 급등 후 정리하고, 메모리 대신 HDD(시게이트·웨스턴디지털)로 옮긴 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "tudor:285512109": {
+  "key": "tudor:285512109",
+  "reason": "일렉트로닉 아츠(1.17%)를 전량 매도했다. EA는 사모펀드 컨소시엄의 인수 대상이어서, 인수합병 차익거래 포지션을 정리한 것으로 추정된다. 확인된 공개 설명은 없다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "tudor:595112103": {
+  "key": "tudor:595112103",
+  "reason": "마이크론을 62.1% 줄여 비중이 1.58%→0.58%가 됐다. 메모리주 급등 뒤의 차익실현으로 보이며, 같은 분기 SK하이닉스 ADR을 새로 담아 일부를 옮긴 것으로 추정된다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "tudor:81369Y886": {
+  "key": "tudor:81369Y886",
+  "reason": "유틸리티 ETF(XLU)를 8배 이상 늘려 비중이 0.12%→1.04%가 됐다. 존스가 경고한 2027년 약세장에 대비한 방어주 보강이거나, AI 전력 수요 테마 플레이일 수 있다 (추정).",
+  "basis": "추정",
+  "src": "Motley Fool",
+  "url": "https://www.fool.com/investing/2026/10/15/does-paul-tudor-jones-know-something-wall-street/",
+  "period": "2026-09-30"
+ },
+ "tudor:46269C102": {
+  "key": "tudor:46269C102",
+  "reason": "이리듐 커뮤니케이션즈를 0.82% 비중으로 신규 편입했다. 공개된 설명은 없다. 위성통신 경쟁 구도 변화에 따른 이벤트성 트레이드로 추정된다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "tudor:78392B206": {
+  "key": "tudor:78392B206",
+  "reason": "SK하이닉스 ADR을 0.8% 비중으로 신규 편입했다. 마이크론 축소와 함께 보면, 메모리 노출을 종목 간에 교체한 것으로 추정된다. 공개 설명은 없다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "coatue:594918104": {
+  "key": "coatue:594918104",
+  "reason": "주식 수를 약 2.2배(+120%)로 늘려 비중 2.25%→6.08%가 됐다. 라퐁은 11월 영상에서 클라우드 시대 승자로 마이크로소프트 애저를 들었고, 이제 큰 기회는 오픈AI·앤트로픽이라고 했다. 오픈AI 지분을 가진 MSFT가 그 간접 노출 수단이라는 해석은 (추정)이다.",
+  "basis": "추정",
+  "src": "FourWeekMBA (라퐁 X 영상)",
+  "url": "https://fourweekmba.com/ai-coatues-laffont-calls-openai-and-anthropic-the-new-big-idea/",
+  "period": "2026-09-30"
+ },
+ "coatue:79466L302": {
+  "key": "coatue:79466L302",
+  "reason": "3.38% 비중으로 신규 편입했다(약 803만 주). 거루포커스는 성장 전망에 대한 확신과 GF 가치 대비 저평가로 해석했다. 2026년 AI 대체 우려로 소프트웨어주가 급락한 뒤의 역발상 매수라는 해석은 (추정)이다.",
+  "basis": "언론 분석",
+  "src": "GuruFocus",
+  "url": "https://www.gurufocus.com/news/9202278/coatue-management-boosts-salesforce-crm-stake-amid-attractive-valuation",
+  "period": "2026-09-30"
+ },
+ "coatue:78392B206": {
+  "key": "coatue:78392B206",
+  "reason": "SK하이닉스 ADS 약 950만 주를 3.21% 비중으로 신규 편입했다. 매매 설명은 없다. 5월 공개시장 업데이트의 '메모리 희소성 가격' 논리와 2분기 마이크론 대량 매수의 연장선으로 보인다 (추정).",
+  "basis": "추정",
+  "src": "Rallies.ai (보유 내역)",
+  "url": "https://rallies.ai/news/coatue-management-raises-stake-in-meta-reports-stake-in-sk-hynix-86575d2eeb64ee54",
+  "period": "2026-09-30"
+ },
+ "coatue:512807306": {
+  "key": "coatue:512807306",
+  "reason": "주식 수는 5.1% 늘었지만 비중은 8.41%→5.98%로 낮아졌다. 다른 종목을 크게 사면서 상대 비중이 희석된 효과다. 반도체 장비 '곡괭이·삽' 선호(6월 CNBC)는 그대로 유지한 것으로 보인다 (추정).",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "coatue:82509L107": {
+  "key": "coatue:82509L107",
+  "reason": "쇼피파이를 2.12% 비중으로 신규 편입했다(3년 전에도 보유한 이력이 있다). 같은 분기 비자·ICE·세일즈포스도 새로 담아, AI 하드웨어 일변도에서 플랫폼·소프트웨어로 분산한 것으로 보인다 (추정).",
+  "basis": "추정",
+  "src": "GuruFocus",
+  "url": "https://www.gurufocus.com/news/9202278/coatue-management-boosts-salesforce-crm-stake-amid-attractive-valuation",
+  "period": "2026-09-30"
+ },
+ "pershing:45866F104": {
+  "key": "pershing:45866F104",
+  "reason": "약 660만 주(약 10억 달러)를 신규 편입했다. 퍼싱은 AI의 데이터 사업 잠식과 신상품(무기한 선물) 위험이 과도하게 반영돼 PER이 약 25배에서 17배로 내렸다고 봤다. 연 10~15% 이익 성장과 밸류에이션 회복을 기대했다.",
+  "basis": "회사 서한/메모",
+  "src": "El Cronista (퍼싱 반기보고서 인용)",
+  "url": "https://www.cronista.com/finanzas-mercados/la-nueva-apuesta-de-bill-ackman-las-6-acciones-que-sumo-a-su-cartera-y-por-que-apuesta-por-ellas/",
+  "period": "2026-09-30"
+ },
+ "pershing:H01301128": {
+  "key": "pershing:H01301128",
+  "reason": "약 1,470만 주(약 9.5억 달러)를 신규 편입했다. 고령화에 따른 안과 수요, 3만 대 장비에서 나오는 소모품 반복 매출, PER 약 28배에서 18배로의 하락, 영업이익률 20%에서 25% 이상으로의 개선 여지를 근거로 들었다.",
+  "basis": "회사 서한/메모",
+  "src": "El Cronista (퍼싱 반기보고서 인용)",
+  "url": "https://www.cronista.com/finanzas-mercados/la-nueva-apuesta-de-bill-ackman-las-6-acciones-que-sumo-a-su-cartera-y-por-que-apuesta-por-ellas/",
+  "period": "2026-09-30"
+ },
+ "pershing:76131D103": {
+  "key": "pershing:76131D103",
+  "reason": "공개된 설명 없음. 14.8%를 줄였다. 다만 11월 3일 실적 콜에서 '가장 오래 보유한 회사 중 하나'로 여전히 기대가 크다고 밝혀 투자 논리 훼손보다는 비중 조절로 보인다(추정).",
+  "basis": "추정",
+  "src": "Webull (PS 3분기 실적 콜 녹취)",
+  "url": "https://www.webull.com/news/15861781781191680",
+  "period": "2026-09-30"
+ },
+ "pershing:30303M102": {
+  "key": "pershing:30303M102",
+  "reason": "공개된 설명 없음. 11.4%를 줄였다. 퍼싱은 3분기 실적에서 메타가 수익을 견인했다고 밝혔고, 빅테크의 AI 투자를 방어가 아닌 공격적 투자로 본다는 시각을 유지했다. 추정으로는 상승분 일부를 차익 실현한 것이다.",
+  "basis": "추정",
+  "src": "TIKR",
+  "url": "https://www.tikr.com/blog/bill-ackmans-next-13f-is-due-monday-heres-what-to-watch",
+  "period": "2026-09-30"
+ },
+ "rvcap:04965M106": {
+  "key": "rvcap:04965M106",
+  "reason": "공개된 설명 없음 — 추정: 아투어를 5.16% 비중으로 새로 샀다. H월드를 판 자리를 메운 만큼, 중국 중고급 라이프스타일 호텔 체인의 성장성을 더 높게 본 것으로 추정된다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "rvcap:244199105": {
+  "key": "rvcap:244199105",
+  "reason": "공개된 설명 없음 — 추정: 비중 0.8%에 불과한 디어를 모두 팔았다. 작은 비중이라 핵심 포트폴리오 밖의 정리성 매도로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "himalaya:88034P109": {
+  "key": "himalaya:88034P109",
+  "reason": "공개된 설명 없음 — 추정: 텐센트뮤직 주식 수를 두 배 넘게 늘려 비중이 1.5%에서 3.1%로 커졌다. PDD와 함께 중국 인터넷 플랫폼 노출을 넓힌 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "appaloosa:84615Q103": {
+  "key": "appaloosa:84615Q103",
+  "reason": "본인 설명은 없다. 언론은 2분기 첫 편입 때 스페이스X를 발사·위성 기반 AI 인프라 병목에 대한 베팅으로 해석했고, 3분기 주식 수를 약 17배(5.57억 달러)로 늘렸다.",
+  "basis": "언론 분석",
+  "src": "TheStreet / KuCoin",
+  "url": "https://www.thestreet.com/investing/david-tepper-adds-coreweave-spacex-stock-ai-bottleneck",
+  "period": "2026-09-30"
+ },
+ "appaloosa:02079K107": {
+  "key": "appaloosa:02079K107",
+  "reason": "공개된 설명 없음 — 추정: 알파벳을 46% 줄이고 엔비디아·램리서치·ASML을 늘려, AI 플랫폼에서 하드웨어·장비 쪽으로 옮긴 차익 실현으로 보인다.",
+  "basis": "추정",
+  "src": "KuCoin (WOLF Financial)",
+  "url": "https://www.kucoin.com/news/insight/SPCX/6afb78a9e5453b00076ddb9f",
+  "period": "2026-09-30"
+ },
+ "appaloosa:68389X105": {
+  "key": "appaloosa:68389X105",
+  "reason": "공개된 설명 없음 — 추정: 2025년 말 팔았던 오라클을 약 1.7억 달러 규모로 다시 샀다. AI 데이터센터 클라우드 확장 수혜를 노린 재진입으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "appaloosa:67066G104": {
+  "key": "appaloosa:67066G104",
+  "reason": "공개된 설명 없음 — 추정: 엔비디아를 31% 늘리고 AMD·브로드컴·퀄컴은 모두 팔아, AI 칩은 엔비디아로 모은 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "appaloosa:629377508": {
+  "key": "appaloosa:629377508",
+  "reason": "공개된 설명 없음 — 추정: 전력주 NRG를 19% 줄이고 PG&E·모딘(데이터센터 냉각)을 새로 사, 전력·인프라 안에서 종목을 바꾼 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "appaloosa:007903107": {
+  "key": "appaloosa:007903107",
+  "reason": "공개된 설명 없음 — 추정: AMD·브로드컴·퀄컴을 함께 정리하고 엔비디아로 모은 AI 칩 정리로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "appaloosa:038222105": {
+  "key": "appaloosa:038222105",
+  "reason": "공개된 설명 없음 — 추정: 어플라이드머티리얼즈를 새로 사고 램리서치(+63%)·ASML(+30%)도 늘려, 반도체 장비 비중을 키운 것으로 보인다.",
+  "basis": "추정",
+  "src": "KuCoin (WOLF Financial)",
+  "url": "https://www.kucoin.com/news/insight/SPCX/6afb78a9e5453b00076ddb9f",
+  "period": "2026-09-30"
+ },
+ "bridgewater:02079K305": {
+  "key": "bridgewater:02079K305",
+  "reason": "알파벳을 65.2% 팔아 비중이 1.94%→0.69%가 됐다(3년간 주식 수 -77.5%). 회사 설명은 없다. 시스템 기반의 대형 기술주 비중 축소가 이어진 것으로 추정된다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "bridgewater:594918104": {
+  "key": "bridgewater:594918104",
+  "reason": "MSFT를 68.9% 줄여 비중이 1.09%→0.49%가 됐다. 공동 CIO들은 4월 메모에서 AI가 기존 소프트웨어 기업에 심각한 위협이라고 썼다. 이 시각이 축소에 반영됐을 수 있다 (추정).",
+  "basis": "추정",
+  "src": "Yahoo Finance",
+  "url": "https://finance.yahoo.com/sectors/technology/articles/bridgewater-cio-says-ai-poses-154006772.html",
+  "period": "2026-09-30"
+ },
+ "bridgewater:747525103": {
+  "key": "bridgewater:747525103",
+  "reason": "퀄컴을 440% 늘려 비중이 0.12%→0.7%가 됐다. 언론은 S&P500 ETF를 줄이고 퀄컴·마이크론 등 반도체를 늘렸다고 보도했다. 회사 설명은 없다.",
+  "basis": "언론 분석",
+  "src": "Moomoo",
+  "url": "https://www.moomoo.com/news/post/1004799555/in-the-third-quarter-bridgewater-significantly-reduced-its-holdings-in",
+  "period": "2026-09-30"
+ },
+ "bridgewater:907818108": {
+  "key": "bridgewater:907818108",
+  "reason": "유니언퍼시픽(0.57%)을 전량 매도했다. 노퍽서던 인수를 진행 중인 종목이어서, 관련 이벤트 리스크를 정리했거나 팩터 배분을 바꾼 것으로 추정된다. 공개 설명은 없다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "thirdpoint:30303M102": {
+  "key": "thirdpoint:30303M102",
+  "reason": "3분기 서한은 메타를 분기 상위 5대 수익 종목으로 꼽았고, 하이퍼스케일러를 반복 매출 기반의 강한 사업모델 때문에 늘렸다고 설명했다. 다만 서한(11월 2일)은 이후 하이퍼스케일러를 줄였다고 밝혀, 현재 보유는 9월 말보다 작을 수 있다.",
+  "basis": "회사 서한/메모",
+  "src": "Third Point Q3 2026 서한",
+  "url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1760/Third_Point_Q3_2026_Investor_Letter_MLHL.pdf",
+  "period": "2026-09-30"
+ },
+ "thirdpoint:91529Y106": {
+  "key": "thirdpoint:91529Y106",
+  "reason": "공개된 설명 없음 — 추정: 500만 주(약 4.4억 달러)를 새로 산 2대 보유 종목이다. 서한은 손해보험을 숏 테마로 들었지만 우넘(장애·생명보험)은 다른 업종으로, 낮은 밸류에이션과 자본환원을 노린 가치 투자로 보인다(추정).",
+  "basis": "추정",
+  "src": "TradingView (Seeking Alpha)",
+  "url": "https://www.tradingview.com/news/seekingalpha:cbcb9a803094b:0-dan-loeb-s-third-point-adds-meta-exits-wbd-boosts-spacex-among-q3-trades/",
+  "period": "2026-09-30"
+ },
+ "thirdpoint:67066G104": {
+  "key": "thirdpoint:67066G104",
+  "reason": "공개된 설명 없음 — 추정: 2분기에 반도체를 모두 판 뒤 150만 주로 다시 들어왔다. 서한은 이후 반도체·데이터센터 관련 포지션을 줄였다고 밝혀 4분기에는 다시 줄었을 수 있다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "thirdpoint:594918104": {
+  "key": "thirdpoint:594918104",
+  "reason": "공개된 설명 없음 — 추정: 1분기에 판 마이크로소프트를 다시 산 것으로, 서한이 말한 '반복 매출 기반 하이퍼스케일러' 선호와 맞는다. 다만 서한은 이후 하이퍼스케일러를 줄였다고 밝혔다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "thirdpoint:655844108": {
+  "key": "thirdpoint:655844108",
+  "reason": "공개된 설명 없음 — 추정: 유니언퍼시픽의 노퍽서던 인수 합병차익 포지션을 정리한 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "fundsmith:922475108": {
+  "key": "fundsmith:922475108",
+  "reason": "반기 서한에서 매우 높은 전환비용, 제약 CRM 시장 약 80% 점유, AI 에이전트를 통한 임상 업무 효율화 여지를 매수 근거로 들었다. 3분기 주식 수를 3배 이상 늘려 상위 비중 종목이 됐다.",
+  "basis": "회사 서한/메모",
+  "src": "Fundsmith 반기 서한",
+  "url": "https://www.fundsmith.co.uk/media/lfhpxi1x/fundsmith-equity-fund-semi-annual-letter-to-shareholders-2026.pdf",
+  "period": "2026-09-30"
+ },
+ "fundsmith:988498101": {
+  "key": "fundsmith:988498101",
+  "reason": "반기 서한에서 글로벌 브랜드 인지도, 마케팅·구매 규모의 경제, 약 2시간마다 신규 매장을 여는 확장 속도를 근거로 들었다. 7월 말 팩트시트에서 이미 상위 10위에 들어 7월에 대거 매수한 것으로 보인다.",
+  "basis": "회사 서한/메모",
+  "src": "Fundsmith 반기 서한",
+  "url": "https://www.fundsmith.co.uk/media/lfhpxi1x/fundsmith-equity-fund-semi-annual-letter-to-shareholders-2026.pdf",
+  "period": "2026-09-30"
+ },
+ "fundsmith:571903202": {
+  "key": "fundsmith:571903202",
+  "reason": "공개된 설명 없음. 상반기 기여 상위 5종목(+1.3%p)이었는데 절반 가까이 줄였다. 추정으로는 상승 후 차익 실현과 신규 종목(비바·얌) 매수 재원 마련이다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "fundsmith:02079K305": {
+  "key": "fundsmith:02079K305",
+  "reason": "공개된 설명 없음. 상반기 기여 상위 5종목(+1.0%p)이었지만 45% 줄여 3년간 주식 수가 86% 감소했다. 추정으로는 AI 설비투자로 자본집약도가 높아진 빅테크 비중을 줄이는 흐름(MSFT·메타와 동일)이다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "fundsmith:742718109": {
+  "key": "fundsmith:742718109",
+  "reason": "공개된 설명 없음. 36%를 줄였다. 추정으로는 펩시·맥코믹 정리에 이어 성장이 둔화된 필수소비재 비중을 축소하는 연장선이다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "fundsmith:594918104": {
+  "key": "fundsmith:594918104",
+  "reason": "반기 서한은 상반기 MSFT 축소 사실과 마이너스 기여(-1.0%p)만 적었다. 3월 주총에서 스미스는 AI 인프라 투자로 빅테크가 더 이상 자본경량 기업이 아니라고 설명했다. 3분기 추가 50% 축소에 대한 별도 설명은 없다.",
+  "basis": "본인 발언",
+  "src": "interactive investor",
+  "url": "https://www.ii.co.uk/analysis-commentary/why-terry-smith-halved-his-microsoft-exposure-ii538505",
+  "period": "2026-09-30"
+ },
+ "harris:30303M102": {
+  "key": "harris:30303M102",
+  "reason": "오크마크 3분기 서한은 메타를 신규 매수하며, 주가가 2022년을 빼면 가장 낮은 배수 근처라 내재가치보다 크게 싸게 샀다고 밝혔다. AI 연산 투자를 수익화할 수 있다는 확신도 이유로 들었다.",
+  "basis": "회사 서한/메모",
+  "src": "Oakmark Fund 3분기 서한",
+  "url": "https://oakmark.com/wp-content/uploads/sites/3/2026/10/Oakmark-Fund-Commentary-09-30-2026.pdf",
+  "period": "2026-09-30"
+ },
+ "harris:58933Y105": {
+  "key": "harris:58933Y105",
+  "reason": "공개된 설명 없음 — 추정: 머크 비중을 2.06%에서 0.88%로 크게 줄였지만 오크마크 펀드·셀렉트·에쿼티앤인컴 3분기 서한 어디에도 머크 언급이 없다. 메타·아메리칸익스프레스 등 신규 매수 재원을 마련하려 줄인 것으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "harris:79466L302": {
+  "key": "harris:79466L302",
+  "reason": "주식 수는 6% 줄었지만 주가가 올라 비중은 3.37%에서 4.54%로 커졌다. 오크마크는 매출 성장이 빨라지고 가이던스를 올린 점을 상승 이유로 꼽았다. 일부 매도는 비중 관리 차원으로 보인다(추정).",
+  "basis": "회사 서한/메모",
+  "src": "Oakmark Fund 3분기 서한",
+  "url": "https://oakmark.com/wp-content/uploads/sites/3/2026/10/Oakmark-Fund-Commentary-09-30-2026.pdf",
+  "period": "2026-09-30"
+ },
+ "harris:49271V100": {
+  "key": "harris:49271V100",
+  "reason": "공개된 설명 없음 — 추정: 큐리그닥터페퍼는 셀렉트펀드 3분기 주요 부진 종목으로만 언급됐고 매매 이유는 없다. JDE 피츠 인수·회사 분할을 진행하는 가운데 주가가 약해 주식 수(-13%)와 비중이 함께 줄어든 것으로 보인다.",
+  "basis": "추정",
+  "src": "Oakmark Select Fund 3분기 서한(Seeking Alpha)",
+  "url": "https://seekingalpha.com/article/4954940-oakmark-select-fund-q3-2026-commentary",
+  "period": "2026-09-30"
+ },
+ "harris:02079K107": {
+  "key": "harris:02079K107",
+  "reason": "공개된 설명 없음 — 추정: C주(GOOG)를 두 배로 늘리고 A주(GOOGL)를 20% 줄였다. 알파벳 전체 비중은 3.89%에서 3.97%로 거의 같아, 종목 비중 확대보다 주식 클래스 교체에 가깝다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "harris:02079K305": {
+  "key": "harris:02079K305",
+  "reason": "공개된 설명 없음 — 추정: A주를 20% 줄이고 C주를 늘려 클래스를 바꾼 것으로 보인다. 알파벳 합산 비중은 약 4%로 유지됐다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
+ },
+ "harris:G1151C101": {
+  "key": "harris:G1151C101",
+  "reason": "공개된 설명 없음 — 추정: 액센츄어 주식 수를 77% 늘려 비중이 1.16%가 됐다. 에쿼티앤인컴 펀드 3분기 서한에는 주요 기여 종목으로만 나와 있다. AI 우려로 IT서비스주가 싸진 것을 기회로 본 것으로 추정된다.",
+  "basis": "추정",
+  "src": "Oakmark Equity and Income Fund 3분기 서한(Seeking Alpha)",
+  "url": "https://seekingalpha.com/article/4955066-oakmark-equity-and-income-fund-q3-2026-commentary",
+  "period": "2026-09-30"
+ },
+ "harris:64110L106": {
+  "key": "harris:64110L106",
+  "reason": "공개된 설명 없음 — 추정: 넷플릭스 주식 수를 73% 늘려 비중이 1.72%가 됐지만 3분기 서한에는 언급이 없다. 메타와 같은 맥락에서 성장 대형주를 가치 기준으로 담는 흐름으로 보인다.",
+  "basis": "추정",
+  "src": "",
+  "url": "",
+  "period": "2026-09-30"
  }
 }

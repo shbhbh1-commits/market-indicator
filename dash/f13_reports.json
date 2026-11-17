@@ -1,89 +1,65 @@
 [
 {
 "mid": "berkshire",
-"headline": "애플 비중 절반 축소, 알파벳·항공·보험으로 다변화",
-"trend_3y": "3년 전 미국 주식 포트폴리오의 약 절반이던 애플 비중이 22%로 줄었다. 버핏은 2024년 주총에서 애플 매도 이유로 현금 확보 선호와 현행 21% 법인세율(향후 인상 가능성)을 들었다. 그 빈자리는 알파벳(2025년 3분기 신규, 2026년 6월 100억 달러 사모 투자 포함)·처브·델타항공 등으로 채워졌고, 아멕스·코카콜라 비중 상승은 주로 애플 축소와 주가 상승에 따른 상대 효과로 보인다(추정). 2026년부터 그레그 에이블이 CEO로 주식의 94%를 관할하며, 14분기 연속 순매도 끝에 2026년 2분기 순매수(약 235억 달러 매수)로 전환했다.",
-"latest": "2026년 2분기 알파벳 A·C주를 합쳐 약 83% 늘려 3대 보유 종목이 됐다. 버핏은 CNBC에서 알파벳 투자가 자기 아이디어였다고 밝혔지만, 수천억 달러 AI 투자가 관건이라는 경고도 남겼다. 1분기 신규 편입한 델타항공은 44% 늘렸고, 크로거·캐피털원·BoA·다비타는 축소, 컨스텔레이션 브랜즈는 전량 매도했다. 버크셔는 개별 매매 이유를 공개하지 않는다.",
-"watch": "11월 16일 마감 3분기 13F(작성 시점 미보도)에서 알파벳·델타 추가 매수 여부와 BoA 6분기 연속 축소 여부. 3분기 96억 달러 자사주 매입·현금 3,774억 달러로 대규모 신규 투자 여력이 크다.",
-"report_period": "2026Q2",
+"headline": "에이블, 은행 줄이고 주택·소프트웨어 소폭 신규",
+"trend_3y": "3년 전 미국 주식 포트폴리오의 약 절반이던 애플 비중은 22%대까지 내려왔다가 이번 분기 주가 상승으로 25%로 회복했다(매매는 없었다). 버핏은 2024년 주총에서 애플 축소 이유로 현금 선호와 세율을 들었다. 빈자리는 알파벳(2025년 3분기 신규, 2026년 2분기 대폭 증액)·처브·델타항공 등이 채웠고, BoA는 7개 분기 연속 줄어 3년간 주식 수가 56% 감소했다. 2026년부터 그레그 에이블이 CEO를 맡아 2분기에는 약 235억 달러를 순매수했지만, 3분기에는 다시 약 4억 달러 순매도로 돌아섰다.",
+"latest": "3분기에는 주식 약 27.9억 달러를 팔고 약 23.7억 달러를 샀다. 반면 자사주는 96억 달러어치를 사들여 다른 회사 주식 매수액의 약 4배였다. 매매 규모는 작았고 BoA·베리사인·캐피털원·크로거·뉴코어를 줄이고 레나 2배 증액, 델타 12% 증액, 벤딩스푼스 신규 편입이 전부다. 애플·아멕스·코카콜라·알파벳은 그대로였다. 벤딩스푼스는 7월 IPO 때 투자했고 10월 추가 사모 투자로 지분 4%가 됐다. 버크셔는 개별 매매 이유를 밝히지 않는다.",
+"watch": "4분기 13F에서 벤딩스푼스 10월 추가 매수분 반영과 BoA 8개 분기 연속 축소 여부를 본다. 현금 3,569억 달러를 쓸 대형 인수나 대규모 주식 매수가 있는지도 관건이다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Alphabet becomes Berkshire Hathaway's third-largest investment",
-"src": "The Star (Reuters)",
-"url": "https://www.thestar.com.my/business/business-news/2026/08/17/alphabet-becomes-berkshire-hathaways-third-largest-investment",
-"date": "2026-08-17"
-},
-{
-"title": "Berkshire Hathaway's Q2 13F Reveals a Portfolio Shift: 8 Stock Moves",
-"src": "IBTimes UK",
-"url": "https://www.ibtimes.co.uk/berkshire-hathaway-portfolio-shift-2026-1814750",
-"date": ""
-},
-{
-"title": "Buffett Says the Alphabet (GOOGL) Bet Was His Idea. His Warning Matters More",
-"src": "TIKR",
-"url": "https://www.tikr.com/blog/buffett-says-the-alphabet-googl-bet-was-his-idea-his-warning-matters-more",
-"date": "2026-07-16"
-},
-{
-"title": "Here's What Berkshire Hathaway Bought and Sold in Q2",
+"title": "Here's What Berkshire Hathaway Bought and Sold in Q3",
 "src": "Kiplinger",
-"url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q2-2026",
+"url": "https://www.kiplinger.com/investing/stocks/stocks-berkshire-hathaway-bought-sold-q3-2026",
+"date": "2026-11-16"
+},
+{
+"title": "Warren Buffett's Berkshire Just Revealed a New Stock and Sold More Bank of America",
+"src": "24/7 Wall St.",
+"url": "https://247wallst.com/investing/2026/11/16/warren-buffetts-berkshire-just-revealed-a-new-stock-and-sold-more-bank-of-america-heres-what-a-68-year-old-with-400-shares-owns/",
+"date": "2026-11-16"
+},
+{
+"title": "Berkshire Hathaway puts another $330m into Bending Spoons",
+"src": "The Next Web",
+"url": "https://thenextweb.com/news/berkshire-hathaway-bending-spoons-330m-stake",
+"date": "2026-10-17"
+},
+{
+"title": "What to Watch When Berkshire Hathaway Files Its 13F on Monday",
+"src": "Yahoo Finance (TIKR)",
+"url": "https://finance.yahoo.com/markets/stocks/articles/watch-berkshire-hathaway-files-13f-163542466.html",
+"date": "2026-11-12"
+},
+{
+"title": "Berkshire Hathaway Sold $2.8 Billion in Stocks Under Greg Abel in Q3",
+"src": "CoinCodex",
+"url": "https://coincodex.com/article/95497/berkshire-hathaway-sold-28-billion-in-stocks-under-greg-abel-in-q3/",
 "date": ""
 },
 {
-"title": "Warren Buffett's successor Greg Abel just sold this (DaVita)",
-"src": "Motley Fool",
-"url": "https://www.fool.com/investing/2026/02/06/warren-buffetts-successor-greg-abel-just-sold-this",
-"date": "2026-02-06"
-},
-{
-"title": "Buffett explains Berkshire's reduced stake in Apple at annual company meeting",
-"src": "Fox Business",
-"url": "https://www.foxbusiness.com/markets/buffett-explains-berkshires-reduced-stake-apple-annual-company-meeting",
-"date": "2024-05-04"
-},
-{
-"title": "Warren Buffett's Berkshire opens Delta stake",
-"src": "Yahoo Finance",
-"url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-berkshire-opens-2-220700663.html",
-"date": "2026-05-19"
-},
-{
-"title": "Berkshire Hathaway buys back $9.6 billion of its own stock but its profits declined",
-"src": "AP (Spectrum News)",
-"url": "https://mynews13.com/fl/orlando/ap-top-news/2026/11/07/berkshire-hathaway-buys-back-96-billion-of-its-own-stock-but-its-profits-declined",
+"title": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+"src": "CNBC",
+"url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
 "date": "2026-11-07"
 }
 ]
 },
 {
 "mid": "duquesne",
-"headline": "AI 비중 대폭 축소, 나테라·TSMC 중심에 빅테크 재매수",
-"trend_3y": "3년 전 엔비디아·마이크로소프트가 25%를 차지한 AI 중심 포트폴리오였지만 지금은 나테라(약 20%)가 1위인 바이오·반도체 혼합형으로 바뀌었다. 드러켄밀러는 2024년 엔비디아 등을 3월 말에 줄였다며 '엄청난 랠리를 누렸다'고 했고, 2026년 1월 모건스탠리 팟캐스트에서는 AI가 더는 포트폴리오의 엔진이 아니며 일본·한국 주식, 금, 구리, 채권 숏 비중이 크다고 밝혔다. 2026년 9월 비공개 행사에서는 AI 투자를 6개월 전의 약 20% 수준으로 줄였고 '이익 버블'을 우려한다고 말했다(FT 보도). 쿠팡·일라이릴리·텍·램웨스턴 등 기존 대형 보유 종목은 정리됐다.",
-"latest": "2분기 신규 편입 44~48개로 가족회사 전환 이후 최대 규모의 매수였다. 1분기에 전량 매도한 알파벳을 다시 사고, 93% 줄였던 아마존을 보통주와 콜옵션으로 크게 늘렸으며, 폭스·CDW를 새로 담았다. 7대 보유 종목이던 알코아는 약 88% 팔았다. 본인 설명은 없으며, 언론은 AWS·구글클라우드 호실적과 알파벳 주가 조정을 배경으로 추정했다.",
-"watch": "11월 16일 마감 3분기 13F(작성 시점 미보도)에서 CEO 교체 발표 이후 나테라 보유 여부, TSMC·인스메드(콜옵션 포함) 추가 매수 여부. 'AI 비중 20%로 축소' 발언이 아마존·알파벳 포지션에 어떻게 반영됐는지가 관건이다.",
-"report_period": "2026Q2",
+"headline": "TSMC 거의 전량 매도, 시게이트·나테라 집중에 금광주·스페이스X 신규",
+"trend_3y": "3년 전 엔비디아·마이크로소프트가 25%를 차지한 AI 중심 포트폴리오였지만 지금은 나테라(31.5%)가 1위인 헬스케어 중심 포트폴리오로 바뀌었고, 헬스케어 비중은 약 40%다. 2026년 1월 팟캐스트에서 AI가 더는 포트폴리오의 엔진이 아니라고 했고, 9월 비공개 행사에서는 AI 투자를 6개월 전의 약 20%로 줄이고 '이익 버블'을 우려한다고 말했다(FT 보도). 반도체 쪽에서는 TSMC·ST마이크로를 줄이고 시게이트 등 스토리지만 남기는 식으로 좁혀졌다. 쿠팡·일라이릴리·텍·테바 등 기존 대형 보유 종목은 정리되거나 크게 줄었다.",
+"latest": "보유 종목이 86개에서 60개로 줄고 43개를 전량 매도했다(회전율 32%). TSMC를 94.5% 팔고 알파벳·AMD·Arm·샌디스크·램리서치를 모두 정리한 대신 시게이트를 180% 늘리고 웨스턴디지털·팔란티어·앱러빈·스페이스X와 금광주(뉴몬트·배릭·애그니코이글)를 새로 담았다(Newsquawk). 9월 'AI 투자 20%로 축소' 발언이 13F에 그대로 드러난 셈이며, 금광주 편입은 달러 약세·금 강세 시각과 맞닿아 있다(추정). 13F는 숏·해외주식·선물이 빠진 일부라는 점에 유의해야 한다.",
+"watch": "나테라 비중이 31%까지 커진 상태에서 줄일지, 시게이트·웨스턴디지털 HDD 베팅과 금광주 포지션을 늘릴지가 관건이다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Stan Druckenmiller's Buying Binge",
-"src": "Institutional Investor",
-"url": "https://www.institutionalinvestor.com/article/stan-druckenmillers-buying-binge",
-"date": "2026-08-19"
-},
-{
-"title": "Duquesne Q2 2026 13F changes",
-"src": "Webull",
-"url": "https://www.webull.ca/news-detail/15415937789895680",
-"date": "2026-08-17"
-},
-{
-"title": "Druckenmiller: Portfolio No Longer AI-Driven, Bearish On Dollar",
-"src": "RealClearPolitics (Morgan Stanley Hard Lessons)",
-"url": "https://www.realclearpolitics.com/video/2026/03/01/druckenmiller_portfolio_no_longer_ai-driven_bearish_on_dollar_at_historic_purchasing_power_peak.html",
-"date": "2026-03-01"
+"title": "Druckenmiller 13-F: Raises stake in STX, Cuts TSM",
+"src": "Newsquawk",
+"url": "https://www.newsquawk.com/headlines/druckenmiller-13-f-raises-stake-in-stx-cuts-tsm",
+"date": "2026-11-16"
 },
 {
 "title": "Druckenmiller says yields are actually a bit low (FT 인용)",
@@ -92,22 +68,22 @@
 "date": "2026-09-11"
 },
 {
-"title": "Billionaire cuts Nvidia investment, says overhyped",
-"src": "Futurism",
-"url": "https://futurism.com/the-byte/billionaire-cuts-nvidia-investment-overhyped",
-"date": ""
-},
-{
-"title": "Stanley Druckenmiller's Next 13F Likely Lands Monday. 3 Positions to Watch",
+"title": "Billionaire Stanley Druckenmiller dumped every share of Alphabet (Q1 2026)",
 "src": "Yahoo Finance",
-"url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-next-13f-likely-145359034.html",
-"date": "2026-11-12"
+"url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-dumped-every-145823004.html",
+"date": "2026-05-20"
 },
 {
-"title": "Billionaire Stanley Druckenmiller top holding NTRA",
-"src": "Motley Fool",
-"url": "https://www.fool.com/investing/2026/06/03/billionaire-stanley-druckenmiller-top-holding-ntra/",
-"date": "2026-06-03"
+"title": "Stanley Druckenmiller's Top Q3 2026 Move: Taiwan Semiconductor",
+"src": "GuruFocus",
+"url": "https://www.gurufocus.com/news/9202910/stanley-druckenmillers-top-q3-2026-move-taiwan-semiconductor-manufacturing-co-ltd-at-a-51-portfolio-impact",
+"date": "2026-11"
+},
+{
+"title": "Druckenmiller Portfolio No Longer AI-Driven",
+"src": "RealClearPolitics (Morgan Stanley Hard Lessons)",
+"url": "https://www.realclearpolitics.com/video/2026/03/01/druckenmiller_portfolio_no_longer_ai-driven_bearish_on_dollar_at_historic_purchasing_power_peak.html",
+"date": "2026-03-01"
 }
 ]
 },
@@ -213,136 +189,118 @@
 },
 {
 "mid": "tudor",
-"headline": "지수 ETF 교체와 AI 반도체·빅테크 롱 확대",
-"trend_3y": "튜더의 13F는 1,600개 이상 종목에 분산된 매크로 펀드 롱 포지션의 일부(보고가치 약 32%)일 뿐이다. 3년 전 상위권이던 액티비전·시젠·스플렁크·호라이즌은 각각 MS·화이자·시스코·암젠에 인수 완료되며 사라졌다(인수합병 차익거래 포지션이었을 것으로 추정). 그 사이 TSMC·엔비디아·MSFT 등 AI 공급망 비중이 커졌다. 폴 튜더 존스는 2026년 5월 AI를 PC·인터넷 초기와 같은 전환으로 보고 '더 샀다'고 말했지만, 결국 35% 급락 가능성도 경고했다.",
-"latest": "2분기 S&P500 ETF를 SPY에서 IVV로 대거 옮겼고(SPY 62.6% 축소, IVV 730% 증가), 러셀2000 ETF(IWM)를 새로 크게 담았다. TSMC·MSFT·엔비디아는 2~4배 늘려 AI 공급망 4종 비중이 3.6%에서 9.2%로 올랐고, 애플은 89% 줄였다. 본인의 종목별 설명은 없고, 10월 CNBC에서는 AI 차입과 정부부채로 시장이 한계점에 다가가고 있다며 '60 대 40으로 그 길에 있다'고 했다.",
-"watch": "3분기 13F(11월 16일 마감, 작성 시점 미보도)에서 10월 CNBC 경고 이후 AI 반도체 롱 축소나 지수 ETF 헤지 변화가 있는지 볼 필요가 있다.",
-"report_period": "2026Q2",
+"headline": "MSFT·마이크론 축소, '1999년' 경고 속 롱 노출 조정",
+"trend_3y": "튜더의 13F는 1,700여 종목에 분산된 매크로·멀티전략 펀드 롱 포지션의 일부이고, 지수 ETF가 상위를 차지한다. 3년 전 상위권이던 스플렁크·파이오니어 등은 인수 완료로 사라졌다(인수합병 차익거래로 추정). 그 사이 TSMC·엔비디아·MSFT 같은 AI 공급망 비중이 커졌다. S&P500 ETF는 SPY·IVV 사이를 분기마다 오가며 비중이 크게 출렁였다. 보고가치는 72억 달러에서 231억 달러로 늘었다.",
+"latest": "3분기에는 MSFT를 94%, 마이크론을 62% 줄이고 EA를 전량 정리했다. 반면 SPY(+260%)·유틸리티 ETF(+848%)를 늘리고 SK하이닉스·이리듐을 새로 담았다. 존스는 10월 CNBC에서 지금을 1999년에 빗댔다. 2027년은 '정말 어려운 해'가 될 것이라며, IPO·보호예수 해제로 주식 공급이 늘어 수급이 2002년 이후 최악이라고 경고했다. 종목별 매매 설명은 없다. MSFT 축소와 유틸리티 증액은 이 경고와 같은 방향이다 (추정).",
+"watch": "4분기 13F에서는 존스가 예상한 '중간선거 뒤 4분기 반등' 국면에 롱을 더 줄였는지 볼 필요가 있다. 지수 ETF 비중과 TSMC·엔비디아 보유 변화도 확인 대상이다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Paul Tudor Jones Q2 2026 portfolio",
-"src": "InnovestX Café Invest",
-"url": "https://www.innovestx.co.th/cafeinvest/en/articles/paultudorjones-q22026-28082026",
-"date": "2026-08-28"
+"title": "Paul Tudor Jones says 2027 could be a really challenging year for the stock market",
+"src": "CNBC",
+"url": "https://www.cnbc.com/2026/10/13/paul-tudor-jones-2027-really-challenging-year.html",
+"date": "2026-10-13"
 },
 {
-"title": "Paul Tudor Jones Warns Trump-Era Market Boom Could End in a 35% Crash. Here's Why He's Still Buying Stocks",
-"src": "24/7 Wall St.",
-"url": "https://247wallst.com/investing/2026/05/09/paul-tudor-jones-warns-trump-era-market-boom-could-end-in-a-35-crash-heres-why-hes-still-buying-stocks/",
-"date": "2026-05-09"
+"title": "Does Paul Tudor Jones Know Something Wall Street Doesn't?",
+"src": "Motley Fool",
+"url": "https://www.fool.com/investing/2026/10/15/does-paul-tudor-jones-know-something-wall-street/",
+"date": "2026-10-15"
 },
 {
 "title": "Paul Tudor Jones Sees AI Spending, Debt Pushing Markets To Breaking Point",
-"src": "Stocktwits (CNBC 인터뷰)",
-"url": "https://stocktwits.com/news-articles/markets/equity/paul-tudor-jones-sees-ai-spending-debt-pushing-markets-to-breaking-point/cZxBSriRBo6",
+"src": "Yahoo Finance",
+"url": "https://finance.yahoo.com/markets/stocks/articles/paul-tudor-jones-sees-ai-134457284.html",
 "date": "2026-10-13"
+},
+{
+"title": "13F roundup: ... Maverick and Tudor cut Microsoft and Astera",
+"src": "MLQ.ai",
+"url": "https://mlq.ai/news/13f-roundup-gavin-bakers-atreides-buys-a-chip-etf-put-and-alphabet-calls-maverick-and-tudor-cut-microsoft-and-astera/",
+"date": ""
 }
 ]
 },
 {
 "mid": "coatue",
-"headline": "AI 소비자→공급자 전환: 반도체장비·메모리·전력·IPO",
-"trend_3y": "3년 전에는 엔비디아·메타·AMD 같은 AI 플랫폼·칩 설계사가 중심이었지만, 지금은 TSMC·램리서치·마이크론·어플라이드머티리얼즈·GE버노바 등 공급망 상류가 상위권이다. 라퐁은 2026년 6월 CNBC에서 어떤 칩 설계사가 이길지 맞히지 않아도 되는 반도체 장비 '곡괭이·삽' 전략을 선호한다고 밝혔다. 5월 공개시장 업데이트에서는 부족한 하드웨어를 파는 '공급자'가 이기는 국면이고, 메모리·전력(터빈)도 칩과 같은 가격결정력을 갖는다고 봤다. 사모 투자로 보유하던 기업의 상장(스페이스X, 세레브라스)도 13F 신규 편입의 원천이다.",
-"latest": "2분기 마이크론을 약 18배로 늘려 3대 보유 종목(약 36억 달러)으로 올렸다. 코투는 마이크론 마진이 약 16%에서 70%로 오른 것을 메모리 '희소성 가격'의 사례로 들었다. 스페이스X(사모 라운드로 확보, CNBC)·세레브라스(5월 IPO)·인텔·포전트 파워(2월 IPO, 전력장비)·허트8(AI 데이터센터·채굴)을 새로 담았고, 메타는 10% 줄였다. 인텔·허트8·메타 축소에 대한 개별 설명은 찾지 못했다.",
-"watch": "3분기 13F(11월 16일 마감, 작성 시점 미보도)에서 스페이스X·세레브라스 보호예수 해제 이후 차익실현 여부, 그리고 '공급자에서 장기계약 구매자로 이동'이라는 예고대로 하이퍼스케일러 비중이 다시 늘어나는지 볼 필요가 있다.",
-"report_period": "2026Q2",
+"headline": "AI 공급망에서 빅테크·소프트웨어로 무게 이동",
+"trend_3y": "3년 전 상위권은 엔비디아·메타·AMD 같은 AI 플랫폼·칩 설계사였다. 2024~2026년에는 TSMC·램리서치·마이크론·GE버노바 등 공급망 상류와 전력 인프라가 상위를 차지했다. 라퐁은 2026년 6월 CNBC에서 반도체 장비 '곡괭이·삽' 전략을 선호한다고 밝혔다. 5월 공개시장 업데이트에서는 부족한 하드웨어를 파는 공급자가 이기는 국면이라고 봤다. 사모 투자 기업의 상장(스페이스X·세레브라스·포전트)이 13F 편출입의 큰 원천이었다. 13F 보고가치는 238억 달러에서 545억 달러로 커졌다.",
+"latest": "3분기에는 MSFT(+120%)·메타(+79%)를 크게 늘리고 세일즈포스·SK하이닉스·쇼피파이를 새로 담았다. 반면 포전트 파워는 전량 팔고 세레브라스(-54%)·GE버노바·AMD는 줄였다. 라퐁은 11월 8일 영상에서 이제 '큰 아이디어'는 엔비디아가 아닌 오픈AI·앤트로픽이라고 말했다. 오픈AI 파트너인 MSFT 증액과 소프트웨어 저가 매수는 이 시각과 맞물린 것으로 보인다 (추정). 개별 매매에 대한 코투의 공식 설명은 찾지 못했다.",
+"watch": "4분기 13F(2027년 2월)에서는 세일즈포스·쇼피파이 같은 소프트웨어 신규 편입이 비중 확대로 이어지는지 볼 필요가 있다. 스페이스X·세레브라스 차익실현이 계속되는지도 확인 대상이다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "15 Key Takeaways From Philippe Laffont's Coatue May 2026 Public Markets Update",
-"src": "Global Data Center Hub",
-"url": "https://www.globaldatacenterhub.com/p/15-key-takeaways-from-philippe-laffonts",
+"title": "Coatue Management Boosts Salesforce (CRM) Stake Amid Attractive Valuation",
+"src": "GuruFocus",
+"url": "https://www.gurufocus.com/news/9202278/coatue-management-boosts-salesforce-crm-stake-amid-attractive-valuation",
+"date": "2026-11-16"
+},
+{
+"title": "Coatue Management takes new stake in Salesforce, increases Meta holdings among Q3 moves",
+"src": "TradingView (Seeking Alpha)",
+"url": "https://www.tradingview.com/news/seekingalpha:4b22285e3094b:0-coatue-management-takes-new-stake-in-salesforce-increases-meta-holdings-among-q3-moves/",
 "date": ""
 },
 {
-"title": "Coatue's Philippe Laffont backs semiconductor suppliers as preferred AI trade",
-"src": "Hedgeweek (CNBC 인용)",
-"url": "https://www.hedgeweek.com/coatues-philippe-laffont-backs-semiconductor-suppliers-as-preferred-ai-trade/",
-"date": "2026-06-24"
+"title": "Coatue Management raises stake in Meta, reports stake in SK Hynix",
+"src": "Rallies.ai",
+"url": "https://rallies.ai/news/coatue-management-raises-stake-in-meta-reports-stake-in-sk-hynix-86575d2eeb64ee54",
+"date": "2026-11-16"
 },
 {
-"title": "Billionaire investor Philippe Laffont has nearly ... (Micron, SpaceX)",
-"src": "Motley Fool",
-"url": "https://fool.com/investing/2026/08/21/billionaire-investor-philippe-laffont-has-nearly-2/",
-"date": "2026-08-21"
-},
-{
-"title": "Coatue Q2 2026 13F",
-"src": "Webull",
-"url": "https://www.webull.com.au/news-detail/15437364074005504",
-"date": ""
-},
-{
-"title": "Cerebras soars almost 70% by market close in a true blockbuster IPO",
-"src": "Fortune",
-"url": "https://fortune.com/2026/05/15/cerebras-soars-almost-70-by-market-close-in-a-true-blockbuster-ipo/",
-"date": "2026-05-15"
-},
-{
-"title": "Forgent Power Solutions prices IPO at $27 per share",
-"src": "StreetInsider",
-"url": "https://www.streetinsider.com/Equity+Offerings/Forgent+Power+Solutions+prices+IPO+at+%2427+per+share/25948810.html",
-"date": ""
+"title": "Coatue's Laffont Calls OpenAI and Anthropic the New Big Idea",
+"src": "FourWeekMBA",
+"url": "https://fourweekmba.com/ai-coatues-laffont-calls-openai-and-anthropic-the-new-big-idea/",
+"date": "2026-11-09"
 }
 ]
 },
 {
 "mid": "pershing",
-"headline": "소비재 정리, 빅테크 거쳐 결제·데이터 우량주로 재편",
-"trend_3y": "3년 전 상위권이던 치폴레·힐튼·로우스·캐나디언퍼시픽은 모두 정리됐다. CP는 2025년 아마존 매수 자금 마련을 위해 '자본배분 필요'로 마지못해 팔았고, 치폴레는 동일점 매출 감소와 마진 하락 속에 2025년 말 정리했으며, 힐튼은 2026년 초 이유 공개 없이 매각했다. 그 자리에 우버·브룩필드·아마존·마이크로소프트가 들어왔고, 2026년 5월에는 알파벳을 팔아 MSFT를 샀다(애크먼은 '구글에 반대하는 베팅이 아니다'라고 설명). 2026년 하반기에는 비자·마스터카드·S&P글로벌·넷플릭스·ICE·알콘 6종을 한꺼번에 담아 수년 만의 최대 개편을 했다.",
-"latest": "2분기 아마존을 25% 줄이고 비자·마스터카드·S&P글로벌·넷플릭스를 새로 담았다. 반기보고서에 따르면 비자·마스터카드는 스테이블코인·에이전틱 커머스·규제 우려로 디레이팅됐지만 그 우려가 과도하다고 봤고, S&P글로벌은 AI 대체 우려로 PER 약 19배까지 내린 것을 기회로 봤다. 넷플릭스는 스트리밍 전쟁의 사실상 승자로, 고점 대비 약 50% 하락 후 매수했다. 아마존은 여전히 연 20% 이상 이익 성장을 기대해, 이번 축소는 신규 매수 재원 마련으로 풀이된다(언론 분석).",
-"watch": "11월 16일 마감 3분기 13F(작성 시점 미보도)에서 약 40% 오른 MSFT의 일부 매도, 아마존 추가 축소, 우버 추가 매수 여부를 봐야 한다. 3분기 실적에서 언급한 '올해 8번째 신규 종목'은 4분기 13F에 나온다.",
-"report_period": "2026Q2",
+"headline": "빅테크 차익 실현, ICE·알콘으로 '디레이팅 우량주' 확대",
+"trend_3y": "3년 전 상위권이던 치폴레·힐튼·캐나디언퍼시픽은 모두 정리됐다. 그 자리를 우버·브룩필드·아마존·MSFT·메타가 채웠다가, 2026년 하반기에는 비자·마스터카드·S&P글로벌·넷플릭스·ICE·알콘 6종을 담는 수년 만의 대개편이 있었다. 공통된 논리는 AI 대체나 규제 우려로 PER이 내려간 고품질 복리 성장주를 사는 것이다. 2026년 2분기부터는 상장사 퍼싱 스퀘어(PS) 지분이 13F 최대 항목이다(비중 33%).",
+"latest": "3분기에는 ICE(약 10억 달러)와 알콘(약 9.5억 달러)을 신규로 담고 넷플릭스를 늘렸으며 허츠는 전량 정리했다. 반면 MSFT를 34.5% 줄이고 QSR·브룩필드·비자·마스터카드·메타도 10~15%씩 줄였다. 퍼싱은 ICE·알콘 매수 근거를 반기보고서에서 설명했지만 매도 이유는 밝히지 않아, 상승한 빅테크의 차익 실현과 신규 매수 재원 마련으로 추정된다.",
+"watch": "3분기 실적에서 예고한 '올해 8번째 신규 종목'이 4분기 13F에서 무엇인지, MSFT·브룩필드 축소가 이어지는지 본다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Pershing Square Holdings Ltd. June 2026 Interim Report",
-"src": "Pershing Square (회사 서한)",
-"url": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
-"date": "2026-08-13"
-},
-{
-"title": "Ackman unveils six new investments including Netflix, Visa, Mastercard",
-"src": "The Star (Bloomberg)",
-"url": "https://www.thestar.com.my/tech/tech-news/2026/08/13/ackman-unveils-six-new-investments-including-netflix-visa-mastercard-in-biggest-portfolio-overhaul-in-years",
-"date": "2026-08-13"
-},
-{
-"title": "Bill Ackman's Pershing Square: Amazon, Alphabet",
-"src": "Motley Fool",
-"url": "https://www.fool.com/investing/2026/08/17/bill-ackmans-pershing-square-amazon-alphabet/",
-"date": "2026-08-17"
-},
-{
-"title": "Bill Ackman Swaps GOOGL Stake For New MSFT Position",
+"title": "Bill Ackman Adds More To Netflix In Q3; Exits Hertz, Cuts Microsoft",
 "src": "Stocktwits",
-"url": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-swaps-googl-stake-for-new-msft-position-clarifies-sale-not-a-bet-against-search-giant/cZXr5jkRelO",
-"date": "2026-05-17"
+"url": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-adds-more-to-netflix-in-q3-exits-hertz-cuts-microsoft/cNbaf33R9gj",
+"date": "2026-11-16"
 },
 {
-"title": "Pershing Square adds Amazon, exits Canadian Pacific",
-"src": "Hedgeweek",
-"url": "https://www.hedgeweek.com/pershing-square-adds-amazon-exits-canadian-pacific-amid-strategic-portfolio-shift/",
-"date": "2025-05-23"
-},
-{
-"title": "Billionaire Bill Ackman just sold these 2 stocks (Chipotle, Nike)",
-"src": "Motley Fool",
-"url": "https://www.fool.com/investing/2025/12/22/billionaire-bill-ackman-just-sold-these-2-stocks-a",
-"date": "2025-12-22"
-},
-{
-"title": "Pershing Square takes $2bn stake in Meta as it exits Hilton",
-"src": "AIC",
-"url": "https://www.theaic.co.uk/aic/news/industry-news/pershing-square-takes-2bn-stake-in-meta-as-it-exits-hilton",
-"date": "2026-02-12"
+"title": "La nueva apuesta de Bill Ackman: las 6 acciones que sumó a su cartera",
+"src": "El Cronista",
+"url": "https://www.cronista.com/finanzas-mercados/la-nueva-apuesta-de-bill-ackman-las-6-acciones-que-sumo-a-su-cartera-y-por-que-apuesta-por-ellas/",
+"date": "2026-08-20"
 },
 {
 "title": "Bill Ackman's Next 13F Is Due Monday. Here's What to Watch",
 "src": "TIKR",
 "url": "https://www.tikr.com/blog/bill-ackmans-next-13f-is-due-monday-heres-what-to-watch",
-"date": ""
+"date": "2026-11-12"
+},
+{
+"title": "Pershing Square (PS) Q3 2026 Earnings Call Transcript",
+"src": "Webull",
+"url": "https://www.webull.com/news/15861781781191680",
+"date": "2026-11-03"
+},
+{
+"title": "Ackman reshapes Pershing Square portfolio with six new stock bets",
+"src": "Hedgeweek",
+"url": "https://hedgeweek.com/news/ackman-reshapes-pershing-square-portfolio-with-six-new-stock-bets",
+"date": "2026-08-14"
+},
+{
+"title": "Pershing Square Holdings Ltd. June 2026 Interim Report",
+"src": "Pershing Square (회사 서한)",
+"url": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
+"date": "2026-08-13"
 }
 ]
 },
@@ -436,19 +394,13 @@
 },
 {
 "mid": "rvcap",
-"headline": "카바나 30% 초집중 유지, 중국·인터넷 플랫폼 정리",
-"trend_3y": "3년 사이 카바나(CVNA)가 8%에서 30%로 커져 최대 종목이 됐습니다. 세일즈포스(CRM)·윅스(WIX)·PDD는 사실상 모두 정리됐고, H월드(HTHT)·얌차이나(YUMC)를 새로 담았으며 인터랙티브브로커스(IBKR)도 늘렸습니다. 비널은 2025년 상반기 서한에서 카바나 투자 논리에 여전히 확신한다며 \"게임은 카바나가 질 때만 끝난다\"는 취지로 썼습니다. PDD는 중국 규제 당국과의 마찰 보도를 심각한 규제 위험으로 보고 2025년 하반기에 팔았습니다. 같은 기간 신규 투자는 없었고 현금이 14%까지 늘었는데, 사고 싶은 종목보다 팔 종목이 많았기 때문이라고 설명했습니다.",
-"latest": "2026년 2분기에는 크레딧억셉턴스(CACC)·H월드·메타·얌차이나·IBKR 주식 수를 조금씩 줄이고 마이크로소프트(MSFT)를 늘렸습니다. 크레딧억셉턴스는 주식 수가 줄었는데도 주가가 올라 비중이 13.8%에서 18%로 커졌습니다. 카바나는 주식 수가 크게 늘었지만 비중은 31%대로 거의 같았습니다. 이번 분기 매매를 비널이 설명한 자료는 찾지 못했습니다.",
-"watch": "2026년 상반기 서한(보통 가을 공개)에서 마이크로소프트 확대와 카바나 비중 관리에 대한 설명이 나올지 볼 필요가 있습니다. 14%였던 현금을 어디에 쓸지도 관찰 포인트입니다.",
-"report_period": "2026Q2",
+"headline": "중국 호텔 H월드→아투어 교체, 카바나 31% 유지",
+"trend_3y": "3년 사이 카바나가 11%에서 31%로 커져 최대 종목이 됐고, 메타(20%대)·크레딧억셉턴스·IBKR과 함께 상위 4종목이 80%를 넘는 초집중 구조다. 세일즈포스·윅스·PDD는 정리됐고, 2024년 중국 소비주 H월드·얌차이나를 새로 담았다. 비널은 2025년 서한에서 카바나 논리에 계속 확신한다고 했고, PDD는 중국 규제 위험을 이유로 팔았다.",
+"latest": "3분기에는 H월드를 모두 팔고 같은 중국 호텔주인 아투어를 5% 비중으로 새로 샀다. 디어도 정리했다. 카바나는 15% 더 샀고 메타는 6% 줄였는데, 메타는 주가 상승으로 비중이 오히려 23%로 커졌다. 이번 분기 매매에 대한 비널의 설명은 찾지 못했다. H월드→아투어 교체는 중국 호텔 업종 안에서 종목을 바꾼 것으로 보인다(추정).",
+"watch": "2026년 연간 서한(보통 이듬해 초)에서 아투어 매수와 H월드 매도 이유가 나오는지 볼 필요가 있다. 4분기 13F에서 아투어 비중을 더 키우는지도 관찰 포인트다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
-{
-"title": "RV Capital Q4 2025 investor letter",
-"src": "Hedge Fund Alpha(RV Capital 서한)",
-"url": "https://hedgefundalpha.com/?p=2201404",
-"date": ""
-},
 {
 "title": "RV Capital Q2 2025 letter (Business Owner Fund)",
 "src": "Hedge Fund Alpha(RV Capital 서한)",
@@ -456,16 +408,22 @@
 "date": ""
 },
 {
-"title": "RV Capital's 2025 Letter to Co-Investors (podcast)",
-"src": "The Rob Vinall Podcast",
-"url": "https://getpodcast.com/de/podcast/the-rob-vinall-podcast/rv-capitals-2025-letter-to-co-investors_4c6b9b2242",
-"date": "2026-03-30"
+"title": "RV Capital Q4 2025 investor letter",
+"src": "Hedge Fund Alpha(RV Capital 서한)",
+"url": "https://hedgefundalpha.com/?p=2201404",
+"date": ""
 },
 {
-"title": "Rob Vinall's (RV CAPITAL) Top Holdings, Trades & Investment Strategy",
-"src": "The Acquirer's Multiple",
-"url": "https://acquirersmultiple.com/2026/05/rob-vinalls-rv-capital-top-holdings-trades-investment-strategy/",
-"date": "2026-05"
+"title": "After a strong H1 2026: H World raises its financial guidance",
+"src": "Hospitality ON",
+"url": "https://hospitality-on.com/en/finance/after-strong-h1-2026-h-world-raises-its-financial-guidance",
+"date": "2026"
+},
+{
+"title": "Rob Vinall - RV Capital 13F Activity & Position Changes (Q2 2026)",
+"src": "InsiderSet",
+"url": "https://www.insiderset.com/investor/rob-vinall-rv-capital/activity/q2-2026",
+"date": "2026"
 }
 ]
 },
@@ -500,13 +458,19 @@
 },
 {
 "mid": "himalaya",
-"headline": "BAC 완전 정리, PDD를 2대 종목으로 키운 중국 역베팅",
-"trend_3y": "3년 전 최대 종목이던 뱅크오브아메리카(27%)는 2025년 2분기부터 줄기 시작해 2026년 2분기에 모두 팔렸습니다. 그 자리는 PDD(0%→22%)와 알파벳(18%→25%)이 채웠고, 애플은 7%에서 1% 아래로 줄었습니다. 리루는 2020~21년에 PDD를 조금 샀다가 손실을 보고 판 적이 있습니다. 2025년 2분기 대규모 재매수는 세 분기 동안 매매가 없다가 나온 이례적인 움직임으로 보도됐습니다. 리루 본인이 이유를 밝힌 자료는 찾지 못했습니다. 언론은 미국 대형 펀드들이 중국 비중을 줄이던 때의 역발상 매수로 해석합니다.",
-"latest": "2026년 2분기에는 PDD를 두 배 넘게 늘려 비중 22%로 키우고 버크셔도 더 샀습니다. BAC·옥시덴털·H&R블록·S&P글로벌·무디스를 모두 팔았습니다. 1분기에는 BAC를 약 71% 줄이고 무디스·S&P글로벌을 비슷한 규모로 새로 샀다고 보도됐는데, 두 종목을 한 분기 만에 정리한 셈입니다. 언론 분석일 뿐 리루의 직접 설명은 없습니다.",
-"watch": "3분기 13F(11월 중순 공개)에서 PDD를 더 늘렸는지, 알파벳·PDD·버크셔 중심의 압축 구조가 유지되는지 볼 필요가 있습니다.",
-"report_period": "2026Q2",
+"headline": "PDD 최대 종목 등극, 텐센트뮤직 두 배로",
+"trend_3y": "3년 전 최대 종목이던 뱅크오브아메리카(30%)는 2025년부터 줄여 2026년 2분기에 모두 팔았다. 그 자리는 PDD(0%→24%)와 알파벳(A·C주 합산 38%→45%)이 채웠고, 애플은 7%에서 1% 아래로 줄었다. 2025년 2분기 PDD 대규모 재매수 이후 중국 플랫폼 비중이 계속 커지고 있다. 리루 본인이 이유를 밝힌 자료는 찾지 못했고, 언론은 역발상 중국 투자로 해석한다.",
+"latest": "3분기에는 PDD를 9% 더 사서 비중 24.2%로 알파벳 A주를 제치고 단일 최대 종목이 됐다. 텐센트뮤직도 두 배 넘게 늘렸다(1.5%→3.1%). 신규 편입이나 전량 매도는 없어 회전율은 1.8%에 그쳤다. 리루의 직접 설명은 없다.",
+"watch": "4분기 13F(2027년 2월)에서 PDD·텐센트뮤직을 더 늘려 중국 비중을 키우는지 볼 필요가 있다. 알파벳·버크셔·이스트웨스트 중심의 압축 구조가 유지되는지도 관찰 포인트다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
+{
+"title": "Li Lu's Top Q3 2026 Move: PDD Holdings Inc at a 2.06% Portfolio Impact",
+"src": "GuruFocus",
+"url": "https://www.gurufocus.com/news/9202778/li-lus-top-q3-2026-move-pdd-holdings-inc-at-a-206-portfolio-impact",
+"date": "2026-11"
+},
 {
 "title": "Li Lu Himalaya Q2 2026: PDD",
 "src": "InvestorLens",
@@ -514,16 +478,10 @@
 "date": "2026-10-04"
 },
 {
-"title": "Charlie Munger's Only Outside Manager Just Sold a Bank to Buy the Companies That Rate Banks",
-"src": "24/7 Wall St.",
-"url": "https://247wallst.com/investing/2026/08/06/charlie-mungers-only-outside-manager-just-sold-a-bank-to-buy-the-companies-that-rate-banks/",
-"date": "2026-08-06"
-},
-{
-"title": "喜马拉雅资本 2025年二季度 13F (李录 增持拼多多)",
-"src": "36Kr",
-"url": "https://www.36kr.com/p/3427991490334080",
-"date": "2025-08-18"
+"title": "13F报告揭秘! 段永平、李录齐大手笔加仓这中概股",
+"src": "HK01",
+"url": "https://global.hk01.com/财经快讯/60380518/13f报告揭秘-段永平-李录齐大手笔加仓这中概股",
+"date": ""
 }
 ]
 },
@@ -576,54 +534,36 @@
 },
 {
 "mid": "appaloosa",
-"headline": "중국에서 빠져 메모리·파운드리 AI 하드웨어 집중, 항공 재진입",
-"trend_3y": "3년 사이 마이크로소프트를 모두 팔고 메타·엔비디아 비중을 절반 이하로 줄였습니다. 대신 마이크론(MU, 2%→15%)·TSMC(2%→11%)·한국 ETF(EWY)·비스트라(VST)·아마존을 키웠습니다. 언론은 이를 AI 소프트웨어·플랫폼에서 메모리·파운드리·전력 같은 AI 공급망으로 옮긴 것으로 해석합니다. EWY는 삼성전자·SK하이닉스 비중이 약 절반이어서 사실상 메모리 투자라는 분석이 나왔습니다. 2024년에 중국은 \"모든 걸 사라\"고 했던 테퍼는 알리바바를 네 분기 연속 줄이며 중국 비중을 낮췄습니다. 테퍼 본인이 이유를 직접 밝힌 발언은 찾지 못했습니다.",
-"latest": "2026년 2분기에는 마이크론 주식을 약 41% 줄였지만 주가가 올라 비중은 15%로 오히려 커졌고, 언론은 일부 차익 실현으로 봤습니다. 알리바바를 42% 더 줄이고, 샌디스크·코닝은 모두 팔았는데 두 종목은 7월에 급락했습니다. TSMC는 24% 늘렸고, 보잉·아메리칸항공을 새로 사며 1분기에 팔았던 항공 업종으로 돌아왔습니다. 같은 분기 버크셔·드러켄밀러도 항공주를 샀다고 보도됐습니다.",
-"watch": "3분기 13F(11월 16일 마감)에서 마이크론·EWY 같은 메모리 비중을 더 줄였는지 볼 필요가 있습니다. 보잉·항공 포지션을 늘렸는지도 관찰 포인트입니다.",
-"report_period": "2026Q2",
+"headline": "스페이스X 17배 확대, 칩은 엔비디아·장비로 모아",
+"trend_3y": "3년 사이 마이크로소프트·PDD·유나이티드헬스를 모두 팔고 알리바바를 22%(2025년 1분기)에서 2.6%로 줄였다. 대신 마이크론(2%→17.6%)·TSMC(1%→9.5%)·아마존을 키워 기술주 비중이 약 49%가 됐다. 언론은 이를 AI 소프트웨어·플랫폼에서 메모리·파운드리·장비 같은 AI 공급망으로 옮긴 것으로 해석한다. 테퍼 본인이 이유를 직접 밝힌 발언은 이번에도 찾지 못했다.",
+"latest": "스페이스X 주식을 약 17배로 늘려 4대 보유 종목(7.4%)이 됐고, 오라클·어플라이드머티리얼즈·모딘·PG&E를 새로 샀다. 마이크론(+28%)·엔비디아(+31%)·램리서치(+63%)·ASML(+30%)을 늘린 반면 알파벳(-46%)·메타(-22%)·아메리칸항공(-48%)은 줄이고 AMD·브로드컴·퀄컴은 모두 팔았다(KuCoin/WOLF 집계). AI 칩은 엔비디아로, 나머지는 장비·메모리로 모은 모습이다(추정).",
+"watch": "마이크론(17.6%)·스페이스X 비중을 더 늘릴지, 알파벳·메타 축소가 이어질지가 관전 포인트다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "The Billionaire Famous for Betting Big on Micron Just Bought Airline Stocks",
-"src": "24/7 Wall St.",
-"url": "https://247wallst.com/investing/2026/08/18/the-billionaire-famous-for-betting-big-on-micron-just-bought-airline-stocks/",
-"date": "2026-08-18"
+"title": "DAVID TEPPER BOOSTED HIS SPACEX STAKE 17-FOLD",
+"src": "KuCoin (WOLF Financial)",
+"url": "https://www.kucoin.com/news/insight/SPCX/6afb78a9e5453b00076ddb9f",
+"date": "2026-11-16"
 },
 {
-"title": "Tepper Appaloosa Q2 2026: AI chips, Amazon",
-"src": "InvestorLens",
-"url": "https://www.investorlens.capital/blog/2026-11-01-tepper-appaloosa-q2-2026-ai-chips-amazon",
-"date": "2026-11-01"
-},
-{
-"title": "David Tepper China exit, AI pivot (Q1 2026)",
-"src": "InvestorLens",
-"url": "https://www.investorlens.capital/blog/2026-07-22-david-tepper-china-exit-ai-pivot",
-"date": "2026-07-22"
-},
-{
-"title": "Billionaire David Tepper tripled Micron",
-"src": "Motley Fool",
-"url": "https://www.fool.com/investing/2026/03/18/billionaire-david-tepper-tripled-micron-dump-ai/",
-"date": "2026-03-18"
-},
-{
-"title": "David Tepper's Most Ignored Trade of 2026 Is a $400 Million Bet on an Entire Country's Economy",
-"src": "24/7 Wall St.",
-"url": "https://247wallst.com/investing/2026/06/22/david-teppers-most-ignored-trade-of-2026-is-a-400-million-bet-on-an-entire-countrys-economy/",
-"date": "2026-06-22"
-},
-{
-"title": "David Tepper's Top Q2 2026 Move: Micron Technology Inc at a -3.93% Portfolio Impact",
+"title": "David Tepper's Top Q3 2026 Move: Space Exploration Technologies Corp",
 "src": "GuruFocus",
-"url": "https://www.gurufocus.com/news/9035679/david-teppers-top-q2-2026-move-micron-technology-inc-at-a-393-portfolio-impact",
-"date": "2026-08"
+"url": "https://www.gurufocus.com/news/9202758/david-teppers-top-q3-2026-move-space-exploration-technologies-corp-at-a-693-portfolio-impact",
+"date": "2026-11"
 },
 {
-"title": "Amazon: Bill Ackman, David Tepper",
-"src": "Fortune",
-"url": "https://fortune.com/2026/06/25/amazon-bill-ackman-david-tepper-sanders/",
-"date": "2026-06-25"
+"title": "David Tepper makes surprising double bet on AI's biggest bottleneck",
+"src": "TheStreet",
+"url": "https://www.thestreet.com/investing/david-tepper-adds-coreweave-spacex-stock-ai-bottleneck",
+"date": "2026-09-11"
+},
+{
+"title": "David Tepper's Appaloosa sells AI memory stocks while loading up on Magnificent Seven in the second quarter",
+"src": "CNBC",
+"url": "https://www.cnbc.com/2026/08/14/david-tepper-appaloosa-13f-q2.html",
+"date": "2026-08-14"
 }
 ]
 },
@@ -658,71 +598,77 @@
 },
 {
 "mid": "bridgewater",
-"headline": "AI 개별주 대거 차익실현, S&P500 ETF로 이동",
-"trend_3y": "3년 사이 P&G·코카콜라·코스트코·펩시 등 필수소비재와 신흥국 ETF(IEMG)를 사실상 정리하고, SPY·IVV 등 S&P500 ETF와 엔비디아 등 AI 관련주 비중을 키웠다. 13F는 브리지워터 전체 운용(채권·선물·통화·숏)의 일부인 미국 상장 롱 주식만 보여준다. 달리오는 2022년 공동 CIO에서 물러났고 2025년 남은 지분을 팔고 이사회에서도 떠나, 현재 결정은 카니올-탐부르·프린스·젠슨 공동 CIO가 내린다. 필수소비재 정리 이유에 대한 공식 설명은 찾지 못함 — 추정: 시스템 기반 팩터 배분 변화와 지수 ETF 중심 베타 노출 전환.",
-"latest": "2026년 2분기 SPY(약 +7.1억 달러)·IVV·VOO를 사고 마이크론(약 15.7억 달러)·아마존(약 54% 축소)·TSMC(거의 전량)·마벨·AMD를 팔았다. 회사 설명은 없으며, 분석가들은 마이크론이 분기 중 242%, TSMC가 41% 오르며 비중이 커져 리스크 한도 내로 줄인 리밸런싱으로 해석한다. 브리지워터는 7월 말 대담에서 프런티어 AI 랩 매출 성장의 새로운 위험을 언급해 4월보다 신중해진 톤을 보였다.",
-"watch": "11월 16일 마감 3분기 13F에서 AI 바스켓 비중(약 20%대)이 더 줄어드는지, 지수 ETF 확대가 이어지는지.",
-"report_period": "2026Q2",
+"headline": "S&P500 ETF·빅테크 동반 축소, 반도체 일부 매수",
+"trend_3y": "3년 사이 P&G·코카콜라 등 필수소비재와 신흥국 ETF(IEMG)를 사실상 정리했다. 대신 SPY·IVV 등 S&P500 ETF와 엔비디아 등 AI 관련주 비중을 키웠고, 2024년 4분기에는 SPY 비중이 22%까지 오르기도 했다. 13F는 브리지워터 전체 운용(채권·선물·통화·숏)의 일부인 미국 상장 롱 주식만 보여준다. 달리오는 2025년 남은 지분과 이사회 자리에서 떠났고, 현재 결정은 카니올-탐부르·프린스·젠슨 공동 CIO가 내린다. 2026년 내내 AI 바스켓과 지수 ETF 사이를 오가는 리밸런싱이 컸다.",
+"latest": "3분기에는 2분기에 늘렸던 S&P500 ETF 3종(SPY·IVV·VOO)을 크게 줄여 합계 비중이 약 27%에서 약 16.5%로 낮아졌다. 알파벳(-65%)·아마존(-52%)·MSFT(-69%) 같은 빅테크도 함께 줄였다. 반면 퀄컴(+440%)과 마이크론 등 반도체는 늘렸다는 보도가 있다. 회사의 매매 설명은 없다. 공동 CIO들은 4월 AI의 소프트웨어 파괴 위험을, 2월에는 빅테크 AI 투자가 '더 위험한 국면'에 들어섰다고 경고한 바 있다. 미국 주식 롱 노출 전반을 낮춘 것으로 보인다 (추정).",
+"watch": "4분기 13F에서는 지수 ETF 축소가 이어지는지, 다시 늘리는지(분기마다 반복된 리밸런싱인지) 볼 필요가 있다. 반도체(퀄컴·마이크론) 증액이 AI 하드웨어 재확대로 이어지는지도 확인 대상이다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Bridgewater Q2 2026: Sells AI, Buys Index",
-"src": "InvestorLens",
-"url": "https://www.investorlens.capital/blog/2026-11-02-bridgewater-q2-2026-sells-ai-buys-index",
-"date": "2026-11-02"
-},
-{
-"title": "How Bridgewater Trades AI in Its 13F: It Sold Micron and TSMC, Kept Most of Its Nvidia",
-"src": "Navnoor Bawa Research",
-"url": "https://www.navnoorbawaresearch.com/p/how-bridgewater-trades-ai-in-its",
-"date": "2026-10-13"
-},
-{
-"title": "Ray Dalio Portfolio: Bridgewater Top Holdings (Q1 2026)",
-"src": "Hedge Fund Alpha",
-"url": "https://hedgefundalpha.com/strategies/ray-dalio-portfolio/",
+"title": "In the third quarter, Bridgewater significantly reduced its holdings in S&P 500 ETFs while increasing positions in semiconductor stocks such as Qualcomm and Micron",
+"src": "Moomoo",
+"url": "https://www.moomoo.com/news/post/1004799555/in-the-third-quarter-bridgewater-significantly-reduced-its-holdings-in",
 "date": ""
+},
+{
+"title": "Bridgewater significantly reduced its holdings...",
+"src": "ChainCatcher",
+"url": "https://www.chaincatcher.com/en/article/2305342",
+"date": ""
+},
+{
+"title": "Ray Dalio's Top Q3 2026 Move: SPDR S&P 500 ETF Trust at a -5.87% Portfolio Impact",
+"src": "GuruFocus",
+"url": "https://www.gurufocus.com/news/9202772/ray-dalios-top-q3-2026-move-spdr-sp-500-etf-trust-at-a-587-portfolio-impact",
+"date": ""
+},
+{
+"title": "Bridgewater CIO says AI poses existential threat to software firms",
+"src": "Yahoo Finance",
+"url": "https://finance.yahoo.com/sectors/technology/articles/bridgewater-cio-says-ai-poses-154006772.html",
+"date": "2026-04-27"
+},
+{
+"title": "橋水 2026年 2분기 13F 보도",
+"src": "鉅亨網(Anue)",
+"url": "https://news.cnyes.com/news/id/6577988",
+"date": "2026-08-15"
 }
 ]
 },
 {
 "mid": "thirdpoint",
-"headline": "WBD 합병차익 최대 베팅, 반도체 정리하고 구글 확대",
-"trend_3y": "3년 전 최대였던 PG&E·마이크로소프트·배스앤바디웍스·메타를 모두 정리하고 다나허도 크게 줄인 뒤, 워너브러더스디스커버리·구글·CRH·아마존·TDS 중심으로 재편했다. 배스앤바디웍스는 매출 감소 속에 2025년 정리됐고, 다나허는 2025년 손실 상태로 매도된 것으로 분석된다. 로브는 CRH를 경기민감 유럽 시멘트사가 아닌 북미 인프라 소재 선도기업으로 보고 3~4년 인프라 수요를 근거로 들었다. 이벤트·인수합병 기반 투자와 구조적 성장주를 섞는 스타일은 유지됐다.",
-"latest": "2026년 2분기 WBD 2,000만 주(약 5.3억 달러)를 새로 사 최대 보유가 됐고 키사이트·블록·플렉스·TTM을 신규 편입, 메타·엔비디아·KLA·램리서치는 전량 정리했다. 당시 WBD는 파라마운트의 주당 31달러 인수안으로 약 14% 차익 스프레드가 있었으며, 이 합병은 10월 초 종결된 것으로 보도됐다. 로브는 2분기 서한에서 블록의 캐시앱 대출(Borrow) 수익화와 인력 약 40% 감축에 따른 비용 레버리지를 매수 근거로 밝혔다.",
-"watch": "WBD 인수 종결로 현금화된 자금의 재투자처, 반도체 재진입 여부와 3분기 서한의 신규 아이디어.",
-"report_period": "2026Q2",
+"headline": "WBD 차익 실현, 메타·우넘·엔비디아 신규로 교체",
+"trend_3y": "3년 전 최대였던 PG&E·마이크로소프트·배스앤바디웍스를 정리한 뒤 아마존·CRH·TDS·합병차익(WBD) 중심으로 재편했고, 이번 분기에는 메타·우넘·엔비디아 중심으로 다시 바뀌었다. 빅테크는 자주 사고팔아, 메타·마이크로소프트·엔비디아 모두 3년 동안 편입과 정리를 반복했다. 로브는 CRH를 북미 인프라 소재 선도기업으로 보고 장기 보유하고 있다. 이벤트·인수합병 기반 투자와 구조적 성장주를 섞는 스타일은 유지됐다.",
+"latest": "WBD 2,000만 주·아마존·노퍽서던을 모두 팔고 메타(4.75억 달러)·우넘(4.39억 달러)·엔비디아(3.43억 달러)·마이크로소프트를 새로 샀으며, 스페이스X를 18만 주에서 98만 주로 늘리고 알파벳은 83% 줄였다. 11월 2일자 3분기 서한에서 플래그십 펀드는 분기 -6.8%였고, 시장 취약성을 이유로 총·순 노출을 크게 줄이고 반도체·데이터센터 관련주와 하이퍼스케일러를 축소했다고 밝혔다. 이 축소는 9월 말 이후에 이뤄진 것으로 보여, 13F상 메타·엔비디아 비중은 지금 더 작을 수 있다(추정).",
+"watch": "4분기 13F에서 메타·엔비디아·마이크로소프트 등 AI 관련 포지션이 서한대로 줄었는지, 우넘·스페이스X를 유지하는지 확인할 필요가 있다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Third Point Q2 2026 Investor Letter",
+"title": "Third Point Q3 2026 Investor Letter",
 "src": "Third Point 서한",
-"url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf",
-"date": "2026-07-31"
+"url": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1760/Third_Point_Q3_2026_Investor_Letter_MLHL.pdf",
+"date": "2026-11-02"
 },
 {
-"title": "Third Point takes new stake in Warner Bros Discovery, exits Meta",
-"src": "TheFly/TipRanks",
-"url": "https://tipranks.com/news/the-fly/third-point-takes-new-stake-in-warner-bros-discovery-exits-meta-thefly-news?amp=",
-"date": "2026-08-16"
+"title": "Third Point Q3 2026 Investor Letter",
+"src": "Seeking Alpha",
+"url": "https://seekingalpha.com/article/4968838-third-point-q3-2026-investor-letter",
+"date": "2026-11"
 },
 {
-"title": "Dan Loeb's Trades and Holdings in Q2 2026",
-"src": "Daniel Scrivner",
-"url": "https://www.danielscrivner.com/dan-loeb-trades-and-holdings-q2-2026/",
-"date": ""
+"title": "Dan Loeb's Third Point adds Meta, exits WBD, boosts SpaceX among Q3 trades",
+"src": "TradingView (Seeking Alpha)",
+"url": "https://www.tradingview.com/news/seekingalpha:cbcb9a803094b:0-dan-loeb-s-third-point-adds-meta-exits-wbd-boosts-spacex-among-q3-trades/",
+"date": "2026-11-16"
 },
 {
-"title": "Warner Bros. Discovery Investors Eyeing 14% Return if Paramount Merger Closes by Sept. 30",
-"src": "Pulse (Barron's 요약)",
-"url": "https://www.pulse.bot/television/news/warner-bros-discovery-investors-eyeing-14-return-if-paramount-merger-closes-by-sept-30-61bf4ed3-3a1b-42e9-ab46-14eb98f44bdc",
-"date": "2026-03-14"
-},
-{
-"title": "5 Stocks Dan Loeb Just Dumped From His Portfolio",
-"src": "TIKR",
-"url": "https://www.tikr.com/blog/5-stocks-dan-loeb-just-dumped-from-his-portfolio",
-"date": ""
+"title": "DAN LOEB BOUGHT META, NVIDIA AND MICROSOFT",
+"src": "KuCoin (WOLF Financial)",
+"url": "https://www.kucoin.com/news/insight/META/6afb78a8e5453b00076ddb9b",
+"date": "2026-11-16"
 }
 ]
 },
@@ -810,11 +756,11 @@
 },
 {
 "mid": "fundsmith",
-"headline": "'아무것도 안 하기' 수정, 모멘텀 반영해 대폭 교체",
-"trend_3y": "마이크로소프트를 12%대에서 4%대로 줄이고 펩시·맥코믹 등 필수소비재를 정리했으며, 우버·마스터카드·TSMC·넷플릭스·GE버노바를 새로 담았다. 스미스는 2026년 3월 주주총회에서 AI 인프라 투자로 빅테크가 더 이상 자본경량 기업이 아니게 된다며 MSFT를 약 절반 줄였다고 밝혔다. 2026년 반기 서한에서 패시브 자금 흐름이 가격을 좌우하는 시장에서는 매수 후 보유가 잘 작동하지 않는다며 모멘텀을 더 고려하고 '떨어지는 칼'식 저가매수를 줄이겠다고 했다.",
-"latest": "2026년 상반기 회전율이 51.8%로 사상 최고였고 펀드는 -2.9%로 MSCI World(+11.2%)에 크게 뒤졌다. 메틀러토레도는 성장률 약 1%로 프리미엄 밸류에이션을 정당화 못 한다며, 조에티스는 제네릭 대응 등 경영진에 실망해 팔았다. 우버는 경쟁자 퇴장으로 강해진 네트워크 효과, TSMC는 첨단 반도체 약 90% 점유, GE버노바는 매출 약 4배인 1,630억 달러 수주잔고를 매수 근거로 들었다.",
-"watch": "새 '모멘텀' 접근의 성과와 2027년 1월 연례 서한에서 회전율·추가 교체 내용.",
-"report_period": "2026Q2",
+"headline": "빅테크·마리오트 줄이고 비바·얌·마스터카드 키워",
+"trend_3y": "3년간 MSFT(12.5%→3.1%)·메타(7.4%→3.4%)·알파벳 비중을 꾸준히 줄였고, 펩시·맥코믹·P&G 등 필수소비재도 정리하거나 축소했다. 스미스는 AI 설비투자로 빅테크가 자본경량 모델에서 벗어났다고 봤다. 2026년 반기 서한에서는 패시브 자금이 주도하는 시장에 맞춰 모멘텀을 더 고려하겠다고 선언했다. 그 결과 상반기 회전율이 51.8%로 사상 최고였고, 마스터카드·비바·얌·GE버노바·우버 등이 새로 들어왔다. 13F 평가액은 3년 전 239억 달러에서 129억 달러로 줄었다.",
+"latest": "3분기에는 비바(1.1%→6.0%)·얌(0.7%→4.4%)·마스터카드(4.7%→6.2%)를 대폭 늘렸다. 반면 마리오트·GE버노바·알파벳·P&G·MSFT는 36~57%씩 줄였다. 매수 근거는 반기 서한에 나온 해자 논리로 설명되지만, 매도 이유는 공개되지 않았다. 상반기 기여주(마리오트·알파벳)와 최근 매수주(GE버노바)까지 줄인 점을 보면 신규 종목 재원 마련과 비중 관리로 추정된다. 7월 말 기준 연초 대비 수익률은 -2.7%로 MSCI World(+10.2%)에 크게 뒤졌다.",
+"watch": "2027년 1월 연례 서한에서 하반기 회전율과 마리오트·GE버노바 축소 이유, 모멘텀 전략의 성과를 본다. 4분기 13F에서는 비바·얌 추가 증액 여부를 본다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
@@ -824,22 +770,22 @@
 "date": "2026-07"
 },
 {
-"title": "The 12 stocks Fundsmith Equity bought in H1 2026 as turnover hits a high",
-"src": "Trustnet",
-"url": "https://www.trustnet.com/news/13479995/the-12-stocks-fundsmith-equity-bought-in-h1-2026-as-turnover-hits-a-high",
-"date": "2026-07-08"
+"title": "Fundsmith Equity Fund Factsheet (July 2026)",
+"src": "Fundsmith",
+"url": "https://www.fundsmith.co.uk/factsheet/",
+"date": "2026-08"
+},
+{
+"title": "Terry Smith's massive overhaul as underperformance gap widens",
+"src": "interactive investor",
+"url": "https://www.ii.co.uk/analysis-commentary/terry-smiths-massive-overhaul-underperformance-gap-widens-ii539599",
+"date": "2026-07-09"
 },
 {
 "title": "Why Terry Smith halved his Microsoft exposure",
 "src": "interactive investor",
 "url": "https://www.ii.co.uk/analysis-commentary/why-terry-smith-halved-his-microsoft-exposure-ii538505",
 "date": "2026-03-19"
-},
-{
-"title": "Fundsmith sells out of PepsiCo while making unnamed investment",
-"src": "Investment Week",
-"url": "https://www.investmentweek.co.uk/news/4409039/fundsmith-sells-pepsico-unnamed-investment",
-"date": "2025-02-10"
 }
 ]
 },
@@ -880,36 +826,18 @@
 },
 {
 "mid": "harris",
-"headline": "정유·케이블·미디어 정리, 식품유통·여행·헬스케어로",
-"trend_3y": "차터·KKR을 정리하고 구글 비중을 절반으로 줄인 반면 큐리그닥터페퍼·에어비앤비·타르가·엘리반스·델타를 새로 담아 상위로 올렸다. 차터는 브로드밴드 가입자 감소가 예상보다 빨라 2025년 3분기 주요 부진 종목이었으나 당시 오크마크는 장기 논리를 유지한다고 했다. 2026년 2분기 서한에서는 시장이 AI 직접 수혜주에 쏠려 있다며 내재가치 대비 크게 할인된 기업을 선호한다고 밝혀, 전형적 가치투자 스타일을 유지했다.",
-"latest": "2026년 2분기 필립스66을 약 72% 줄였고(3분기 셀렉트펀드에서 전량 매도), 차터·WBD·마라톤페트롤리엄·EOG를 정리했으며 시스코·알파벳·에퀴터블을 새로 샀다. 오크마크 서한은 WBD·마라톤·차터·필립스66 매도를 '최종 매도'로만 적고 이유를 밝히지 않았다. 추정: 정유주는 큰 상승 뒤 차익실현, WBD는 파라마운트 인수가에 근접해 정리한 것으로 보인다. 코노코필립스는 유가 하락으로 부진했지만 펀더멘털은 예상대로라고 했다.",
-"watch": "3분기 신규 편입한 메타·로켓컴퍼니 비중과 부진한 큐리그닥터페퍼 대응.",
-"report_period": "2026Q2",
+"headline": "메타 신규 편입, 머크 축소·케이블·정유 정리 마무리",
+"trend_3y": "3년 사이 차터·컴캐스트·필립스66 등 케이블·정유주를 정리하고 구글 A주 비중을 5%에서 2%대로 줄였다. 그 자리는 세일즈포스(1.8%→4.5%)·큐리그닥터페퍼·에어비앤비·IQVIA·ICE가 채웠다. 나이그렌은 3분기 주주 대화에서 AI 인프라주는 이익 증가가 일시적일 수 있어 예측하기 불편하다며 엔비디아·마이크론을 담지 않는다고 했다. 대신 성장 기업이라도 싸게 거래되면 산다는 쪽으로 기울어, 세일즈포스·메타·넷플릭스 같은 대형 기술주가 늘고 있다.",
+"latest": "3분기 오크마크 펀드는 메타와 아메리칸익스프레스를 새로 사고 차터·컴캐스트·컨스텔레이션브랜즈·리버티브로드밴드·필립스66을 모두 팔았다(매도 이유는 밝히지 않음). 메타는 2022년 이후 가장 낮은 배수 근처라 내재가치보다 싸게 샀다고 직접 설명했다. 머크는 비중을 절반 넘게 줄였는데 이유는 공개되지 않았다. 세일즈포스는 매출 성장 가속으로 주가가 올라 최대 종목(4.5%)이 됐다.",
+"watch": "4분기 13F에서 메타·넷플릭스·액센츄어 비중을 더 키우는지, 머크를 마저 정리하는지 볼 필요가 있다. 부진한 큐리그닥터페퍼를 계속 줄이는지도 관찰 포인트다.",
+"report_period": "2026Q3",
 "stale": false,
 "sources": [
 {
-"title": "Oakmark Fund Quarterly Commentary June 30, 2026",
+"title": "Oakmark Fund Quarterly Commentary September 30, 2026",
 "src": "Oakmark 서한",
-"url": "https://oakmark.com/wp-content/uploads/sites/3/2026/07/Oakmark-Fund-Commentary_06-30-2026_vF.pdf",
-"date": "2026-07"
-},
-{
-"title": "Oakmark Select Fund Q2 2026 Commentary",
-"src": "Oakmark 서한",
-"url": "https://oakmark.com/wp-content/uploads/sites/3/2026/07/Oakmark-Select-Fund-Commentary_06-30-2026_vF.pdf",
-"date": "2026-07"
-},
-{
-"title": "Oakmark Global Fund Q2 2026 Commentary",
-"src": "Oakmark 서한",
-"url": "https://oakmark.com/wp-content/uploads/sites/3/2026/07/Oakmark-Global-Fund-Commentary_06-30-2026_vF.pdf",
-"date": "2026-07"
-},
-{
-"title": "Bill Nygren's Bold Q2 2026 Move: Trimming Phillips 66",
-"src": "GuruFocus (Yahoo Finance)",
-"url": "https://finance.yahoo.com/markets/stocks/articles/bill-nygrens-bold-q2-2026-000043522.html",
-"date": "2026-08-26"
+"url": "https://oakmark.com/wp-content/uploads/sites/3/2026/10/Oakmark-Fund-Commentary-09-30-2026.pdf",
+"date": "2026-10"
 },
 {
 "title": "Oakmark Select Fund Q3 2026 Commentary",
@@ -918,10 +846,28 @@
 "date": "2026-10-17"
 },
 {
-"title": "Charter Communications (CHTR) Declined Following Weak Results",
-"src": "Insider Monkey (Yahoo Finance)",
-"url": "https://finance.yahoo.com/news/charter-communications-chtr-declined-following-135201571.html",
-"date": "2025-10-10"
+"title": "Oakmark Global Fund Q3 2026 Commentary",
+"src": "Oakmark 서한 (Seeking Alpha)",
+"url": "https://seekingalpha.com/article/4954943-oakmark-global-fund-q3-2026-commentary",
+"date": "2026-10"
+},
+{
+"title": "Oakmark Equity And Income Fund Q3 2026 Commentary",
+"src": "Oakmark 서한 (Seeking Alpha)",
+"url": "https://seekingalpha.com/article/4955066-oakmark-equity-and-income-fund-q3-2026-commentary",
+"date": "2026-10"
+},
+{
+"title": "3Q 2026 U.S. Equity Market Commentary: A conversation with shareholders",
+"src": "Oakmark (빌 나이그렌)",
+"url": "https://oakmark.com/wp-content/uploads/sites/3/2026/10/A-conversation-with-shareholders_U.S.-equity-market-commentary_3Q26_vF.pdf",
+"date": "2026-09-30"
+},
+{
+"title": "Bill Nygren on value investing in the AI era",
+"src": "Oakmark",
+"url": "https://oakmark.com/?p=3300653",
+"date": "2026-08-20"
 }
 ]
 }

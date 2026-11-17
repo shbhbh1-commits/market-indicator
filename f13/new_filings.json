@@ -1,4 +1,65 @@
 {
- "run": "2026-11-14T03:22:57Z",
- "new": []
+ "run": "2026-11-17T00:49:15Z",
+ "new": [
+  {
+   "id": "berkshire",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "duquesne",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "tudor",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "coatue",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "pershing",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "rvcap",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "himalaya",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "appaloosa",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "bridgewater",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "thirdpoint",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "fundsmith",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  },
+  {
+   "id": "harris",
+   "period": "2026-09-30",
+   "filed": "2026-11-16"
+  }
+ ]
 }
