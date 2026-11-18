@@ -226,11 +226,23 @@
 "mid": "coatue",
 "headline": "AI 공급망에서 빅테크·소프트웨어로 무게 이동",
 "trend_3y": "3년 전 상위권은 엔비디아·메타·AMD 같은 AI 플랫폼·칩 설계사였다. 2024~2026년에는 TSMC·램리서치·마이크론·GE버노바 등 공급망 상류와 전력 인프라가 상위를 차지했다. 라퐁은 2026년 6월 CNBC에서 반도체 장비 '곡괭이·삽' 전략을 선호한다고 밝혔다. 5월 공개시장 업데이트에서는 부족한 하드웨어를 파는 공급자가 이기는 국면이라고 봤다. 사모 투자 기업의 상장(스페이스X·세레브라스·포전트)이 13F 편출입의 큰 원천이었다. 13F 보고가치는 238억 달러에서 545억 달러로 커졌다.",
-"latest": "3분기에는 MSFT(+120%)·메타(+79%)를 크게 늘리고 세일즈포스·SK하이닉스·쇼피파이를 새로 담았다. 반면 포전트 파워는 전량 팔고 세레브라스(-54%)·GE버노바·AMD는 줄였다. 라퐁은 11월 8일 영상에서 이제 '큰 아이디어'는 엔비디아가 아닌 오픈AI·앤트로픽이라고 말했다. 오픈AI 파트너인 MSFT 증액과 소프트웨어 저가 매수는 이 시각과 맞물린 것으로 보인다 (추정). 개별 매매에 대한 코투의 공식 설명은 찾지 못했다.",
+"latest": "3분기에는 MSFT(+120%)·메타(+79%)를 크게 늘리고 세일즈포스·SK하이닉스·쇼피파이를 새로 담았다. 반면 포전트 파워는 전량 팔고 세레브라스(-54%)·GE버노바·AMD는 줄였다. 라퐁은 6월에 AI 버블 확률을 20%로 보며 '조금 걱정된다'고 했고, 10월 Coatue 보고서는 반도체 쏠림과 'AGI 갭'(설비투자 대비 매출 26%)을 경고했다. 칩·전력장비에서 하이퍼스케일러·소프트웨어로 옮긴 이번 매매는 이 시각과 맞물린 것으로 보인다(추정).",
 "watch": "4분기 13F(2027년 2월)에서는 세일즈포스·쇼피파이 같은 소프트웨어 신규 편입이 비중 확대로 이어지는지 볼 필요가 있다. 스페이스X·세레브라스 차익실현이 계속되는지도 확인 대상이다.",
 "report_period": "2026Q3",
 "stale": false,
 "sources": [
+{
+"title": "\"80% No, 20% Yes\" — Laffont at Global Alts NY",
+"src": "CEOInterviews(iConnections 녹취)",
+"url": "https://ceointerviews.ai/interview/978360/",
+"date": "2026-06-11"
+},
+{
+"title": "The Intelligence Age Has a Financing Problem (Coatue 10월 업데이트 요약)",
+"src": "AdvisorAnalyst",
+"url": "https://advisoranalyst.com/2026/10/08/the-intelligence-age-has-a-financing-problem.html/",
+"date": "2026-10-08"
+},
 {
 "title": "Coatue Management Boosts Salesforce (CRM) Stake Amid Attractive Valuation",
 "src": "GuruFocus",
@@ -248,12 +260,6 @@
 "src": "Rallies.ai",
 "url": "https://rallies.ai/news/coatue-management-raises-stake-in-meta-reports-stake-in-sk-hynix-86575d2eeb64ee54",
 "date": "2026-11-16"
-},
-{
-"title": "Coatue's Laffont Calls OpenAI and Anthropic the New Big Idea",
-"src": "FourWeekMBA",
-"url": "https://fourweekmba.com/ai-coatues-laffont-calls-openai-and-anthropic-the-new-big-idea/",
-"date": "2026-11-09"
 }
 ]
 },
