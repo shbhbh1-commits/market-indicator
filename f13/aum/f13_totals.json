@@ -1,0 +1,182 @@
+{
+ "baupost": [
+  {
+   "period": "2018-12-31",
+   "filed": "2019-02-13",
+   "value_usd_bn": 11.523,
+   "entries": 37,
+   "raw_total": 11523228.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761919003764/"
+  },
+  {
+   "period": "2019-12-31",
+   "filed": "2020-02-13",
+   "value_usd_bn": 9.055,
+   "entries": 31,
+   "raw_total": 9055230.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761920003359/"
+  },
+  {
+   "period": "2020-12-31",
+   "filed": "2021-02-12",
+   "value_usd_bn": 10.836,
+   "entries": 45,
+   "raw_total": 10836094.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761921003545/"
+  },
+  {
+   "period": "2021-12-31",
+   "filed": "2022-02-11",
+   "value_usd_bn": 10.127,
+   "entries": 54,
+   "raw_total": 10127277.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761922003626/"
+  },
+  {
+   "period": "2022-12-31",
+   "filed": "2023-02-13",
+   "value_usd_bn": 6.131,
+   "entries": 34,
+   "raw_total": 6131411.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761923002543/"
+  },
+  {
+   "period": "2023-12-31",
+   "filed": "2024-02-13",
+   "value_usd_bn": 4.585,
+   "entries": 23,
+   "raw_total": 4585037.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000156761924000192/"
+  },
+  {
+   "period": "2024-12-31",
+   "filed": "2025-02-13",
+   "value_usd_bn": 3.435,
+   "entries": 22,
+   "raw_total": 3434526.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000106176825000002/"
+  },
+  {
+   "period": "2025-12-31",
+   "filed": "2026-02-13",
+   "value_usd_bn": 5.279,
+   "entries": 22,
+   "raw_total": 5278590.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000005/"
+  },
+  {
+   "period": "2026-03-31",
+   "filed": "2026-05-14",
+   "value_usd_bn": 5.115,
+   "entries": 22,
+   "raw_total": 5115380.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000007/"
+  },
+  {
+   "period": "2026-06-30",
+   "filed": "2026-08-13",
+   "value_usd_bn": 5.416,
+   "entries": 23,
+   "raw_total": 5415853.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000010/"
+  },
+  {
+   "period": "2026-09-30",
+   "filed": "2026-11-13",
+   "value_usd_bn": 5.046,
+   "entries": 21,
+   "raw_total": 5045853.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1061768/000106176826000015/"
+  }
+ ],
+ "fundsmith": [
+  {
+   "period": "2018-12-31",
+   "filed": "2019-02-14",
+   "value_usd_bn": 15.751,
+   "entries": 32,
+   "raw_total": 15750999.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002319000001/"
+  },
+  {
+   "period": "2019-12-31",
+   "filed": "2020-02-13",
+   "value_usd_bn": 21.166,
+   "entries": 31,
+   "raw_total": 21166490.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002320000001/"
+  },
+  {
+   "period": "2020-12-31",
+   "filed": "2021-02-12",
+   "value_usd_bn": 30.169,
+   "entries": 39,
+   "raw_total": 30169215.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002321000005/"
+  },
+  {
+   "period": "2021-12-31",
+   "filed": "2022-02-14",
+   "value_usd_bn": 40.983,
+   "entries": 44,
+   "raw_total": 40982739.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000186853722000005/"
+  },
+  {
+   "period": "2022-12-31",
+   "filed": "2023-02-14",
+   "value_usd_bn": 21.896,
+   "entries": 38,
+   "raw_total": 21895626074.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002323000001/"
+  },
+  {
+   "period": "2023-12-31",
+   "filed": "2024-02-14",
+   "value_usd_bn": 23.888,
+   "entries": 40,
+   "raw_total": 23888150521.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002324000014/"
+  },
+  {
+   "period": "2024-12-31",
+   "filed": "2025-02-14",
+   "value_usd_bn": 23.458,
+   "entries": 38,
+   "raw_total": 23458177867.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000152002325000002/"
+  },
+  {
+   "period": "2025-12-31",
+   "filed": "2026-02-17",
+   "value_usd_bn": 17.116,
+   "entries": 37,
+   "raw_total": 17116090918.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000156920526000002/"
+  },
+  {
+   "period": "2026-03-31",
+   "filed": "2026-05-15",
+   "value_usd_bn": 12.828,
+   "entries": 34,
+   "raw_total": 12827766987.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000156920526000005/"
+  },
+  {
+   "period": "2026-06-30",
+   "filed": "2026-08-14",
+   "value_usd_bn": 13.649,
+   "entries": 41,
+   "raw_total": 13648923682.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000156920526000012/"
+  },
+  {
+   "period": "2026-09-30",
+   "filed": "2026-11-16",
+   "value_usd_bn": 12.922,
+   "entries": 42,
+   "raw_total": 12922460889.0,
+   "url": "https://www.sec.gov/Archives/edgar/data/1569205/000156920526000014/"
+  }
+ ]
+}

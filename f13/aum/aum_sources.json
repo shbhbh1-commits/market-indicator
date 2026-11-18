@@ -1,0 +1,405 @@
+{
+ "baupost": {
+  "identifiers": {
+   "crd": 109530,
+   "cik": "0001061768 (BAUPOST GROUP LLC/MA, verified data.sec.gov)"
+  },
+  "raum": [
+   {
+    "asof": "2019-03-29",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2019-03-29.",
+    "usd_bn": 30.747,
+    "usd_exact": 30747206417,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia050119.zip)",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia050119.zip",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2020-03-30",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2020-03-30.",
+    "usd_bn": 30.214,
+    "usd_exact": 30214329971,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia050120.zip)",
+    "url": "https://www.sec.gov/files/node/add/data_distribution/ia050120.zip",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2021-03-30",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2021-03-30.",
+    "usd_bn": 32.02,
+    "usd_exact": 32019687679,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia050321.zip)",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia050321.zip",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2022-03-29",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2022-03-29.",
+    "usd_bn": 31.606,
+    "usd_exact": 31605784991,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia050222.zip)",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia050222.zip",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2023-03-31",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2023-03-31.",
+    "usd_bn": 27.385,
+    "usd_exact": 27384539075,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia051023_1.zip)",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia051023_1.zip",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2024-03-28",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2024-03-28.",
+    "usd_bn": 24.767,
+    "usd_exact": 24767034506,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia050324.xlsx)",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia050324.xlsx",
+    "accounts_5F2f": 11
+   },
+   {
+    "asof": "2025-03-28",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2025-03-28.",
+    "usd_bn": 23.585,
+    "usd_exact": 23584785908,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia09022025.xlsx)",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09022025.xlsx",
+    "accounts_5F2f": 12
+   },
+   {
+    "asof": "2026-03-30",
+    "asof_note": "RAUM reported in annual ADV amendment (calculated within 90 days before filing; typically FYE 12/31 of prior year). Filed 2026-03-30.",
+    "usd_bn": 24.681,
+    "usd_exact": 24681434252,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM (file ia110226-registered.zip)",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia110226-registered.zip",
+    "accounts_5F2f": 12
+   },
+   {
+    "asof": "2026-03-30",
+    "usd_bn": 24.681,
+    "src": "formds.com adviser page (IAPD-derived) - cross-check, ADV filing ID 2082777, 12 accounts",
+    "url": "https://www.formds.com/investment-advisers/the-baupost-group-l-l-c?filing=1926778",
+    "cross_check": true
+   }
+  ],
+  "other_aum_reports": [
+   {
+    "asof": "2021-12-31",
+    "usd_bn": 28.8,
+    "src": "Bloomberg via Hedgeweek (firm AUM, not RAUM)",
+    "url": "https://www.hedgeweek.com/baupost-clients-pull-7bn-over-past-three-years/"
+   },
+   {
+    "asof": "2025-01-22",
+    "usd_bn": 23.0,
+    "src": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2025-01-22/baupost-clients-pulled-7-billion-since-2021-after-poor-returns"
+   },
+   {
+    "asof": "2019-12-31",
+    "usd_bn": 29.0,
+    "src": "Institutional Investor 2020-03-25",
+    "url": "https://institutionalinvestor.com/article/b1kxctg877kfxd/Hedge-Funds-Legends-Quietly-Contacting-Investors-Citing-Historic-Buying-Opportunity"
+   }
+  ],
+  "cash_pct": [
+   {
+    "asof": "2011-07 (reported 2011-07-21)",
+    "pct": 30,
+    "src": "Institutional Investor ('is said to be 30 percent in cash'; 40-50% in 2006-07)",
+    "url": "https://www.institutionalinvestor.com/article/2bszms9o05806an3u36yo/portfolio/seth-klarmans-baupost-up-less-than-3-percent-this-year",
+    "note": "pre-2015 context"
+   },
+   {
+    "asof": "2017-09 (reported 2017-09-08)",
+    "pct": 42,
+    "src": "Bloomberg, 'Klarman's Baupost Is Said to Plan to Return Some Investor Money'",
+    "url": "https://www.bloomberg.com/news/articles/2017-09-08/klarman-s-baupost-is-said-to-plan-to-return-some-investor-money",
+    "note": "~$30bn AUM; 42% of assets in cash; planned to return capital by year-end"
+   },
+   {
+    "asof": "2018-12-31 (reported 2019-01-25)",
+    "pct": null,
+    "src": "Institutional Investor, 'Punishing December Takes Toll...'",
+    "url": "https://www.institutionalinvestor.com/article/2bsw5x82tiia0ahhzhlvk/premium/punishing-december-takes-toll-on-seth-klarmans-baupost-group",
+    "note": "qualitative only: cash 'at the low end of its historical range'; 2018 return ~flat to -1%"
+   },
+   {
+    "asof": "2019-12-31",
+    "pct": 31,
+    "src": "CNBC (Klarman year-end letter, 2020-01-22)",
+    "url": "https://www.cnbc.com/2020/01/22/seth-klarman-the-rocket-fuel-feeding-this-rally-will-soon-run-out.html",
+    "note": "also GuruFocus 2020-01-29: https://www.gurufocus.com/news/1023849/seth-klarman-opportunities-for-value-investors-are-increasing-"
+   },
+   {
+    "asof": "2020-03 (reported 2020-03-25)",
+    "pct": 27,
+    "src": "Institutional Investor (Leanna Orr), source-attributed",
+    "url": "https://institutionalinvestor.com/article/b1kxctg877kfxd/Hedge-Funds-Legends-Quietly-Contacting-Investors-Citing-Historic-Buying-Opportunity",
+    "note": "fell from 31% to 27%; ~$1.5bn deployed; AUM $29bn end-2019"
+   },
+   {
+    "asof": "2020-04 (reported 2020-04-14)",
+    "pct": 26,
+    "src": "GuruFocus via Yahoo Finance, unverified insider reports",
+    "url": "https://finance.yahoo.com/news/seth-klarmans-baupost-buying-171815484.html",
+    "note": "~6pp earmarked -> ~20% uncommitted"
+   },
+   {
+    "asof": "2023-07 (reported 2023-07-10)",
+    "pct": null,
+    "src": "Hedge Fund Alpha (paywalled excerpt)",
+    "url": "https://hedgefundalpha.com/news/klarmans-baupost-seeks-real-estate-deals-in-distressed-market/",
+    "note": "generic: 'typically around one-third' cash; range 15-30%; no dated point figure"
+   },
+   {
+    "asof": "2025-01 (reported 2025-01-23)",
+    "pct": 10,
+    "src": "Hedgeweek citing Bloomberg 2025-01-22",
+    "url": "https://www.hedgeweek.com/baupost-clients-pull-7bn-over-past-three-years/",
+    "note": "cash ~10% of holdings; credit ~25% of assets (from 5% two years earlier); Bloomberg original: https://www.bloomberg.com/news/articles/2025-01-22/baupost-clients-pulled-7-billion-since-2021-after-poor-returns"
+   }
+  ],
+  "flows": [
+   {
+    "period": "2017 (announced 2017-09-08)",
+    "amount": "capital return planned, amount undisclosed",
+    "src": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2017-09-08/klarman-s-baupost-is-said-to-plan-to-return-some-investor-money"
+   },
+   {
+    "period": "2022-2024 (since end-2021, reported 2025-01-22)",
+    "amount_usd_bn": -7.0,
+    "amount": "~$7bn client withdrawals; AUM $28.8bn end-2021 -> ~$23bn Jan 2025",
+    "src": "Bloomberg via Hedgeweek",
+    "url": "https://www.hedgeweek.com/baupost-clients-pull-7bn-over-past-three-years/",
+    "url_original": "https://www.bloomberg.com/news/articles/2025-01-22/baupost-clients-pulled-7-billion-since-2021-after-poor-returns"
+   }
+  ]
+ },
+ "fundsmith": {
+  "fund_aum": [
+   {
+    "asof": "2019-12-31",
+    "gbp_bn": 18.831,
+    "src": "Fundsmith Equity Fund Short Form Report FY2021 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total)",
+    "url": "https://WWW.FUNDSMITH.CO.UK/media/4vqmhlov/2021-short-form-report-for-the-twelve-months-ended-31-december-2021.pdf"
+   },
+   {
+    "asof": "2020-12-31",
+    "gbp_bn": 23.248,
+    "src": "Short Form Report FY2021/FY2022 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total)",
+    "url": "https://WWW.FUNDSMITH.CO.UK/media/4vqmhlov/2021-short-form-report-for-the-twelve-months-ended-31-december-2021.pdf"
+   },
+   {
+    "asof": "2021-12-31",
+    "gbp_bn": 28.662,
+    "src": "Short Form Report FY2022 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total)",
+    "url": "https://WWW.FUNDSMITH.CO.UK/media/y3ll0d4j/2022-short-form-report-for-the-twelve-months-ended-31-december-2022.pdf"
+   },
+   {
+    "asof": "2022-12-31",
+    "gbp_bn": 22.31,
+    "src": "Short Form Report FY2022 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total)",
+    "url": "https://WWW.FUNDSMITH.CO.UK/media/y3ll0d4j/2022-short-form-report-for-the-twelve-months-ended-31-december-2022.pdf"
+   },
+   {
+    "asof": "2023-12-31",
+    "gbp_bn": 23.575,
+    "src": "Short Form Report FY2025 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total)",
+    "url": "https://www.fundsmith.co.uk/media/uxvf5sjz/2025-short-form-report-for-the-twelve-months-ended-31-december-2025.pdf"
+   },
+   {
+    "asof": "2024-12-31",
+    "gbp_bn": 22.364,
+    "src": "Short Form Report FY2025 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total); factsheet Dec-2024 states 'Fund Size \u00a322.5bn'",
+    "url": "https://www.fundsmith.co.uk/media/uxvf5sjz/2025-short-form-report-for-the-twelve-months-ended-31-december-2025.pdf",
+    "url_alt": "https://www.fundsmith.co.uk/media/z3ujrcqh/december.pdf"
+   },
+   {
+    "asof": "2025-12-31",
+    "gbp_bn": 16.031,
+    "src": "Short Form Report FY2025 - Sum of 6 share-class closing NAVs in Short Form Report comparative tables (derived total); Trustnet/FE 2026-01-22 says \u00a316.1bn",
+    "url": "https://www.fundsmith.co.uk/media/uxvf5sjz/2025-short-form-report-for-the-twelve-months-ended-31-december-2025.pdf",
+    "url_alt": "https://www.trustnet.com/news/13467967/the-most-bought-and-sold-global-equity-funds-in-2025"
+   },
+   {
+    "asof": "2026-07-31",
+    "gbp_bn": 11.8,
+    "src": "Fundsmith factsheet page",
+    "url": "https://www.fundsmith.co.uk/factsheet/"
+   },
+   {
+    "asof": "2026-11-17",
+    "gbp_bn": 11.2134,
+    "usd_bn": 14.8309,
+    "src": "Trustnet/FE factsheet, Fundsmith Equity T Acc (fund size \u00a311,213.4m / $14,830.9m)",
+    "url": "https://www2.trustnet.com/Factsheets/FundFactsheetPDF.aspx?fundCode=LSFX1&univ=O"
+   }
+  ],
+  "flows": [
+   {
+    "period": "2023",
+    "amount_gbp_bn": -1.5,
+    "amount": "~\u00a31.5bn outflows",
+    "src": "Trustnet (FE Analytics), 2024-01-30",
+    "url": "https://www.trustnet.com/news/13403341/the-most-bought-and-sold-global-funds-in-2023"
+   },
+   {
+    "period": "2024",
+    "amount_gbp_bn": -3.3,
+    "amount": "\u00a33.3bn net outflows; size \u00a323.7bn -> \u00a322.5bn",
+    "src": "Trustnet (FE Analytics), 2025-02-11",
+    "url": "https://www.trustnet.com/news/13437291/the-most-bought-and-sold-ia-global-funds-of-last-year"
+   },
+   {
+    "period": "12m to ~Jan 2025",
+    "amount_gbp_bn": -1.2,
+    "amount": ">\u00a31.2bn outflows over past year (FE Analytics; conflicts with \u00a33.3bn CY2024 figure - likely different window/share-class scope)",
+    "src": "Trustnet 2025-01-27",
+    "url": "https://www.trustnet.com/news/13435606/should-you-buy-hold-or-fold-fundsmith-equity"
+   },
+   {
+    "period": "2025",
+    "amount_gbp_bn": -6.5,
+    "amount": "~\u00a36.5bn net outflows; size \u00a322.5bn -> \u00a316.1bn",
+    "src": "Trustnet (FE Analytics), 2026-01-22",
+    "url": "https://www.trustnet.com/news/13467967/the-most-bought-and-sold-global-equity-funds-in-2025"
+   },
+   {
+    "period": "12m to mid-Jul 2026",
+    "amount_gbp_bn": -7.9,
+    "amount": "\u00a37.9bn withdrawn in last 12 months; \u00a316bn over 5 years; peak \u00a329bn -> \u00a312bn",
+    "src": "Fidelity UK 2026-08-13 citing Citywire 2026-07-16",
+    "url": "https://www.fidelity.co.uk/markets-insights/investing-ideas/funds/important-changes-at-fundsmith-equity/"
+   }
+  ],
+  "firm_aum": [
+   {
+    "note": "US-registered RAUM only (Form ADV 5.F(2)(c)); not total Fundsmith group AUM. Fundsmith LLP 13F CIK 0001569205 (verified via data.sec.gov submissions; latest 13F-HR filed 2026-11-16 for 2026-09-30). Other CIKs: Fundsmith Investment Services Ltd 0001868537, Fundsmith Equity Fund L.P. 0001520023."
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2019-08-29",
+    "usd_bn": 27.589,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/node/add/data_distribution/ia050120.zip"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2020-06-29",
+    "usd_bn": 28.61,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia050321.zip"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2021-10-08",
+    "usd_bn": 45.69,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia050222.zip"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2022-06-29",
+    "usd_bn": 41.7,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-and-exempt-reporting-advisers/ia051023_1.zip"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2023-12-01",
+    "usd_bn": 35.523,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia050324.xlsx"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2024-10-30",
+    "usd_bn": 37.504,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-exempt-reporting-advisers/ia120224.xlsx"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2025-06-27",
+    "usd_bn": 30.594,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09022025.xlsx"
+   },
+   {
+    "entity": "Fundsmith LLP",
+    "crd": 160365,
+    "adv_filed": "2026-06-26",
+    "usd_bn": 18.508,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia110226-registered.zip"
+   },
+   {
+    "entity": "Fundsmith Investment Services Ltd",
+    "crd": 310498,
+    "adv_filed": "2023-10-23",
+    "usd_bn": 42.524,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia050324.xlsx"
+   },
+   {
+    "entity": "Fundsmith Investment Services Ltd",
+    "crd": 310498,
+    "adv_filed": "2024-06-27",
+    "usd_bn": 48.628,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-exempt-reporting-advisers/ia120224.xlsx"
+   },
+   {
+    "entity": "Fundsmith Investment Services Ltd",
+    "crd": 310498,
+    "adv_filed": "2025-06-27",
+    "usd_bn": 40.033,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09022025.xlsx"
+   },
+   {
+    "entity": "Fundsmith Investment Services Ltd",
+    "crd": 310498,
+    "adv_filed": "2026-06-29",
+    "usd_bn": 24.575,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia110226-registered.zip"
+   },
+   {
+    "entity": "Fundsmith Partners US LLC",
+    "crd": 343726,
+    "adv_filed": "2026-10-19",
+    "usd_bn": 1.022,
+    "src": "SEC 'Information About Registered Investment Advisers' monthly Form ADV data, Item 5.F(2)(c) total RAUM",
+    "url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia110226-registered.zip"
+   },
+   {
+    "entity": "Fundsmith (group)",
+    "asof": "early 2020s peak",
+    "gbp_bn": 29,
+    "note": "peak Fundsmith Equity size per ii.co.uk/Fidelity; group total AUM not found in a primary source",
+    "url": "https://www.ii.co.uk/analysis-commentary/terry-smiths-massive-overhaul-underperformance-gap-widens-ii539599"
+   }
+  ]
+ },
+ "meta": {
+  "built": "2026-11-18",
+  "gaps": [
+   "Baupost cash % for 2015, 2016, 2018 (only qualitative), 2021-2024, 2026 not found in an accessible primary/major-press source",
+   "Fundsmith Equity 2022 and 2026 YTD flows not captured in precise calendar figures",
+   "IAPD/adviserinfo.sec.gov and fundsmith.co.uk direct downloads were blocked by the proxy; SEC monthly bulk files (sec.gov) used instead and Fundsmith PDFs read via web fetch"
+  ]
+ }
+}
