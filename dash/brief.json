@@ -1,101 +1,119 @@
 {
- "date": "2026-11-17",
- "session": "11월 17일(화) 미국장",
- "headline": "반도체는 엔비디아 실적 앞두고 버텼지만(SOX +0.3%), 물가·금리 부담과 AI 경계가 소프트웨어·금리 민감주로 번지며 다우가 848포인트 빠진 날 — 장 마감 후 엔비디아는 예상을 웃돈 실적",
- "lead": "하루 전 하락은 대중 AI칩 규제가 반도체를 직접 때린 ‘반도체발’이었다면, 화요일은 양상이 달랐습니다. 반도체지수는 오히려 0.3% 올랐고, 다우(−1.64%)·러셀2000(−1.50%)이 나스닥(−0.74%)보다 더 빠졌습니다. 10월 수입물가가 두 달 연속 1.1% 올라 12월 금리 인상 부담을 키웠고, 마이크로소프트(−2.3%)·세일즈포스·홈디포(−2.4%) 같은 다우 구성 대형주와 소프트웨어가 밀렸습니다. 유럽(STOXX600 −1.75%, 8개월 만의 최악)과 코스피(5,000 붕괴)도 같은 날 AI 불안에 크게 빠졌습니다. 장 마감 후 엔비디아는 매출 1,158억 달러(+103%), 4분기 가이던스 1,300억 달러로 예상을 웃돌아 시간외에서 1~4% 올랐습니다.",
+ "date": "2026-11-18",
+ "session": "11월 18일(수) 미국장",
+ "headline": "엔비디아는 ‘숫자는 좋은데 CEO 공백·중국·회계 공시 지연’으로 −2.9%, 관리의료주 규제 충격(유나이티드헬스 −10%)이 다우를 −561p 끌어내린 날 — 의사록·월러가 12월 50bp 인상 가능성을 키웠지만 나스닥은 +0.4%",
+ "lead": "전날 장 마감 후 엔비디아가 시장 예상을 넘는 실적을 냈지만 정규장에선 장 초반 상승을 반납하고 5일 연속 하락했습니다. 대신 AMD(+5.3%)·브로드컴(+3.7%)으로 돈이 옮겨 SOX는 +0.1%, 나스닥은 +0.42%였습니다. 반면 다우는 −1.11%였는데, CMS의 메디케어 어드밴티지 감사 규칙안으로 유나이티드헬스(−10%)·휴마나(−13%)가 폭락했고 유가 −3%로 에너지주가 가장 약했습니다. 오후 FOMC 의사록과 월러 이사 발언으로 12월 50bp 인상 가능성이 커졌지만 10년물은 오히려 5.07%로 내렸습니다.",
  "moves": [
   {
    "name": "S&P500",
-   "chg": "−1.03%",
-   "note": "7,340.53 · 장중 −1.6%에서 낙폭 축소"
+   "chg": "−0.23%",
+   "note": "7,323.63 · 5거래일 연속 하락(6월 이후 최장)"
   },
   {
    "name": "다우",
-   "chg": "−1.64%",
-   "note": "50,759.42 (−848.75p)"
+   "chg": "−1.11%",
+   "note": "50,198.17 (−561.25p)"
   },
   {
    "name": "나스닥 종합",
-   "chg": "−0.74%",
-   "note": "24,328.38 · 장중 −2.1%"
+   "chg": "+0.42%",
+   "note": "24,429.88"
   },
   {
    "name": "러셀2000",
-   "chg": "−1.50%",
-   "note": "2,701.87"
+   "chg": "+0.46%",
+   "note": "2,714.31"
   },
   {
    "name": "필라델피아 반도체(SOX)",
-   "chg": "+0.3%",
-   "note": "9,642.88 (대시보드 종가)"
+   "chg": "+0.1%",
+   "note": "9,652.8"
   },
   {
    "name": "엔비디아",
-   "chg": "−0.44%",
-   "note": "155.46달러 · 시간외 약 +1~4%"
+   "chg": "−2.89%",
+   "note": "150.96달러 · 5일 연속 하락, RSI 21"
+  },
+  {
+   "name": "AMD / 브로드컴",
+   "chg": "+5.31% / +3.65%",
+   "note": "530.14달러 / 354.08달러"
+  },
+  {
+   "name": "VIX",
+   "chg": "−3.5%",
+   "note": "24.58"
   },
   {
    "name": "코스피(같은 날 낮)",
-   "chg": "−2.59%",
-   "note": "4,968.48 · 외국인 1.4조원 순매도"
+   "chg": "+1.99%",
+   "note": "5,067.44 · 외국인 약 3,300억 원 순매도"
   }
  ],
- "movers": "하락: 레드캣 −31.7%(연간 매출 목표 철회), 넥스트파워 −12.1%, JD닷컴 −7.7%, 마이크로소프트 −2.3%, 홈디포 −2.4%, 세일즈포스 장중 약 −9%·워크데이·인튜이트·어도비 등 소프트웨어 약세. 상승: 셀라스 +156%(3상 성공), 에너자이저 +12.5%, 에이컴 +11.1%, 브로드컴 +2.5%.",
+ "movers": "상승: 팔로알토 +9.9%(장 마감 후 실적 발표 전후)·센티넬원 +10.8%·크라우드스트라이크 +8.3%(사이버보안), TJX +8.0%, 타깃 +4.0%(관세 환급 효과 포함), AMD +5.3%, 브로드컴 +3.7%. 하락: 하이스터-예일 −41.8%(전환사채), 주미아 −40.6%(가이던스 하향), 휴마나 −13.0%, 유나이티드헬스 −10.2%, 엘리번스 −7.6%, 센틴 −7.1%, 엔비디아 −2.9%.",
  "drivers": [
   {
    "rank": 1,
    "weight": "핵심",
-   "title": "물가 지표가 12월 금리 인상 부담을 다시 키움",
-   "detail": "10월 수입물가가 전월 대비 1.1% 올라 9월(1.1%)에 이어 두 달 연속 높았고, 비연료 수입물가도 0.8% 올랐습니다. 소매판매는 0.2% 증가에 그쳐 ‘물가는 뜨겁고 소비는 식는’ 조합이었습니다. 뉴욕 연은 윌리엄스 총재가 큰 폭 인상 필요성은 부인했다는 보도가 있었지만, 인상 자체는 여전히 기본 시나리오입니다.",
-   "path": "물가↑ → 금리 인상 기대 유지 → 자금 조달 비용에 민감한 소형주(러셀 −1.5%)·주택 관련주(홈디포 −2.4%)와 경기 민감 대형주가 더 크게 하락 → 다우 −848p",
-   "src": "Vista Partners · StockTitan",
-   "url": "https://vistapglobal.com/stock-market-today-november-17-2026-dow-falls-848-points-as-inflation-and-ai-uncertainty-weigh-aapl-ant-dis-eprx-gld-googl-modd-nvda-ser-sls-spcx-vix/",
+   "title": "엔비디아 ‘실적은 통과, 경영·중국·공시 리스크는 미해결’",
+   "detail": "매출 1,158억 달러(+103%), 4분기 가이던스 1,300억 달러(중국 데이터센터 제외)로 숫자는 좋았지만, 젠슨 황 사임 뒤 이사회가 복귀를 배제하고 후임을 찾는 중이고, 중국向 허가 호퍼 칩 출하도 멈췄다고 밝혔습니다. 10-Q 제출을 ‘수주 내’로 미룬 점도 불확실성을 키웠습니다.",
+   "path": "실적 호재 → 장 초반 +2.8% → ‘지배구조·회계 할인’ 재부각으로 매도 → 같은 AI 수요의 수혜를 받는 AMD·브로드컴으로 자금 이동 → SOX 보합",
+   "src": "The Motley Fool · StockTitan",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/",
    "check": "보도"
   },
   {
    "rank": 2,
    "weight": "핵심",
-   "title": "AI 불안이 반도체에서 소프트웨어·빅테크로 이동",
-   "detail": "반도체는 실적 직전이라 매도가 멈췄지만 마이크로소프트(−2.3%)·메타(−1.2%)·알파벳(−1.3%)과 세일즈포스·워크데이·인튜이트·어도비 등 소프트웨어가 일제히 밀렸습니다. 같은 날 나온 BofA 펀드매니저 설문에서 기술주 비중이 2006년 이후 최대폭으로 줄었고, 52%가 6개월 안에 하이퍼스케일러 설비투자 축소 발표를 예상했습니다.",
-   "path": "‘AI 투자 회수 의문’ → 기관의 기술주 비중 축소 → 다우·S&P 비중이 큰 빅테크·소프트웨어 매도 → 지수 하락 폭 확대",
-   "src": "Fortune · Irish Times",
-   "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/",
-   "check": "원문"
+   "title": "관리의료 규제 충격이 가격가중 다우를 직격",
+   "detail": "CMS가 메디케어 어드밴티지 감사 오류를 계약 전체로 확대·2018년분까지 소급하는 규칙안(2027~2036년 902억 달러 환수 추정)을 내 유나이티드헬스 −10.2%, 휴마나 −13.0%, 엘리번스 −7.6%가 됐습니다. 유나이티드헬스 하락만으로 다우 약 200포인트 이상이 빠진 것으로 보입니다(추정).",
+   "path": "정책 발표 → 보험사 미래 수익 환수 우려 → 다우 고가 구성종목 급락 → 다우 −1.1% vs 나스닥 +0.4% 괴리",
+   "src": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026",
+   "check": "보도"
   },
   {
    "rank": 3,
-   "weight": "배경",
-   "title": "엔비디아 실적 직전 ‘포지션 정리’와 유럽·아시아 동반 급락",
-   "detail": "유럽 STOXX600은 −1.75%로 8개월 만에 가장 크게 떨어졌고 ASML이 −5.3%, 유럽 기술주가 −3.9%였습니다. 코스피는 9개월 만에 5,000 아래(4,968.48)로 마감했습니다. 미국 장중엔 NSA 네트워크 장애 보도가 잠시 불안을 키웠으나 NSA는 ‘유지보수 중 일시적 저하’라고 설명했습니다.",
-   "path": "이벤트 전 위험 축소 → 글로벌 AI 관련주 동반 매도 → 미국 장 마지막 1시간 저가 매수로 낙폭 일부 회복",
-   "src": "Reuters(MarketScreener) · Korea JoongAng Daily",
-   "url": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723",
-   "check": "원문"
+   "weight": "핵심",
+   "title": "의사록·월러: 12월 ‘50bp 인상’ 논의 본격화",
+   "detail": "10월 의사록에서 거의 모든 참석자가 추가 인상이 필요할 수 있다고 봤고 2명은 25bp 초과도 거론했습니다. 월러 이사는 25bp라면 1월 추가 인상을 분명히 신호해야 한다고 했고, 1월까지 50bp 인상 확률은 69%로 한 달 전(38%)보다 크게 올랐습니다. 의사록은 AI 인프라 투자를 인플레이션 위험으로, AI 관련 리스·리볼빙 금융을 잠재 손실 증폭 요인으로 지목했습니다.",
+   "path": "인상 기대↑ → 달러 강세 → 금(−3.5%)·원자재 약세, 성장주엔 할인율 부담 — 다만 10년물은 4bp 하락해 장기금리 충격은 제한적",
+   "src": "TradingKey · Yahoo Finance",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262311775-dow-falls-nasdaq-rise-nvidia-earnings-anthropic-ipo-fed-minutes-tradingkey",
+   "check": "보도"
   },
   {
    "rank": 4,
    "weight": "배경",
-   "title": "앤트로픽 19일 상장 — 청약 수급",
-   "detail": "앤트로픽은 공모가 범위 70~78달러를 유지했고 19일 나스닥 데뷔 예정이며, 블룸버그는 상단 이상 가격 가능성을 보도했습니다. 공모 규모가 커서 기존 AI·소프트웨어 보유분을 팔아 청약 자금을 마련하는 수급이 생길 수 있습니다.",
-   "path": "청약 자금 마련 → 기존 AI·소프트웨어주 교체 매도 → 소프트웨어 약세에 가세",
-   "src": "Irish Times(블룸버그 인용)",
-   "url": "https://www.irishtimes.com/business/2026/11/17/european-shares-fall-as-investors-eye-nvidia-results-and-jensen-huangs-return-hopes/",
-   "check": "보도"
+   "title": "유가 −3%·원유 재고 증가로 에너지주 최약세",
+   "detail": "API 원유 재고 528만 배럴 증가 보도 속 WTI 12월물은 82.08달러(−3.04%)로 내렸고 브렌트는 장중 8월 말 이후 처음 90달러를 밑돌았습니다. 에너지 업종은 장중 약 −3%로 S&P500 업종 중 가장 약했습니다.",
+   "path": "공급 과잉 신호 → 유가 하락 → 에너지주 매도 → 다우·S&P 가치주 쪽 하락 가세",
+   "src": "Eurasia Business News · StockTitan",
+   "url": "https://eurasiabusinessnews.com/2026/11/18/stock-market-today-november-18-2026-nvidia-earnings-fail-to-calm-investors-as-gold-and-oil-fall/",
+   "check": "보도(장중)"
   },
   {
    "rank": 5,
    "weight": "배경",
-   "title": "장 마감 후: 엔비디아 ‘숫자는 강했다’",
-   "detail": "매출 1,158억 달러(+103%, 예상 약 1,091억), 데이터센터 1,076억 달러(+110%), 4분기 가이던스 1,300억 달러±3%(예상 약 1,253억, 중국 제외). 다만 4분기 총이익률 가이던스 71~72%는 이번 분기 74.9%보다 낮고, 이사회는 젠슨 황 복귀를 검토하지 않는다고 했습니다.",
-   "path": "수요 확인 → 18일 반도체·메모리(한국 포함) 반등 재료, 단 마진 하락·경영 공백은 남은 변수",
-   "src": "Decrypt · TradingKey",
-   "url": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit",
+   "title": "앤트로픽 상장 전야 — ‘AI 파트너’ 매수, 청약 자금 수급",
+   "detail": "블룸버그는 앤트로픽이 공모가를 83달러(범위 70~78달러 상단 초과)로 정하고 물량을 늘렸다고 보도했습니다. 브로드컴·아마존·알파벳이 앤트로픽 파트너로 장중 강세를 보였습니다.",
+   "path": "대형 IPO 흥행 → 관련 파트너주 매수 + 청약 자금 위한 다른 AI주 매도 → 엔비디아 약세·브로드컴 강세가 동시에",
+   "src": "Yahoo Finance(블룸버그 인용) · StockTitan",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
    "check": "보도"
   }
  ],
- "rates_note": "이날은 ‘금리발 멀티플 조정’보다는 ‘물가발 금리 부담 + AI 실적 의문’이 섞인 하락입니다. 미 10년물은 5.10%로 오히려 소폭 내렸고(대시보드), 나스닥100(−0.7%)이 다우(−1.6%)보다 덜 빠져 전날처럼 고PER 성장주만 두들겨 맞는 패턴은 아니었습니다. 다만 10년 실질금리 2.92%(1년 백분위 99%)·2년물 4.83%(97%)는 여전히 성장주 밸류의 천장 역할을 합니다. 신용은 HYG/IEF가 1개월 −0.8%로 ‘평온’ 범위지만, 하이일드 스프레드 334bp가 1년 백분위 97%로 경보선 안쪽에서 높아지고 있어 ‘밸류 조정 → 신용발’로 넘어가는지 지켜볼 구간입니다.",
- "dash_read": "CNN 공포·탐욕 25.2(공포, 전일 31.0·1주 전 37.4). 하위지표 중 시장 모멘텀 5.2·안전자산 수요 7.2·풋/콜 15.0·변동성 17.8이 ‘극단적 공포’, 정크본드 수요 50.0만 ‘중립’. VIX 25.46(+11%)·VIX/VIX3M 1.019로 기간구조가 역전(백워데이션)됐고 VIX9D/VIX 1.049, VVIX 121.3(헤지 수요 급증). 주식 쪽 공포는 커졌지만 신용(정크본드·HYG/IEF)은 아직 버티는 ‘주식만 공포’ 국면.",
+ "rates_note": "판정: ‘금리발 멀티플 조정’이 아니라 ‘정책(관리의료 규제)·개별(엔비디아 지배구조)발’ 하락입니다. 미 10년물은 5.07%로 4bp 내렸고 나스닥100이 다우보다 1.5%p 가량 앞섰으며, 방어업종인 헬스케어가 오히려 가장 크게 맞아 전형적인 금리 충격 패턴(성장주만 하락)과 다릅니다. 다만 12월 50bp 인상 기대가 커지는 가운데 10년 실질금리 2.89%(1년 백분위 96%)·2년물 4.80%(95%)는 고PER 기술주의 상단을 누르는 배경으로 남아 있습니다. 신용은 HY 스프레드 343bp(1주 +13bp, 1년 백분위 99%)·IG 92bp(97%)로 경보가 켜져 있어, 연준 의사록이 지목한 ‘AI 금융 리스크’가 신용발 조정으로 번지는지가 다음 단계의 관건입니다.",
+ "dash_read": "CNN 공포·탐욕은 오늘 갱신 실패로 11/17 값 25.2(공포, 1주 전 37.4)를 유지 중입니다 — 당시 모멘텀 5.2·안전자산 7.2·풋/콜 15·변동성 17.8이 ‘극단적 공포’, 정크본드 50 ‘중립’. VIX 24.56(−3.5%), VIX/VIX3M 1.011로 기간구조 역전은 이어지지만 VIX9D/VIX 0.975로 단기 패닉은 풀렸고 VVIX 118.4·SKEW 142.8도 ‘보통’으로 내려왔습니다. HYG/IEF는 1개월 −0.6%로 평온하나 HY 스프레드가 1년 백분위 99%까지 올라, ‘주식 공포는 진정·신용은 서서히 악화’ 국면입니다.",
  "lessons": [
+  {
+   "name": "데이비드 테퍼",
+   "when": "2009년 2~3월 은행 국유화 공포",
+   "what": "정부가 대형 은행을 국유화하지 않을 것이라 판단해 BoA·씨티 등 은행주와 채권을 집중 매수했고, 2009년 아팔루사는 기록적인 수익을 냈습니다.",
+   "lesson": "오늘 관리의료주처럼 ‘정책 충격’으로 급락한 업종은, 규칙안이 확정·실행될 확률과 실제 이익 훼손 규모를 따로 계산하는 게 대가의 방식입니다. 시장은 최악을 먼저 가격에 넣습니다.",
+   "src": "The Motley Fool(2009.12)",
+   "url": "https://www.fool.com/investing/general/2009/12/24/how-to-earn-7-billion-betting-on-bank-stocks.aspx"
+  },
   {
    "name": "워런 버핏",
    "when": "2008년 10월 금융위기 한복판",
@@ -135,30 +153,14 @@
    "lesson": "‘아무것도 안 하기’도 전략이지만, 그 전에 종목별 보유 이유를 한 줄로 다시 써 보고 이유가 깨진 것만 정리하는 게 대가들의 방식입니다.",
    "src": "A Wealth of Common Sense",
    "url": "https://awealthofcommonsense.com/2014/08/peter-lynch-stock-market-losses/"
-  },
-  {
-   "name": "찰리 멍거",
-   "when": "2009년 BBC 인터뷰",
-   "what": "주가가 50% 떨어지는 걸 담담히 받아들일 수 없다면 평범한 결과밖에 못 얻는다고 했습니다. 버크셔 주가도 여러 차례 반토막을 겪었습니다.",
-   "lesson": "버틸 수 있는 크기(레버리지·신용 없이)로 들고 있어야 공포 국면을 기회로 쓸 수 있습니다.",
-   "src": "Yahoo Finance(BBC 인터뷰 인용)",
-   "url": "https://finance.yahoo.com/news/charlie-mungers-brutal-truth-investors-131630883.html"
-  },
-  {
-   "name": "데이비드 테퍼",
-   "when": "2009년 2~3월 은행 국유화 공포",
-   "what": "정부가 대형 은행을 국유화하지 않을 것이라고 판단해 BoA·씨티 등 은행주와 채권을 집중 매수했고, 2009년 아팔루사는 기록적인 수익을 냈습니다.",
-   "lesson": "공포의 ‘원인’(정책)을 따져 시장이 과하게 가격에 반영한 부분을 찾았습니다. 이번 하락의 원인(대중 규제·금리)도 실적에 얼마나 실제로 닿는지 따로 계산해 볼 필요가 있습니다.",
-   "src": "The Motley Fool(2009.12)",
-   "url": "https://www.fool.com/investing/general/2009/12/24/how-to-earn-7-billion-betting-on-bank-stocks.aspx"
   }
  ],
  "habits": [
-  "이벤트(실적·상장) 직전에 포지션을 새로 만들지 않는다 — 결과를 보고 ‘보유 이유’가 바뀌었는지만 판단한다",
-  "가격이 아니라 ‘보유 이유’가 바뀌었는지를 본다 — 엔비디아 숫자가 내 종목 매출에 어떻게 닿는지 확인",
-  "빚(신용·미수) 없이 버틸 수 있는 크기로만 들고 있어 공포를 기회로 쓴다",
-  "개별 뉴스보다 연준·금리·신용을 먼저 본다(드러켄밀러) — 지금은 실질금리 2.9%·HY 스프레드 백분위 97%가 배경",
-  "확신이 없을 땐 크기를 줄이고 쉰다 — 드러켄밀러도 ‘이틀일 수도 6개월일 수도 있는 휴식’을 택했다"
+  "좋은 실적에도 주가가 빠지면 ‘숫자 밖’ 이유(지배구조·공시 지연·정책)를 먼저 찾는다 — 그게 다음 분기에도 남는 할인 요인이다",
+  "지수보다 구성을 본다 — 오늘 다우 −1.1%는 유나이티드헬스·엔비디아 몇 종목 몫이었고 나스닥·러셀은 올랐다",
+  "정책 충격은 ‘제안 → 의견수렴(1/19 마감) → 확정’ 단계를 확인하고 크기를 판단한다(테퍼식)",
+  "연준·금리·신용을 개별 뉴스보다 먼저 본다(드러켄밀러) — 지금은 12월 50bp 확률 상승과 HY 스프레드 백분위 99%가 배경",
+  "빚 없이 버틸 수 있는 크기로만 들고, 이벤트(앤트로픽 상장·12월 FOMC) 직전엔 새 포지션을 서두르지 않는다"
  ],
  "f13": [
   {
@@ -190,75 +192,105 @@
    "check": "공시 집계(f13_changes) + 언론 분석",
    "src": "대시보드 13F 집계 · Yahoo Finance(TIKR)",
    "url": "https://finance.yahoo.com/markets/stocks/articles/watch-berkshire-hathaway-files-13f-1635424"
+  },
+  {
+   "name": "르네상스 테크놀로지스",
+   "period": "2026년 3분기 13F",
+   "facts": "엔비디아(AI GPU 1위) 주식을 99.7% 줄여 약 16.1억 달러를 팔았고, 마이크론(미국 메모리 반도체)은 주식 수를 618.7% 늘려 약 13.9억 달러를 샀으며 AMD(GPU·CPU 경쟁사)도 약 7.1억 달러 새로 담았습니다.",
+   "why_official": "없음",
+   "my_read": "퀀트 모델이 GPU 1위에서 메모리·2위 GPU로 바꾼 건 가격 모멘텀·밸류 신호 변화의 결과로 보입니다(추정). 테퍼(마이크론 추가)와 방향이 겹쳐 ‘AI 수요는 믿되 엔비디아 쏠림은 줄이는’ 흐름이 대형 펀드 전반에 있었던 것으로 읽힙니다(추정).",
+   "check": "보도(13F 집계)",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-8-funds-net-sold-2-5b-of-nvidia-tsmc-in-q3-bought-micron/"
+  },
+  {
+   "name": "소로스 · 타이거 글로벌 · 코투",
+   "period": "2026년 3분기 13F",
+   "facts": "소로스는 엔비디아를 19.3% 줄이고 네비우스(AI 클라우드)를 전량 매도. 타이거 글로벌은 TSMC(파운드리)를 35.8% 줄이고 엔비디아를 7.2% 늘림. 코투는 브로드컴(AI 맞춤칩·네트워크)·TSMC·에퀴닉스(데이터센터 리츠)를 늘리고 AMD를 전량 매도.",
+   "why_official": "없음",
+   "my_read": "같은 분기에도 엔비디아를 두고 줄인 곳(소로스·르네상스)과 늘린 곳(타이거)이 갈려, ‘AI 탈출’이 아니라 종목 교체였던 것으로 보입니다(추정). 9월 말 이후 엔비디아가 약 30% 빠져 지금 포지션은 달라졌을 수 있습니다(추정).",
+   "check": "보도(13F 집계)",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-8-funds-net-sold-2-5b-of-nvidia-tsmc-in-q3-bought-micron/"
   }
  ],
  "watch": [
   {
-   "when": "11/18(수) 한국 장중",
-   "what": "엔비디아 실적 반영 — 삼성전자·SK하이닉스 수급",
-   "why": "전날 외국인 1.4조원 순매도가 멈추는지, 코스피 5,000 회복 여부."
-  },
-  {
-   "when": "11/18(수) 미국 장 · 한국시간 19일 새벽",
-   "what": "엔비디아 실적 후 첫 정규장 + FOMC 의사록",
-   "why": "시간외 상승이 정규장에서 유지되는지, 4분기 총이익률 하락 가이던스에 대한 해석, 12월 인상 폭 논의."
-  },
-  {
-   "when": "11/19(목) · 한국시간 19일 밤~20일 새벽",
+   "when": "11/19(목) 미국 · 한국시간 19일 밤~20일 새벽",
    "what": "앤트로픽 나스닥 상장(ANT)",
-   "why": "공모가가 범위 상단 이상이면 AI 투심 회복, 부진하면 AI 밸류 재평가 가속."
+   "why": "공모가 83달러 보도(범위 상단 초과) — 첫날 흐름이 AI 밸류 심리를 가늠할 시험대."
   },
   {
-   "when": "이번 주",
-   "what": "트럼프 방중 일정",
-   "why": "대중 AI칩 규제가 협상 카드로 완화·강화될 수 있는 변수."
+   "when": "11/19(목) 한국 장중",
+   "what": "엔비디아 하락 후 SK하이닉스·삼성전자",
+   "why": "18일 반등(+4.2%·+2.3%)이 미국 엔비디아 −2.9% 이후에도 유지되는지, 외국인 순매도 지속 여부."
+  },
+  {
+   "when": "11/19(목) 미국 · 한국시간 20일 새벽",
+   "what": "월마트 등 소매 실적·주간 실업수당 청구",
+   "why": "관세 환급 효과를 뺀 소비 체력 확인(타깃·TJX는 환급 효과 포함)."
+  },
+  {
+   "when": "수주 내",
+   "what": "엔비디아 10-Q 제출·CEO 선임",
+   "why": "공시 지연 해소와 후임 CEO 발표가 ‘지배구조 할인’을 풀 핵심 이벤트."
+  },
+  {
+   "when": "2027년 1/19 마감",
+   "what": "CMS 메디케어 어드밴티지 감사 규칙안 의견수렴",
+   "why": "확정 여부·수정 폭이 관리의료주 하락의 정당성을 가름."
+  },
+  {
+   "when": "12/8~9 FOMC · 한국시간 12/10 새벽",
+   "what": "인상 폭 25 vs 50bp",
+   "why": "1월까지 50bp 인상 확률 69% — 그 전 11월 고용·물가가 분수령."
   },
   {
    "when": "상시",
-   "what": "하이일드 스프레드(334bp, 1년 백분위 97%)",
-   "why": "더 벌어지면 ‘주식만 공포’가 ‘신용 경색형’으로 바뀌는 신호."
-  },
-  {
-   "when": "12월 FOMC 전",
-   "what": "10월 물가·고용 후속 지표",
-   "why": "수입물가 두 달 연속 +1.1% 이후 인상 폭(25 vs 50bp) 기대 변화."
+   "what": "HY 스프레드(343bp, 1년 백분위 99%)",
+   "why": "연준이 지목한 AI 금융 리스크가 신용으로 번지는지 확인."
   }
  ],
  "sources": [
   {
-   "title": "Stock Market Today, Nov. 17: Nvidia slides ahead of earnings but soars in after hours",
+   "title": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results",
    "src": "The Motley Fool",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/"
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/"
   },
   {
-   "title": "Dow falls 848 points as inflation and AI uncertainty weigh",
-   "src": "Vista Partners",
-   "url": "https://vistapglobal.com/stock-market-today-november-17-2026-dow-falls-848-points-as-inflation-and-ai-uncertainty-weigh-aapl-ant-dis-eprx-gld-googl-modd-nvda-ser-sls-spcx-vix/"
+   "title": "Dow falls, Nasdaq rises; Nvidia drops post-earnings, AMD surges",
+   "src": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262311775-dow-falls-nasdaq-rise-nvidia-earnings-anthropic-ipo-fed-minutes-tradingkey"
   },
   {
-   "title": "Stock Market Today Live, November 17, 2026",
+   "title": "Stock market today (Nov 18 live)",
+   "src": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html"
+  },
+  {
+   "title": "Stock Market Today Live, November 18, 2026",
    "src": "StockTitan",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
   },
   {
-   "title": "Nvidia shares rise after earnings beat in first report since Jensen Huang's exit",
-   "src": "Decrypt",
-   "url": "https://decrypt.co/383505/nvidia-shares-rise-earnings-beat-first-report-jensen-huang-exit"
+   "title": "Kospi jumps nearly 2% as Korean chipmakers rise",
+   "src": "Korea JoongAng Daily",
+   "url": "https://www.koreajoongangdaily.com/business/kospi-jumps-nearly-2-as-korean-chipmakers-rise-with-nvidia-earnings-report/12979529"
   },
   {
-   "title": "European stocks mark worst day in eight months on AI jitters",
-   "src": "Reuters(MarketScreener)",
-   "url": "https://www.marketscreener.com/news/european-stocks-mark-worst-day-in-eight-months-on-ai-jitters-deutsche-bank-slides-ce785edcdd8df723"
+   "title": "European shares muted as tech offsets mining weakness",
+   "src": "Reuters(KFGO)",
+   "url": "https://kfgo.com/2026/11/18/european-shares-muted-as-tech-offsets-mining-weakness/"
   },
   {
-   "title": "Fund managers cut tech by the most since 2006",
+   "title": "8 Funds Net Sold $2.5B of Nvidia, TSMC in Q3",
+   "src": "FourWeekMBA",
+   "url": "https://fourweekmba.com/ai-8-funds-net-sold-2-5b-of-nvidia-tsmc-in-q3-bought-micron/"
+  },
+  {
+   "title": "The AI bubble is cracking. Wall Street is nervous",
    "src": "Fortune",
-   "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/"
-  },
-  {
-   "title": "Druckenmiller says he is short copper",
-   "src": "CoinDesk",
-   "url": "https://www.coindesk.com/business/2026/11/17/druckenmiller-says-he-is-short-copper-warns-of-economic-weakness-in-2027"
+   "url": "https://fortune.com/2026/11/18/ai-bubble-financing-nvidia-coreweave-circular-deals-credit-mark-minevich/"
   }
  ]
 }
