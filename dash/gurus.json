@@ -1,5 +1,57 @@
 [
  {
+  "id": "burry-1119",
+  "date": "2026-11-19",
+  "name": "마이클 버리",
+  "role": "전 사이언 에셋 창업자",
+  "stance": "비관",
+  "topic": "앤트로픽 상장 '낙관에 존재 전체를 건 회사'…매수 계획 없음",
+  "summary": "서브스택에서 앤트로픽이 약 8,950억 달러의 컴퓨팅 약정을 지고 있어 내년 예상 매출(약 1,000억 달러)의 12배 수준이라며, 회사가 낙관론에 생존을 걸었다고 경고했습니다. 공모 참여도, 상장 후 매수도 하지 않겠다고 밝혔습니다.",
+  "check": "보도",
+  "src": "The Motley Fool(Business Insider 인용)",
+  "url": "https://www.fool.com/investing/2026/11/19/the-big-short-s-michael-burry-issued-a-blunt-warning-about-anthropic/",
+  "channel": "서브스택"
+ },
+ {
+  "id": "burry-1118",
+  "date": "2026-11-18",
+  "name": "마이클 버리",
+  "role": "전 사이언 에셋 창업자",
+  "stance": "비관",
+  "topic": "'반등마다 공매도'…엔비디아 140달러 풋 보유, 나스닥100 풋 2배",
+  "summary": "독자 Q&A에서 앤트로픽 상장이 당장은 선물을 띄우고 있지만 AI주는 반등 때마다 공매도하겠다고 했고, 약세장 반등은 평균 22%라 먼저 오르게 둘 수 있다고 덧붙였습니다. 2027년 2월 만기 엔비디아 140달러 풋을 실적 발표까지 보유했으며, 매출채권 회수기간이 60일→64일로 늘어난 점과 젠슨 황 부재를 우려했습니다.",
+  "check": "보도",
+  "src": "Stocktwits",
+  "url": "https://stocktwits.com/news-articles/markets/equity/anthropic-nvidia-next-ai-trade-michael-burry-what-could-break-bull-case/cNbLwugR9ig",
+  "channel": "서브스택 Q&A"
+ },
+ {
+  "id": "wood-1119",
+  "date": "2026-11-19",
+  "name": "캐시 우드",
+  "role": "ARK 인베스트 CEO",
+  "stance": "혼재",
+  "topic": "엔비디아 54만 주(약 8,480만 달러) 매도…AI 혁명론은 유지",
+  "summary": "ARK 펀드들이 11/16 엔비디아 543,092주를 팔아 ARKK 상위 10종목에서 빠졌고, 실적 발표 뒤에도 다시 사지 않았습니다. 그러면서도 AI 기술 혁명은 '이제 맛보기'라는 낙관적 입장을 유지했습니다.",
+  "check": "보도",
+  "src": "TheStreet(ARK 일일 매매 공시)",
+  "url": "https://www.thestreet.com/investing/stocks/cathie-wood-sells-85-million-dollars-tumbling-semiconductor-stock-nvda-nvidia",
+  "channel": "ARK 일일 매매 공시"
+ },
+ {
+  "id": "lamont-1118",
+  "date": "2026-11-18",
+  "name": "오웬 라몬트",
+  "role": "아카디안 자산운용 포트폴리오 매니저(경제학자)",
+  "stance": "비관",
+  "topic": "'AI 버블일 확률 70%'…1월 '아직 아니다'에서 선회",
+  "summary": "포춘에 이메일로 미국 시장이 이미 AI 버블일 확률을 70%로 본다며, 1월의 '아직 아니다' 판단을 바꿨습니다. 다만 순발행(시총 대비 3.1%)은 1999~2000년·2021년 고점보다 낮아 '터무니없는 고평가'는 아니라고 했습니다.",
+  "check": "보도",
+  "src": "Fortune",
+  "url": "https://fortune.com/2026/11/18/ai-bubble-owen-lamont-70-percent-four-horsemen-stock-issuance-anthropic-ipo/",
+  "channel": "언론 인터뷰(이메일)"
+ },
+ {
   "id": "rentec-1118",
   "date": "2026-11-16",
   "name": "르네상스 테크놀로지스",
