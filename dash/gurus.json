@@ -1,5 +1,57 @@
 [
  {
+  "id": "burry-1120",
+  "date": "2026-11-20",
+  "name": "마이클 버리",
+  "role": "전 사이언 에셋 창업자",
+  "stance": "비관",
+  "topic": "엔비디아·SMH 풋 50% 차익 실현, 나스닥100 풋은 유지",
+  "summary": "엔비디아가 7일 연속 하락한 20일, 서브스택 구독자 업데이트에서 엔비디아와 반도체 ETF(SMH) 풋옵션을 절반씩 팔아 수익을 확정했다고 밝혔습니다. 2027년 4월 만기 나스닥100 풋은 그대로 뒀고, 조에티스 콜은 약 3분의 1을 팔았으며 메르카도리브레 지분은 20% 늘렸습니다. 헬스케어 일부 종목에는 ‘절대적 상대 강도’가 있다고 평가했습니다.",
+  "check": "보도",
+  "src": "Stocktwits(TradingView 게재)",
+  "url": "https://www.tradingview.com/news/stocktwits:92d9ed16a094b:0-michael-burry-locks-in-gains-on-nvidia-chipmaker-etf-puts-as-ai-rout-deepens/",
+  "channel": "서브스택"
+ },
+ {
+  "id": "block-1120",
+  "date": "2026-11-20",
+  "name": "카슨 블록",
+  "role": "머디워터스 리서치 창업자(공매도 투자자)",
+  "stance": "중립",
+  "topic": "‘지금은 빅테크 공매도할 때 아니다’…금광주 롱 공개",
+  "summary": "블룸버그TV 인터뷰에서 대형 기술주를 지금 공매도하는 건 위험하다며 ‘숏보다 롱이 낫다’고 말했습니다. 대신 소형 AI 관련 ‘가짜’ 종목들을 공매도 후보로 살피고 있다고 했고, 19일 소흔 런던 콘퍼런스에서는 캐나다 금광사 스노라인 골드 매수를 공개했습니다(규모 미공개). 패시브 매매가 가격 발견 기능을 망가뜨렸다는 지적도 했습니다.",
+  "check": "보도",
+  "src": "Bloomberg(The Edge Singapore 게재)",
+  "url": "https://testing.dev.theedgesingapore.com/news/tech/muddy-waters-carson-block-says-not-time-short-big-tech",
+  "channel": "인터뷰"
+ },
+ {
+  "id": "chadha-1120",
+  "date": "2026-11-20",
+  "name": "빈키 차다",
+  "role": "도이체방크 수석 주식 전략가",
+  "stance": "낙관",
+  "topic": "시장은 ‘매우 과매도’…성장·실적은 여전히 견조",
+  "summary": "20일 급락장에서 시장이 ‘매우 과매도’ 상태라고 진단했습니다. 경기 성장과 기업 실적은 여전히 강하다는 판단이라, 이번 조정을 펀더멘털 훼손보다 포지션 청산으로 보는 시각입니다.",
+  "check": "보도",
+  "src": "CNBC(StockTitan 인용)",
+  "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+  "channel": "방송"
+ },
+ {
+  "id": "lowe-1120",
+  "date": "2026-11-20",
+  "name": "베네딕트 로우",
+  "role": "BNP파리바 주식 전략가",
+  "stance": "비관",
+  "topic": "투자자들 ‘패닉 매도’…AI 열기 정점 여부 가늠 중",
+  "summary": "투자자들이 AI 열기가 정점을 지났는지 판단하려 하면서 ‘패닉 매도’를 하고 있다고 말했습니다. 아시아·유럽 반도체주가 먼저 급락한 뒤 미국장으로 매도가 이어진 흐름을 설명한 발언입니다.",
+  "check": "보도",
+  "src": "CNBC(StockTitan 인용)",
+  "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
+  "channel": "방송"
+ },
+ {
   "id": "burry-1119",
   "date": "2026-11-19",
   "name": "마이클 버리",
