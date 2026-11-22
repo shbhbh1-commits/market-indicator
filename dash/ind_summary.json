@@ -224,15 +224,14 @@
 "unit": "2020＝100",
 "asof": "2026-09",
 "main": "반도체 출하",
-"basis": "출하 전년비 − 재고 전년비(%p)",
-"signal_value": -15.28,
-"avg3": -11.94,
+"basis": "전년비(%)",
+"signal_value": 6.36,
+"avg3": 2.92,
 "trend": "둔화",
 "sign_flip": false,
-"status": "정상 수집",
+"status": "일부 실패",
 "series": [
-"반도체 출하",
-"반도체 재고"
+"반도체 출하"
 ]
 },
 {
@@ -1575,13 +1574,13 @@
 "release": "매일",
 "transform": "level",
 "why": "엔저 강도. 150엔 이상이면 방일 수요 강세 구간.",
-"value": 158.512,
+"value": 158.597,
 "unit": "JPY",
-"asof": "2026-11-20",
+"asof": "2026-11-22",
 "main": "엔/달러",
 "basis": "수준 (전년비 참고)",
 "trend": "보합",
-"signal_value": 1.51,
+"signal_value": 1.57,
 "status": "정상 수집",
 "series": [
 "엔/달러"
