@@ -11,7 +11,34 @@
 "release": "매월 1일",
 "transform": "yoy",
 "why": "한국 경기의 가장 빠른 공식 지표. 일평균 수출로 조업일수 효과를 걸러 본다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 1152.8,
+"unit": "억달러",
+"asof": "2026-10",
+"main": "수출액",
+"basis": "전년비(%)",
+"series": [
+"수출액"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-01",
+"news_src": [
+{
+"title": "두달 연속 1100억弗 돌파… 반도체 10월 수출 564억弗 (파이낸셜뉴스)",
+"url": "https://www.fnnews.com/news/202611011817475807",
+"date": "2026-11-01"
+},
+{
+"title": "Trading Economics 한국 수출 YoY",
+"url": "https://ko.tradingeconomics.com/south-korea/exports-yoy/news/518596",
+"date": "2026-11-01"
+}
+],
+"note": "2026-01~07 월별 금액은 미수집(다음 갱신 때 보강)",
+"signal_value": 93.7,
+"avg3": 82.03,
+"trend": "가속",
+"sign_flip": false
 },
 {
 "id": "exp_d10",
@@ -25,7 +52,30 @@
 "release": "매월 11일",
 "transform": "yoy",
 "why": "월간 발표 3주 전에 방향을 알려주는 속보. 반도체 증가율이 같이 나온다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 335.0,
+"unit": "억달러",
+"asof": "2026-11",
+"main": "1~10일 수출액",
+"basis": "전년비(%)",
+"series": [
+"1~10일 수출액",
+"1~10일 반도체"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-11",
+"news_src": [
+{
+"title": "11월 1~10일 수출 (KDI 경제정보센터, 관세청 자료)",
+"url": "https://eiec.kdi.re.kr/policy/materialView.do?num=289368",
+"date": "2026-11-11"
+}
+],
+"note": "일평균 44.6억달러(+97.7%), 조업일수 7.5일(전년 7일), 반도체 +331.2%·비중 49.7%",
+"signal_value": 111.9,
+"avg3": 111.9,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "exp_d20",
@@ -39,7 +89,30 @@
 "release": "매월 21일",
 "transform": "yoy",
 "why": "1~10일보다 신뢰도가 높은 중간 점검.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 616.0,
+"unit": "억달러",
+"asof": "2026-10",
+"main": "1~20일 수출액",
+"basis": "전년비(%)",
+"series": [
+"1~20일 수출액",
+"1~20일 반도체"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-11-23",
+"news_src": [
+{
+"title": "9월 1~20일 수출 714억 달러 (데일리안)",
+"url": "https://www.dailian.co.kr/news/view/1692836",
+"date": "2026-09-21"
+}
+],
+"note": "11월 1~20일분은 11/21이 토요일이라 다음 영업일(11/23) 발표 대기. 10월 1~20일 증감률은 미수집",
+"signal_value": 78.3,
+"avg3": 78.3,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "exp_15items",
@@ -53,7 +126,34 @@
 "release": "매월 1일",
 "transform": "yoy",
 "why": "어느 산업이 수출을 끌고 어느 산업이 끌어내리는지 한눈에.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 259.4,
+"unit": "전년비 %",
+"asof": "2026-10",
+"main": "반도체",
+"basis": "비반도체 수출 전년비(%)",
+"series": [
+"반도체",
+"컴퓨터",
+"자동차",
+"석유제품",
+"화장품",
+"바이오헬스"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-01",
+"news_src": [
+{
+"title": "10월 수출입동향 보도 (파이낸셜뉴스)",
+"url": "https://www.fnnews.com/news/202611011817475807",
+"date": "2026-11-01"
+}
+],
+"note": "20대 품목 중 18개 증가. 석유제품은 물량 -7.5%·단가 +94.5%(가격 주도)",
+"signal_value": 34.0,
+"avg3": 34.0,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "exp_volume",
@@ -177,7 +277,30 @@
 "release": "1·11·21일",
 "transform": "yoy",
 "why": "한국 반도체 이익의 가장 빠른 대리 지표. 3개월 평균 YoY의 기울기 꺾임을 본다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 564.4,
+"unit": "억달러",
+"asof": "2026-10",
+"main": "반도체 수출(월)",
+"basis": "전년비(%)",
+"series": [
+"반도체 수출(월)",
+"메모리"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-01",
+"news_src": [
+{
+"title": "반도체 10월 수출 564억弗 (파이낸셜뉴스)",
+"url": "https://www.fnnews.com/news/202611011817475807",
+"date": "2026-11-01"
+}
+],
+"note": "11월 1~10일 반도체 166억달러(+331.2%)",
+"signal_value": 259.4,
+"avg3": 259.4,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "semi_hs_mem",
@@ -246,7 +369,31 @@
 "release": "매월 말",
 "transform": "mom",
 "why": "메모리 이익의 직접 변수. 고정가 상승 폭이 줄면 사이클 후반.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 27.5,
+"unit": "달러",
+"asof": "2026-10",
+"main": "DDR4 8Gb",
+"basis": "DDR4 8Gb 고정가 전월비(%)",
+"series": [
+"DDR4 8Gb",
+"DDR5 16Gb",
+"NAND 128Gb MLC"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-11-30",
+"news_src": [
+{
+"title": "DRAM record high, NAND flat after 21 months (Tech Insider, DRAMeXchange 인용)",
+"url": "https://tech-insider.org/dram-record-high-nand-flat-21-months-october-2026/",
+"date": "2026-10-31"
+}
+],
+"note": "NAND 고정가는 21개월 연속 상승 후 10월 보합",
+"signal_value": 5.77,
+"avg3": 5.77,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "seaj_bb",
@@ -260,7 +407,29 @@
 "release": "매월 말",
 "transform": "yoy",
 "why": "SEMI 북미 BB율은 2017년 중단. 대체로 일본 장비 수주(B/B)를 본다. 장비 수주는 반도체 설비투자의 선행.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 5562.2,
+"unit": "억엔(3개월 이동평균)",
+"asof": "2026-07",
+"main": "일본산 장비 판매고",
+"basis": "전년비(%)",
+"series": [
+"일본산 장비 판매고"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-11-27",
+"news_src": [
+{
+"title": "SEAJ 7월 판매고 (뉴스위치)",
+"url": "https://newswitch.jp/p/50081",
+"date": "2026-08-27"
+}
+],
+"note": "SEAJ FY2026 전망 6.55조엔(+26%), FY2027 7.40조엔(+13%). 8~10월분 미수집",
+"signal_value": 35.4,
+"avg3": 35.4,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "sia_sales",
@@ -274,7 +443,29 @@
 "release": "익익월 초",
 "transform": "yoy",
 "why": "한국 수출과 같이 보면 한국 점유율 변화를 알 수 있다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 172.6,
+"unit": "십억달러(3개월 이동평균)",
+"asof": "2026-09",
+"main": "세계 반도체 매출",
+"basis": "전년비(%)",
+"series": [
+"세계 반도체 매출"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-07",
+"news_src": [
+{
+"title": "Global Semiconductor Sales Increase 24.1% from Q2 2026 to Q3 2026 (SIA)",
+"url": "https://www.semiconductors.org/global-semiconductor-sales-increase-24-1-from-q2-2026-to-q3-2026/",
+"date": "2026-11-03"
+}
+],
+"note": "3Q 합계 5,177억달러(QoQ +24.1%), 전월비 +7.9%. 지역별 YoY: 미주 191.7%, 중국 124.9%, 일본 73.4%",
+"signal_value": 146.8,
+"avg3": 146.8,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "tsmc_rev",
@@ -288,7 +479,34 @@
 "release": "매월 10일",
 "transform": "yoy",
 "why": "AI 수요의 실시간 온도계. HBM·장비주와 연동.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 586.89,
+"unit": "십억NT$",
+"asof": "2026-10",
+"main": "월매출",
+"basis": "전년비(%)",
+"series": [
+"월매출"
+],
+"news_updated": "2026-11-23",
+"next_release": "2026-12-10",
+"news_src": [
+{
+"title": "TSMC October 2026 Revenue (Form 6-K)",
+"url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
+"date": "2026-11-10"
+},
+{
+"title": "TSMC September 2026 Revenue (Form 6-K)",
+"url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+"date": "2026-10-08"
+}
+],
+"note": "1~10월 누계 4조4,856억NT$(+43.3%)",
+"signal_value": 59.7,
+"avg3": 57.17,
+"trend": "가속",
+"sign_flip": false
 },
 {
 "id": "sox",

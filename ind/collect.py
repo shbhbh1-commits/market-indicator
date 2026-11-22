@@ -32,7 +32,7 @@ _META = {}
 def kmeta(org, tbl):
     k = (org, tbl)
     if k not in _META:
-        j = get('https://kosis.kr/openapi/statisticsData.do', dict(method='getMeta', type='ITM', orgId=org, tblId=tbl, apiKey=K_KOSIS, format='json', jsonVD='Y')).json()
+        j = get('https://kosis.kr/openapi/statisticsData.do', dict(method='getMeta', type='ITM', orgId=org, tblId=tbl, apiKey=K_KOSIS, format='json', jsonVD='Y'), tries=6).json()
         if not isinstance(j, list): raise RuntimeError(f'메타 조회 실패: {j}')
         dims = {}
         for x in j: dims.setdefault(x['OBJ_ID'], []).append((x['ITM_ID'], (x.get('ITM_NM') or '').strip()))
@@ -55,7 +55,7 @@ def kosis(org, tbl, itm, dims, agg=None):
     for i, o in enumerate(objs):
         want = dims[i] if i < len(dims) else 'ALL'
         p[f'objL{i + 1}'] = pick(meta[o], want)
-    j = get('https://kosis.kr/openapi/Param/statisticsParameterData.do', p).json()
+    j = get('https://kosis.kr/openapi/Param/statisticsParameterData.do', p, tries=6).json()
     if not isinstance(j, list): raise RuntimeError(f"조회 실패: {j.get('errMsg', j) if isinstance(j, dict) else j}")
     s, unit = {}, ''
     for x in j:
@@ -273,6 +273,9 @@ def main():
     print(f'API 지표 {len(SPEC)}개 중 {ok}개 수집 · 시계열 {len(series)}행')
     for k, v in LOG.items():
         if not k.startswith('_') and v['err']: print(' 실패', k, v['err'][:2])
+    try:   # 보도 기반 지표(news_data.json) 병합 — Claude가 채운 값
+        import news_merge; news_merge.main()
+    except Exception as e: print('보도 지표 병합 실패', e)
 
 if __name__ == '__main__':
     main()
