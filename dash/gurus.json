@@ -1,5 +1,31 @@
 [
  {
+  "id": "wood-1122",
+  "date": "2026-11-22",
+  "name": "캐시 우드",
+  "role": "ARK 인베스트 CEO",
+  "stance": "낙관",
+  "topic": "앤트로픽(ANT) 164만 주(약 1.46억 달러) 매수…엔비디아·브로드컴·TSMC는 줄임",
+  "summary": "ARK 펀드들은 앤트로픽 상장일인 19일과 급락한 20일 이틀에 걸쳐 ANT 1,640,950주를 사들였고, 20일 종가(88.91달러) 기준 약 1억 4,590만 달러 규모입니다. 같은 기간 AMD·코어위브·세레브라스는 늘린 반면 엔비디아·팔란티어·브로드컴·TSMC는 줄였습니다(주식 수 미공개).",
+  "check": "보도",
+  "src": "TheStreet(ARK 일일 매매내역 인용)",
+  "url": "https://www.thestreet.com/investing/stocks/cathie-wood-buys-145-9-million-of-popular-ai-stock-anthropic-ant",
+  "channel": "ARK 일일 매매 공시"
+ },
+ {
+  "id": "burry-1121",
+  "date": "2026-11-21",
+  "name": "마이클 버리",
+  "role": "전 사이언 에셋 창업자",
+  "stance": "비관",
+  "topic": "AI주 하락을 1929·2000년과 비교…'약세장 반등이 투자자를 속일 수 있다'",
+  "summary": "X와 서브스택에서 주도주 실적이 좋은데도 주가가 빠지는 지금이 1929년·2000년과 닮았다고 썼습니다. 두 시기 모두 주가 고점이 실적 악화보다 약 1년 앞섰고, 1929~32년·2000~02년 약세장 중 반등은 평균 22%였다고 짚었습니다. 엔비디아·코어위브·네비우스·반도체 공매도는 유지하되 남에게 공매도를 권하진 않는다고 덧붙였습니다.",
+  "check": "보도",
+  "src": "JournalArta(버리 X·서브스택 인용)",
+  "url": "https://journalarta.com/en/2026/11/21/michael-burry-warns-ai-stocks-past-crashes/",
+  "channel": "X·서브스택"
+ },
+ {
   "id": "burry-1120",
   "date": "2026-11-20",
   "name": "마이클 버리",

@@ -1,8 +1,8 @@
 {
- "date": "2026-11-21",
- "session": "11월 20일(금) 미국장",
- "headline": "‘SEC, 엔비디아 회계 조사’ 보도가 AI 반도체 투매로 — 엔비디아 −14%·SOX −10.7%, 나스닥 −5.3%·S&P500 −3.7%로 S&P500·다우 장중 조정 진입, VIX 35.9",
- "lead": "아시아장에서 코스피(−5.2%)·대만(−5.7%)·닛케이(−5.1%)가 먼저 무너졌고, 미국장 중 로이터가 ‘SEC가 엔비디아 회계를 조사 중’이라고 보도하면서 매도가 반도체 전체로 번졌습니다. 엔비디아는 125.53달러(−14.0%)로 7일 연속 하락했고 AMD(−13.3%)·브로드컴(−12.1%)·마이크론(약 −13%)·장비주(−10% 안팎)가 동반 급락했습니다. 금리는 오히려 내리고(10년물 야후 종가 4.91%) 금·비트코인까지 같이 팔려, 이번 하락은 금리발이 아니라 ‘AI 회계 신뢰 훼손 + 강제 매도(디레버리징)’ 성격입니다. 다만 연준은 12월 인상 기조를 유지해 ‘구조 신호’는 없습니다.",
+ "date": "2026-11-23",
+ "session": "11월 20일(금) 미국장 + 주말(21~22일) 후속",
+ "headline": "‘SEC, 엔비디아 회계 조사’ 보도가 AI 반도체 투매로 — 나스닥 −5.3%·S&P500 −3.7%로 주간 −8.6%(2025년 4월 이후 최악), 주말 사이 엔비디아 해명 없음·12월 인상 확률은 약 92%로 소폭 후퇴",
+ "lead": "금요일 미국장은 로이터의 ‘SEC 엔비디아 회계 조사’ 보도로 엔비디아(−14.0%, 주간 −23%로 2008년 이후 최악)를 중심으로 반도체가 동반 급락했고, S&P500은 7일 연속 하락해 주간 −8.6%, 다우는 주간 −8%로 2020년 3월 이후 최악이었습니다. 유럽도 STOXX 600 −2.00%(기술 업종 −5.39%)로 같은 방향이었습니다. 주말(22일) 로이터 후속 보도는 조사가 ‘회계 처리 문제’에 초점이 있다고 전했지만 엔비디아·SEC 모두 답하지 않아 불확실성은 그대로입니다. 반면 2년물(4.88→4.63%)·10년물(5.15→4.92%)이 한 주 새 크게 내려 12월 인상 확률이 약 92%로 소폭 낮아졌고, 금요일 시간외에서 엔비디아(+3.3%)·QQQ(+1.6%)가 일부 되돌렸습니다. 성격은 여전히 ‘금리발’이 아니라 ‘AI 실적 신뢰 훼손 + 강제 매도’입니다.",
  "moves": [
   {
    "name": "S&P500",
@@ -23,6 +23,11 @@
    "name": "다우",
    "chg": "−1.9%",
    "note": "48,147.33 (−950p)"
+  },
+  {
+   "name": "STOXX 600(유럽)",
+   "chg": "−2.00%",
+   "note": "625.65 · 기술 −5.39%, DAX −2.60%"
   },
   {
    "name": "필라델피아 반도체(SOX)",
@@ -58,6 +63,11 @@
    "name": "코스피(같은 날 낮)",
    "chg": "−5.2%",
    "note": "4,869.96 · SK하이닉스 −5.9%, 삼성전자 −7.0%"
+  },
+  {
+   "name": "주간 성과",
+   "chg": "S&P −8.6% / 나스닥 −10%",
+   "note": "다우 −8%(2020년 3월 이후 최악)·러셀2000 −7.5%·엔비디아 −23%·AMD −20.5%"
   }
  ],
  "movers": "하락: 네비우스 −16.1%, 블룸에너지 −15.3%, 엔비디아 −14.0%, 마이크론 −13.9%, AMD −13.3%, Onto −13.2%, 브로드컴 −12.2%, AMAT −10.7%, KLA −10.3%, 램리서치 −10.0%, 테슬라 약 −7.6%, 메타 약 −5.9%. 장중: TSMC ADR 약 −8.5%, 어플라이드 디지털 약 −16%, 코어위브 −9%대. 상승: 갭 약 +12%(실적). (대시보드 야후 종가 + Fool 시세판·StockTitan 장중 수치)",
@@ -66,7 +76,7 @@
    "rank": 1,
    "weight": "핵심",
    "title": "SEC의 엔비디아 회계 조사 보도",
-   "detail": "로이터는 SEC가 엔비디아의 잠재적 회계 문제를 들여다보고 있다고 보도했고, WSJ는 17일 공시가 투자자를 오도했는지도 조사 대상이라고 전했습니다. 엔비디아는 10-Q 제출을 ‘수주 내’로 미뤘고 이사회 독립위원회 조사가 진행 중이며, 싱가포르 고객(메가스피드)의 중국 우회 의혹과 매출채권 64일분도 거론됩니다. 시가총액은 이날 약 4,000억 달러, 10월 6일 고점 대비 2.5조 달러 넘게 줄었습니다.",
+   "detail": "로이터는 SEC가 엔비디아의 잠재적 회계 문제를 들여다보고 있다고 보도했고, WSJ는 17일 공시가 투자자를 오도했는지도 조사 대상이라고 전했습니다. 엔비디아는 10-Q 제출을 ‘수주 내’로 미뤘고 이사회 독립위원회 조사가 진행 중이며, 싱가포르 고객(메가스피드)의 중국 우회 의혹과 매출채권 64일분도 거론됩니다. 시가총액은 이날 약 4,000억 달러, 10월 6일 고점 대비 2.5조 달러 넘게 줄었습니다. 22일 로이터 후속 보도는 SEC 집행국이 ‘잠재적 회계 문제’를 보고 있다고 전했으나 개시 시점·쟁점은 확인되지 않았고, 엔비디아는 주말까지 답하지 않았습니다.",
    "path": "AI 매출 ‘숫자’의 신뢰 훼손 → 엔비디아 이익 추정 할인 → 공급망(메모리·장비·네트워크)·고객(네오클라우드) 동시 재평가 → SOX −10.7%",
    "src": "Yahoo Finance(로이터·WSJ 인용)",
    "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
@@ -95,6 +105,16 @@
   {
    "rank": 4,
    "weight": "배경",
+   "title": "금리 하락으로 ‘연준 인상 경로’ 일부 후퇴",
+   "detail": "한 주 동안 2년물이 4.88%→4.63%, 10년물이 5.15%→4.92%로 내렸고, 12월 인상 확률은 20일 96.9%에서 21일 약 92%로 낮아졌습니다. 피터 부크바는 AI가 GDP 성장의 약 절반을 차지하는 만큼 연준이 12월 이후 추가 인상은 어려울 수 있다고 봤습니다.",
+   "path": "주가 급락 → 경기 둔화 우려로 단기 금리 하락 → 인상 기대 소폭 후퇴 → 반등 시 하단 지지 요인(아직 ‘완화’는 아님)",
+   "src": "24/7 Wall St. · BigGo Finance",
+   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/",
+   "check": "보도"
+  },
+  {
+   "rank": 5,
+   "weight": "배경",
    "title": "연준 인상 기조 유지 — ‘연준 풋’ 부재",
    "detail": "쿡 이사는 인상을 늦추면 뒤처질 위험이 있다고 했고, 폴슨 총재도 연속 인상에 열려 있다고 했습니다. 12월 25bp 인상이 기본 시나리오(50bp 약 10%)입니다. 주가 급락에도 완화 기대가 생기지 않았습니다.",
    "path": "정책금리 상단 고정 → 반등 시에도 멀티플 상한 → 저가 매수세 약화",
@@ -103,7 +123,7 @@
    "check": "보도"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "weight": "배경",
    "title": "초대형 IPO 이후 수급과 포지셔닝",
    "detail": "앤트로픽은 상장 이틀째 −8.5%(88.91달러)로 공모가(83달러)에 근접했고, 엔비디아는 주간 시총 감소가 사상 최대 수준(약 7,500억 달러 이상)으로 보도됐습니다. 지난주 엔비디아를 집중 매수한 개인 자금도 손실 구간에 있습니다.",
@@ -113,8 +133,8 @@
    "check": "보도"
   }
  ],
- "rates_note": "판정: ‘금리발 멀티플 조정’이 아니라 ‘실적 신뢰(회계)발 + 신용 경계 단계의 디레버리징’입니다. 근거: ① 10년물은 오히려 4.91%로 내려(야후 종가, 약 −14bp) 안전자산으로 돈이 갔습니다 — 금리 급등형 매도가 아닙니다. ② 나스닥100(−5.6%)이 다우(−1.9%)보다 3배 가까이 빠졌는데, 금리가 내린 날의 성장주 급락은 할인율보다 이익 추정 자체가 깎인다는 뜻입니다. ③ 배경 금리는 여전히 높습니다 — 10년 실질금리 2.88%(1년 백분위 96%), 장단기차 28bp(6%), 실효 연방기금금리 3.88%(96%). ④ 신용이 경보 단계로 올라섰습니다 — HY 스프레드 352bp(11/19, 1주 +32bp, 1년 백분위 100%)·IG 94bp(100%), HYG/IEF는 0.8328로 하루 약 −1.2%(1개월 −1.3%). ETF 가격까지 밀리기 시작해 ‘신용발 조정’으로의 전환 여부가 다음 주 핵심입니다.",
- "dash_read": "CNN 공포·탐욕은 이번 회차 미갱신(10회 시도 모두 접근 실패) — 표시값 18.7 ‘극단적 공포’는 11/19 마감 기준이며, 20일 급락으로 더 낮아졌을 가능성이 큽니다(추정). VIX 35.89(+26%), VIX/VIX3M 1.16·VIX9D/VIX 1.135로 단기·중기 모두 깊은 역전, VVIX 138로 헤지 수요 급증, SKEW 138.8. MOVE 106.3으로 채권 변동성은 평온 — 공포가 주식에 집중돼 있습니다. HYG/IEF 0.8328(1개월 −1.3%). 과매도(RSI<30) 8개로 전일 2개에서 급증(엔비디아 15.0·S&P500 24.7·피바디 25.0·대만 25.6·나스닥100 26.5·네비우스 28.5·SOX 29.0·마이크론 29.5).",
+ "rates_note": "판정: ‘금리발 멀티플 조정’이 아니라 ‘실적 신뢰(회계)발 + 신용 경계 단계의 디레버리징’입니다. 근거: ① 10년물은 한 주 새 5.15%→4.92%, 2년물은 4.88%→4.63%로 오히려 내렸습니다 — 금리 급등형 매도가 아닙니다. ② 나스닥100(−5.6%)이 다우(−1.9%)보다 3배 가까이 빠지고 필수소비재만 올랐습니다 — 금리가 내린 날 성장주가 더 빠지면 할인율보다 이익 추정 자체가 깎인다는 뜻입니다. ③ 배경 금리는 여전히 높습니다 — 10년 실질금리 2.88%(1년 백분위 96%), 장단기차 29bp(7%), 실효 연방기금금리 3.88%(96%). ④ 신용은 경보 단계 — HY 스프레드 352bp(11/19, 1주 +32bp, 1년 백분위 100%)·IG 94bp(100%), HYG/IEF 0.8328(1개월 −0.9%)로 ETF 기준 경색 신호(−3%)까지는 아직 거리가 있습니다.",
+ "dash_read": "CNN 공포·탐욕은 API 직접 수집이 막혀(11회 시도) 보도값을 썼습니다 — 20일 종합 9.7 ‘극단적 공포’(Kobeissi Letter 인용, 24/7 Wall St.; 2022년 약세장 이후 네 번째로 낮고 3월 이후 첫 10 미만). 장중 기준 S&P 모멘텀 1·시장 폭 22.8(TokenPost). 하위 7개 표시값은 11/19 CNN 기준입니다. VIX 35.89(+26%), VIX/VIX3M 1.16·VIX9D/VIX 1.135로 깊은 역전, VVIX 138로 헤지 수요 급증, SKEW 138.8. MOVE 106.3으로 채권 변동성은 평온 — 공포가 주식에 집중. 과매도(RSI<30) 8개(엔비디아 15.0·S&P500 24.7 등).",
  "lessons": [
   {
    "name": "워런 버핏",
@@ -166,7 +186,7 @@
   }
  ],
  "habits": [
-  "‘회계 조사’ 뉴스는 결과가 아니라 절차의 시작 — 확정된 숫자(10-Q·정정 공시)와 보도를 분리하고, 확인 전에는 크기를 키우지 않는다",
+  "‘회계 조사’ 뉴스는 결과가 아니라 절차의 시작 — 주말 후속 보도처럼 ‘쟁점 미확인’ 단계에선 확정 숫자(10-Q·정정 공시)와 보도를 분리하고, 확인 전에는 크기를 키우지 않는다",
   "금리가 내리는데 성장주가 더 빠지면 할인율이 아니라 이익 추정이 깎이는 것 — 원인을 잘못 짚으면 대응도 틀린다",
   "금·코인까지 같이 빠지는 날의 매도자는 ‘원해서’가 아니라 ‘해야 해서’ 판다 — 강제 매도가 끝나는 신호(VIX 역전 해소)를 기다린다",
   "과매도 개수(2→8개)·VIX 역전은 바닥 ‘근처’ 신호일 뿐 — 대가들은 한 번에 사지 않고, 빚 없이, 여러 번에 나눠 산다",
@@ -226,56 +246,56 @@
  ],
  "watch": [
   {
-   "when": "11/23(월) 한국장",
-   "what": "코스피 −5.2% 이후 SK하이닉스·삼성전자·장비주 수급",
-   "why": "미국 SOX −10.7%가 추가 반영될지, 외국인 매도 강도와 반대매매 물량."
+   "when": "11/23(월) 한국장 · 미국 11/23 밤(한국시간 23:45 전후)",
+   "what": "한국 반도체 수급 + 미국 11월 S&P 글로벌 PMI 속보치",
+   "why": "금요일 SOX −10.7%·시간외 일부 반등이 한국장에 어떻게 반영되는지, 경기 둔화가 수치로 확인되는지."
   },
   {
    "when": "수일 내",
-   "what": "엔비디아 SEC 조사 관련 공식 입장·10-Q 제출 일정·후임 CEO",
-   "why": "베선트 장관이 ‘10일 안에 답’을 요구한 만큼, 회사 측 설명이 회계 할인의 크기를 정합니다."
+   "what": "엔비디아 SEC 조사 공식 입장·10-Q 제출 일정·후임 CEO",
+   "why": "주말까지 무응답 — 회사 설명이 회계 할인의 크기를 정합니다."
   },
   {
-   "when": "11/25(수) 미국 · 한국시간 25일 밤~26일 새벽",
-   "what": "10월 PCE 물가(개인소비지출)",
+   "when": "11/24(화) 미국 · 한국시간 25일 새벽~아침",
+   "what": "콘퍼런스보드 소비자신뢰, 델·아날로그디바이스 실적",
+   "why": "델은 AI 서버 수요, ADI는 산업·아날로그 경기의 온도계."
+  },
+  {
+   "when": "11/25(수) 미국 · 한국시간 25일 22:30",
+   "what": "10월 PCE 물가·GDP",
    "why": "연준 12월 인상 폭(25 vs 50bp)을 가를 마지막 핵심 물가 지표."
   },
   {
-   "when": "11/26(목) 미국 휴장 · 27일 조기 폐장",
+   "when": "11/26(목) 휴장 · 27일 오후 1시 조기 폐장",
    "what": "추수감사절 연휴",
    "why": "거래량이 얇아 공포 구간에서 가격이 과하게 움직이기 쉽습니다."
   },
   {
    "when": "상시",
-   "what": "HY 스프레드(352bp)·HYG/IEF(0.8328)",
-   "why": "주식 공포가 신용 경색으로 번지는지 확인하는 기준선."
-  },
-  {
-   "when": "상시",
-   "what": "VIX/VIX3M 1.16 역전 해소 여부",
-   "why": "역전이 풀릴 때가 강제 매도 종료의 대표 신호 — 그 전엔 변동성이 큽니다."
+   "what": "VIX/VIX3M 1.16 역전 해소·HY 스프레드 352bp",
+   "why": "역전 해소 = 강제 매도 종료 신호, 스프레드 확대 지속 = 신용발 조정 전환 신호."
   },
   {
    "when": "12/8~9 FOMC · 한국시간 12/10 새벽",
-   "what": "인상 폭 결정",
+   "what": "인상 폭 결정·점도표",
    "why": "주가 급락에도 인상 기조가 유지되는지가 반등의 상단을 정합니다."
   }
  ],
  "sources": [
   {
-   "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off",
-   "src": "The Motley Fool",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/"
+   "title": "US SEC's Nvidia probe focuses on potential accounting irregularities (Reuters)",
+   "src": "Business Standard",
+   "url": "https://www.business-standard.com/amp/world-news/us-sec-s-nvidia-probe-focuses-on-potential-accounting-irregularities-126112200089_1.html"
   },
   {
-   "title": "Nvidia stock extends rout as SEC probe reportedly investigates its accounting",
-   "src": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+   "title": "Nvidia suffers worst week since 2008",
+   "src": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464"
   },
   {
-   "title": "Stock market today (Nov 20 live)",
-   "src": "Yahoo Finance",
-   "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+   "title": "Markets' November Nightmare Keeps Getting Worse",
+   "src": "Charles Schwab",
+   "url": "https://www.schwab.com/learn/story/market-volatility"
   },
   {
    "title": "Stock Market Today Live, November 20, 2026",
@@ -283,14 +303,24 @@
    "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
   },
   {
-   "title": "Stoxx 600 heads for its worst week since March",
-   "src": "ceoeconomy",
-   "url": "https://ceoeconomy.com/article/stoxx-600-worst-week-since-march-ai-selloff"
+   "title": "Stock market today (Nov 20 live)",
+   "src": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
   },
   {
-   "title": "Fed signals and data: week of Nov. 16–20, 2026",
-   "src": "Investing.com",
-   "url": "https://au.investing.com/news/stock-market-news/fed-signals-and-data-what-happened-the-week-of-nov-1620-2026-93CH-4787356"
+   "title": "Europe Market Wrap 20 November",
+   "src": "The Edge",
+   "url": "https://edgeconsultancykw.com/europe-market-wrap-20-november-2026/"
+  },
+  {
+   "title": "This Stock Market Selloff Could Block the Fed's Rate Hikes",
+   "src": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
+  },
+  {
+   "title": "Wall Street's Fear Index Just Hit 9.7",
+   "src": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/21/wall-streets-fear-index-just-hit-9-7-history-says-the-sp-500-could-rally-10-5-in-3-weeks/"
   }
  ]
 }
