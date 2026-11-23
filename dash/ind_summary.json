@@ -90,28 +90,34 @@
 "transform": "yoy",
 "why": "1~10일보다 신뢰도가 높은 중간 점검.",
 "status": "보도 수집",
-"value": 616.0,
+"value": 774.0,
 "unit": "억달러",
-"asof": "2026-10",
+"asof": "2026-11",
 "main": "1~20일 수출액",
 "basis": "전년비(%)",
 "series": [
 "1~20일 수출액",
-"1~20일 반도체"
+"1~20일 반도체",
+"1~20일 일평균"
 ],
-"news_updated": "2026-11-23",
-"next_release": "2026-11-23",
+"news_updated": "2026-11-24",
+"next_release": "2026-12-21",
 "news_src": [
+{
+"title": "[종합] 11월 1~20일 수출 774억弗(+101.5%)…반도체 385억弗 역대 최대 (아주경제, 관세청 자료)",
+"url": "https://www.ajunews.com/view/20261123092143955",
+"date": "2026-11-23"
+},
 {
 "title": "9월 1~20일 수출 714억 달러 (데일리안)",
 "url": "https://www.dailian.co.kr/news/view/1692836",
 "date": "2026-09-21"
 }
 ],
-"note": "11월 1~20일분은 11/21이 토요일이라 다음 영업일(11/23) 발표 대기. 10월 1~20일 증감률은 미수집",
-"signal_value": 78.3,
-"avg3": 78.3,
-"trend": null,
+"note": "11월 1~20일: 일평균 48.4억달러(+95.2%), 조업일수 16일(전년 15.5일), 반도체 384.66억달러(+294.4%, 비중 49.7%), 수입 502.88억달러(+39.4%), 무역흑자 271.12억달러. 연간 누적 수출 11/19 사상 첫 1조달러 돌파. 10월 1~20일 증감률은 미수집",
+"signal_value": 101.5,
+"avg3": 89.9,
+"trend": "가속",
 "sign_flip": false
 },
 {
@@ -691,7 +697,27 @@
 "release": "매일",
 "transform": "yoy",
 "why": "원자재 물동량·중국 수요. 팬오션.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 2898.0,
+"unit": "포인트",
+"asof": "2026-11-20",
+"main": "BDI",
+"basis": "전년비(%)",
+"series": [
+"BDI",
+"케이프사이즈",
+"파나막스"
+],
+"news_updated": "2026-11-24",
+"next_release": "2026-11-24",
+"news_src": [
+{
+"title": "Baltic Dry Index at Near 1-Week Low (Trading Economics, 뉴스 스트림 11/16~11/20)",
+"url": "https://tradingeconomics.com/commodity/baltic/news/601633",
+"date": "2026-11-20"
+}
+],
+"note": "11/20 BDI 2,898(주간 −2.8%), 수프라막스 1,810. 전년비 신호는 전년 동기 값 미확인으로 비움(지어내지 않음). 11/17 값 미수집"
 },
 {
 "id": "scfi",
@@ -705,7 +731,26 @@
 "release": "매주 금",
 "transform": "yoy",
 "why": "HMM 이익과 직결. 홍해·호르무즈 등 지정학이 운임을 흔든다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 3633.0,
+"unit": "포인트",
+"asof": "2026-11-06",
+"main": "SCFI 종합",
+"basis": "전년비(%)",
+"series": [
+"SCFI 종합",
+"SCFI 월평균"
+],
+"news_updated": "2026-11-24",
+"next_release": "2026-11-27",
+"news_src": [
+{
+"title": "2026년 11월 컨테이너 시장 동향 (삼성SDS 첼로스퀘어 백서)",
+"url": "https://www.cello-square.com/kr/whitepaper/view-642.do",
+"date": "2026-11-16"
+}
+],
+"note": "10월 평균 3,678(전월비 +0.6%), 45주차 3,633(전주비 −1.5%). 미서안 $7,381/FEU·미동안 $9,857/FEU(45주차), 북유럽 $2,333/TEU. 46~47주차 값과 전년비는 미수집 — 다음 회차 보강 필요"
 },
 {
 "id": "lng_rate",
@@ -954,7 +999,29 @@
 "release": "매주 금",
 "transform": "level",
 "why": "미국 공급 변화의 선행.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 469.0,
+"unit": "기",
+"asof": "2026-11-20",
+"main": "미국 원유 시추기",
+"basis": "수준(기)",
+"series": [
+"미국 원유 시추기"
+],
+"news_updated": "2026-11-24",
+"next_release": "2026-11-25",
+"news_src": [
+{
+"title": "Oil Prices Fall Despite Renewed Threats in the Strait of Hormuz (Mansfield Energy, 베이커휴즈 인용)",
+"url": "https://mansfield.energy/2026/11/23/oil-prices-fall-despite-renewed-threats-in-the-strait-of-hormuz/",
+"date": "2026-11-23"
+}
+],
+"note": "11/20 주간 원유 시추기 +6기 → 469기. 가스 시추기·총계와 과거 주간 값은 미수집. 추수감사절 주간은 발표가 수요일(11/25)로 당겨질 수 있음(관행, 미확인)",
+"signal_value": 469.0,
+"avg3": 469.0,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "lpg_cp",

@@ -1,196 +1,196 @@
 {
- "date": "2026-11-23",
- "session": "11월 20일(금) 미국장 + 주말(21~22일) 후속",
- "headline": "‘SEC, 엔비디아 회계 조사’ 보도가 AI 반도체 투매로 — 나스닥 −5.3%·S&P500 −3.7%로 주간 −8.6%(2025년 4월 이후 최악), 주말 사이 엔비디아 해명 없음·12월 인상 확률은 약 92%로 소폭 후퇴",
- "lead": "금요일 미국장은 로이터의 ‘SEC 엔비디아 회계 조사’ 보도로 엔비디아(−14.0%, 주간 −23%로 2008년 이후 최악)를 중심으로 반도체가 동반 급락했고, S&P500은 7일 연속 하락해 주간 −8.6%, 다우는 주간 −8%로 2020년 3월 이후 최악이었습니다. 유럽도 STOXX 600 −2.00%(기술 업종 −5.39%)로 같은 방향이었습니다. 주말(22일) 로이터 후속 보도는 조사가 ‘회계 처리 문제’에 초점이 있다고 전했지만 엔비디아·SEC 모두 답하지 않아 불확실성은 그대로입니다. 반면 2년물(4.88→4.63%)·10년물(5.15→4.92%)이 한 주 새 크게 내려 12월 인상 확률이 약 92%로 소폭 낮아졌고, 금요일 시간외에서 엔비디아(+3.3%)·QQQ(+1.6%)가 일부 되돌렸습니다. 성격은 여전히 ‘금리발’이 아니라 ‘AI 실적 신뢰 훼손 + 강제 매도’입니다.",
+ "date": "2026-11-24",
+ "session": "2026-11-23(월) 미국장",
+ "headline": "엔비디아 이사회가 젠슨 황을 CEO로 만장일치 복귀시키자 엔비디아 +31.5%·SOX +14% — S&P500 +4.7%로 2025년 4월 이후 최고의 날. 다만 12월 인상 가격은 오히려 커졌고 SEC·법무부 조사는 진행 중",
+ "lead": "월요일 미국장은 엔비디아 이사회가 11/12 사임한 젠슨 황을 ‘국가안보 위험 없음’ 판단과 함께 즉시 복귀시키면서 경영 공백 리스크가 걷혀, 엔비디아(+31.5%, 165.05달러)를 축으로 S&P500 +4.72%(7,237), 나스닥 +6.51%, 나스닥100 +6.86%, 다우 +3.01%로 7일 연속 하락을 끝냈습니다. 씨티가 ‘AI 지출 우려는 과장’이라 하자 마이크론(+19.0%)·WDC(+13.8%) 등 메모리·저장장치가 더 강했고, 필라델피아 반도체는 +14.0%였습니다. 반면 방어 업종(필수소비재 −0.09%)과 에너지(−1.32%, WTI −4.5%)는 뒤처졌습니다. 금리는 10년물 −2.2bp(4.928%)·2년물 +2.3bp(4.672%)로 장단기 차가 좁아졌고 12월 인상 가격은 25.6bp로 오히려 커졌습니다. 성격은 ‘지배구조 불확실성 해소 + 극단적 공포 뒤 포지션 되돌림’이며, 금리가 도와준 반등은 아닙니다. 같은 날 낮 코스피는 미국 반등 전이라 −3.31%(4,708.54)였습니다.",
  "moves": [
   {
    "name": "S&P500",
-   "chg": "−3.7%",
-   "note": "6,910.39 (−265p) · 7일 연속 하락, RSI 24.7"
+   "chg": "+4.72%",
+   "note": "7,237 · 7일 연속 하락 종료, RSI 24.7→41.3"
   },
   {
    "name": "나스닥 종합",
-   "chg": "약 −5.3%",
-   "note": "22,617.73 (Fool 시세판; 본문은 −5.13%·22,654로 표기 차이)"
+   "chg": "+6.51%",
+   "note": "24,090"
   },
   {
    "name": "나스닥100",
-   "chg": "−5.6%",
-   "note": "25,028.98 · RSI 26.5"
+   "chg": "+6.86%",
+   "note": "26,746 · 프리마켓 선물 상한가"
   },
   {
    "name": "다우",
-   "chg": "−1.9%",
-   "note": "48,147.33 (−950p)"
+   "chg": "+3.01%",
+   "note": "49,599"
   },
   {
-   "name": "STOXX 600(유럽)",
-   "chg": "−2.00%",
-   "note": "625.65 · 기술 −5.39%, DAX −2.60%"
+   "name": "러셀2000",
+   "chg": "+3.38%",
+   "note": "2,669"
   },
   {
    "name": "필라델피아 반도체(SOX)",
-   "chg": "−10.7%",
-   "note": "8,408.59 · RSI 29.0"
+   "chg": "+14.0%",
+   "note": "9,588.05 (야후 종가) · RSI 29.0→43.3"
   },
   {
    "name": "엔비디아",
-   "chg": "−14.0%",
-   "note": "125.53달러 · 7일 연속 하락, RSI 15.0(1년 최저)"
+   "chg": "+31.5%",
+   "note": "165.05달러 · 황 CEO 복귀"
   },
   {
-   "name": "AMD / 브로드컴",
-   "chg": "−13.3% / −12.1%",
-   "note": "424.32 / 304.65달러"
-  },
-  {
-   "name": "앤트로픽(ANT)",
-   "chg": "−8.5%",
-   "note": "88.91달러 · 공모가 83달러 근접"
+   "name": "마이크론 / AMD / 브로드컴",
+   "chg": "+19.0% / +6.8% / +3.0%",
+   "note": "707.70 / 453.46 / 313.55달러"
   },
   {
    "name": "VIX",
-   "chg": "+26%",
-   "note": "35.89 · VIX/VIX3M 1.16 역전, VVIX 138"
+   "chg": "−25.8%",
+   "note": "26.62 · VIX/VIX3M 1.044 아직 역전, VVIX 117"
   },
   {
-   "name": "미 10년물",
-   "chg": "약 −14bp",
-   "note": "4.91% (야후 ^TNX, 전일 CNBC 5.048%와 출처 다름)"
+   "name": "미 10년물 / 2년물",
+   "chg": "−2.2bp / +2.3bp",
+   "note": "4.928% / 4.672% · 장단기 차 축소"
   },
   {
-   "name": "코스피(같은 날 낮)",
-   "chg": "−5.2%",
-   "note": "4,869.96 · SK하이닉스 −5.9%, 삼성전자 −7.0%"
+   "name": "STOXX 600(유럽)",
+   "chg": "+1.9%",
+   "note": "637.84 · 기술 +4.7%, 5월 초 이후 최대 상승"
   },
   {
-   "name": "주간 성과",
-   "chg": "S&P −8.6% / 나스닥 −10%",
-   "note": "다우 −8%(2020년 3월 이후 최악)·러셀2000 −7.5%·엔비디아 −23%·AMD −20.5%"
+   "name": "WTI / 브렌트",
+   "chg": "−4.5% / −3.5%",
+   "note": "80.17 / 89.37달러"
+  },
+  {
+   "name": "코스피(같은 날 낮, 미국 반등 전)",
+   "chg": "−3.31%",
+   "note": "4,708.54 · 1월 13일 이후 최저"
   }
  ],
- "movers": "하락: 네비우스 −16.1%, 블룸에너지 −15.3%, 엔비디아 −14.0%, 마이크론 −13.9%, AMD −13.3%, Onto −13.2%, 브로드컴 −12.2%, AMAT −10.7%, KLA −10.3%, 램리서치 −10.0%, 테슬라 약 −7.6%, 메타 약 −5.9%. 장중: TSMC ADR 약 −8.5%, 어플라이드 디지털 약 −16%, 코어위브 −9%대. 상승: 갭 약 +12%(실적). (대시보드 야후 종가 + Fool 시세판·StockTitan 장중 수치)",
+ "movers": "상승: 엔비디아 +31.5%, 델 +20.5%, 마이크론 +19.0%, HPE +17.4%, 웨스턴디지털 +13.8%, 오라클 +12.4%, NXP +8.9%, 코어위브·네비우스 약 +25%(보도) / 하락: 크라우드스트라이크 −8.9%, 코테라 −8.6%, 인터내셔널페이퍼 −4.6%, 엘러번스 −3.8% (일부는 24/7 Wall St. 시세판 기준)",
  "drivers": [
   {
    "rank": 1,
    "weight": "핵심",
-   "title": "SEC의 엔비디아 회계 조사 보도",
-   "detail": "로이터는 SEC가 엔비디아의 잠재적 회계 문제를 들여다보고 있다고 보도했고, WSJ는 17일 공시가 투자자를 오도했는지도 조사 대상이라고 전했습니다. 엔비디아는 10-Q 제출을 ‘수주 내’로 미뤘고 이사회 독립위원회 조사가 진행 중이며, 싱가포르 고객(메가스피드)의 중국 우회 의혹과 매출채권 64일분도 거론됩니다. 시가총액은 이날 약 4,000억 달러, 10월 6일 고점 대비 2.5조 달러 넘게 줄었습니다. 22일 로이터 후속 보도는 SEC 집행국이 ‘잠재적 회계 문제’를 보고 있다고 전했으나 개시 시점·쟁점은 확인되지 않았고, 엔비디아는 주말까지 답하지 않았습니다.",
-   "path": "AI 매출 ‘숫자’의 신뢰 훼손 → 엔비디아 이익 추정 할인 → 공급망(메모리·장비·네트워크)·고객(네오클라우드) 동시 재평가 → SOX −10.7%",
-   "src": "Yahoo Finance(로이터·WSJ 인용)",
-   "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
-   "check": "보도"
+   "title": "엔비디아 이사회, 젠슨 황 CEO 만장일치 복귀",
+   "detail": "이사회는 미 정부 고위층 의견을 듣고 복귀가 국가안보 위험이 아니라고 결론 내렸고, 독립이사 조사는 계속하되 국가안보·수출통제 위원회 신설과 최고준법책임자 선임을 약속했습니다. 트럼프는 이사회 결정에 자신의 개입이 있었다고 말했습니다.",
+   "path": "경영 공백·안보 리스크 할인 해소 → 엔비디아 +31.5% → 지수 내 최대 비중 종목이라 S&P·나스닥을 직접 끌어올리고 AI 공급망(SOX +14%) 동반 반등",
+   "src": "엔비디아 8-K · 알자지라",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+   "check": "원문"
   },
   {
    "rank": 2,
    "weight": "핵심",
-   "title": "아시아발 반도체 투매와 강제 매도(디레버리징)",
-   "detail": "미국 개장 전 코스피 −5.2%, 대만 −5.65%, 닛케이 −5.06%, 소프트뱅크 −14.5%가 먼저 나왔고, 유럽 기술 업종도 −3.7%였습니다. 미국장에선 금(장중 약 −5%)·비트코인까지 함께 빠져, 손실·증거금을 메우려는 매도 성격이 뚜렷했습니다. BNP의 로우는 ‘패닉 매도’로 표현했습니다.",
-   "path": "글로벌 AI 하드웨어 동시 하락 → 레버리지 펀드 손실 → 수익 난 자산(금·코인)까지 처분 → 상관관계가 1로 수렴",
-   "src": "StockTitan(CNBC 인용) · Yahoo Finance",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026",
-   "check": "보도"
+   "title": "극단적 공포 뒤 포지션 되돌림(숏커버·헤지 해제)",
+   "detail": "직전 금요일 CNN 공포탐욕 9.7, S&P 7일 연속 하락, 풋/콜 극단, VIX 역전이 겹친 상태에서 호재가 나오자 나스닥100 선물이 프리마켓 상한가에 닿았습니다. VIX는 35.89→26.62로 하루 26% 내렸습니다.",
+   "path": "한쪽으로 쏠린 하락 베팅 청산 → 매수 강도가 실제 수요보다 커짐 → 방어주 대신 기술·소형주가 동반 급등",
+   "src": "Newsquawk · 대시보드",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-us-market-wrap---stocks-surge-as-nvda-reinstates-huang-as-ceo",
+   "check": "보도+해석"
   },
   {
    "rank": 3,
    "weight": "배경",
-   "title": "반도체 수출통제 강화·지배구조 불확실성",
-   "detail": "Fool은 미국 반도체 수출 규제 강화를 추가 불확실성으로 꼽았고, 젠슨 황의 CEO 퇴진 이후 후임·10-Q 일정이 정해지지 않았습니다. 베선트 재무장관은 지난 화요일 ‘10일 안에 답이 필요하다’고 말했습니다.",
-   "path": "정책·경영 공백 → 리스크 프리미엄 상승 → 실적 호조에도 PER 하락",
-   "src": "The Motley Fool · Yahoo Finance",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+   "title": "씨티 ‘AI 인프라 지출 우려는 과장됐을 수 있다’",
+   "detail": "마이크론이 거래량 72% 증가 속에 19.0% 올랐고 델(+20.5%)·HPE(+17.4%)·WDC(+13.8%) 등 서버·저장장치가 GPU보다 강했습니다.",
+   "path": "‘AI 수요 둔화’ 가정 완화 → 메모리·서버 이익 추정 하향 위험 감소 → 한국 메모리 업체에도 우호",
+   "src": "Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-micron-surges-19-as-nvidia-ceo-change-calms-ai-spending-fears/",
    "check": "보도"
   },
   {
    "rank": 4,
    "weight": "배경",
-   "title": "금리 하락으로 ‘연준 인상 경로’ 일부 후퇴",
-   "detail": "한 주 동안 2년물이 4.88%→4.63%, 10년물이 5.15%→4.92%로 내렸고, 12월 인상 확률은 20일 96.9%에서 21일 약 92%로 낮아졌습니다. 피터 부크바는 AI가 GDP 성장의 약 절반을 차지하는 만큼 연준이 12월 이후 추가 인상은 어려울 수 있다고 봤습니다.",
-   "path": "주가 급락 → 경기 둔화 우려로 단기 금리 하락 → 인상 기대 소폭 후퇴 → 반등 시 하단 지지 요인(아직 ‘완화’는 아님)",
-   "src": "24/7 Wall St. · BigGo Finance",
-   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/",
+   "title": "유가 급락 — 트럼프 ‘이란과 협상 시간 더 준다’",
+   "detail": "WTI −4.5%(80.17달러), 브렌트 −3.5%(89.37달러). 주말 이란의 바레인 공격에도 전쟁 재개 시점이 미뤄지자 헤지가 풀렸고, IEA는 하루 약 200만 배럴 공급 과잉을 예상합니다.",
+   "path": "유가↓ → 물가 부담 소폭 완화 → 에너지 업종(−1.32%)은 하락, 나머지 업종엔 비용 완화",
+   "src": "Rigzone(블룸버그)",
+   "url": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article",
    "check": "보도"
   },
   {
    "rank": 5,
    "weight": "배경",
-   "title": "연준 인상 기조 유지 — ‘연준 풋’ 부재",
-   "detail": "쿡 이사는 인상을 늦추면 뒤처질 위험이 있다고 했고, 폴슨 총재도 연속 인상에 열려 있다고 했습니다. 12월 25bp 인상이 기본 시나리오(50bp 약 10%)입니다. 주가 급락에도 완화 기대가 생기지 않았습니다.",
-   "path": "정책금리 상단 고정 → 반등 시에도 멀티플 상한 → 저가 매수세 약화",
-   "src": "Investing.com · StockTitan",
-   "url": "https://au.investing.com/news/stock-market-news/fed-signals-and-data-what-happened-the-week-of-nov-1620-2026-93CH-4787356",
+   "title": "연준 인상 기대는 오히려 확대 — ‘연준 풋’ 부재",
+   "detail": "12월 인상 가격 25.6bp(전일 23.9bp), 3월 누적 55.8bp(전일 48.1bp). 애크먼은 ‘연준이 12/9 또 실수할 것’이라며 인상 지속 시 침체를 경고했습니다.",
+   "path": "주가 반등 → 연준이 멈출 이유 감소 → 단기물 금리↑ → 반등 폭의 상단을 누름",
+   "src": "Newsquawk · Fox Business",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-us-market-wrap---stocks-surge-as-nvda-reinstates-huang-as-ceo",
    "check": "보도"
   },
   {
    "rank": 6,
    "weight": "배경",
-   "title": "초대형 IPO 이후 수급과 포지셔닝",
-   "detail": "앤트로픽은 상장 이틀째 −8.5%(88.91달러)로 공모가(83달러)에 근접했고, 엔비디아는 주간 시총 감소가 사상 최대 수준(약 7,500억 달러 이상)으로 보도됐습니다. 지난주 엔비디아를 집중 매수한 개인 자금도 손실 구간에 있습니다.",
-   "path": "신규 공급(IPO)으로 기존 AI 보유 축소 → 수익률 악화 → 추가 손절",
-   "src": "The Motley Fool · Yahoo Finance",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/",
+   "title": "남은 리스크: SEC·법무부 조사와 이사회 조사는 진행 중",
+   "detail": "복귀 결정은 조사 종결이 아닙니다. 알자지라는 SEC·법무부 등 복수 조사가 진행 중이라 전했고, 버리는 ‘더 약하고 비굴한 회사’라며 조사 지속을 촉구했습니다.",
+   "path": "조사 결과 발표 시 다시 지배구조·회계 할인 가능 → 엔비디아 변동성 재확대 경로",
+   "src": "알자지라 · The Next Web",
+   "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo",
    "check": "보도"
   }
  ],
- "rates_note": "판정: ‘금리발 멀티플 조정’이 아니라 ‘실적 신뢰(회계)발 + 신용 경계 단계의 디레버리징’입니다. 근거: ① 10년물은 한 주 새 5.15%→4.92%, 2년물은 4.88%→4.63%로 오히려 내렸습니다 — 금리 급등형 매도가 아닙니다. ② 나스닥100(−5.6%)이 다우(−1.9%)보다 3배 가까이 빠지고 필수소비재만 올랐습니다 — 금리가 내린 날 성장주가 더 빠지면 할인율보다 이익 추정 자체가 깎인다는 뜻입니다. ③ 배경 금리는 여전히 높습니다 — 10년 실질금리 2.88%(1년 백분위 96%), 장단기차 29bp(7%), 실효 연방기금금리 3.88%(96%). ④ 신용은 경보 단계 — HY 스프레드 352bp(11/19, 1주 +32bp, 1년 백분위 100%)·IG 94bp(100%), HYG/IEF 0.8328(1개월 −0.9%)로 ETF 기준 경색 신호(−3%)까지는 아직 거리가 있습니다.",
- "dash_read": "CNN 공포·탐욕은 API 직접 수집이 막혀(11회 시도) 보도값을 썼습니다 — 20일 종합 9.7 ‘극단적 공포’(Kobeissi Letter 인용, 24/7 Wall St.; 2022년 약세장 이후 네 번째로 낮고 3월 이후 첫 10 미만). 장중 기준 S&P 모멘텀 1·시장 폭 22.8(TokenPost). 하위 7개 표시값은 11/19 CNN 기준입니다. VIX 35.89(+26%), VIX/VIX3M 1.16·VIX9D/VIX 1.135로 깊은 역전, VVIX 138로 헤지 수요 급증, SKEW 138.8. MOVE 106.3으로 채권 변동성은 평온 — 공포가 주식에 집중. 과매도(RSI<30) 8개(엔비디아 15.0·S&P500 24.7 등).",
+ "rates_note": "판정: ‘금리발’도 ‘신용발’도 아닌 ‘정책·지배구조 이벤트발 반등’입니다. 근거: ① 10년물은 −2.2bp(4.928%)로 거의 그대로였고 2년물은 +2.3bp(4.672%) 올랐습니다 — 할인율이 내려서 오른 날이 아닙니다. 12월 인상 가격은 25.6bp, 3월 누적 55.8bp로 오히려 커졌습니다. ② 나스닥100(+6.86%)이 다우(+3.01%)의 두 배 넘게 오르고 방어 업종(필수소비재 −0.09%, 부동산 +1.08%, 헬스케어 +1.25%, 유틸리티 +1.29%)이 지수를 크게 밑돌았습니다 — 위험선호가 돌아온 날의 모습입니다. ③ 배경 금리는 여전히 높습니다 — 10년 실질금리 2.77%(11/20, 1년 백분위 91%), 장단기차 29bp(1년 백분위 8%), 실효 연방기금금리 3.88%(96%). ④ 신용은 아직 확인 전 — HY 스프레드 376bp(11/20, 1주 +53bp, 1년 백분위 100%)·IG 98bp(100%)는 반등 전 수치이고, HYG/IEF 0.835(1개월 −1.1%)로 ETF 기준 경색 신호(−3%)까지는 거리가 있습니다. 하루 반등이 이어지려면 스프레드가 따라 좁혀져야 합니다.",
+ "dash_read": "CNN 공포·탐욕 17.0 ‘극단적 공포’(전일 9.7, 1주 전 31.1, 1개월 전 16.7; 11/23 22:21 UTC 기준). 하위 7개: 시장 모멘텀 3.2·주가 강도 28.4·시장 폭 17·풋/콜 6.6·VIX 39.0·정크본드 18.2·안전자산 6.4 — VIX만 ‘공포’로 올라왔고 나머지는 대부분 극단적 공포 그대로입니다(하루 반등으로 125일선·52주 고저 지표는 잘 안 바뀜). VIX 26.62(−25.8%)지만 VIX/VIX3M 1.044·VIX9D/VIX 1.043으로 역전은 아직 안 풀렸고, VVIX 117(전일 138)로 헤지 수요는 진정, SKEW 140.4, MOVE 100.9로 채권 변동성은 평온. 과매도(RSI<30) 8→3개. HY 스프레드 376bp는 11/20 수치로 반등 반영 전입니다.",
  "lessons": [
+  {
+   "name": "데이비드 테퍼",
+   "when": "2009년 2~3월 은행 국유화 공포",
+   "what": "정부가 대형 은행을 국유화하지 않을 것이라 판단해 BoA·씨티 등 은행주와 채권을 집중 매수했고, 2009년 아팔루사는 기록적인 수익을 냈습니다.",
+   "lesson": "오늘 반등의 열쇠도 ‘정부·이사회의 결정’이었습니다. 테퍼는 정책 결정의 확률을 따로 계산해 미리 움직였고, 결정이 나온 뒤 따라 사지 않았습니다 — 이벤트가 이미 가격에 반영된 뒤엔 다음 이벤트(조사 결과)의 확률을 따져야 합니다.",
+   "src": "The Motley Fool(2009.12)",
+   "url": "https://www.fool.com/investing/general/2009/12/24/how-to-earn-7-billion-betting-on-bank-stocks.aspx"
+  },
   {
    "name": "워런 버핏",
    "when": "1963~64년 아메리칸익스프레스 ‘샐러드 오일 스캔들’",
-   "what": "자회사가 사기 거래에 연루돼 거액 손실 우려로 아멕스 주가가 폭락하자, 버핏은 식당·은행을 직접 돌며 고객들이 여전히 카드와 여행자수표를 쓰는지 확인한 뒤 파트너십 자금의 큰 몫(약 40%로 알려짐)을 아멕스에 넣었습니다.",
-   "lesson": "오늘 엔비디아처럼 ‘회계·스캔들’로 급락할 때 버핏이 본 건 주가가 아니라 ‘고객이 여전히 그 제품을 쓰는가’였습니다. 스캔들이 일회성 손실인지, 사업의 경제성 자체를 훼손하는지를 가르는 게 핵심입니다.",
+   "what": "자회사 사기 연루로 아멕스 주가가 폭락하자, 버핏은 식당·은행을 직접 돌며 고객이 여전히 카드와 여행자수표를 쓰는지 확인한 뒤 파트너십 자금의 큰 몫을 아멕스에 넣었습니다.",
+   "lesson": "스캔들(이번엔 CEO 사임·안보 논란)이 사업의 경제성을 훼손하는지, 일회성 할인인지를 가르는 게 핵심입니다. 엔비디아의 고객 수요(한국 반도체 수출 +294%)는 꺾이지 않았지만 조사 결과는 아직 모릅니다.",
    "src": "Fortune(2024.09)",
    "url": "https://www.fortune.com/2024/09/22/warren-buffett-investing-strategy-american-express-stock-scandal"
   },
   {
    "name": "하워드 막스",
    "when": "2008년 9~12월 리먼 파산 직후",
-   "what": "메모 ‘The Limits to Negativism’에서 모두가 최악만 가정할 때 회의론자는 ‘너무 비관적인 쪽’을 의심해야 한다고 썼고, 오크트리는 리먼 파산 후 몇 달간 부실채권을 대규모로 사들였습니다.",
-   "lesson": "공포·탐욕이 한 자릿수~10대로 내려가고 금까지 팔리는 날, 막스는 ‘모두가 최악만 가정하는가’를 먼저 물었습니다. 바닥을 맞히려 하지 않고, 가격이 가치보다 충분히 낮은지만 따져 몇 달에 걸쳐 나눠 샀습니다.",
+   "what": "메모 ‘The Limits to Negativism’에서 모두가 최악만 가정할 때 회의론자는 ‘너무 비관적인 쪽’을 의심해야 한다고 썼고, 오크트리는 몇 달에 걸쳐 부실채권을 대규모로 사들였습니다.",
+   "lesson": "막스는 바닥을 맞히지 않고 ‘몇 달에 걸쳐 나눠’ 샀습니다. 하루 +4.7% 같은 날은 나눠 사던 사람에겐 계획대로 가는 날이고, 안 사던 사람에겐 추격 유혹이 가장 큰 날입니다.",
    "src": "Oaktree 메모(2008.10.15)",
    "url": "https://www.oaktreecapital.com/docs/default-source/memos/2008-10-15-the-limits-to-negativism.pdf"
   },
   {
-   "name": "존 템플턴",
-   "when": "1939년 2차대전 발발",
-   "what": "전쟁 공포로 폭락한 미국 상장주 가운데 1달러 이하 종목을 100주씩 골고루 샀고, 몇 년 뒤 큰 수익을 냈습니다. ‘최대 비관의 시점’에 사라는 원칙의 출발점입니다.",
-   "lesson": "강세장은 비관 속에서 태어난다는 그의 원칙은 지금 같은 날을 위한 것입니다. 다만 템플턴은 한 종목이 아니라 ‘넓게 골고루’ 담았습니다 — 회계 의혹이 있는 개별 종목 집중과는 정반대입니다.",
-   "src": "24/7 Wall St.(2026.10)",
-   "url": "https://247wallst.com/investing/2026/10/03/in-1939-as-war-broke-out-in-europe-he-told-his-broker-buy-me-100-of-everything-below-1-a-share-over-the-next-7-decades-john-templetons-philosophy-that-the-time-of-maximum-pessimism-is-t/"
-  },
-  {
-   "name": "데이비드 테퍼",
-   "when": "2009년 2~3월 은행 국유화 공포",
-   "what": "정부가 대형 은행을 국유화하지 않을 것이라 판단해 BoA·씨티 등 은행주와 채권을 집중 매수했고, 2009년 아팔루사는 기록적인 수익을 냈습니다.",
-   "lesson": "2009년 테퍼는 ‘정부가 은행을 국유화할 확률’을 따로 계산했습니다. 오늘 엔비디아도 ‘SEC 조사 결과 매출이 실제로 깎일 확률과 크기’를 분리해 봐야 하며, 시장은 확인 전 최악을 먼저 가격에 넣습니다.",
-   "src": "The Motley Fool(2009.12)",
-   "url": "https://www.fool.com/investing/general/2009/12/24/how-to-earn-7-billion-betting-on-bank-stocks.aspx"
-  },
-  {
    "name": "스탠리 드러켄밀러",
    "when": "2000년 3월 닷컴 고점",
-   "what": "기술주가 과열이라 봤으면서도 젊은 매니저들의 수익에 조급해져 고점 부근에 기술주를 대거 사들였다가 큰 손실을 봤고, 훗날 ‘감정적으로 샀다’고 스스로 인정했습니다.",
-   "lesson": "닷컴 고점에서 그는 ‘남의 수익에 조급해져’ 샀다가 크게 잃었습니다. 지금 그는 ‘주식에서 잠시 쉰다’며 순노출을 최소로 줄였습니다 — 확신이 없을 땐 크기를 줄이는 것도 포지션이라는 교훈입니다.",
+   "what": "기술주가 과열이라 봤으면서도 젊은 매니저들의 수익에 조급해져 고점 부근에 기술주를 대거 샀다가 큰 손실을 봤고, 훗날 ‘감정적으로 샀다’고 인정했습니다.",
+   "lesson": "급반등일은 ‘놓쳤다’는 조급함이 가장 큰 날입니다. 그는 지금도 ‘주식에서 잠시 쉰다’며 순노출을 최소로 둔 채 금리 긴축을 경계합니다 — 하루 반등이 그 판단을 바꿀 근거는 아닙니다.",
    "src": "Acquirer's Multiple(인터뷰 정리)",
    "url": "https://acquirersmultiple.com/2018/07/stanley-druckenmiller-my-biggest-mistake-and-what-i-learned-from-it"
   },
   {
+   "name": "존 템플턴",
+   "when": "1939년 2차대전 발발",
+   "what": "전쟁 공포로 폭락한 미국 상장주 가운데 1달러 이하 종목을 100주씩 골고루 샀고, 몇 년 뒤 큰 수익을 냈습니다.",
+   "lesson": "템플턴은 한 종목이 아니라 ‘넓게 골고루’ 담았습니다. 오늘처럼 한 종목(엔비디아)의 뉴스에 시장 전체가 출렁일수록 집중보다 분산이 공포 구간의 무기라는 점을 상기시킵니다.",
+   "src": "24/7 Wall St.(2026.10)",
+   "url": "https://247wallst.com/investing/2026/10/03/in-1939-as-war-broke-out-in-europe-he-told-his-broker-buy-me-100-of-everything-below-1-a-share-over-the-next-7-decades-john-templetons-philosophy-that-the-time-of-maximum-pessimism-is-t/"
+  },
+  {
    "name": "피터 린치",
    "when": "1987년 블랙먼데이 등 여러 조정장",
-   "what": "조정을 피하려다 잃은 돈이 조정 그 자체로 잃은 돈보다 훨씬 많다고 강조했습니다. 그는 주가가 아니라 ‘보유 이유(스토리)가 바뀌었는가’를 다시 점검했습니다.",
-   "lesson": "‘조정을 피하려다 잃은 돈이 더 많다’는 그의 말은 무조건 버티라는 뜻이 아니라, 보유 이유를 한 줄로 다시 써 보고 이유가 깨진 것(예: 회계 신뢰)만 정리하라는 뜻입니다.",
+   "what": "조정을 피하려다 잃은 돈이 조정 그 자체로 잃은 돈보다 훨씬 많다고 강조했고, 주가가 아니라 ‘보유 이유’가 바뀌었는지를 점검했습니다.",
+   "lesson": "공포 속에 팔았다가 오늘 같은 날을 놓치는 것이 린치가 말한 ‘피하려다 잃는 돈’입니다. 반대로 보유 이유가 깨진 종목은 반등일이 정리 기회일 수 있습니다.",
    "src": "A Wealth of Common Sense",
    "url": "https://awealthofcommonsense.com/2014/08/peter-lynch-stock-market-losses/"
   }
  ],
  "habits": [
-  "‘회계 조사’ 뉴스는 결과가 아니라 절차의 시작 — 주말 후속 보도처럼 ‘쟁점 미확인’ 단계에선 확정 숫자(10-Q·정정 공시)와 보도를 분리하고, 확인 전에는 크기를 키우지 않는다",
-  "금리가 내리는데 성장주가 더 빠지면 할인율이 아니라 이익 추정이 깎이는 것 — 원인을 잘못 짚으면 대응도 틀린다",
-  "금·코인까지 같이 빠지는 날의 매도자는 ‘원해서’가 아니라 ‘해야 해서’ 판다 — 강제 매도가 끝나는 신호(VIX 역전 해소)를 기다린다",
-  "과매도 개수(2→8개)·VIX 역전은 바닥 ‘근처’ 신호일 뿐 — 대가들은 한 번에 사지 않고, 빚 없이, 여러 번에 나눠 산다",
-  "공포가 클수록 ‘이 회사의 고객이 여전히 제품을 쓰는가’를 확인한다 — 버핏이 아멕스에서 한 일"
+  "하루 +4.7% 반등은 ‘바닥 확인’이 아니라 ‘공포 해소의 첫날’ — VIX/VIX3M 역전(1.044) 해소와 HY 스프레드 축소가 따라오는지 며칠 지켜본다",
+  "금리가 안 내렸는데 주가가 오른 날은 이벤트가 동력 — 다음 이벤트(조사 결과·PCE·12/9 FOMC)의 방향을 먼저 적어 둔다",
+  "급반등일엔 ‘놓쳤다’는 조급함이 가장 크다 — 드러켄밀러의 2000년 실수처럼 남의 수익에 맞춰 사지 않고, 미리 정한 분할 계획만 실행한다",
+  "한 회사의 지배구조 뉴스로 시장 전체가 ±5% 움직이면 쏠림이 크다는 뜻 — 내 포트폴리오가 같은 한 가지 이야기에 묶여 있는지 점검한다",
+  "주가가 아니라 실물을 본다 — 11월 1~20일 반도체 수출 +294%처럼 수요 지표가 꺾이지 않았는지, 꺾였는지를 매번 확인한다"
  ],
  "f13": [
   {
@@ -246,81 +246,91 @@
  ],
  "watch": [
   {
-   "when": "11/23(월) 한국장 · 미국 11/23 밤(한국시간 23:45 전후)",
-   "what": "한국 반도체 수급 + 미국 11월 S&P 글로벌 PMI 속보치",
-   "why": "금요일 SOX −10.7%·시간외 일부 반등이 한국장에 어떻게 반영되는지, 경기 둔화가 수치로 확인되는지."
+   "when": "11/24(화) 한국장",
+   "what": "미국 SOX +14%·EWY +10.1% 이후 한국 반도체 수급",
+   "why": "전날 −3.31%로 1월 이후 최저였던 코스피가 갭 반등 후 외국인 매수로 이어지는지, 증시안정펀드 실제 집행 여부."
   },
   {
-   "when": "수일 내",
-   "what": "엔비디아 SEC 조사 공식 입장·10-Q 제출 일정·후임 CEO",
-   "why": "주말까지 무응답 — 회사 설명이 회계 할인의 크기를 정합니다."
-  },
-  {
-   "when": "11/24(화) 미국 · 한국시간 25일 새벽~아침",
-   "what": "콘퍼런스보드 소비자신뢰, 델·아날로그디바이스 실적",
-   "why": "델은 AI 서버 수요, ADI는 산업·아날로그 경기의 온도계."
+   "when": "11/24(화) 미국 · 한국시간 25일 00:00 전후 / 장 마감 후",
+   "what": "콘퍼런스보드 소비자신뢰 · 델·아날로그디바이스 실적",
+   "why": "델은 전날 +20.5% 오른 AI 서버 기대를 숫자로 확인하는 자리, ADI는 산업 경기의 온도계."
   },
   {
    "when": "11/25(수) 미국 · 한국시간 25일 22:30",
    "what": "10월 PCE 물가·GDP",
-   "why": "연준 12월 인상 폭(25 vs 50bp)을 가를 마지막 핵심 물가 지표."
+   "why": "12월 인상 가격(25.6bp)과 3월 누적(55.8bp)을 바꿀 마지막 핵심 물가 지표."
   },
   {
-   "when": "11/26(목) 휴장 · 27일 오후 1시 조기 폐장",
+   "when": "11/26(목) 휴장 · 27일 오후 1시(한국시간 28일 03:00) 조기 폐장",
    "what": "추수감사절 연휴",
-   "why": "거래량이 얇아 공포 구간에서 가격이 과하게 움직이기 쉽습니다."
+   "why": "거래량이 얇아 반등·되밀림 모두 과장되기 쉽습니다."
   },
   {
-   "when": "상시",
-   "what": "VIX/VIX3M 1.16 역전 해소·HY 스프레드 352bp",
-   "why": "역전 해소 = 강제 매도 종료 신호, 스프레드 확대 지속 = 신용발 조정 전환 신호."
+   "when": "수주 내",
+   "what": "엔비디아 독립이사 조사 결론 · SEC·법무부 조사 진행",
+   "why": "복귀로 경영 공백은 풀렸지만 조사 결과가 다시 지배구조 할인을 부를 수 있습니다."
   },
   {
-   "when": "12/8~9 FOMC · 한국시간 12/10 새벽",
-   "what": "인상 폭 결정·점도표",
-   "why": "주가 급락에도 인상 기조가 유지되는지가 반등의 상단을 정합니다."
+   "when": "이번 주",
+   "what": "유럽 한파·TTF(90유로)와 이란 협상",
+   "why": "가스는 저장률 69%로 겨울 가격 위험, 유가는 협상 결렬 시 반대로 급등할 수 있습니다."
+  },
+  {
+   "when": "12/1(화) 한국 · 12/8~9 FOMC(한국시간 12/10 새벽)",
+   "what": "11월 수출 확정치 · 연준 인상 결정",
+   "why": "반도체 수출 호조 확인과 ‘연준 풋’ 부재 여부가 반등의 상단을 정합니다."
   }
  ],
  "sources": [
   {
-   "title": "US SEC's Nvidia probe focuses on potential accounting irregularities (Reuters)",
-   "src": "Business Standard",
-   "url": "https://www.business-standard.com/amp/world-news/us-sec-s-nvidia-probe-focuses-on-potential-accounting-irregularities-126112200089_1.html"
+   "title": "Newsquawk US Market Wrap - Stocks surge as NVDA reinstates Huang as CEO",
+   "src": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-us-market-wrap---stocks-surge-as-nvda-reinstates-huang-as-ceo"
   },
   {
-   "title": "Nvidia suffers worst week since 2008",
-   "src": "Investing.com",
-   "url": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464"
+   "title": "Stock Market Today, Nov. 23: Micron Surges 19% as Nvidia CEO Change Calms AI Spending Fears",
+   "src": "Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-micron-surges-19-as-nvidia-ceo-change-calms-ai-spending-fears/"
   },
   {
-   "title": "Markets' November Nightmare Keeps Getting Worse",
-   "src": "Charles Schwab",
-   "url": "https://www.schwab.com/learn/story/market-volatility"
+   "title": "NVIDIA Form 8-K press release (Nov 23, 2026)",
+   "src": "SEC EDGAR",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
   },
   {
-   "title": "Stock Market Today Live, November 20, 2026",
-   "src": "StockTitan",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026"
+   "title": "Nvidia board reinstates Jensen Huang as CEO",
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo"
   },
   {
-   "title": "Stock market today (Nov 20 live)",
-   "src": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
-  },
-  {
-   "title": "Europe Market Wrap 20 November",
-   "src": "The Edge",
-   "url": "https://edgeconsultancykw.com/europe-market-wrap-20-november-2026/"
-  },
-  {
-   "title": "This Stock Market Selloff Could Block the Fed's Rate Hikes",
+   "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
    "src": "24/7 Wall St.",
-   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/"
+   "url": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/"
   },
   {
-   "title": "Wall Street's Fear Index Just Hit 9.7",
-   "src": "24/7 Wall St.",
-   "url": "https://247wallst.com/investing/2026/11/21/wall-streets-fear-index-just-hit-9-7-history-says-the-sp-500-could-rally-10-5-in-3-weeks/"
+   "title": "Europe's STOXX logs strongest day in over six months on tech boost",
+   "src": "Devdiscourse(Reuters)",
+   "url": "https://www.devdiscourse.com/article/international/4010968-europes-stoxx-logs-strongest-day-in-over-six-months-on-tech-boost"
+  },
+  {
+   "title": "Oil Falls as Trump Signals Iran Talks",
+   "src": "Rigzone(Bloomberg)",
+   "url": "https://www.rigzone.com/news/oil_falls_as_trump_signals_iran_talks-23-nov-2026-185152-article"
+  },
+  {
+   "title": "Bill Ackman says Federal Reserve about to make another mistake",
+   "src": "Fox Business",
+   "url": "https://www.foxbusiness.com/economy/bill-ackman-says-federal-reserve-about-make-another-mistake"
+  },
+  {
+   "title": "KOSPI Closes Down 3.31% at 4,708.54",
+   "src": "Seoul Economic Daily",
+   "url": "https://en.sedaily.com/market/2026/11/23/kospi-closes-down-331-percent-at-470854"
+  },
+  {
+   "title": "11월 1~20일 수출 774억弗…반도체 385억弗 역대 최대",
+   "src": "아주경제",
+   "url": "https://www.ajunews.com/view/20261123092143955"
   }
  ]
 }

@@ -1,6 +1,6 @@
 [
  {
-  "asof": "2026-11-21 07:37 KST",
+  "asof": "2026-11-23 08:31 KST",
   "n_oversold": 8,
   "n_total": 34,
   "vix": 35.89,
@@ -12,13 +12,13 @@
   "kospi_rsi": 33.8,
   "kospi_d1": -5.2,
   "n_events": 20,
-  "cnn_fg": 18.7,
-  "cnn_fg_prev": 24.6,
+  "cnn_fg": 9.7,
+  "cnn_fg_prev": 18.7,
   "cnn_fg_week": 40.3,
   "cnn_fg_month": 19.5,
   "cnn_fg_year": 7.9,
   "cnn_fg_rating": "극단적 공포",
-  "cnn_fg_asof": "2026-11-19T22:15:40+00:00",
-  "cnn_fg_stale": "미갱신(10회 시도 실패·11/19 마감값 유지)"
+  "cnn_fg_asof": "2026-11-20T21:00:00+00:00",
+  "cnn_fg_stale": "CNN API 직접 수집 실패(11회 시도·권한 거부) → 11/20 종합값 9.7은 보도(Kobeissi Letter 인용, 24/7 Wall St 11/21). 1주·1개월·1년 비교값과 하위 7개는 11/19 CNN값"
  }
 ]
