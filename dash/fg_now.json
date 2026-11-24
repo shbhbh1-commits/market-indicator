@@ -1,12 +1,12 @@
 [
  {
   "indicator": "종합 지수",
-  "score": 17.0,
+  "score": 17.4,
   "rating": "극단적 공포"
  },
  {
   "indicator": "시장 모멘텀(S&P500 vs 125일선)",
-  "score": 3.2,
+  "score": 3,
   "rating": "극단적 공포"
  },
  {
@@ -16,27 +16,27 @@
  },
  {
   "indicator": "시장 폭(상승-하락 거래량)",
-  "score": 17,
+  "score": 16.6,
   "rating": "극단적 공포"
  },
  {
   "indicator": "풋/콜 옵션",
-  "score": 6.6,
+  "score": 8.8,
   "rating": "극단적 공포"
  },
  {
   "indicator": "변동성(VIX vs 50일선)",
-  "score": 39.0,
+  "score": 42.9,
   "rating": "공포"
  },
  {
   "indicator": "정크본드 수요",
-  "score": 18.2,
+  "score": 17.8,
   "rating": "극단적 공포"
  },
  {
   "indicator": "안전자산 수요(주식 vs 국채)",
-  "score": 6.4,
+  "score": 4.4,
   "rating": "극단적 공포"
  }
 ]

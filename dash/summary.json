@@ -1,23 +1,23 @@
 [
  {
-  "asof": "2026-11-24 07:36 KST",
-  "n_oversold": 3,
+  "asof": "2026-11-25 07:36 KST",
+  "n_oversold": 1,
   "n_total": 34,
-  "vix": 26.62,
-  "vix_ratio": 1.044,
+  "vix": 26.36,
+  "vix_ratio": 1.035,
   "vix_state": "역전(패닉)",
-  "sox_rsi": 43.3,
-  "sox_d1": 14.0,
-  "spx_rsi": 41.3,
-  "kospi_rsi": 31.2,
-  "kospi_d1": -3.3,
+  "sox_rsi": 38.0,
+  "sox_d1": -7.9,
+  "spx_rsi": 40.3,
+  "kospi_rsi": 40.3,
+  "kospi_d1": 6.3,
   "n_events": 20,
-  "cnn_fg": 17.0,
-  "cnn_fg_prev": 9.7,
-  "cnn_fg_week": 31.1,
+  "cnn_fg": 17.4,
+  "cnn_fg_prev": 17.0,
+  "cnn_fg_week": 26.0,
   "cnn_fg_month": 16.7,
-  "cnn_fg_year": 5.7,
+  "cnn_fg_year": 13.7,
   "cnn_fg_rating": "극단적 공포",
-  "cnn_fg_asof": "2026-11-23T22:21:16+00:00"
+  "cnn_fg_asof": "2026-11-24T21:24:36+00:00"
  }
 ]

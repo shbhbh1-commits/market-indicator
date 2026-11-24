@@ -1,5 +1,18 @@
 [
  {
+  "id": "haefele-1124",
+  "date": "2026-11-24",
+  "name": "마크 해펠레",
+  "role": "UBS 글로벌 웰스매니지먼트 CIO",
+  "stance": "중립·선별",
+  "topic": "‘AI 투자 스토리가 깨진 신호 아니다’…기업 간 차별화 커질 것",
+  "summary": "해펠레는 엔비디아 급등·급락 같은 큰 변동이 구조적 AI 투자 이야기가 무너졌다는 신호는 아니라고 봤습니다. 다만 앞으로는 AI 관련 기업 사이에 실적에 따른 차별화가 더 커질 것으로 예상해, 일괄 매수보다 선별을 강조했습니다.",
+  "check": "보도",
+  "src": "StockTitan",
+  "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+  "channel": "운용사 코멘트"
+ },
+ {
   "id": "ackman-1123",
   "date": "2026-11-23",
   "name": "빌 애크먼",

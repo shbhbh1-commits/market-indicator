@@ -698,9 +698,9 @@
 "transform": "yoy",
 "why": "원자재 물동량·중국 수요. 팬오션.",
 "status": "보도 수집",
-"value": 2898.0,
+"value": 3068.0,
 "unit": "포인트",
-"asof": "2026-11-20",
+"asof": "2026-11-24",
 "main": "BDI",
 "basis": "전년비(%)",
 "series": [
@@ -708,16 +708,25 @@
 "케이프사이즈",
 "파나막스"
 ],
-"news_updated": "2026-11-24",
-"next_release": "2026-11-24",
+"news_updated": "2026-11-25",
+"next_release": "2026-11-25",
 "news_src": [
+{
+"title": "Baltic Dry Index (Trading Economics, 11/24 기준)",
+"url": "https://tradingeconomics.com/commodity/baltic",
+"date": "2026-11-24"
+},
 {
 "title": "Baltic Dry Index at Near 1-Week Low (Trading Economics, 뉴스 스트림 11/16~11/20)",
 "url": "https://tradingeconomics.com/commodity/baltic/news/601633",
 "date": "2026-11-20"
 }
 ],
-"note": "11/20 BDI 2,898(주간 −2.8%), 수프라막스 1,810. 전년비 신호는 전년 동기 값 미확인으로 비움(지어내지 않음). 11/17 값 미수집"
+"note": "11/24 BDI 3,068(+2.27%, 10/5 이후 최고, 1개월 +16.7%, 전년비 +32.9%·TE 산출). 11/23 3,000. 케이프 4,942·파나막스 2,179·수프라막스 1,811(11/24). 11/17·11/21 값 미수집",
+"signal_value": 32.87,
+"avg3": 32.87,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "scfi",
@@ -732,25 +741,30 @@
 "transform": "yoy",
 "why": "HMM 이익과 직결. 홍해·호르무즈 등 지정학이 운임을 흔든다.",
 "status": "보도 수집",
-"value": 3633.0,
+"value": 3572.33,
 "unit": "포인트",
-"asof": "2026-11-06",
+"asof": "2026-11-13",
 "main": "SCFI 종합",
 "basis": "전년비(%)",
 "series": [
 "SCFI 종합",
 "SCFI 월평균"
 ],
-"news_updated": "2026-11-24",
+"news_updated": "2026-11-25",
 "next_release": "2026-11-27",
 "news_src": [
+{
+"title": "Container freight rates split as U.S. East Coast drops $470 (ShipUniverse)",
+"url": "https://www.shipuniverse.com/news/container-freight-rates-split-as-u-s-east-coast-drops-470-as-mediterranean-surges-6-7/",
+"date": "2026-11-13"
+},
 {
 "title": "2026년 11월 컨테이너 시장 동향 (삼성SDS 첼로스퀘어 백서)",
 "url": "https://www.cello-square.com/kr/whitepaper/view-642.do",
 "date": "2026-11-16"
 }
 ],
-"note": "10월 평균 3,678(전월비 +0.6%), 45주차 3,633(전주비 −1.5%). 미서안 $7,381/FEU·미동안 $9,857/FEU(45주차), 북유럽 $2,333/TEU. 46~47주차 값과 전년비는 미수집 — 다음 회차 보강 필요"
+"note": "11/13(46주차) 3,572.33(전주비 −1.68%), 11/6 3,633.45, 10/30 3,687.35. 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU(11/13). 47주차(11/20) 값과 전년비는 2026년 자료로 확인 못해 비움"
 },
 {
 "id": "lng_rate",
