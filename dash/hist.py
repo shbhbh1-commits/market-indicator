@@ -61,3 +61,36 @@ for e in eps:
 out.reverse()
 json.dump(out,open('vix_events.json','w'),ensure_ascii=False,separators=(',',':'))
 print('vix_events',len(out),out[0])
+
+# ── 한국 증권시장안정펀드(증안펀드) 타임라인 ── 날짜는 공개 보도·금융위 발표 기준, 수치는 야후 코스피 종가로 계산
+FUND=[
+ dict(id='1990',short='1990.5 증시안정기금 4조 출범·매입',vix='',crisis='3저 호황 붕괴 후 장기 하락',ann='1990-05',exec_='실제 매입(증시안정기금 4조원 → 4.85조원, 은행·증권·보험·상장사 출자)',
+      steps='1989.4 코스피 1,007 고점 → 1990.5 증시안정기금 출범 → 수년간 매입',base=None,note='야후 코스피 자료가 1996년부터라 수치 비교 불가'),
+ dict(id='2003',short='2003.2 공동펀드 4,000억 조성·투입',vix='2003-01',crisis='카드사태·이라크전·북핵',ann='2003-02-03',exec_='실제 투입(증권유관기관 공동펀드 4,000억원, 2003.2~2007.8 운용)',
+      steps='2002.4 고점 938 → 2003.2 공동펀드 조성 → 2003.3.17 바닥 515 → 반등',note='조성 월(2월) 첫 거래일 기준'),
+ dict(id='2008',short='10.10 공동펀드 제안 → 11.21 5,150억 투입 시작',vix='2008-09',crisis='리먼 파산·글로벌 금융위기',ann='2008-10-10',exec_='실제 투입 5,150억원(거래소 2,500·예탁원 2,100·증협 500·운용협회 50억), 2008.11.21부터 5개월간 매월 1,030억원',
+      steps='2007.10 고점 2,065 → 10.10 증권업계 공동펀드 제안 → 10.24 바닥 939 → 11.20 2차 저점 949 → 11.21 첫 투입 → 2009 반등',exe='2008-11-21',note='발표 후 2주간 −24% 추가 하락. 투입은 바닥 4주 뒤'),
+ dict(id='2020',short='3.24 10.7조 발표(바닥 5일 뒤), 미집행',vix='2020-02',crisis='코로나 팬데믹',ann='2020-03-24',exec_='미집행(10.76조원 약정: 5대 금융지주 5조·국책은행 2조·선도 금융사 3조·유관기관 7,600억)',
+      steps='2020.1 고점 2,267 → 3.19 바닥 1,458 → 3.24 10.7조 발표 → 4월 조성 → 집행 없이 반등',note='발표가 바닥 5일 뒤'),
+ dict(id='2022',short='9.29 재가동 검토(다음 날 바닥), 미집행',vix='2022-09',crisis='연준 긴축·레고랜드',ann='2022-09-29',exec_='미집행(10.76조원 재약정, 10월 중순)',
+      steps='2021.7 고점 3,305 → 9.29 재가동 검토 → 9.30 바닥 2,155 → 10월 재약정 → 집행 없이 반등',note='검토 다음 날이 바닥'),
+ dict(id='2024',short='12.4 10조 즉시 가동 준비, 미집행',vix='',crisis='12·3 비상계엄',ann='2024-12-04',exec_='미집행(10조원 "언제든 즉시 가동" 준비)',
+      steps='2024.7 고점 2,891 → 12.4 즉시 가동 준비 발표 → 12.9 국지 저점 2,361 → 2025.4 관세로 2,294 재하락 → 반등',note='국지 바닥은 5일 뒤, 진짜 바닥은 4개월 뒤(관세)'),
+ dict(id='2026-03',short='3.5 거론, 당국 신중',vix='2026-03',crisis='이란 전쟁·유가·금리 급등',ann='2026-03-05',exec_='미가동(거론만, 당국 신중)',
+      steps='2026.2 고점 6,307 → 3.5 증안펀드 거론 → 3.31 저점 5,052 → 반등',note=''),
+ dict(id='2026-11',short='11.22 가동 준비 착수(18년 만), 투입 미정',vix='2026-11',crisis='AI 반도체 투매(SEC 엔비디아 회계조사 보도)',ann='2026-11-23',exec_='가동 준비 착수(11.22 F4 긴급회의, 18년 만). 10.76조원 약정, 투입 시기 미정',
+      steps='2026.6.22 고점 9,115 → 11.20 −5.2% → 11.22 가동 준비 착수 → 11.23 4,709(장중 4,587) → 11.24 +6.3% 5,006',note='동반: 자사주 매수한도 완화(11.24~, 3개월)·불법 공매도 특별감시·신용 담보비율 완화'),
+]
+kc=full['kospi'].dropna(); kf=[]
+for f in FUND:
+    o={k:v for k,v in f.items() if k not in ('exec_','base')}; o['exec']=f['exec_']
+    if len(f['ann'])==10 and pd.Timestamp(f['ann'])>=kc.index[0]:
+        d=pd.Timestamp(f['ann']); a=kc[kc.index>=d]; b0=a.iloc[0]
+        w=kc[d-pd.Timedelta(days=30):d+pd.Timedelta(days=60)]
+        o.update(k_ann=round(float(b0)),bottom=w.idxmin().strftime('%Y-%m-%d'),k_bottom=round(float(w.min())),to_bottom=int((w.idxmin()-a.index[0]).days),
+                 more_drop=round(float(a[:d+pd.Timedelta(days=60)].min()/b0-1)*100,1))
+        for n,lab in [(30,'f1m'),(91,'f3m'),(182,'f6m'),(365,'f12m')]:
+            x=kc[kc.index>=d+pd.Timedelta(days=n)]; o[lab]=round(float(x.iloc[0]/b0-1)*100,1) if len(x) else None
+    kf.append(o)
+json.dump(kf,open('kr_fund.json','w'),ensure_ascii=False,separators=(',',':'))
+print('kr_fund',len(kf),kf[-1])
