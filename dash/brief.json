@@ -1,135 +1,95 @@
 {
- "date": "2026-11-25",
- "session": "2026-11-24(화) 미국장",
- "headline": "황 복귀 랠리 하루 만에 반도체 되돌림 — SOX −7.9%·엔비디아 −5.9%·마이크론 −11%. HPE의 ‘메모리 비용發 마진 하락’ 가이던스와 차익실현이 겹쳤고, 돈은 경기·방어주로 이동해 다우는 사상 첫 5만(+0.85%), S&P500 −0.50%·나스닥 −1.48%",
- "lead": "화요일 미국장은 전날 엔비디아(+31.5%)·마이크론(+19%)을 끌어올린 ‘황 복귀’ 랠리가 하루 만에 식은 날이었습니다. 엔비디아 −5.86%(155.38달러), 마이크론 −11.01%, AMD −8.86%, 인텔 −8.15%로 필라델피아 반도체는 야후 종가 기준 −7.9%(8,832.5)였고 나스닥100은 −1.99%였습니다. 새 악재가 뚜렷하진 않았지만, HPE가 매출 +50%에도 ‘클라우드·AI 마진이 약 14%로 낮아진다’(올해 15.2%)며 메모리 비용 부담을 밝히자 −16.3%, 아날로그디바이스가 무난한 가이던스에 −17.4% 빠지며 AI 하드웨어 전반의 차익실현 명분이 됐습니다. 반대로 동일가중 S&P와 11개 중 8개 업종이 오르고 헬스케어(사노피의 인스메드 410억 달러 인수)·필수소비재·소매주(애버크롬비 +19.7%, 콜스 +19.5%)가 강해 다우는 50,018.70으로 처음 5만을 넘었습니다. 금리는 10년물 4.924%(+0.4bp)로 거의 그대로, 2년물은 소비자신뢰 서프라이즈(103.3)에 +2.1bp(4.687%)였습니다. 성격은 ‘금리발’이 아니라 ‘급등 뒤 되돌림 + AI 서버 마진 우려 + 업종 순환’입니다.",
+ "date": "2026-11-26",
+ "session": "미국 11/25(수) 정규장 · 추수감사절 전 마지막 정규장",
+ "headline": "근원 PCE 3.3%·14개국 관세안·AI 투자비 우려가 겹쳐 장중 나스닥이 급락했다가 대부분 회복 — S&P500 −0.25%·나스닥 −0.62%, 금리 하락에 다우 +0.33%·러셀2000 +0.78%. 같은 날 코스피는 −6.16%",
+ "lead": "수요일 미국장은 ‘숫자는 나빴지만 지수는 버틴’ 하루였습니다. 10월 근원 PCE가 3.3%로 예상(3.2%)을 넘어 12월 금리 인상(확률 94.4%)을 굳혔고, 정부는 EU·일본·한국 15% 등 14개국 대상 301조 관세안을 내놨습니다. 장중 마이크론·마벨·인텔·AMD가 9% 넘게 빠지는 투매가 나왔지만, ‘인상 사이클 끝’ 기대에 10년물이 4.85%로 내리며 소형주·경기주가 받쳤습니다. 한국은 미국 화요일 SOX −7.9%를 반영해 코스피가 하루 만에 −6.16%로 전날 상승을 모두 반납했고, 정부는 증안펀드 확대 추진에 들어갔습니다.",
  "moves": [
   {
    "name": "S&P500",
-   "chg": "−0.50%",
-   "note": "7,201.09 · 9거래일 중 8번째 하락, RSI 40.3"
+   "chg": "−0.25%",
+   "note": "7,182.78 · RSI 39.7"
   },
   {
    "name": "나스닥 종합 / 나스닥100",
-   "chg": "−1.48% / −1.99%",
-   "note": "23,733.54 / 26,214.17"
+   "chg": "−0.62% / −0.64%",
+   "note": "23,585.80 / 26,046.9(야후 종가 계산) · 장중 한때 크게 밀렸다가 회복"
   },
   {
    "name": "다우",
-   "chg": "+0.85%",
-   "note": "50,018.70 · 사상 첫 5만 돌파"
+   "chg": "+0.33%",
+   "note": "50,182.95 · 5만선 유지"
   },
   {
    "name": "러셀2000",
-   "chg": "+0.57%",
-   "note": "2,684.94"
+   "chg": "+0.78%",
+   "note": "2,705.84 · 금리 하락 수혜"
   },
   {
    "name": "필라델피아 반도체(SOX)",
-   "chg": "−7.9%",
-   "note": "8,832.5 (야후 종가) · RSI 43.3→38.0"
+   "chg": "−0.7%",
+   "note": "야후 종가 계산 · RSI 37.6 · 장중 낙폭을 크게 줄임"
   },
   {
-   "name": "엔비디아",
-   "chg": "−5.86%",
-   "note": "155.38달러 · 전날 +31.5%의 일부 반납"
+   "name": "VIX / VIX3M",
+   "chg": "28.29 / 1.076",
+   "note": "기간구조 역전 지속(전일 1.035)"
   },
   {
-   "name": "마이크론 / AMD / 브로드컴",
-   "chg": "−11.01% / −8.86% / −3.98%",
-   "note": "629.79달러 / 413.27달러(야후) / —"
+   "name": "미 10년물",
+   "chg": "4.848%(−5.6bp)",
+   "note": "2주여 만의 최저권"
   },
   {
-   "name": "VIX",
-   "chg": "−1.0%",
-   "note": "26.36 · VIX/VIX3M 1.035로 역전 지속"
-  },
-  {
-   "name": "미 10년물 / 2년물",
-   "chg": "+0.4bp / +2.1bp",
-   "note": "4.924% / 4.687%"
-  },
-  {
-   "name": "STOXX 600(유럽)",
-   "chg": "−0.66%",
-   "note": "632.74 · 기술 약 −3%"
-  },
-  {
-   "name": "코스피(24일 낮)",
-   "chg": "+6.32%",
-   "note": "5,006.03 · 미국 월요일 급등 반영"
-  },
-  {
-   "name": "WTI / 금",
-   "chg": "+2.35% / −2.30%",
-   "note": "82.05달러 / 3,551달러"
+   "name": "코스피(11/25)",
+   "chg": "−6.16%",
+   "note": "4,697.51 · 삼성전자 −9.87%, SK하이닉스 −11.05%"
   }
  ],
- "movers": "상승: 엠벡타 +40.6%, 애버크롬비 +19.7%, 콜스 +19.5%, 딕스 +14.6%, 인스메드 +14.1%(사노피 인수 발표), 달러트리 +11.2%, 사노피 +11.0% / 하락: 다이콤 −18.0%, 아날로그디바이스 −17.4%, 셈텍 −17.0%, HPE −16.3%, 아스테라랩스 −13.9%, 크레도 −13.1%, 코어위브 −11.9%, 델 −11.8%(장중, 마감 후 실적), TI −11.3%, 마이크론 −11.0%",
+ "movers": "종목: 엔비디아 −3.91%(149.30달러, 거래량 3개월 평균 대비 +91%), AMD −1.75%(장중 −9% 이상), 알파벳 −2.0%, 아마존 −3.1%, MS −1.3%, 테슬라 −1.2%, 브로드컴 −0.07%, 스페이스X +1.30%(장중 −8%) / 하락 상위: 램리서치 −6.5%, 샌디스크 −6.0%, 오라클 −4.8%, AMAT −4.4% / 상승 상위: 조비 +11.6%, 드래프트킹스 +9.7%, 액슨 +7.6%",
  "drivers": [
   {
    "rank": 1,
    "weight": "핵심",
-   "title": "급등 다음 날 차익실현 — ‘황 복귀’ 랠리의 되돌림",
-   "detail": "엔비디아는 하루 만에 시총 약 9,500억 달러가 늘어난 다음 날 −5.86%, 마이크론은 +19% 다음 날 −11%로 상승분 대부분을 반납했습니다. 오전엔 SEC 조사 관련 보도가 다시 거론되며 차익실현이 빨라졌다는 보도도 있었습니다(사실 확인 안 된 보도).",
-   "path": "단기 급등 → 숏커버 끝난 뒤 매수 주체 공백 → 고베타 반도체·AI 인프라(코어위브 −11.9%)부터 되밀림 → SOX −7.9%",
-   "src": "StockTitan · 24/7 Wall St.",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+   "title": "근원 PCE 3.3% — 12월 인상 확정, 그러나 ‘추가 인상’ 확률은 하락",
+   "detail": "10월 PCE 3.8%(예상 부합), 근원 3.3%(예상 3.2%, 9월 3.1%)로 약 3년 만의 최고였습니다. 3분기 GDP 4.3% 상향, 실업수당 18.9만 건(예상 20만)까지 경기는 뜨겁습니다. 다만 결과가 ‘최악’은 아니어서 2027년 3번째 인상 확률은 약 50%→33%로 내렸습니다.",
+   "path": "물가 고착 → 12/9 인상 확정(4.00~4.25%) → 고PER 성장주 할인율 부담 / 동시에 추가 인상 확률↓ → 10년물 −5.6bp → 소형·경기주 반등",
+   "src": "Finscans · Vista Partners",
+   "url": "https://finscans.com/news/2026/11/25/us-core-pce-inflation-hits-33-as-fed-rate-hike-odds-reach",
    "check": "보도"
   },
   {
    "rank": 2,
    "weight": "핵심",
-   "title": "HPE ‘메모리 비용 → AI 서버 마진 하락’ 가이던스",
-   "detail": "HPE는 4분기 매출 +50%(145.5억 달러)에 2027 회계연도 성장 목표를 27~35%로 높였지만, 클라우드·AI 영업이익률이 약 14%(올해 15.2%)로 낮아지고 하반기엔 비용이 가격보다 빨리 오를 것이라 밝혀 −16.3%였습니다. CEO는 메모리·낸드 공급 제약이 2028년 하반기까지 갈 것으로 봤습니다. ADI도 무난한 가이던스에 −17.4%였습니다.",
-   "path": "메모리 가격 급등 → 서버 조립사 마진 압박 → ‘AI 매출은 느는데 이익은 덜 남는다’ 인식 → 서버(델·슈퍼마이크로)·네트워크(아스테라·크레도) 동반 하락",
-   "src": "24/7 Wall St. · Quantisnow",
-   "url": "https://247wallst.com/investing/2026/11/24/super-micro-falls-5-after-mondays-server-pricing-surge-hewlett-packard-enterprise-plunges-13-despite-earnings-beat-dell-drops-7-ahead-of-earnings/",
+   "title": "AI 투자비·회계 우려 재점화 — 장중 반도체 투매",
+   "detail": "황 복귀 랠리가 식고, 투자비 대비 매출(스페이스X 3분기 설비투자 196억 달러 vs 매출 146억 달러) 논쟁이 다시 부각됐습니다. 장중 MU·MRVL·INTC·AMD가 9% 넘게 빠졌고 장비주(램 −6.5%, AMAT −4.4%)는 종가까지 약했습니다.",
+   "path": "AI 투자 회수 의문 → 설비투자 둔화 우려 → 장비·메모리·네오클라우드 순으로 매도 → 나스닥 장중 급락",
+   "src": "Motley Fool · Vista Partners",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/",
    "check": "보도"
   },
   {
    "rank": 3,
    "weight": "배경",
-   "title": "업종 순환 — 기술에서 경기·방어주로",
-   "detail": "장중 기준 동일가중 S&P(RSP)는 +0.27%로 오르고 11개 업종 중 8개가 상승했으며, 헬스케어 +2.1%·필수소비재 +1.75%였습니다(오전 10시 20분). 사노피의 인스메드 인수와 소매주 실적(애버크롬비·콜스·딕스)이 받쳐 다우는 첫 5만을 넘었습니다.",
-   "path": "기술주 차익 → 비(非)기술 대형주·소매·헬스케어로 자금 이동 → 다우·러셀 상승, 나스닥100만 하락",
-   "src": "Quantisnow · Vista Partners",
-   "url": "https://www.quantisnow.com/articles/chip-selloff-hits-tech-alone-adi-and-hpe-fall-about-15-percent-equal-weight-stocks-rise",
+   "title": "14개국 301조 관세안 — 반도체·자동차 제외",
+   "detail": "EU·일본·한국 15%, 베트남 20%, 캄보디아·인도네시아·말레이시아 18% 등이 제안됐습니다. 반도체·자동차·철강·알루미늄은 별도 권한이라 제외됐고, 1월 전 발효는 어렵습니다. 미·중 휴전은 1월 10일 만료.",
+   "path": "교역 상대국 이익 전망 하향 → 유럽(STOXX −1.06%)·아시아 수출주 약세 → 미국 내수·소형주로 상대 이동",
+   "src": "Vista Partners · TRT World",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
    "check": "보도"
   },
   {
    "rank": 4,
    "weight": "배경",
-   "title": "앤트로픽 공모가 하회 — AI IPO 수급 부담",
-   "detail": "11/19 상장한 앤트로픽이 81.91달러(−6.54%)로 공모가 83달러를 처음 밑돌았습니다. 대형 AI 상장이 이어지며 기존 AI주에서 자금이 분산되는 ‘공급’ 요인도 무시하기 어렵습니다.",
-   "path": "신규 대형 AI 주식 공급 → 기관의 AI 비중 한도 안에서 기존 종목 일부 매도 → 공모주 부진은 다시 AI 심리 약화로",
-   "src": "investingLive",
-   "url": "https://www.louisvelazquez.com/investinglive-americas-fx-news-wrap-24-nov-its-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/",
-   "check": "보도"
-  },
-  {
-   "rank": 5,
-   "weight": "배경",
-   "title": "강한 경기 지표 → 12월 인상 부담 유지",
-   "detail": "소비자신뢰 103.3(예상 92.5)으로 급반등하자 2년물은 +2.1bp(4.687%) 올랐고, 장단기차(10년−2년)는 28bp로 좁아졌습니다. 25일 PCE·GDP 발표를 앞두고 연준 인상 우려가 수그러들지 않았습니다.",
-   "path": "경기 서프라이즈 → 단기금리 상승 → ‘연준 풋’ 기대 약화 → 고밸류 성장주 할인율 부담(다만 이날 10년물은 거의 불변)",
-   "src": "investingLive",
-   "url": "https://www.louisvelazquez.com/investinglive-americas-fx-news-wrap-24-nov-its-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/",
-   "check": "보도"
-  },
-  {
-   "rank": 6,
-   "weight": "배경",
-   "title": "유가 반등 — 호르무즈 리스크 재부각",
-   "detail": "WTI는 이란군 사령관의 호르무즈 통제 강화 발언에 +2.35%(82.05달러) 반등했습니다. 협상은 이어지지만 봉쇄 해제·제재 완화 조건을 두고 입장 차가 큽니다.",
-   "path": "유가 반등 → 물가 기대 자극 → 인상 우려 보강, 에너지주엔 지지",
-   "src": "investingLive · Irish Times",
-   "url": "https://www.irishtimes.com/business/markets/2026/11/24/oil-extends-decline-on-signs-of-continuing-us-iran-diplomacy/",
+   "title": "연휴 앞 얇은 거래와 포지션 정리",
+   "detail": "추수감사절(26일 휴장)·27일 조기 폐장을 앞두고 위험 노출을 줄이려는 매도가 장 초반에 몰렸고, 오후엔 금리 하락과 함께 상당 부분 되돌려졌습니다. VIX는 28선으로 올라 연휴 헤지 수요가 반영됐습니다(해석).",
+   "path": "연휴 전 레버리지 축소 → 장중 변동폭 확대 → 마감 전 숏커버로 낙폭 축소",
+   "src": "Vista Partners",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
    "check": "보도"
   }
  ],
- "rates_note": "판정: ‘금리발 멀티플 조정’이 아니라 ‘급등 뒤 되돌림 + AI 서버 마진 우려(실적·가이던스발) + 업종 순환’입니다. 근거: ① 10년물은 +0.4bp(4.924%)로 사실상 그대로였고, 2년물만 소비자신뢰 서프라이즈에 +2.1bp(4.687%) — 할인율 충격이었다면 다우·러셀도 같이 빠졌어야 합니다. ② 나스닥100 −1.99% vs 다우 +0.85%로 격차 약 2.8%p, 헬스케어·필수소비재가 강세 — 시장 전체 위험회피가 아니라 기술에서 돈이 빠져 다른 업종으로 옮겨간 날입니다. ③ 배경 금리 부담은 그대로입니다 — 10년 실질금리 2.79%(1년 백분위 92%), 장단기차 28bp(6%), 실효 연방기금금리 3.88%(96%), PPI 전년비 6.5%(100%). ④ 신용은 경계 구간 — HY 스프레드 363bp(11/23, 1주 +29bp, 1년 백분위 100%)·IG 97bp(100%)로 월요일 반등에도 넓은 상태이고, HYG/IEF 0.834(1개월 −1.4%)는 ETF 기준 경색 신호(−3%) 전입니다. ‘신용발’로 번지는지는 HY가 400bp를 넘는지로 확인합니다.",
- "dash_read": "CNN 공포·탐욕 17.4 ‘극단적 공포’(전일 17.0, 1주 전 26.0, 1개월 전 16.7, 1년 전 13.7; 11/24 21:24 UTC 기준). 하위 7개: 시장 모멘텀 3·주가 강도 28.4·시장 폭 16.6·풋/콜 8.8·VIX 42.9·정크본드 17.8·안전자산 4.4 — 풋/콜·VIX만 소폭 개선, 나머지는 극단적 공포 그대로입니다. VIX 26.36(전일 26.62)이지만 VIX/VIX3M 1.035·VIX9D/VIX 1.012로 역전이 이틀째 안 풀렸고, VVIX 114.1(전일 117)로 헤지 수요는 진정, SKEW 139.2, MOVE 98.8로 채권 변동성은 평온. 과매도(RSI<30) 3→1개(피바디만), 대만가권·SK텔레콤이 과매도에서 벗어났습니다. 신용은 HY 363bp(1년 백분위 100%)로 ‘주식보다 신용이 먼저 안정돼야 한다’는 조건이 아직 충족되지 않았습니다.",
+ "rates_note": "이번 하락은 ‘금리발 멀티플 조정 + 정책(관세)’ 성격이 강하고, 신용발 위기 신호는 아직 경계 단계입니다. 10년물은 4.85%로 내렸지만 10년 실질금리는 2.79%(11/24, 1년 백분위 92%)로 여전히 높아 고PER 기술주의 부담이 큽니다. 나스닥100(−0.64%)이 다우(+0.33%)를 약 1%p 밑돌았고 러셀2000이 가장 강해 ‘대형 기술주 → 경기·소형주’ 순환이 사흘째입니다. 다만 HY 스프레드가 372bp(1주 +29bp, 1년 백분위 100%)로 계속 벌어지고 있어 신용 쪽 전이 여부는 지켜봐야 합니다.",
+ "dash_read": "CNN 공포탐욕은 API 미갱신으로 11/24 값 17.4(극단적 공포)를 유지했으며, 11/25 보도상 9(3월 이후 최저)로 알려졌습니다(미확인). 하위지표는 모멘텀 3·안전자산 수요 4.4·풋/콜 8.8로 극단적 공포가 대부분입니다(11/24). VIX 28.29, VIX/VIX3M 1.076으로 역전이 오히려 깊어졌고 VVIX 115·SKEW 142는 보통입니다. HYG/IEF는 1개월 −1.1%로 평온권이지만 HY OAS 372bp는 1년 최고입니다. 이번 VIX 30+ 구간(최고 35.9, S&P500 −11.6%·나스닥100 −19.8%)은 2000년 이후 30개 구간 중 낙폭이 작은 편이며, 12개월 뒤 S&P500 수익률이 확인된 28개 구간의 중앙값은 +14.8%(18개 플러스)였습니다.",
  "lessons": [
   {
    "name": "스탠리 드러켄밀러",
@@ -173,11 +133,11 @@
   }
  ],
  "habits": [
-  "급등 다음 날의 되돌림은 ‘반등 실패’가 아니라 정상적인 소화 과정일 수 있다 — VIX/VIX3M 역전 해소(1.035→1 미만)와 HY 스프레드 축소가 확인될 때까지 판단을 미룬다",
-  "매출과 이익률을 따로 본다 — HPE처럼 매출 +50%에도 마진 가이던스 하락이면 주가는 빠진다",
-  "같은 ‘AI 수혜’ 안에서도 원가(메모리)를 파는 쪽과 사는 쪽은 반대로 움직인다 — 내 종목이 어느 쪽인지 적어 둔다",
-  "시총가중 지수와 동일가중 지수가 반대로 움직이는 날은 쏠림이 풀리는 날 — 지수 숫자보다 업종 폭을 본다",
-  "대형 IPO 공모가 하회는 AI 심리의 온도계 — 신규 상장 물량 일정도 수급 변수로 챙긴다"
+  "‘나쁜 숫자에도 지수가 버틴 날’을 기록한다 — 악재 소화력은 바닥 신호 중 하나지만, 하루로 결론 내지 않는다",
+  "12월 인상처럼 이미 가격에 반영된 사건보다 ‘그다음(추가 인상 확률)’의 변화를 본다",
+  "장중 −9%가 종가 −2%로 끝나는 종목은 매수·매도 주체가 모두 큰 것 — 종가보다 장중 저점과 거래량을 함께 적어 둔다",
+  "관세안은 ‘대상·제외 품목·발효일’을 나눠 읽는다 — 이번엔 반도체·자동차 제외, 1월 이전 발효 어려움",
+  "정부 지원책은 ‘발표·확대·첫 매수’를 구분해 날짜로 적는다 — 2020년 증안펀드는 결정 뒤 반등해 실제 매입이 없었다"
  ],
  "f13": [
   {
@@ -233,81 +193,71 @@
  ],
  "watch": [
   {
-   "when": "11/25(수) 미국 장 시작 전 · 한국시간 25일 22:30",
-   "what": "10월 PCE 물가 · 3분기 GDP 수정치 · 신규 실업수당",
-   "why": "근원 PCE가 3.8% 안팎으로 가속할 것이란 예상이 있어(Tickmill), 12월 9일 인상 확률을 바꿀 마지막 핵심 물가 지표입니다."
+   "when": "11/26(목) 미국 휴장 · 27일(금) 오후 1시 조기 폐장(한국시간 28일 03:00)",
+   "what": "추수감사절 연휴 · 블랙프라이데이",
+   "why": "거래가 얇아 작은 뉴스에도 지수·반도체 변동이 과장되기 쉽습니다. 소비 강도는 연말 실적 기대와 연결됩니다."
   },
   {
-   "when": "11/25(수) 미국 정규장",
-   "what": "델 실적(24일 장 마감 후) 반응",
-   "why": "HPE가 던진 ‘메모리 비용 → 서버 마진’ 우려를 델의 마진·AI 수주잔고(1,323억 달러)가 반박하는지 확인합니다."
+   "when": "11/26(목)·27(금) 한국장",
+   "what": "미국 휴장 중 코스피·반도체 반등 여부, 증안펀드 확대 규모",
+   "why": "−6.16% 다음 날 미국 신호 없이 한국 자체 수급(연기금·증안펀드 기대)이 버티는지 확인합니다."
   },
   {
-   "when": "11/25(수) 한국장",
-   "what": "미국 SOX −7.9% 이후 삼성전자·SK하이닉스",
-   "why": "24일 +6.7% 오른 한국 반도체가 미국 되돌림을 얼마나 반영하는지, 외국인 순매수(7,256억 원)가 이어지는지."
-  },
-  {
-   "when": "11/25(수) 미국 오후 2시 · 한국시간 26일 04:00",
-   "what": "연준 베이지북",
-   "why": "지역 경기·물가 평가가 12월 FOMC 인상 논리를 보강하는지 봅니다."
-  },
-  {
-   "when": "11/26(목) 휴장 · 27일 오후 1시 조기 폐장(한국시간 28일 03:00)",
-   "what": "추수감사절 연휴",
-   "why": "거래량이 얇아 반등·되밀림이 과장되기 쉽습니다."
+   "when": "11/29(일) · 한국시간 같은 날 저녁",
+   "what": "OPEC+ 회의",
+   "why": "공급과잉 전망 속 감산 여부가 유가·물가 경로를 바꿉니다. 브렌트 1월물 만기는 11/30."
   },
   {
    "when": "12/1(화) 한국 오전 9시",
    "what": "11월 수출 확정치",
-   "why": "1~20일 반도체 수출 +294%가 월간으로 이어지는지 — AI 수요가 꺾였는지를 가르는 실물 지표입니다."
+   "why": "1~20일 반도체 수출 급증이 월간으로 이어지는지 — 관세안 이후 첫 실물 확인입니다."
   },
   {
-   "when": "12/8~9 FOMC(한국시간 12/10 새벽)",
-   "what": "연준 금리 결정",
-   "why": "‘연준 풋’ 부재가 확인되면 반등의 상단이 제한됩니다."
+   "when": "12/1(화) 미국 · 한국시간 12/2 00:00",
+   "what": "ISM 제조업",
+   "why": "물가(가격지수)와 고용이 엇갈리는지 — 드러켄밀러가 걱정한 2027년 둔화의 선행 신호입니다."
+  },
+  {
+   "when": "12/4(금) 미국 오전 8:30 · 한국시간 22:30",
+   "what": "11월 고용보고서",
+   "why": "12/9 인상 이후 ‘추가 인상’ 확률을 다시 움직일 핵심 지표입니다."
+  },
+  {
+   "when": "12/8~9 FOMC(한국시간 12/10 새벽) · 12/9 브로드컴 실적",
+   "what": "연준 금리 결정 · AI 반도체 실적",
+   "why": "인상 폭과 점도표 문구, 브로드컴 AI 매출 가이던스(217억 달러)가 연말 방향을 가릅니다."
   }
  ],
  "sources": [
   {
-   "title": "Stock Market Today, November 24, 2026: Dow Tops 50,000 as Nasdaq Slides",
+   "title": "Stocks close mixed as hot PCE inflation, new tariff plans and an AI sell-off test Wall Street (11/25)",
    "src": "Vista Partners",
-   "url": "https://vistapglobal.com/stock-market-today-november-24-2026-dow-tops-50000-as-nasdaq-slides-consumer-confidence-surges-with-pce-due-on-thanksgiving-eve-ant-bby-dell-dks-dltr-eprx-gld-insm-kymr-modd-msft-n/"
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/"
   },
   {
-   "title": "investingLive Americas FX news wrap 24 Nov: Chip stocks slide. Anthropic breaks IPO price",
-   "src": "investingLive(미러)",
-   "url": "https://www.louisvelazquez.com/investinglive-americas-fx-news-wrap-24-nov-its-a-wrap-chip-stocks-slide-anthropic-breaks-ipo-price-usd-lower/"
+   "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9%",
+   "src": "Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
   },
   {
-   "title": "Stock Market Today Live, November 24, 2026: Chip Stocks Slide After Monday's Big Rally",
-   "src": "StockTitan",
-   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026"
+   "title": "US stocks close mixed amid hotter-than-expected inflation, fresh tariffs",
+   "src": "TRT World",
+   "url": "https://www.trtworld.com/article/b594c3db4549"
   },
   {
-   "title": "Chip selloff hits tech alone; ADI and HPE fall about 15%, equal-weight stocks rise",
-   "src": "Quantisnow",
-   "url": "https://www.quantisnow.com/articles/chip-selloff-hits-tech-alone-adi-and-hpe-fall-about-15-percent-equal-weight-stocks-rise"
+   "title": "US Core PCE Inflation Hits 3.3% as Fed Rate Hike Odds Reach 94.4%",
+   "src": "Finscans",
+   "url": "https://finscans.com/news/2026/11/25/us-core-pce-inflation-hits-33-as-fed-rate-hike-odds-reach"
   },
   {
-   "title": "HPE Plunges 13% Despite Earnings Beat, Dell Drops 7% Ahead of Earnings",
-   "src": "24/7 Wall St.",
-   "url": "https://247wallst.com/investing/2026/11/24/super-micro-falls-5-after-mondays-server-pricing-surge-hewlett-packard-enterprise-plunges-13-despite-earnings-beat-dell-drops-7-ahead-of-earnings/"
+   "title": "코스피 다시 급락하자…정부 증안펀드 확대 나섰다",
+   "src": "한국경제",
+   "url": "https://www.hankyung.com/article/2026112503561"
   },
   {
-   "title": "European shares end lower as tech rally fades; Sanofi gains",
-   "src": "Reuters via MarketScreener",
-   "url": "https://www.marketscreener.com/news/european-shares-end-lower-as-tech-rally-fades-sanofi-gains-ce7851dbdd89f025"
-  },
-  {
-   "title": "Kospi surges 6% past 5,000 as Nvidia's Jensen Huang return boosts chip stocks",
-   "src": "Korea JoongAng Daily",
-   "url": "https://www.koreajoongangdaily.com/business/kospi-surges-past-5000-as-chip-rally-follows-jensen-huangs-return/12988612"
-  },
-  {
-   "title": "Oil extends decline on signs of continuing US-Iran diplomacy",
-   "src": "Irish Times",
-   "url": "https://www.irishtimes.com/business/markets/2026/11/24/oil-extends-decline-on-signs-of-continuing-us-iran-diplomacy/"
+   "title": "Goldman Strategist Warns It’s Too Early to Buy the AI Selloff",
+   "src": "roic.ai(Bloomberg 인용)",
+   "url": "https://www.roic.ai/news/goldman-strategist-warns-its-too-early-to-buy-the-ai-selloff-as-markets-remain-fragile-11-25-2026"
   }
  ]
 }

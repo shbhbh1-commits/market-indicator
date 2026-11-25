@@ -1,5 +1,57 @@
 [
  {
+  "id": "mueller-1125",
+  "date": "2026-11-25",
+  "name": "크리스티안 뮐러-글리스만",
+  "role": "골드만삭스 자산배분 리서치 책임",
+  "stance": "신중",
+  "topic": "‘AI 매도세를 사기엔 아직 이르다’…매우 취약한 국면",
+  "summary": "골드만의 위험선호 지표가 통상 시장 바닥에서 보이는 수준까지 내려오지 않았고, 지금 구조가 2018년 매도장과 닮았다며 바닥 선언은 이르다고 봤습니다. 연준이 완화 쪽으로 돌아서면 도움이 되겠지만, 가계 순자산 중 주식 비중이 약 35%로 닷컴 때보다 높다는 점을 부담으로 꼽았습니다.",
+  "check": "보도",
+  "src": "Bloomberg 보도(roic.ai 재인용)",
+  "url": "https://www.roic.ai/news/goldman-strategist-warns-its-too-early-to-buy-the-ai-selloff-as-markets-remain-fragile-11-25-2026",
+  "channel": "운용사 코멘트"
+ },
+ {
+  "id": "munster-1120",
+  "date": "2026-11-20",
+  "name": "진 먼스터",
+  "role": "딥워터 애셋매니지먼트 매니징 파트너",
+  "stance": "중립",
+  "topic": "‘매도세는 펀더멘털이 좋아질 때가 아니라 매수자가 돌아올 때 끝난다’",
+  "summary": "먼스터는 X에 올린 글에서 하락장의 끝은 실적 개선이 아니라 매수 주체의 복귀로 결정된다고 썼고, 2012~13년 애플 급락 사례를 함께 언급했습니다. 기사는 이 시점 엔비디아 선행 PER이 8.7배(3년 평균 30배)로 3년 최저라고 정리했습니다(기사 수치).",
+  "check": "보도",
+  "src": "TIKR(Yahoo Finance 게재)",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/selloff-does-not-end-fundamentals-100716888.html",
+  "channel": "X"
+ },
+ {
+  "id": "burry-1119b",
+  "date": "2026-11-19",
+  "name": "마이클 버리",
+  "role": "전 사이언 애셋 설립자",
+  "stance": "약세",
+  "topic": "‘코어위브·네비우스·엔비디아, 경고했었다’…황 개인 문제보다 뿌리 깊다",
+  "summary": "버리는 X에서 AI 인프라주 매수자들에게 경고했었다며, ‘공매도하라’고 하진 않았지만 팔 근거는 제공했다고 썼습니다. 기사 기준 10월 6일 고점 대비 엔비디아 약 −42%, 코어위브 −55%, 네비우스 −65%이며, 그는 문제가 젠슨 황 개인 스캔들·정치보다 깊다고 주장했습니다.",
+  "check": "보도",
+  "src": "Business Insider(Yahoo Finance 게재)",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-tried-warn-145909971.html",
+  "channel": "X"
+ },
+ {
+  "id": "niles-1119",
+  "date": "2026-11-19",
+  "name": "댄 나일스",
+  "role": "나일스 인베스트먼트 매니지먼트 창업자",
+  "stance": "혼재(엔비디아 롱·AI 숏)",
+  "topic": "‘엔비디아는 결코 0이 되지 않는다’…황 사임 공개 당일 매수",
+  "summary": "나일스는 황 사임이 공개된 11월 12일 엔비디아를 샀고, 선행 PER 약 10배(S&P500 18배)면 싸다고 봤습니다. 다만 이는 네오클라우드 등 다른 AI 종목 공매도와 짝을 지은 전략으로, AI 전반에는 여전히 신중하다고 밝혔습니다.",
+  "check": "보도",
+  "src": "BigGo Finance(Business Insider 인터뷰 인용)",
+  "url": "https://finance.biggo.com/news/a190e7e9-c8ad-472c-a943-3e70b38edbd6",
+  "channel": "인터뷰"
+ },
+ {
   "id": "haefele-1124",
   "date": "2026-11-24",
   "name": "마크 해펠레",

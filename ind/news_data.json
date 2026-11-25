@@ -268,23 +268,36 @@
   "unit": "기",
   "levels": {
    "미국 원유 시추기": {
-    "2026-11-20": 469
+    "2026-11-20": 469,
+    "2026-11-25": 470
+   },
+   "미국 가스 시추기": {
+    "2026-11-25": 127
+   },
+   "미국 총 시추기": {
+    "2026-11-25": 607
    }
   },
   "signal": {
-   "2026-11-20": 469
+   "2026-11-20": 469,
+   "2026-11-25": 470
   },
   "signal_basis": "수준(기)",
-  "updated": "2026-11-24",
-  "next_release": "2026-11-25",
+  "updated": "2026-11-26",
+  "next_release": "2026-12-04",
   "src": [
+   {
+    "title": "US energy firms left total rig count unchanged for the week, Baker Hughes says (Reuters via BOE Report)",
+    "url": "https://boereport.com/2026/11/25/us-energy-firms-left-total-rig-count-unchanged-for-the-week-baker-hughes-says/",
+    "date": "2026-11-25"
+   },
    {
     "title": "Oil Prices Fall Despite Renewed Threats in the Strait of Hormuz (Mansfield Energy, 베이커휴즈 인용)",
     "url": "https://mansfield.energy/2026/11/23/oil-prices-fall-despite-renewed-threats-in-the-strait-of-hormuz/",
     "date": "2026-11-23"
    }
   ],
-  "note": "11/20 주간 원유 시추기 +6기 → 469기. 가스 시추기·총계와 과거 주간 값은 미수집. 추수감사절 주간은 발표가 수요일(11/25)로 당겨질 수 있음(관행, 미확인)"
+  "note": "11/25(추수감사절 주간, 수요일 발표) 원유 470(+1, 2025년 5월 이후 최고)·가스 127(−1)·총 607(보합, 전년비 +63). 11/20 원유 469. RBN은 총 606으로 표기(정의 차이 추정)"
  },
  "bdi": {
   "unit": "포인트",
@@ -295,12 +308,14 @@
     "2026-11-19": 2901,
     "2026-11-20": 2898,
     "2026-11-23": 3000,
-    "2026-11-24": 3068
+    "2026-11-24": 3068,
+    "2026-11-25": 3107
    },
    "케이프사이즈": {
     "2026-11-16": 4558,
     "2026-11-20": 4502,
-    "2026-11-24": 4942
+    "2026-11-24": 4942,
+    "2026-11-25": 5014
    },
    "파나막스": {
     "2026-11-16": 2113,
@@ -312,9 +327,14 @@
    "2026-11-24": 32.87
   },
   "signal_basis": "전년비(%)",
-  "updated": "2026-11-25",
-  "next_release": "2026-11-25",
+  "updated": "2026-11-26",
+  "next_release": "2026-11-27",
   "src": [
+   {
+    "title": "Baltic Sea freight index hits multi-week high (WiseVoter, 11/25)",
+    "url": "https://wisevoter.com/world/2026/11/25/baltic-sea-freight-index-multi-week-high",
+    "date": "2026-11-25"
+   },
    {
     "title": "Baltic Dry Index (Trading Economics, 11/24 기준)",
     "url": "https://tradingeconomics.com/commodity/baltic",
@@ -326,7 +346,7 @@
     "date": "2026-11-20"
    }
   ],
-  "note": "11/24 BDI 3,068(+2.27%, 10/5 이후 최고, 1개월 +16.7%, 전년비 +32.9%·TE 산출). 11/23 3,000. 케이프 4,942·파나막스 2,179·수프라막스 1,811(11/24). 11/17·11/21 값 미수집"
+  "note": "11/25 BDI 3,107(+39, +1.27%, 10/2 이후 최고)·케이프 5,014·수프라막스 1,814 — WiseVoter 보도(TE 미확인). 11/24 3,068(+2.3%, 전년비 +32.9%·TE). 11/25 전년비는 미확인이라 signal은 11/24 유지"
  },
  "scfi": {
   "unit": "포인트",
@@ -334,17 +354,25 @@
    "SCFI 종합": {
     "2026-11-06": 3633,
     "2026-10-30": 3687.35,
-    "2026-11-13": 3572.33
+    "2026-11-13": 3572.33,
+    "2026-11-20": 3503.78
    },
    "SCFI 월평균": {
     "2026-10": 3678
    }
   },
-  "signal": {},
+  "signal": {
+   "2026-11-20": 151.43
+  },
   "signal_basis": "전년비(%)",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "next_release": "2026-11-27",
   "src": [
+   {
+    "title": "Containerized Freight Index (Trading Economics, 11/20 발표분)",
+    "url": "https://tradingeconomics.com/commodity/containerized-freight-index",
+    "date": "2026-11-25"
+   },
    {
     "title": "Container freight rates split as U.S. East Coast drops $470 (ShipUniverse)",
     "url": "https://www.shipuniverse.com/news/container-freight-rates-split-as-u-s-east-coast-drops-470-as-mediterranean-surges-6-7/",
@@ -356,6 +384,84 @@
     "date": "2026-11-16"
    }
   ],
-  "note": "11/13(46주차) 3,572.33(전주비 −1.68%), 11/6 3,633.45, 10/30 3,687.35. 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU(11/13). 47주차(11/20) 값과 전년비는 2026년 자료로 확인 못해 비움"
+  "note": "11/20(47주차) 3,503.78(TE: 1개월 −4.82%, 전년비 +151.43%). 11/13 3,572.33, 11/6 3,633.45, 10/30 3,687.35. 노선별 11/13: 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU"
+ },
+ "newbuild": {
+  "unit": "포인트",
+  "levels": {
+   "클락슨 신조선가지수": {
+    "2026-07": 185.49,
+    "2026-08": 186.34,
+    "2026-09": 186.59,
+    "2026-10": 187.2
+   }
+  },
+  "signal": {
+   "2026-07": 185.49,
+   "2026-08": 186.34,
+   "2026-09": 186.59,
+   "2026-10": 187.2
+  },
+  "signal_basis": "수준(포인트)",
+  "updated": "2026-11-26",
+  "next_release": "2026-12-07",
+  "src": [
+   {
+    "title": "Clarksons 신조선가지수 10월말 187.2 사상 최고 (iMarineNews)",
+    "url": "https://www.imarinenews.com/40688.html",
+    "date": "2026-11-08"
+   },
+   {
+    "title": "8월말 186.34 (Xinde Marine News)",
+    "url": "https://www.xindemarinenews.com/news/2096835347565785089",
+    "date": "2026-09-07"
+   },
+   {
+    "title": "7월말 185.49 (PortNews)",
+    "url": "https://en.portnews.ru/news/396582/",
+    "date": "2026-09-06"
+   }
+  ],
+  "note": "월말 기준. 10월 187.2(사상 최고)·9월 186.59·8월 186.34·7월 185.49. 10월 LNG선(17.4만㎥) 2.45억 달러·VLCC 1.315억 달러·2.2~2.4만TEU 컨선 2.40억 달러. 11월 값과 2026년 1~6월은 미수집"
+ },
+ "lng_rate": {
+  "unit": "달러/일",
+  "levels": {
+   "Spark30S 대서양": {
+    "2026-11-02": 28250,
+    "2026-11-09": 35500,
+    "2026-11-11": 33250,
+    "2026-11-12": 31000,
+    "2026-11-18": 21500,
+    "2026-11-20": 20250
+   },
+   "Spark25S 태평양": {
+    "2026-11-02": 45250,
+    "2026-11-09": 55250,
+    "2026-11-11": 55250,
+    "2026-11-12": 54500,
+    "2026-11-18": 54500,
+    "2026-11-20": 49750
+   }
+  },
+  "signal": {
+   "2026-11-20": 20250
+  },
+  "signal_basis": "수준(달러/일, Spark30S 대서양)",
+  "updated": "2026-11-26",
+  "next_release": "2026-11-27",
+  "src": [
+   {
+    "title": "Latest Spark assessment 11/20 (LNG Ship Horizon)",
+    "url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-eb3",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Latest Spark assessment 11/18 (LNG Ship Horizon)",
+    "url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-ec5",
+    "date": "2026-11-18"
+   }
+  ],
+  "note": "Fearnleys 대신 Spark 평가치(LNG Ship Horizon 정리). 11/20 대서양 20,250(−250)·태평양 49,750(−2,250). 11월 이전 값 미수집"
  }
 }
