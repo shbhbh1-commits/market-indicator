@@ -1,5 +1,57 @@
 [
  {
+  "id": "burry-1125",
+  "date": "2026-11-25",
+  "name": "마이클 버리",
+  "role": "전 사이언 애셋 설립자",
+  "stance": "강세",
+  "topic": "나스닥100 숏 잔여분 청산…‘일시적으로 거의 전부 롱’",
+  "summary": "버리는 서브스택 글에서 나스닥100에 걸었던 남은 공매도 포지션을 정리해 차익을 확정했고, 지금은 일시적으로 거의 전부 매수 포지션이라고 밝혔습니다. 팔란티어·메트라이프 풋은 유지하고 현금 약 25%를 천천히 투입 중이며, 바닥을 선언한 것은 아니라고 했습니다. 며칠 전엔 엔비디아 약세 베팅 절반을 이미 정리했습니다.",
+  "check": "보도",
+  "src": "BiFu(서브스택 글 인용)",
+  "url": "https://bifu.co/news/detail/burry-turns-bullish-on-stocks-after-thanksgiving-sell-off",
+  "channel": "서브스택"
+ },
+ {
+  "id": "elerian-1125",
+  "date": "2026-11-25",
+  "name": "모하메드 엘에리언",
+  "role": "알리안츠 수석 경제고문",
+  "stance": "신중한 매수",
+  "topic": "‘기술주를 아주 천천히 나눠 사는 중’…엔비디아는 ‘흔들리기엔 너무 크다’",
+  "summary": "엘에리언은 CNBC 인터뷰에서 조정 전 기술주를 크게 줄였다가, 지금은 나쁜 기술적 흐름을 의식해 아주 천천히 나눠 사고 있다고 했습니다. 장기적으로는 기회라면서도 곳곳에서 마진콜이 나올 것이라 경고했고, 12/9 0.25%p 인상은 ‘비둘기파적 인상’이 될 것으로 봤습니다.",
+  "check": "보도",
+  "src": "Stocktwits(CNBC 인터뷰 인용)",
+  "url": "https://stocktwits.com/news-articles/markets/equity/mohamed-el-erian-is-buying-the-tech-dip-very-slowly-says-nvidia-is-too-big-to-wobble/cNbHNilR9mp",
+  "channel": "CNBC 인터뷰"
+ },
+ {
+  "id": "wood-1120-amd",
+  "date": "2026-11-20",
+  "name": "캐시 우드",
+  "role": "ARK 인베스트 CEO",
+  "stance": "강세",
+  "topic": "AMD −13% 급락일에 4만9,745주 추가 매수…11/5(−17%)에도 매수",
+  "summary": "ARK는 AMD가 13% 떨어진 11/20에 4만9,745주를, 17% 떨어진 11/5에도 약 4만9천 주를 사 두 번 합쳐 약 4,100만 달러어치를 늘렸습니다. 9/29엔 18만1,767주(약 1.1억 달러)를 팔았던 터라 ‘고점 매도 → 급락일 재매수’ 흐름입니다. 코투(필립 라퐁)는 9월 말 13F에서 AMD를 전량 매도해 정반대였습니다.",
+  "check": "보도",
+  "src": "Motley Fool(ARK 일일 매매 자료)",
+  "url": "https://fool.com/investing/2026/11/26/cathie-wood-and-philippe-laffont-are-on-opposite-sides-of-amd-stock-here-s-who-i-think-is-right",
+  "channel": "ARK 일일 매매"
+ },
+ {
+  "id": "chowdhry-1126",
+  "date": "2026-11-26",
+  "name": "셰루 차우드리",
+  "role": "DSC 메리디언 캐피털 창업자(헤지펀드)",
+  "stance": "약세",
+  "topic": "‘AI 붐 아래 실업발 경기침체가 온다’…자산 상관관계 상승 경고",
+  "summary": "싱가포르 iConnections 아시아 서밋 원탁회의(지난주)에서 실업 증가가 이끄는 경기침체를 경고하며 미국 하이일드 금리 약 8.5%·레버리지론 최대 9.5%를 근거로 들었습니다. 같은 자리에서 R.G.니더호퍼의 댄 겔런터는 올해 자산 간 상관관계가 높아져 포트폴리오의 실제 레버리지가 생각보다 크다고 지적했습니다.",
+  "check": "보도",
+  "src": "Longbridge(즈퉁 보도)",
+  "url": "https://longbridge.com/en/news/306879348",
+  "channel": "콘퍼런스"
+ },
+ {
   "id": "mueller-1125",
   "date": "2026-11-25",
   "name": "크리스티안 뮐러-글리스만",

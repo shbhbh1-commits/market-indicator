@@ -1,16 +1,16 @@
 [
  {
-  "asof": "2026-11-25 07:36 KST",
-  "n_oversold": 1,
+  "asof": "2026-11-26 07:36 KST",
+  "n_oversold": 0,
   "n_total": 34,
-  "vix": 26.36,
-  "vix_ratio": 1.035,
+  "vix": 28.29,
+  "vix_ratio": 1.076,
   "vix_state": "역전(패닉)",
-  "sox_rsi": 38.0,
-  "sox_d1": -7.9,
-  "spx_rsi": 40.3,
-  "kospi_rsi": 40.3,
-  "kospi_d1": 6.3,
+  "sox_rsi": 37.6,
+  "sox_d1": -0.7,
+  "spx_rsi": 39.7,
+  "kospi_rsi": 35.1,
+  "kospi_d1": -6.2,
   "n_events": 20,
   "cnn_fg": 17.4,
   "cnn_fg_prev": 17.0,
@@ -18,6 +18,7 @@
   "cnn_fg_month": 16.7,
   "cnn_fg_year": 13.7,
   "cnn_fg_rating": "극단적 공포",
-  "cnn_fg_asof": "2026-11-24T21:24:36+00:00"
+  "cnn_fg_asof": "2026-11-24T21:24:36+00:00",
+  "cnn_fg_note": "11/26 CNN API 미갱신(권한 승인 대기 초과, 10회) — 11/24 값 유지. 11/25 보도상 9(극단적 공포, 3월 이후 최저·미확인)"
  }
 ]

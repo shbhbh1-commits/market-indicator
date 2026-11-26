@@ -1,101 +1,121 @@
 {
- "date": "2026-11-26",
- "session": "미국 11/25(수) 정규장 · 추수감사절 전 마지막 정규장",
- "headline": "근원 PCE 3.3%·14개국 관세안·AI 투자비 우려가 겹쳐 장중 나스닥이 급락했다가 대부분 회복 — S&P500 −0.25%·나스닥 −0.62%, 금리 하락에 다우 +0.33%·러셀2000 +0.78%. 같은 날 코스피는 −6.16%",
- "lead": "수요일 미국장은 ‘숫자는 나빴지만 지수는 버틴’ 하루였습니다. 10월 근원 PCE가 3.3%로 예상(3.2%)을 넘어 12월 금리 인상(확률 94.4%)을 굳혔고, 정부는 EU·일본·한국 15% 등 14개국 대상 301조 관세안을 내놨습니다. 장중 마이크론·마벨·인텔·AMD가 9% 넘게 빠지는 투매가 나왔지만, ‘인상 사이클 끝’ 기대에 10년물이 4.85%로 내리며 소형주·경기주가 받쳤습니다. 한국은 미국 화요일 SOX −7.9%를 반영해 코스피가 하루 만에 −6.16%로 전날 상승을 모두 반납했고, 정부는 증안펀드 확대 추진에 들어갔습니다.",
+ "date": "2026-11-27",
+ "session": "미국 11/26(목) 추수감사절 휴장 · 유럽·아시아 11/26장 (마지막 미국 정규장은 11/25)",
+ "headline": "미국 휴장 속 유럽 +1.8%(관세 ‘15% 상한’ 신호)·코스피 +0.29%(장중 +2% 반납) — 휴장 중 나온 엔비디아 동남아 출하 중단(FT)이 27일 미국 반쪽장의 첫 시험대",
+ "lead": "목요일은 미국이 쉬는 사이 다른 시장이 숨을 고른 하루였습니다. 유럽은 미국이 새 관세를 기존 무역합의 수준(EU 15%)으로 묶겠다는 신호에 1.8% 반등했고, 일본·대만도 키옥시아·소프트뱅크 급등으로 올랐습니다. 코스피는 −6.16% 다음 날 장중 +2.6%까지 올랐다가 외국인 막판 매도에 +0.29%로 끝났고, 한은은 예상대로 기준금리를 3.25%로 올렸습니다. 대신 휴장 중 엔비디아가 동남아 4개국행 AI 서버 출하를 멈추라고 파트너에 요청했다는 FT 보도가 나와, 27일(금) 미국 단축장과 다음 주 한국 반도체가 이를 처음 소화하게 됩니다.",
  "moves": [
   {
-   "name": "S&P500",
+   "name": "S&P500 (11/25 종가)",
    "chg": "−0.25%",
-   "note": "7,182.78 · RSI 39.7"
+   "note": "7,182.78 · RSI 39.7 · 26일 휴장, 선물 +0.3%(AP)"
   },
   {
-   "name": "나스닥 종합 / 나스닥100",
-   "chg": "−0.62% / −0.64%",
-   "note": "23,585.80 / 26,046.9(야후 종가 계산) · 장중 한때 크게 밀렸다가 회복"
+   "name": "나스닥 종합 (11/25 종가)",
+   "chg": "−0.62%",
+   "note": "23,585.80 · 장중 −4.6%에서 회복"
   },
   {
-   "name": "다우",
-   "chg": "+0.33%",
-   "note": "50,182.95 · 5만선 유지"
+   "name": "STOXX 600",
+   "chg": "+1.8%",
+   "note": "636.98 · 독일·스페인·이탈리아 +2% 이상"
   },
   {
-   "name": "러셀2000",
-   "chg": "+0.78%",
-   "note": "2,705.84 · 금리 하락 수혜"
+   "name": "코스피 / 코스닥",
+   "chg": "+0.29% / +0.78%",
+   "note": "4,711.21(장중 4,817.77) / 655.71 · RSI 35.5"
   },
   {
-   "name": "필라델피아 반도체(SOX)",
-   "chg": "−0.7%",
-   "note": "야후 종가 계산 · RSI 37.6 · 장중 낙폭을 크게 줄임"
+   "name": "닛케이 / 대만 가권",
+   "chg": "+0.86% / +2.5%",
+   "note": "57,499.16 · 키옥시아 +12.6%"
   },
   {
    "name": "VIX / VIX3M",
-   "chg": "28.29 / 1.076",
-   "note": "기간구조 역전 지속(전일 1.035)"
+   "chg": "26.80 / 1.019",
+   "note": "11/25 종가(야후) · 30 아래로 내려왔지만 기간구조 역전은 지속(전일 1.076)"
   },
   {
    "name": "미 10년물",
-   "chg": "4.848%(−5.6bp)",
-   "note": "2주여 만의 최저권"
+   "chg": "4.848%(11/25, −5.6bp)",
+   "note": "26일 휴장"
   },
   {
-   "name": "코스피(11/25)",
-   "chg": "−6.16%",
-   "note": "4,697.51 · 삼성전자 −9.87%, SK하이닉스 −11.05%"
+   "name": "브렌트 / 유럽 TTF",
+   "chg": "90.79달러(+0.2%) / 87.59유로(−0.28%)",
+   "note": "AP 아시아장 기준 / Longbridge 유럽 마감 기준"
   }
  ],
- "movers": "종목: 엔비디아 −3.91%(149.30달러, 거래량 3개월 평균 대비 +91%), AMD −1.75%(장중 −9% 이상), 알파벳 −2.0%, 아마존 −3.1%, MS −1.3%, 테슬라 −1.2%, 브로드컴 −0.07%, 스페이스X +1.30%(장중 −8%) / 하락 상위: 램리서치 −6.5%, 샌디스크 −6.0%, 오라클 −4.8%, AMAT −4.4% / 상승 상위: 조비 +11.6%, 드래프트킹스 +9.7%, 액슨 +7.6%",
+ "movers": "한국: SK하이닉스 +2.23%(105만 원, 장중 +5%대)·삼성전자 +0.35%(171,300원)·삼성전기 +3.84%·SK스퀘어 +2.23% / 현대차 −3.9%·기아 −2.4%·현대모비스 −5.7% · 일본: 키옥시아 +12.6%(엔비디아와 GPU 메모리 협업)·소프트뱅크G +7.3%·도쿄일렉트론 +0.6% · 유럽: 임페리얼 브랜즈 +13.3%(알트리아 인수 검토)·소이텍 +7%·바브콕 +5.8%·지멘스에너지 +4.8%·인피니언 +3.6% / BAWAG −5.7%·코메르츠방크 −2.6%",
  "drivers": [
   {
    "rank": 1,
    "weight": "핵심",
-   "title": "근원 PCE 3.3% — 12월 인상 확정, 그러나 ‘추가 인상’ 확률은 하락",
-   "detail": "10월 PCE 3.8%(예상 부합), 근원 3.3%(예상 3.2%, 9월 3.1%)로 약 3년 만의 최고였습니다. 3분기 GDP 4.3% 상향, 실업수당 18.9만 건(예상 20만)까지 경기는 뜨겁습니다. 다만 결과가 ‘최악’은 아니어서 2027년 3번째 인상 확률은 약 50%→33%로 내렸습니다.",
-   "path": "물가 고착 → 12/9 인상 확정(4.00~4.25%) → 고PER 성장주 할인율 부담 / 동시에 추가 인상 확률↓ → 10년물 −5.6bp → 소형·경기주 반등",
-   "src": "Finscans · Vista Partners",
-   "url": "https://finscans.com/news/2026/11/25/us-core-pce-inflation-hits-33-as-fed-rate-hike-odds-reach",
+   "title": "미 관세 ‘합의 수준 상한’ 신호 → 유럽 1.8% 반등",
+   "detail": "USTR이 수요일 공개한 14개국 301조 관세안에 대해 새 관세를 기존 무역합의 수준으로 묶겠다는 뜻을 밝히면서 EU 15% 유지 기대가 커졌습니다. ECB 총재로 에르난데스 데 코스가 지명된 것도 정책 연속성으로 읽혔습니다. 한국도 15% 상한이 유지돼 관세 영향은 제한적이었습니다.",
+   "path": "관세 상한 확인 → 수출주·은행·반도체 저가 매수 → 전날(−1.06%) 낙폭 이상 회복",
+   "src": "Reuters 기반(QNC)",
+   "url": "https://qncnews.com/2026/11/26/european-shares-end-1-8-per-cent-higher-as-tariff-fears-ease-and-banks-and-technology-stocks-rebound/",
    "check": "보도"
   },
   {
    "rank": 2,
    "weight": "핵심",
-   "title": "AI 투자비·회계 우려 재점화 — 장중 반도체 투매",
-   "detail": "황 복귀 랠리가 식고, 투자비 대비 매출(스페이스X 3분기 설비투자 196억 달러 vs 매출 146억 달러) 논쟁이 다시 부각됐습니다. 장중 MU·MRVL·INTC·AMD가 9% 넘게 빠졌고 장비주(램 −6.5%, AMAT −4.4%)는 종가까지 약했습니다.",
-   "path": "AI 투자 회수 의문 → 설비투자 둔화 우려 → 장비·메모리·네오클라우드 순으로 매도 → 나스닥 장중 급락",
-   "src": "Motley Fool · Vista Partners",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/",
+   "title": "엔비디아, 동남아 4개국행 AI 서버 출하 중단 요청(FT)",
+   "detail": "말레이시아·싱가포르·태국·인도네시아로 가는 서버 출하를 멈추라고 델·슈퍼마이크로에 요청했다는 보도입니다. 해외 클라우드 임대로 중국 기업이 수출통제를 우회하는 것을 막는 지난주 미국 새 규정(라이선스, 90일 시한) 때문이며, 엔비디아 싱가포르 법인 매출은 2025년 1,040억 달러였습니다(FT 인용). 바이트댄스 관련 동남아 데이터센터 대출 심사도 지연되고 있습니다(블룸버그).",
+   "path": "동남아 우회 수요 차단 → AI 서버 출하·HBM 매출 인식 지연 우려 → 27일 미국 반도체·다음 주 한국 메모리주에 첫 반영(휴장으로 아직 가격 미반영)",
+   "src": "The National(FT 인용) · CoinDesk",
+   "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
    "check": "보도"
   },
   {
    "rank": 3,
    "weight": "배경",
-   "title": "14개국 301조 관세안 — 반도체·자동차 제외",
-   "detail": "EU·일본·한국 15%, 베트남 20%, 캄보디아·인도네시아·말레이시아 18% 등이 제안됐습니다. 반도체·자동차·철강·알루미늄은 별도 권한이라 제외됐고, 1월 전 발효는 어렵습니다. 미·중 휴전은 1월 10일 만료.",
-   "path": "교역 상대국 이익 전망 하향 → 유럽(STOXX −1.06%)·아시아 수출주 약세 → 미국 내수·소형주로 상대 이동",
-   "src": "Vista Partners · TRT World",
-   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "title": "코스피: 기관 매수 vs 외국인 막판 매도 — 정책 대기 장세",
+   "detail": "기관이 7,508억 원 샀지만 개인 1.04조 원·외국인 1,136억 원 순매도로 장중 상승분 대부분을 반납했습니다. 한은은 기준금리를 3.25%로 올리고 성장률 전망을 2026년 3.9%·2027년 4.1%로 높였는데, 예상에 부합해 주가 영향은 작았습니다.",
+   "path": "−6% 급락 후 기술적 반등 → 외국인 차익·환매 매도 → 상승폭 축소",
+   "src": "서울경제 · 코리아중앙데일리",
+   "url": "https://en.sedaily.com/market/2026/11/26/kospi-gives-up-most-gains-closes-up-029-percent-at-471121",
    "check": "보도"
   },
   {
    "rank": 4,
    "weight": "배경",
-   "title": "연휴 앞 얇은 거래와 포지션 정리",
-   "detail": "추수감사절(26일 휴장)·27일 조기 폐장을 앞두고 위험 노출을 줄이려는 매도가 장 초반에 몰렸고, 오후엔 금리 하락과 함께 상당 부분 되돌려졌습니다. VIX는 28선으로 올라 연휴 헤지 수요가 반영됐습니다(해석).",
-   "path": "연휴 전 레버리지 축소 → 장중 변동폭 확대 → 마감 전 숏커버로 낙폭 축소",
-   "src": "Vista Partners",
-   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "title": "증안펀드: 29일 투자관리위·30일 금융지주 회장 소집",
+   "detail": "10조7,600억 원 규모 펀드의 가동 여부를 정할 투자관리위가 29일, 추가 출자 여력을 점검하는 금융위원장 주재 회의가 30일 열립니다. 증액 금액과 실제 매수 시기는 미정입니다.",
+   "path": "정책 하단 기대 → 급락 시 매도 압력 완화(심리) / 실제 매수 전까지는 효과 제한",
+   "src": "뉴스1 · MTN",
+   "url": "https://www.news1.kr/finance/general-finance/6367490",
+   "check": "보도"
+  },
+  {
+   "rank": 5,
+   "weight": "배경",
+   "title": "연준 12/9 인상 97~98% 반영, 1월 추가 인상 40.7%",
+   "detail": "3분기 GDP 4.3%·근원 PCE 3.3% 이후 12월 인상은 사실상 확정이고, 시장의 관심은 1월 이후 추가 인상 여부로 옮겨갔습니다.",
+   "path": "추가 인상 확률 ↔ 10년물·실질금리 → 고PER 기술주 밸류에이션",
+   "src": "TheStreet(Yahoo Finance)",
+   "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-bets-deliver-174700533.html",
+   "check": "보도"
+  },
+  {
+   "rank": 6,
+   "weight": "배경",
+   "title": "호르무즈·라스타누라 공격 보도에도 유가 보합, 유럽 가스는 하락",
+   "detail": "유조선 기뢰 피격과 후티의 사우디 라스타누라 드론 공격 보도가 있었지만 공급과잉 전망에 브렌트는 90달러대에서 소폭 상승에 그쳤습니다. TTF는 노르웨이 공급 회복 기대에 이틀 하락했지만 유럽 저장률이 68%대로 낮습니다.",
+   "path": "에너지 가격 고착 → 물가 → 금리 경로 부담(즉각 충격은 제한적)",
+   "src": "Finscans · Serbia SEE Energy",
+   "url": "https://finscans.com/news/2026/11/26/brent-crude-rallies-to-9530-as-hormuz-mine-strikes-rattle",
    "check": "보도"
   }
  ],
- "rates_note": "이번 하락은 ‘금리발 멀티플 조정 + 정책(관세)’ 성격이 강하고, 신용발 위기 신호는 아직 경계 단계입니다. 10년물은 4.85%로 내렸지만 10년 실질금리는 2.79%(11/24, 1년 백분위 92%)로 여전히 높아 고PER 기술주의 부담이 큽니다. 나스닥100(−0.64%)이 다우(+0.33%)를 약 1%p 밑돌았고 러셀2000이 가장 강해 ‘대형 기술주 → 경기·소형주’ 순환이 사흘째입니다. 다만 HY 스프레드가 372bp(1주 +29bp, 1년 백분위 100%)로 계속 벌어지고 있어 신용 쪽 전이 여부는 지켜봐야 합니다.",
- "dash_read": "CNN 공포탐욕은 API 미갱신으로 11/24 값 17.4(극단적 공포)를 유지했으며, 11/25 보도상 9(3월 이후 최저)로 알려졌습니다(미확인). 하위지표는 모멘텀 3·안전자산 수요 4.4·풋/콜 8.8로 극단적 공포가 대부분입니다(11/24). VIX 28.29, VIX/VIX3M 1.076으로 역전이 오히려 깊어졌고 VVIX 115·SKEW 142는 보통입니다. HYG/IEF는 1개월 −1.1%로 평온권이지만 HY OAS 372bp는 1년 최고입니다. 이번 VIX 30+ 구간(최고 35.9, S&P500 −11.6%·나스닥100 −19.8%)은 2000년 이후 30개 구간 중 낙폭이 작은 편이며, 12개월 뒤 S&P500 수익률이 확인된 28개 구간의 중앙값은 +14.8%(18개 플러스)였습니다.",
+ "rates_note": "미국 휴장으로 새 금리 데이터는 없고, 11/25 기준으로 판단은 ‘금리발 멀티플 조정 + 정책 충격’이 계속입니다. 10년물은 4.848%로 내렸지만 10년 실질금리 2.79%(11/24, 1년 백분위 92%)가 여전히 높아 고PER 기술주에 부담이며, 나스닥100(−0.64%)이 다우(+0.33%)를 약 1%p 밑도는 순환이 이어졌습니다. 신용 쪽은 HY 스프레드 372bp(1주 +29bp, 1년 백분위 100%)·IG 98bp로 경계 수위지만 HYG/IEF는 1개월 −1.1%로 아직 경색은 아닙니다. 한국은 한은 인상에도 국고채 3년물 3.622%(+3.9bp)로 차분했습니다.",
+ "dash_read": "CNN 공포탐욕은 API 직접 조회가 막혀, CNN 지수를 추적하는 보도값 15(극단적 공포, 11/25 마감 기준)로 갱신했습니다 — 전일 17, 1주 전 25. 하위지표는 11/24 기준으로 모멘텀 3·안전자산 수요 4.4·풋/콜 8.8 등 대부분 극단적 공포입니다. VIX는 26.80으로 30 아래로 내려왔고 VIX/VIX3M 1.019로 역전이 크게 풀렸습니다(전일 1.076, VIX9D/VIX 1.105). VVIX 115·SKEW 142는 보통입니다. 이번 VIX 30+ 구간(최고 35.9, S&P500 −11.6%·나스닥100 −19.8%)은 2000년 이후 30개 구간 중 낙폭이 작은 편이며, 12개월 뒤 수익률이 확인된 28개 구간의 S&P500 중앙값은 +14.8%였습니다.",
  "lessons": [
   {
    "name": "스탠리 드러켄밀러",
    "when": "2000년 3월 닷컴 고점",
    "what": "기술주가 과열이라 봤으면서도 젊은 매니저들의 수익에 조급해져 고점 부근에 기술주를 대거 샀다가 큰 손실을 봤고, 훗날 ‘감정적으로 샀다’고 인정했습니다.",
-   "lesson": "급반등 다음 날 되밀리는 지금이 ‘놓쳤다 → 다시 기회다’라는 감정이 가장 크게 흔들리는 때입니다. 그는 지금도 ‘주식에서 잠시 쉰다’며 순노출을 최소로 두고 있습니다 — 하루 +4.7%, 하루 −7.9% 어느 쪽도 판단을 바꿀 근거로 삼지 않습니다.",
+   "lesson": "반등이 장중에 꺾이는 날(코스피 장중 +2.6% → +0.29%)은 ‘놓쳤다 → 다시 기회다’ 감정이 가장 크게 흔들리는 때입니다. 그는 지금도 주식 순노출을 최소로 두고 있어, 하루 등락을 판단 근거로 삼지 않습니다.",
    "src": "Acquirer's Multiple(인터뷰 정리)",
    "url": "https://acquirersmultiple.com/2018/07/stanley-druckenmiller-my-biggest-mistake-and-what-i-learned-from-it"
   },
@@ -103,7 +123,7 @@
    "name": "하워드 막스",
    "when": "2008년 9~12월 리먼 파산 직후",
    "what": "메모 ‘The Limits to Negativism’에서 모두가 최악만 가정할 때 회의론자는 ‘너무 비관적인 쪽’을 의심해야 한다고 썼고, 오크트리는 몇 달에 걸쳐 부실채권을 대규모로 사들였습니다.",
-   "lesson": "막스는 바닥을 맞히려 하지 않고 몇 달에 걸쳐 나눠 샀습니다. 반도체가 +14% 뒤 −7.9%로 출렁이는 날은 ‘한 번에’가 아니라 ‘나눠서’가 왜 필요한지 보여줍니다.",
+   "lesson": "막스는 바닥을 맞히려 하지 않고 몇 달에 걸쳐 나눠 샀습니다. 엘에리언이 지금 ‘아주 천천히’ 사고, 버리가 현금 25%를 ‘천천히’ 투입한다는 것도 같은 원리입니다.",
    "src": "Oaktree 메모(2008.10.15)",
    "url": "https://www.oaktreecapital.com/docs/default-source/memos/2008-10-15-the-limits-to-negativism.pdf"
   },
@@ -119,7 +139,7 @@
    "name": "워런 버핏",
    "when": "1963~64년 아메리칸익스프레스 ‘샐러드 오일 스캔들’",
    "what": "자회사 사기 연루로 아멕스 주가가 폭락하자, 버핏은 식당·은행을 직접 돌며 고객이 여전히 카드와 여행자수표를 쓰는지 확인한 뒤 파트너십 자금의 큰 몫을 아멕스에 넣었습니다.",
-   "lesson": "아멕스 때 버핏은 주가가 아니라 고객이 계속 카드를 쓰는지를 확인했습니다. 지금 AI 하드웨어도 ‘수요(수주잔고·수출)’와 ‘마진(메모리 비용)’을 따로 봐야 합니다 — 델의 AI 수주잔고 1,323억 달러는 수요, HPE의 마진 하락은 비용 문제입니다.",
+   "lesson": "아멕스 때 버핏은 주가가 아니라 고객이 계속 카드를 쓰는지 확인했습니다. 지금 AI 하드웨어도 ‘동남아 출하 중단’이 전체 수요가 줄어든 것인지, 경로(우회 수요)만 막힌 것인지를 구분해 봐야 합니다.",
    "src": "Fortune(2024.09)",
    "url": "https://www.fortune.com/2024/09/22/warren-buffett-investing-strategy-american-express-stock-scandal"
   },
@@ -133,11 +153,11 @@
   }
  ],
  "habits": [
-  "‘나쁜 숫자에도 지수가 버틴 날’을 기록한다 — 악재 소화력은 바닥 신호 중 하나지만, 하루로 결론 내지 않는다",
-  "12월 인상처럼 이미 가격에 반영된 사건보다 ‘그다음(추가 인상 확률)’의 변화를 본다",
-  "장중 −9%가 종가 −2%로 끝나는 종목은 매수·매도 주체가 모두 큰 것 — 종가보다 장중 저점과 거래량을 함께 적어 둔다",
-  "관세안은 ‘대상·제외 품목·발효일’을 나눠 읽는다 — 이번엔 반도체·자동차 제외, 1월 이전 발효 어려움",
-  "정부 지원책은 ‘발표·확대·첫 매수’를 구분해 날짜로 적는다 — 2020년 증안펀드는 결정 뒤 반등해 실제 매입이 없었다"
+  "휴장일에 나온 뉴스는 ‘가격에 아직 안 들어간 정보’로 따로 적어 두고, 다음 거래일 첫 반응을 확인한다",
+  "반등 다음 날은 종가보다 ‘장중 고점 대비 얼마나 반납했나’와 누가 팔았나(외국인·개인)를 본다",
+  "수출통제 뉴스는 ‘대상 국가·제품·시한(90일)’을 나눠 읽고, 우회 수요가 전체 매출에서 차지하는 몫을 가늠한다",
+  "대가의 포지션 변화는 ‘방향’보다 ‘속도’를 본다 — 버리는 숏을 닫았고, 엘에리언은 아주 천천히 산다",
+  "정부 지원책은 ‘회의 날짜 → 증액 결정 → 첫 매수’를 구분해 날짜로 기록한다"
  ],
  "f13": [
   {
@@ -193,71 +213,86 @@
  ],
  "watch": [
   {
-   "when": "11/26(목) 미국 휴장 · 27일(금) 오후 1시 조기 폐장(한국시간 28일 03:00)",
-   "what": "추수감사절 연휴 · 블랙프라이데이",
-   "why": "거래가 얇아 작은 뉴스에도 지수·반도체 변동이 과장되기 쉽습니다. 소비 강도는 연말 실적 기대와 연결됩니다."
+   "when": "11/27(금) 미국 오후 1시 조기 폐장(한국시간 28일 03:00)",
+   "what": "추수감사절 다음 날 단축장 · 블랙프라이데이",
+   "why": "엔비디아 동남아 출하 중단 보도가 처음 가격에 반영됩니다. 거래가 얇아 반도체 변동이 과장되기 쉽습니다."
   },
   {
-   "when": "11/26(목)·27(금) 한국장",
-   "what": "미국 휴장 중 코스피·반도체 반등 여부, 증안펀드 확대 규모",
-   "why": "−6.16% 다음 날 미국 신호 없이 한국 자체 수급(연기금·증안펀드 기대)이 버티는지 확인합니다."
+   "when": "11/29(일)",
+   "what": "증안펀드 투자관리위원회 · OPEC+ 회의",
+   "why": "증안펀드 투입 여부·시점, 산유국 감산 여부가 각각 코스피 하단과 유가 경로를 가릅니다."
   },
   {
-   "when": "11/29(일) · 한국시간 같은 날 저녁",
-   "what": "OPEC+ 회의",
-   "why": "공급과잉 전망 속 감산 여부가 유가·물가 경로를 바꿉니다. 브렌트 1월물 만기는 11/30."
+   "when": "11/30(월)",
+   "what": "금융위원장·5대 금융지주·산은 회장 긴급 점검회의, 사우디 12월 프로판 CP",
+   "why": "증안펀드 증액 규모가 나오는지, 석유화학 원가가 어떻게 바뀌는지 확인합니다."
   },
   {
    "when": "12/1(화) 한국 오전 9시",
-   "what": "11월 수출 확정치",
-   "why": "1~20일 반도체 수출 급증이 월간으로 이어지는지 — 관세안 이후 첫 실물 확인입니다."
+   "what": "11월 수출",
+   "why": "1~20일 반도체 +294% 흐름이 월간으로 이어지는지, 관세안 이후 첫 실물 확인입니다."
   },
   {
    "when": "12/1(화) 미국 · 한국시간 12/2 00:00",
    "what": "ISM 제조업",
-   "why": "물가(가격지수)와 고용이 엇갈리는지 — 드러켄밀러가 걱정한 2027년 둔화의 선행 신호입니다."
+   "why": "가격지수와 고용이 엇갈리는지 — 추가 인상 확률을 움직입니다."
   },
   {
    "when": "12/4(금) 미국 오전 8:30 · 한국시간 22:30",
    "what": "11월 고용보고서",
-   "why": "12/9 인상 이후 ‘추가 인상’ 확률을 다시 움직일 핵심 지표입니다."
+   "why": "12/9 인상 이후 1월 추가 인상(현재 약 41%) 확률을 다시 움직일 핵심 지표입니다."
   },
   {
    "when": "12/8~9 FOMC(한국시간 12/10 새벽) · 12/9 브로드컴 실적",
    "what": "연준 금리 결정 · AI 반도체 실적",
-   "why": "인상 폭과 점도표 문구, 브로드컴 AI 매출 가이던스(217억 달러)가 연말 방향을 가릅니다."
+   "why": "인상 폭과 점도표 문구, 브로드컴 AI 매출 가이던스가 연말 방향을 가릅니다."
   }
  ],
  "sources": [
   {
-   "title": "Stocks close mixed as hot PCE inflation, new tariff plans and an AI sell-off test Wall Street (11/25)",
-   "src": "Vista Partners",
-   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/"
+   "title": "European shares end 1.8% higher as tariff fears ease (11/26)",
+   "src": "QNC(Reuters 기반)",
+   "url": "https://qncnews.com/2026/11/26/european-shares-end-1-8-per-cent-higher-as-tariff-fears-ease-and-banks-and-technology-stocks-rebound/"
   },
   {
-   "title": "Stock Market Today, Nov. 25: Nvidia Slides 3.9%",
-   "src": "Motley Fool",
-   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+   "title": "Nvidia halts chip shipments to South-East Asia amid US crackdown (11/26)",
+   "src": "The National(FT 인용)",
+   "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/"
   },
   {
-   "title": "US stocks close mixed amid hotter-than-expected inflation, fresh tariffs",
-   "src": "TRT World",
-   "url": "https://www.trtworld.com/article/b594c3db4549"
+   "title": "Nvidia shipment freeze and U.S. chip curbs put AI stocks under pressure (11/26)",
+   "src": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure"
   },
   {
-   "title": "US Core PCE Inflation Hits 3.3% as Fed Rate Hike Odds Reach 94.4%",
-   "src": "Finscans",
-   "url": "https://finscans.com/news/2026/11/25/us-core-pce-inflation-hits-33-as-fed-rate-hike-odds-reach"
+   "title": "KOSPI gives up most gains, closes up 0.29% at 4711.21 (11/26)",
+   "src": "서울경제",
+   "url": "https://en.sedaily.com/market/2026/11/26/kospi-gives-up-most-gains-closes-up-029-percent-at-471121"
   },
   {
-   "title": "코스피 다시 급락하자…정부 증안펀드 확대 나섰다",
-   "src": "한국경제",
-   "url": "https://www.hankyung.com/article/2026112503561"
+   "title": "Kospi closes higher as AI trade concerns keep Seoul stocks volatile (11/26)",
+   "src": "코리아중앙데일리",
+   "url": "https://www.koreajoongangdaily.com/business/kospi-rebounds-after-steep-selloff-as-ai-trade-worries-keep-seoul-stocks-volatile/12993158"
   },
   {
-   "title": "Goldman Strategist Warns It’s Too Early to Buy the AI Selloff",
-   "src": "roic.ai(Bloomberg 인용)",
-   "url": "https://www.roic.ai/news/goldman-strategist-warns-its-too-early-to-buy-the-ai-selloff-as-markets-remain-fragile-11-25-2026"
+   "title": "증안펀드 투자관리위 29일 개최…금융지주 회장 소집 (11/26)",
+   "src": "뉴스1",
+   "url": "https://www.news1.kr/finance/general-finance/6367490"
+  },
+  {
+   "title": "World shares push higher while US markets closed for Thanksgiving (11/26)",
+   "src": "AP(BNN Bloomberg)",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-us-will-be-closed-for-thanksgiving/"
+  },
+  {
+   "title": "Fed rate-hike bets deliver fresh blow to your holiday budget (11/26)",
+   "src": "TheStreet(Yahoo Finance)",
+   "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-bets-deliver-174700533.html"
+  },
+  {
+   "title": "Fear and Greed Index historical data (11/25 기준 15)",
+   "src": "Finhacker",
+   "url": "https://www.finhacker.cz/en/fear-and-greed-index-historical-data-and-chart/"
   }
  ]
 }

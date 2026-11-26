@@ -415,27 +415,37 @@
 "transform": "yoy",
 "why": "SEMI 북미 BB율은 2017년 중단. 대체로 일본 장비 수주(B/B)를 본다. 장비 수주는 반도체 설비투자의 선행.",
 "status": "보도 수집",
-"value": 5562.2,
+"value": 5984.21,
 "unit": "억엔(3개월 이동평균)",
-"asof": "2026-07",
+"asof": "2026-10",
 "main": "일본산 장비 판매고",
 "basis": "전년비(%)",
 "series": [
 "일본산 장비 판매고"
 ],
-"news_updated": "2026-11-23",
-"next_release": "2026-11-27",
+"news_updated": "2026-11-27",
+"next_release": "2026-12-24",
 "news_src": [
 {
-"title": "SEAJ 7월 판매고 (뉴스위치)",
-"url": "https://newswitch.jp/p/50081",
-"date": "2026-08-27"
+"title": "半導体装置、高水準の出荷が止まらない (뉴스위치, 10월 판매고)",
+"url": "https://newswitch.jp/p/50897",
+"date": "2026-11-25"
+},
+{
+"title": "半導体装置市場の伸びが加速している (뉴스위치, 9월 판매고)",
+"url": "https://newswitch.jp/p/50661",
+"date": "2026-10-31"
+},
+{
+"title": "日本製半導体装置、8月販売47%増の5979億円 (CRYPTO TIMES)",
+"url": "https://crypto-times.jp/news-seaj-chip-equipment-sales/",
+"date": "2026-09-29"
 }
 ],
-"note": "SEAJ FY2026 전망 6.55조엔(+26%), FY2027 7.40조엔(+13%). 8~10월분 미수집",
-"signal_value": 35.4,
-"avg3": 35.4,
-"trend": null,
+"note": "3개월 이동평균 판매고(수출 포함). 10월(속보) 5,984억엔 +44.6%, 9월 6,290억엔 +48.2%, 8월 5,979억엔 +47.4%. 수주(B/B)는 SEAJ 미공표라 판매고로 대체. 다음 발표일은 추정",
+"signal_value": 44.6,
+"avg3": 46.73,
+"trend": "가속",
 "sign_flip": false
 },
 {
@@ -730,36 +740,37 @@
 "transform": "yoy",
 "why": "원자재 물동량·중국 수요. 팬오션.",
 "status": "보도 수집",
-"value": 3107.0,
+"value": 3152.0,
 "unit": "포인트",
-"asof": "2026-11-25",
+"asof": "2026-11-26",
 "main": "BDI",
 "basis": "전년비(%)",
 "series": [
 "BDI",
 "케이프사이즈",
-"파나막스"
+"파나막스",
+"수프라막스"
 ],
-"news_updated": "2026-11-26",
-"next_release": "2026-11-27",
+"news_updated": "2026-11-27",
+"next_release": "2026-11-28",
 "news_src": [
 {
-"title": "Baltic Sea freight index hits multi-week high (WiseVoter, 11/25)",
-"url": "https://wisevoter.com/world/2026/11/25/baltic-sea-freight-index-multi-week-high",
-"date": "2026-11-25"
+"title": "Baltic Dry Index climbs to 3152 up 45 points (Hellenic Shipping News)",
+"url": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-3152-up-45-points/",
+"date": "2026-11-26"
 },
 {
-"title": "Baltic Dry Index (Trading Economics, 11/24 기준)",
-"url": "https://tradingeconomics.com/commodity/baltic",
-"date": "2026-11-24"
+"title": "Baltic Dry Index Up for 4th Day (InstaForex/TE 뉴스, 11/26)",
+"url": "https://www.instaforex.com/forex-news/3305898",
+"date": "2026-11-26"
 },
 {
-"title": "Baltic Dry Index at Near 1-Week Low (Trading Economics, 뉴스 스트림 11/16~11/20)",
+"title": "Trading Economics BDI 뉴스 스트림 (11/23~11/25 케이프·파나막스)",
 "url": "https://tradingeconomics.com/commodity/baltic/news/601633",
-"date": "2026-11-20"
+"date": "2026-11-25"
 }
 ],
-"note": "11/25 BDI 3,107(+39, +1.27%, 10/2 이후 최고)·케이프 5,014·수프라막스 1,814 — WiseVoter 보도(TE 미확인). 11/24 3,068(+2.3%, 전년비 +32.9%·TE). 11/25 전년비는 미확인이라 signal은 11/24 유지",
+"note": "11/26 BDI 3,152(+45, +1.5%, 9/29 이후 최고, 4일 연속 상승)·파나막스 2,273(+2.2%)·수프라막스 1,816. 11/26 케이프 지수값은 미확인(주간 +13%만 보도). 11/17 값 미확인. 전년비는 11/24(+32.9%, TE)만 확인돼 signal 유지",
 "signal_value": 32.87,
 "avg3": 32.87,
 "trend": null,
@@ -787,8 +798,8 @@
 "SCFI 종합",
 "SCFI 월평균"
 ],
-"news_updated": "2026-11-26",
-"next_release": "2026-11-27",
+"news_updated": "2026-11-27",
+"next_release": "2026-11-28",
 "news_src": [
 {
 "title": "Containerized Freight Index (Trading Economics, 11/20 발표분)",
@@ -806,7 +817,7 @@
 "date": "2026-11-16"
 }
 ],
-"note": "11/20(47주차) 3,503.78(TE: 1개월 −4.82%, 전년비 +151.43%). 11/13 3,572.33, 11/6 3,633.45, 10/30 3,687.35. 노선별 11/13: 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU",
+"note": "11/20(47주차) 3,503.78(TE: 1개월 −4.82%, 전년비 +151.43%). 11/13 3,572.33, 11/6 3,633.45, 10/30 3,687.35. 노선별 11/13: 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU / 11/27 회차: 11/27(금) 발표분은 상하이 오후 공개라 아직 미반영",
 "signal_value": 151.43,
 "avg3": 151.43,
 "trend": null,
@@ -834,21 +845,26 @@
 "Spark30S 대서양",
 "Spark25S 태평양"
 ],
-"news_updated": "2026-11-26",
-"next_release": "2026-11-27",
+"news_updated": "2026-11-27",
+"next_release": "2026-11-28",
 "news_src": [
 {
-"title": "Latest Spark assessment 11/20 (LNG Ship Horizon)",
-"url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-eb3",
-"date": "2026-11-20"
+"title": "Latest Spark assessment 11/19 (LNG Ship Horizon)",
+"url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-763",
+"date": "2026-11-19"
 },
 {
-"title": "Latest Spark assessment 11/18 (LNG Ship Horizon)",
-"url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-ec5",
-"date": "2026-11-18"
+"title": "Latest Spark assessment 11/17 (LNG Ship Horizon)",
+"url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-bf2",
+"date": "2026-11-17"
+},
+{
+"title": "Latest Spark assessment 11/16 (LNG Ship Horizon)",
+"url": "https://lngshiphorizon.substack.com/p/latest-spark-assessment-98b",
+"date": "2026-11-16"
 }
 ],
-"note": "Fearnleys 대신 Spark 평가치(LNG Ship Horizon 정리). 11/20 대서양 20,250(−250)·태평양 49,750(−2,250). 11월 이전 값 미수집",
+"note": "Spark 평가치(LNG Ship Horizon). 11월 일별 보강(11/3~11/19). 최신 확인치는 11/20 대서양 20,250·태평양 49,750 — 11/23 이후 평가치 미확인. 11/18→11/19 대서양 급락(30,500→20,500대)",
 "signal_value": 20250.0,
 "avg3": 20250.0,
 "trend": null,
@@ -920,7 +936,44 @@
 "release": "매월 1일",
 "transform": "yoy",
 "why": "회사 발표라 가장 빠르다.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 329773.0,
+"unit": "대",
+"asof": "2026-10",
+"main": "현대차 합계",
+"basis": "전년비(%)",
+"series": [
+"현대차 합계",
+"현대차 국내",
+"현대차 해외",
+"기아 합계",
+"기아 국내",
+"기아 해외"
+],
+"news_updated": "2026-11-27",
+"next_release": "2026-12-01",
+"news_src": [
+{
+"title": "현대차, 10월 판매 6.3% 감소…13개월 연속 내리막 (SBS Biz)",
+"url": "https://biz.sbs.co.kr/amp/article/20000343710",
+"date": "2026-11-02"
+},
+{
+"title": "기아, 판매 두 자릿수 증가…현대차 제치고 또 내수 1위 (SBS Biz)",
+"url": "https://biz.sbs.co.kr/amp/article/20000343711",
+"date": "2026-11-02"
+},
+{
+"title": "현대차 9월 판매 16%↓·기아 5.1%↑ (머니투데이방송)",
+"url": "https://news.mtn.co.kr/news-detail/2026100116122288273",
+"date": "2026-10-01"
+}
+],
+"note": "signal=현대차 합계 전년비. 10월 현대 329,773(−6.3%; 국내 −8.9%, 해외 −5.9%), 기아 291,219(+10.3%; 국내 +27.5%, 해외 +7.2%, 특수 904 포함). 9월 현대 −16%, 기아 +5.1%",
+"signal_value": -6.3,
+"avg3": -11.15,
+"trend": "가속",
+"sign_flip": false
 },
 {
 "id": "battery_exp",
@@ -1130,7 +1183,40 @@
 "release": "매월 말",
 "transform": "level",
 "why": "PDH(프로판→프로필렌) 원가.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 720.0,
+"unit": "달러/톤",
+"asof": "2026-11",
+"main": "프로판 CP",
+"basis": "수준",
+"series": [
+"프로판 CP",
+"부탄 CP"
+],
+"news_updated": "2026-11-27",
+"next_release": "2026-11-30",
+"news_src": [
+{
+"title": "Saudi Aramco Ups LPG Prices in November (MarketScreener/MT Newswires)",
+"url": "https://www.marketscreener.com/news/saudi-aramco-ups-lpg-prices-in-november-ce785cd3df8df72d",
+"date": "2026-10-29"
+},
+{
+"title": "Aramco October 2026 propane/butane CP (Argaam)",
+"url": "https://www.argaam.com/en/reports/propane-butane-prices/62110",
+"date": "2026-09-30"
+},
+{
+"title": "Saudi Aramco Raises September LPG CP (OPIS)",
+"url": "https://www.opis.com/resources/energy-market-news-from-opis/saudi-aramco-raises-september-lpg-cp-amid-renewed-us-iran-strikes/",
+"date": "2026-08-31"
+}
+],
+"note": "프로판 11월 720(+40), 10월 680(+55), 9월 625(+5). 12월 CP는 11/30 전후 발표 예정으로 미발표. 10·11월 부탄 미확인",
+"signal_value": 720.0,
+"avg3": 675.0,
+"trend": "가속",
+"sign_flip": false
 },
 {
 "id": "iron_ore",
@@ -1196,7 +1282,40 @@
 "release": "매월 하순",
 "transform": "yoy",
 "why": "중국 감산 여부가 철강 가격을 결정.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 142.4,
+"unit": "백만톤(Mt)",
+"asof": "2026-10",
+"main": "세계 조강생산",
+"basis": "전년비(%)",
+"series": [
+"세계 조강생산",
+"중국 조강생산"
+],
+"news_updated": "2026-11-27",
+"next_release": "2026-12-22",
+"news_src": [
+{
+"title": "October 2026 crude steel production (worldsteel)",
+"url": "https://worldsteel.org/media/press-releases/2026/october-2026-crude-steel-production/",
+"date": "2026-11-24"
+},
+{
+"title": "World crude steel output down 0.2 percent in September 2026 (SteelOrbis)",
+"url": "https://www.steelorbis.com/steel-news/latest-news/world-crude-steel-output-down-02-percent-in-september-2026-1485821.htm",
+"date": "2026-10-23"
+},
+{
+"title": "China's crude steel output down 2.8 percent in January-October 2026 (SteelOrbis)",
+"url": "https://www.steelorbis.com/steel-news/latest-news/chinas-crude-steel-output-down-28-percent-in-january-october-2026-1491023.htm",
+"date": "2026-11-16"
+}
+],
+"note": "signal=세계 전년비. 10월 세계 142.4Mt(−1.1%), 중국 70.8Mt(−1.6%, NBS 70.83Mt). 9월 세계 −0.2%, 중국 +0.1%. 1~10월 세계 1,509.3Mt(−0.8%). 다음 발표일은 추정",
+"signal_value": -1.1,
+"avg3": -0.65,
+"trend": "둔화",
+"sign_flip": false
 },
 {
 "id": "cn_hrc",
@@ -1610,7 +1729,41 @@
 "release": "매월 하순",
 "transform": "yoy",
 "why": "글로벌 설비투자의 대표 선행지표.",
-"status": "보도 기반"
+"status": "보도 수집",
+"value": 2043.77,
+"unit": "억엔",
+"asof": "2026-10",
+"main": "공작기계 수주총액",
+"basis": "전년비(%)",
+"series": [
+"공작기계 수주총액",
+"외수",
+"내수"
+],
+"news_updated": "2026-11-27",
+"next_release": "2026-12-10",
+"news_src": [
+{
+"title": "2026年10月分の工作機械受注額速報 (Frontier Valuation)",
+"url": "https://www.frontier-valuation.com/post/columns940",
+"date": "2026-11-11"
+},
+{
+"title": "日本の工作機械受注 10月 (Trading Economics JP)",
+"url": "https://jp.tradingeconomics.com/japan/machine-tool-orders/news/461808",
+"date": "2026-11-11"
+},
+{
+"title": "10月の工作機械受注、前年比42%増 (Beloud, 확보치)",
+"url": "https://www.beloud.com/news/149132411",
+"date": "2026-11-25"
+}
+],
+"note": "10월 속보 2,043.8억엔(+42.5%), 내수 522.9억엔(+46.5%)·외수 1,520.9억엔(+41.1%). 11/25 확보치 2,043억엔(+42%)·외수 1,520억엔(+41%). 9월 이전 미수집. 다음 발표일(11월 속보)은 추정",
+"signal_value": 42.5,
+"avg3": 42.5,
+"trend": null,
+"sign_flip": false
 },
 {
 "id": "cn_excav",
