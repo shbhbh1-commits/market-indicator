@@ -360,14 +360,19 @@
     "2026-11-23": 3000,
     "2026-11-24": 3068,
     "2026-11-25": 3107,
-    "2026-11-26": 3152
+    "2026-11-26": 3152,
+    "2025-11-27": 2480,
+    "2025-11-28": 2560,
+    "2026-11-27": 3137
    },
    "케이프사이즈": {
     "2026-11-16": 4558,
     "2026-11-20": 4502,
     "2026-11-23": 4779,
     "2026-11-24": 4942,
-    "2026-11-25": 5014
+    "2026-11-25": 5014,
+    "2026-11-26": 5100,
+    "2026-11-27": 5023
    },
    "파나막스": {
     "2026-11-16": 2113,
@@ -375,20 +380,43 @@
     "2026-11-23": 2149,
     "2026-11-24": 2179,
     "2026-11-25": 2223,
-    "2026-11-26": 2273
+    "2026-11-26": 2273,
+    "2026-11-27": 2315
    },
    "수프라막스": {
     "2026-11-25": 1814,
-    "2026-11-26": 1816
+    "2026-11-26": 1816,
+    "2026-11-27": 1818
    }
   },
   "signal": {
-   "2026-11-24": 32.87
+   "2026-11-24": 32.87,
+   "2026-11-27": 26.49
   },
   "signal_basis": "전년비(%)",
-  "updated": "2026-11-27",
-  "next_release": "2026-11-28",
+  "updated": "2026-11-28",
+  "next_release": "2026-11-30",
   "src": [
+   {
+    "title": "Baltic index slips on Capesize dip, but notches weekly gain (Baird Maritime)",
+    "url": "https://www.bairdmaritime.com/shipping/dry-cargo/bulkers/baltic-index-slips-on-capesize-dip-but-notches-weekly-gain",
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Baltic Dry Index Falls 0.48% Due to Weakness in Capesize Ship Rates (KuCoin News)",
+    "url": "https://www.kucoin.com/news/flash/baltic-dry-index-drops-0-48-on-capesize-ship-rate-weakness",
+    "date": "2026-11-27"
+   },
+   {
+    "title": "Baltic Dry Index climbs to 2480 up 79 points (Hellenic Shipping News)",
+    "url": "https://www.hellenicshippingnews.com/?p=1114465",
+    "date": "2025-11-27"
+   },
+   {
+    "title": "Baltic Dry Index climbs to 2560 up 80 points (Hellenic Shipping News)",
+    "url": "https://www.hellenicshippingnews.com/?p=1114625",
+    "date": "2025-11-28"
+   },
    {
     "title": "Baltic Dry Index climbs to 3152 up 45 points (Hellenic Shipping News)",
     "url": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-3152-up-45-points/",
@@ -408,19 +436,9 @@
     "title": "Baltic Sea freight index hits multi-week high (WiseVoter, 11/25)",
     "url": "https://wisevoter.com/world/2026/11/25/baltic-sea-freight-index-multi-week-high",
     "date": "2026-11-25"
-   },
-   {
-    "title": "Baltic Dry Index (Trading Economics, 11/24 기준)",
-    "url": "https://tradingeconomics.com/commodity/baltic",
-    "date": "2026-11-24"
-   },
-   {
-    "title": "Baltic Dry Index at Near 1-Week Low (Trading Economics, 뉴스 스트림 11/16~11/20)",
-    "url": "https://tradingeconomics.com/commodity/baltic/news/601633",
-    "date": "2026-11-20"
    }
   ],
-  "note": "11/26 BDI 3,152(+45, +1.5%, 9/29 이후 최고, 4일 연속 상승)·파나막스 2,273(+2.2%)·수프라막스 1,816. 11/26 케이프 지수값은 미확인(주간 +13%만 보도). 11/17 값 미확인. 전년비는 11/24(+32.9%, TE)만 확인돼 signal 유지"
+  "note": "11/27(금) BDI 3,137(-15p, 주간 +4.6%), 케이프 5,023(-77p; 11/26 5,100은 전일 대비 역산), 파나막스 2,315(+42), 수프라막스 1,818(+2). 전년비는 2025-11-27(2,480) 동일 날짜 대비 +26.5%(2025-11-28 2,560 대비로는 +22.5%). 2025년 서브지수는 미확보."
  },
  "scfi": {
   "unit": "포인트",
@@ -429,19 +447,53 @@
     "2026-11-06": 3633,
     "2026-10-30": 3687.35,
     "2026-11-13": 3572.33,
-    "2026-11-20": 3503.78
+    "2026-11-20": 3503.78,
+    "2025-11-28": 1403.13,
+    "2026-11-27": 3569.54
    },
    "SCFI 월평균": {
     "2026-10": 3678
+   },
+   "미서안(달러/FEU)": {
+    "2025-11-28": 1632,
+    "2026-11-27": 6357
+   },
+   "미동안(달러/FEU)": {
+    "2025-11-28": 2428,
+    "2026-11-27": 8262
+   },
+   "유럽(달러/TEU)": {
+    "2025-11-28": 1404,
+    "2026-11-27": 2435
+   },
+   "지중해(달러/TEU)": {
+    "2025-11-28": 2232,
+    "2026-11-27": 4261
    }
   },
   "signal": {
-   "2026-11-20": 151.43
+   "2026-11-20": 151.43,
+   "2026-11-27": 154.4
   },
   "signal_basis": "전년비(%)",
-  "updated": "2026-11-27",
-  "next_release": "2026-11-28",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-04",
   "src": [
+   {
+    "title": "最新一期數據出爐！SCFI運價指數終止連三跌 歐洲線運價大漲8.1% (經濟日報/udn)",
+    "url": "https://udn.com/news/story/7241/9906349",
+    "date": "2026-11-27"
+   },
+   {
+    "title": "上海航运交易所: 截至11月27日 SCFI报3569.54点 (汇通财经, 검색결과)",
+    "url": "https://news.fx678.com/202611271508319087.shtml",
+    "date": "2026-11-27"
+   },
+   {
+    "title": "SCFI 2025-11-28 (工商時報)",
+    "url": "https://www.ctee.com.tw/news/20251128701578-430503",
+    "date": "2025-11-28"
+   },
    {
     "title": "Containerized Freight Index (Trading Economics, 11/20 발표분)",
     "url": "https://tradingeconomics.com/commodity/containerized-freight-index",
@@ -458,7 +510,7 @@
     "date": "2026-11-16"
    }
   ],
-  "note": "11/20(47주차) 3,503.78(TE: 1개월 −4.82%, 전년비 +151.43%). 11/13 3,572.33, 11/6 3,633.45, 10/30 3,687.35. 노선별 11/13: 미동안 $9,387/FEU·미서안 $7,111/FEU·북유럽 $2,291/TEU·지중해 $3,619/TEU / 11/27 회차: 11/27(금) 발표분은 상하이 오후 공개라 아직 미반영"
+  "note": "11/27 SCFI 3,569.54(+65.76p, +1.9% w/w; 전주 11/20는 역산 시 3,503.78). 유럽 +8.1%, 지중해 +15.9%, 미서안 -5.3%, 미동안 -5.9%. 전년비는 2025-11-28(1,403.13) 대비 +154.4%. 기존 11/20 이전 데이터는 유지."
  },
  "newbuild": {
   "unit": "포인트",
@@ -539,7 +591,7 @@
   },
   "signal_basis": "수준(달러/일, Spark30S 대서양)",
   "updated": "2026-11-27",
-  "next_release": "2026-11-28",
+  "next_release": "2026-12-04",
   "src": [
    {
     "title": "Latest Spark assessment 11/19 (LNG Ship Horizon)",
@@ -592,7 +644,7 @@
     "date": "2026-11-18"
    }
   ],
-  "note": "Spark 평가치(LNG Ship Horizon). 11월 일별 보강(11/3~11/19). 최신 확인치는 11/20 대서양 20,250·태평양 49,750 — 11/23 이후 평가치 미확인. 11/18→11/19 대서양 급락(30,500→20,500대)"
+  "note": "Spark 평가치(LNG Ship Horizon). 11월 일별 보강(11/3~11/19). 최신 확인치는 11/20 대서양 20,250·태평양 49,750 — 11/23 이후 평가치 미확인. 11/18→11/19 대서양 급락(30,500→20,500대) | 11/28: 11/26~27 Fearnleys 수치 미확인(LNG Prime 11/27: Spark 대서양·태평양 운임 3주 연속 하락, 수치는 유료)."
  },
  "lpg_cp": {
   "unit": "달러/톤",
@@ -767,5 +819,879 @@
    }
   ],
   "note": "signal=현대차 합계 전년비. 10월 현대 329,773(−6.3%; 국내 −8.9%, 해외 −5.9%), 기아 291,219(+10.3%; 국내 +27.5%, 해외 +7.2%, 특수 904 포함). 9월 현대 −16%, 기아 +5.1%"
+ },
+ "us_ev": {
+  "unit": "대",
+  "levels": {
+   "월간 신차 EV 판매(대, KBB 추정)": {
+    "2025-09": 146076,
+    "2025-10": 80843,
+    "2026-09": 86632,
+    "2026-10": 83262
+   },
+   "분기 EV 판매(대, 분기말월 표기)": {
+    "2025-09": 438487,
+    "2026-09": 262649
+   },
+   "EV 점유율(%)": {
+    "2025-09": 11.5,
+    "2025-10": 6.3,
+    "2026-09": 6.5,
+    "2026-10": 6.2
+   }
+  },
+  "signal": {
+   "2026-10": 3.0
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-15",
+  "src": [
+   {
+    "title": "EV Market Monitor – October 2026 (Cox Automotive)",
+    "url": "https://www.coxautoinc.com/insights/ev-market-monitor-october-2026/",
+    "date": "2026-11-16"
+   },
+   {
+    "title": "EV Market Monitor – September 2026 (Cox Automotive)",
+    "url": "https://www.coxautoinc.com/insights/ev-market-monitor-september-2026/",
+    "date": "2026-10-16"
+   },
+   {
+    "title": "Q3 2026 EV Sales (Cox Automotive/KBB)",
+    "url": "https://www.coxautoinc.com/market-insights/q3-2026-ev-sales/",
+    "date": "2026-10-12"
+   },
+   {
+    "title": "Q3 2025 EV Sales Report Commentary (Cox Automotive)",
+    "url": "https://www.coxautoinc.com/insights-hub/q3-2025-ev-sales-report-commentary/",
+    "date": "2025-10-15"
+   }
+  ],
+  "note": "10월 신차 EV 83,262대(점유율 6.2%, 전년비 +3%, 전월비 -3.9%). 2025-10은 세액공제 종료(9/30) 직후 급감 기저. 3분기 262,649대(전년비 -39.5%, 전분기비 +6.1%). 2025-11~2026-08 월간 대수는 미확보(8월은 KBB 기사에 대수 미기재, 전년비 -46.9%만 확인). next_release는 Cox 월간 EV Market Monitor 통상 일정 기준 추정."
+ },
+ "refining_margin": {
+  "unit": "달러/배럴",
+  "levels": {
+   "복합정제마진(달러/배럴, 하나증권 주간평균)": {
+    "2026-09-11": 26.4,
+    "2026-10-02": 37.1
+   }
+  },
+  "signal": {
+   "2026-10-02": 37.1
+  },
+  "signal_basis": "수준",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-04",
+  "src": [
+   {
+    "title": "복합 정제마진 한달 새 26.4달러→37.1달러 '40.5% 상승' (CEO스코어데일리)",
+    "url": "https://ceoscoredaily.com/page/view/2026101613541580120",
+    "date": "2026-10-19"
+   },
+   {
+    "title": "정제마진 하락 전망(KB증권, 비즈워치)",
+    "url": "https://news.bizwatch.co.kr/article/industry/2026/11/13/0034",
+    "date": "2026-11-16"
+   }
+  ],
+  "note": "11월 주간 싱가포르 복합정제마진 및 에틸렌-나프타 스프레드 수치는 공개 기사에서 미확보. 확보 값은 하나증권 '복합 정제마진' 9월 2주(26.4)·10월 1주(37.1) 주간평균으로, 날짜키는 해당 주 금요일로 근사. 싱가포르 기준 여부 명시 없음. KB증권은 정제마진이 27달러에서 2027년 1월 20달러로 하락 전망(11/16 기사). 에틸렌 스프레드는 데이터 없음."
+ },
+ "cn_hrc": {
+  "unit": "위안/톤",
+  "levels": {
+   "전국 열연 Q235B 4.75mm(위안/톤, Mysteel)": {
+    "2025-11-18": 3321,
+    "2026-11-03": 3204,
+    "2026-11-06": 3223,
+    "2026-11-09": 3218,
+    "2026-11-10": 3219
+   },
+   "상하이 열연 Q235B 3.5mm(위안/톤)": {
+    "2026-11-19": 3200
+   },
+   "열연 수출 FOB 톈진 SS400 3mm(달러/톤)": {
+    "2026-11-13": 485
+   }
+  },
+  "signal": {
+   "2026-11-10": -3.07
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-04",
+  "src": [
+   {
+    "title": "DAILY: China's steel market stays rangebound (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5148354-daily-chinas-steel-market-stays-rangebound",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "DAILY: China's steel market weakens amid cooling futures (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5148149-daily-chinas-steel-market-weakens-amid-cooling-futures",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "DAILY: China's steel prices edge higher but trading retreats (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5147959-daily-chinas-steel-prices-edge-higher-but-trading-retreats",
+    "date": "2026-11-09"
+   },
+   {
+    "title": "DAILY: China's steel prices decline further amid downbeat sentiment (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5147318-daily-chinas-steel-prices-decline-further-amid-downbeat-sentiment",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "China's HRC-rebar price spread falls below $7/t (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5104590-chinas-hrc-rebar-price-spread-falls-below-7t",
+    "date": "2025-11-19"
+   },
+   {
+    "title": "热卷现货价格 (新浪财经)",
+    "url": "https://finance.sina.cn/futuremarket/qsyw/2026-11-19/detail-inizhezx0309001.d.html",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "WEEKLY: Chinese HRC export prices stable (Mysteel)",
+    "url": "https://www.mysteel.net/analysis/5149202-weekly-chinese-hrc-export-prices-stable-regional-deals-emerge",
+    "date": "2026-11-17"
+   }
+  ],
+  "note": "전국 열연 최신 11/10 3,219위안(Promisteel 인용 46주차(11/9~15) 전국평균 3,209, 전주비 -14). 전년비는 2025-11-18(3,321) 대비 근사치(-3.1%, 날짜 1주 차이). 11/11 이후 전국가는 Mysteel 유료벽으로 미확보. 냉연(CRC) 가격은 미확보. 상하이 열연 3,200(11/19, 3.5mm 규격이라 전국가와 직접 비교 불가), SHFE 열연선물 11/19 3,112."
+ },
+ "apt_price": {
+  "unit": "%",
+  "levels": {
+   "서울 주간변동률(%)": {
+    "2025-11-10": 0.17,
+    "2025-11-17": 0.2,
+    "2025-11-24": 0.18,
+    "2026-10-26": 0.09,
+    "2026-11-02": 0.07,
+    "2026-11-09": 0.07,
+    "2026-11-16": 0.03,
+    "2026-11-23": 0.01
+   },
+   "전국 주간변동률(%)": {
+    "2025-11-10": 0.06,
+    "2025-11-17": 0.07,
+    "2025-11-24": 0.06,
+    "2026-10-26": 0.07,
+    "2026-11-02": 0.07,
+    "2026-11-09": 0.1,
+    "2026-11-16": 0.06,
+    "2026-11-23": 0.05
+   }
+  },
+  "signal": {
+   "2026-11-23": 0.01
+  },
+  "signal_basis": "전월비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-03",
+  "src": [
+   {
+    "title": "강남發 하락세 번진 한강벨트…서울 집값 상승세 그치나 (파이낸셜뉴스)",
+    "url": "https://www.fnnews.com/news/202611261028533642",
+    "date": "2026-11-26"
+   },
+   {
+    "title": "부동산원 주간동향…강남 이어 용산·동작 등 한강벨트 약세 확산 (코리안센터)",
+    "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1442080",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "news.tf.co.kr 부동산원 11월 셋째주 (더팩트)",
+    "url": "https://news.tf.co.kr/read/ogmeta/2390936.htm",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "부동산원 주간 동향…서울 평균 0.07%↑ (코리안센터)",
+    "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1438497",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "서울 아파트값 상승세 2주째↓ (SBS Biz)",
+    "url": "https://biz.sbs.co.kr/amp/article/20000344488",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "서울 아파트값 (SBS Biz) 10월 넷째주",
+    "url": "https://biz.sbs.co.kr/amp/article/20000343013",
+    "date": "2026-10-29"
+   },
+   {
+    "title": "서울 집값 0.20%↑…10·15대책 한 달 만에 오름폭 확대 (뉴시스)",
+    "url": "https://www.newsis.com/view/NISX20251120_0003410527",
+    "date": "2025-11-20"
+   },
+   {
+    "title": "부동산원 11월 넷째주 주간 아파트가격 동향 (뉴데일리)",
+    "url": "https://biz.newdaily.co.kr/site/data/html/2025/11/27/2025112700223.amp.html",
+    "date": "2025-11-27"
+   }
+  ],
+  "note": "날짜키는 부동산원 조사기준일(월요일), 발표는 목요일. 11월 4주(11/23 기준) 서울 +0.01%(94주 연속 상승이나 보합 근접), 전국 +0.05%. 2025-11-24 기준일은 발표기사(11/27)에 기준일 미기재로 통상 일정으로 추정. 2025-11-10 값은 2025-11-17 기사 전주값(서울 0.17, 전국 0.06). signal_basis는 주간 전주비(%) 수준값임."
+ },
+ "overseas": {
+  "unit": "억달러",
+  "levels": {
+   "해외건설 누적수주(억달러)": {
+    "2025-06": 310.13,
+    "2025-09": 413.29,
+    "2026-06": 112.81,
+    "2026-09": 206.6
+   },
+   "분기 수주(억달러)": {
+    "2025-09": 103.16,
+    "2026-09": 93.79
+   }
+  },
+  "signal": {
+   "2026-09": -50.0
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-15",
+  "src": [
+   {
+    "title": "해외건설 수주 '반토막'… 300억달러 돌파 '빨간불' (MTN)",
+    "url": "https://news.mtn.co.kr/news-detail/2026101201241749817",
+    "date": "2026-10-12"
+   },
+   {
+    "title": "중동·아시아 회복세…바닥 다지는 해외 건설 수주 (신아일보)",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5071335",
+    "date": "2026-10-14"
+   },
+   {
+    "title": "올해 1~6월 수주액 112억8106만 달러 그쳐 (뉴시스)",
+    "url": "https://mobile.newsis.com/view/NISX20260721_0003716576",
+    "date": "2026-07-21"
+   }
+  ],
+  "note": "1~9월 누적 206.6억달러로 전년 동기(413.3억) 대비 -50.0%. 2025년 6월 체코 두코바니 원전 계약 기저 효과로, 이를 제외하면 -8.6%. 3분기 단독 93.8억달러(전년비 -9.1%). 10월·11월 누적치는 공개 기사에서 미확보(삼일PwC 인용 '41% 급감' 기사(11/24)는 원문 접근 불가). next_release는 추정."
+ },
+ "mortgage": {
+  "unit": "조원",
+  "levels": {
+   "은행 주담대 월간 증감(조원)": {
+    "2025-09": 2.5,
+    "2025-10": 2.1,
+    "2025-11": 0.7,
+    "2025-12": -0.5,
+    "2026-01": -0.6,
+    "2026-02": 0.3,
+    "2026-03": 0.0,
+    "2026-04": 2.7,
+    "2026-05": 3.2,
+    "2026-06": 4.3,
+    "2026-07": 3.5,
+    "2026-08": 4.0,
+    "2026-09": 2.9,
+    "2026-10": 3.3
+   },
+   "은행 주담대 잔액(조원)": {
+    "2025-10": 934.8,
+    "2025-11": 935.5,
+    "2026-01": 934.6,
+    "2026-04": 937.6,
+    "2026-10": 958.7
+   }
+  },
+  "signal": {
+   "2026-10": 3.3
+  },
+  "signal_basis": "수준",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-10",
+  "src": [
+   {
+    "title": "10월 은행 가계대출 (시대일보, 한은 금융시장동향)",
+    "url": "https://www.sidae.com/article/2026111112064126046",
+    "date": "2026-11-11"
+   },
+   {
+    "title": "KB주택시장 리뷰 2026년 11월호 - 주택 금융",
+    "url": "https://kbthink.com/realestate/insights/research/261116-7.html",
+    "date": "2026-11-16"
+   },
+   {
+    "title": "가계대출 증가폭 3조원대로 축소…주담대는 확대 (MTN)",
+    "url": "https://news.mtn.co.kr/news-detail/2026090910242877017",
+    "date": "2026-09-09"
+   },
+   {
+    "title": "6월 은행 주담대 (파이낸셜뉴스)",
+    "url": "https://www.fnnews.com/news/202607090843129934",
+    "date": "2026-07-09"
+   },
+   {
+    "title": "4월 은행 주담대 (파이낸셜뉴스)",
+    "url": "https://www.fnnews.com/news/202605151510459124",
+    "date": "2026-05-17"
+   },
+   {
+    "title": "1월 은행 주담대 (뉴데일리)",
+    "url": "https://biz.newdaily.co.kr/site/data/html/2026/02/11/2026021100200.amp.html",
+    "date": "2026-02-11"
+   },
+   {
+    "title": "11월 은행 주담대 (파이낸셜뉴스)",
+    "url": "https://www.fnnews.com/news/202512100926099548",
+    "date": "2025-12-10"
+   },
+   {
+    "title": "10월 은행 가계대출 3.5조↑…주담대 축소에도 주식투자 영향 (뉴시스)",
+    "url": "https://www.newsis.com/view/NISX20251113_0003401401",
+    "date": "2025-11-13"
+   }
+  ],
+  "note": "10월 은행 주담대 +3.3조(집단대출 주도), 잔액 958.7조. 2025-12는 속보치 -0.7조(헤럴드경제 1/13)였으나 이후 기사(2/11) 수정치 -0.5조 사용. 2026-08은 기사상 '약 4조원'(반올림). 2026-03은 '보합'으로 0.0 처리."
+ },
+ "cn_excav": {
+  "unit": "대",
+  "levels": {
+   "굴삭기 판매(대)": {
+    "2025-10": 18096,
+    "2026-07": 19521,
+    "2026-08": 19716,
+    "2026-09": 22717,
+    "2026-10": 20225
+   },
+   "내수(대)": {
+    "2025-10": 8468,
+    "2026-07": 7608,
+    "2026-08": 7986,
+    "2026-09": 9911,
+    "2026-10": 9501
+   },
+   "수출(대)": {
+    "2025-10": 9628,
+    "2026-07": 11913,
+    "2026-08": 11730,
+    "2026-09": 12806,
+    "2026-10": 10724
+   }
+  },
+  "signal": {
+   "2026-07": 13.9,
+   "2026-08": 19.3,
+   "2026-09": 14.4,
+   "2026-10": 11.8
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-08",
+  "src": [
+   {
+    "title": "2026年10月挖掘机销量 (格隆汇)",
+    "url": "https://m.gelonghui.com/live/2750677",
+    "date": "2026-11-06"
+   },
+   {
+    "title": "2026年9月挖掘机销量 (新浪)",
+    "url": "https://news.sina.cn/2026-10-14/detail-inivffth4530206.d.html",
+    "date": "2026-10-14"
+   },
+   {
+    "title": "2026年8月挖掘机销量 (21世纪经济报道)",
+    "url": "https://www.sfccn.com/2026/9-8/zNMDE1MjBfMjIzNDUzNg.html",
+    "date": "2026-09-08"
+   },
+   {
+    "title": "1-7月挖掘机销量同比大增超24% (新浪财经)",
+    "url": "https://cj.sina.com.cn/articles/view/2464268690/92e1c19200101dozg",
+    "date": "2026-08-10"
+   },
+   {
+    "title": "China's excavator sales increase by 17 percent in January-October 2025 (SteelOrbis)",
+    "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-excavator-sales-increase-by-17-percent-in-january-october-2025-1419102.htm",
+    "date": "2025-11-10"
+   }
+  ],
+  "note": "CCMA 주요 업체 기준. 10월 20,225대(+11.8%; 내수 9,501 +12.2%, 수출 10,724 +11.4%). 1~9월 누적 214,274대(+23.1%). 2025-11~2026-06 월간 수치는 미확보. 전년비는 협회 발표치."
+ },
+ "card": {
+  "unit": "%",
+  "levels": {
+   "국내승인액 증가율(%)": {
+    "2026-07": 3.7,
+    "2026-08": 4.9,
+    "2026-09": 2.3,
+    "2026-10": 5.9
+   }
+  },
+  "signal": {
+   "2026-07": 3.7,
+   "2026-08": 4.9,
+   "2026-09": 2.3,
+   "2026-10": 5.9
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-11",
+  "src": [
+   {
+    "title": "정부, 경기 판단 '회복세→성장세' 상향…소비는 '완만한 개선' 그대로 (아이뉴스24, 그린북 11월호)",
+    "url": "https://m.inews24.com/v/2025856",
+    "date": "2026-11-13"
+   },
+   {
+    "title": "재경부 '견조한 경기회복' 유지…소비 판단은 한 발 물러나 (아이뉴스24, 그린북 10월호)",
+    "url": "https://www.inews24.com/view/2015750",
+    "date": "2026-10-16"
+   },
+   {
+    "title": "정부 \"견조한 경기회복세…전쟁·美관세 불확실성은 다소 확대\"(종합) (연합, 그린북 9월호)",
+    "url": "https://supple.kr/news/cmtwbbab8002r40xsi715xeis",
+    "date": "2026-09-11"
+   },
+   {
+    "title": "3분기 카드승인금액 338.9조원…전년 동기比 3.4% 증가 (SBS Biz)",
+    "url": "https://biz.sbs.co.kr/amp/article/20000343216",
+    "date": "2026-10-30"
+   }
+  ],
+  "note": "재정경제부 그린북 '카드 국내승인액 전년동월비' 속보치(2026-07~10)만 확인. 2025-10~2026-06 월별 수치는 기사에서 찾지 못해 비움. 참고: 여신금융협회 분기 카드승인액 증가율 1Q26 7.2%, 2Q26 7.6%, 3Q26 3.4%(338.9조원). next_release는 그린북 12월호 예상일(추정)."
+ },
+ "icn_pax": {
+  "unit": "만명",
+  "levels": {
+   "여객(만명)": {
+    "2026-06": 600,
+    "2026-07": 660,
+    "2026-08": 710,
+    "2026-09": 630,
+    "2026-10": 693.5
+   }
+  },
+  "signal": {},
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-05",
+  "src": [
+   {
+    "title": "인천공항 통계보기 (인천국제공항공사, 2026년 10월 도착 3,496,526 / 출발 3,438,020 / 계 6,934,546명)",
+    "url": "https://www.airport.kr/co_ko/651/subview.do",
+    "date": "2026-11-28"
+   },
+   {
+    "title": "Seoul Incheon International Airport handles 6.9m pax in Oct-2026 (CAPA)",
+    "url": "https://centreforaviation.com/news/seoul-incheon-international-airport-handles-69m-pax-in-oct-2026-1379054",
+    "date": "2026-11"
+   },
+   {
+    "title": "Seoul Incheon International Airport handles 6.3m pax in Sep-2026 (CAPA)",
+    "url": "https://centreforaviation.com/news/seoul-incheon-international-airport-handles-63m-pax-in-sep-2026-1375016",
+    "date": "2026-10"
+   },
+   {
+    "title": "Seoul Incheon International Airport handles 7.1m pax in Aug-2026 (CAPA)",
+    "url": "https://centreforaviation.com/news/seoul-incheon-international-airport-handles-71m-pax-in-aug-2026-1371883",
+    "date": "2026-09"
+   },
+   {
+    "title": "Seoul Incheon International Airport handles 6.6m pax in Jul-2026 (CAPA)",
+    "url": "https://centreforaviation.com/news/seoul-incheon-international-airport-handles-66m-pax-in-jul-2026-1369008",
+    "date": "2026-08"
+   },
+   {
+    "title": "Seoul Incheon International Airport handles 6.0m pax in Jun-2026 (CAPA)",
+    "url": "https://centreforaviation.com/news/seoul-incheon-international-airport-handles-60m-pax-in-jun-2026-1365354",
+    "date": "2026-07"
+   },
+   {
+    "title": "인천공항, 올해 상반기 국제여객 세계 1위로 날았다 (서울신문)",
+    "url": "https://m.go.seoul.co.kr/news/publicnews/policy_admin/public_org/2026/08/14/20260814019008?cp=go",
+    "date": "2026-08-14"
+   }
+  ],
+  "note": "2026-10은 인천공항공사 통계 페이지 정확치(693.5만명). 2026-06~09는 CAPA 헤드라인의 반올림치(0.1백만명 단위)라 정밀도 낮음. 2025년 동월 월별 수치를 찾지 못해 전년비(signal)는 비움. 참고: 1Q26 1,978만명(+7%), 1H26 국제여객 3,839만명(+6.3%), 2025년 연간 7,407만명. next_release는 추정."
+ },
+ "dutyfree": {
+  "unit": "억원",
+  "levels": {
+   "총매출(억원)": {
+    "2025-09": 10674,
+    "2025-11": 9971,
+    "2026-03": 10825,
+    "2026-04": 11192,
+    "2026-05": 11117,
+    "2026-06": 11286,
+    "2026-07": 10666,
+    "2026-08": 10614,
+    "2026-09": 10287
+   },
+   "외국인(억원)": {
+    "2025-09": 7808,
+    "2025-11": 7276,
+    "2026-03": 8513,
+    "2026-04": 8795,
+    "2026-05": 8570,
+    "2026-06": 9176,
+    "2026-07": 8249,
+    "2026-08": 7915,
+    "2026-09": 7514
+   },
+   "내국인(억원)": {
+    "2025-09": 2866,
+    "2025-11": 2696,
+    "2026-03": 2312,
+    "2026-04": 2397,
+    "2026-05": 2546,
+    "2026-06": 2110,
+    "2026-07": 2418,
+    "2026-08": 2699,
+    "2026-09": 2773
+   }
+  },
+  "signal": {
+   "2025-09": -10.6,
+   "2025-11": -4.9,
+   "2026-04": -5.5,
+   "2026-05": 5.6,
+   "2026-06": 4.0,
+   "2026-07": 15.9,
+   "2026-08": 4.1,
+   "2026-09": -3.6
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-01",
+  "src": [
+   {
+    "title": "외국인 면세매출 3개월 연속 감소…면세점별 흐름은 달랐다 (한국면세뉴스)",
+    "url": "https://www.kdfnews.com/news/articleView.html?idxno=190385",
+    "date": "2026-11-04"
+   },
+   {
+    "title": "손님 늘어도 덜 산다…면세점 '흑자 속 고민' (아이뉴스24)",
+    "url": "https://m.inews24.com/v/2028273",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "South Korean duty-free sales revenues up in August but per-customer sales soften (Moodie Davitt)",
+    "url": "https://moodiedavittreport.com/?p=485902",
+    "date": "2026-09"
+   },
+   {
+    "title": "Duty-free sales to South Korean nationals remain soft in July (Moodie Davitt)",
+    "url": "https://moodiedavittreport.com/?p=482253",
+    "date": "2026-08"
+   },
+   {
+    "title": "Duty-free sales to Korean nationals slump in June (Moodie Davitt)",
+    "url": "https://moodiedavittreport.com/duty-free-sales-to-korean-nationals-slump-in-june/",
+    "date": "2026-07"
+   },
+   {
+    "title": "외국인 지갑 다시 열렸다…국내 면세점 5월 구매객 123만명 최다 (뉴시스)",
+    "url": "https://www.newsis.com/view/NISX20260702_0003693213",
+    "date": "2026-07-02"
+   },
+   {
+    "title": "Korean downtown duty-free sales fall sharply amid department store tourist shopping boom (Moodie Davitt, 4월)",
+    "url": "https://moodiedavittreport.com/?p=475990",
+    "date": "2026-05"
+   },
+   {
+    "title": "Korean market update: March duty-free sales rise +12.48% month-on-month (Moodie Davitt)",
+    "url": "https://moodiedavittreport.com/korean-market-update-march-duty-free-sales-rise-12-48-month-on-month/",
+    "date": "2026-04"
+   },
+   {
+    "title": "Korean duty-free sales down -4.9% in November (Moodie Davitt)",
+    "url": "https://moodiedavittreport.com/?p=463486",
+    "date": "2025-12"
+   },
+   {
+    "title": "Increased reseller business spurs +6.5% monthly rise in Korean duty-free sales to foreigners (Moodie Davitt, 2025년 9월)",
+    "url": "https://moodiedavittreport.com/?p=459020",
+    "date": "2025-10"
+   }
+  ],
+  "note": "한국면세점협회 월간(기내판매 제외) 기준. 2026-09 총매출 전년비 -3.6%는 2025-09 총매출(10,674억원) 대비 계산치(외국인 -3.8%, 내국인 -3.2%는 보도치). 2026-06 전년비는 '4% 미만(just under 4.0%)' 보도라 약 4.0으로 기재. 2026-03 전년비는 보도된 총계(-1.9%)와 외국인(+0.1%)·내국인(-1.2%) 수치가 상호 모순이라 signal에서 제외. 2025-10, 2025-12, 2026-01, 2026-02 월별 수치는 확보 실패(2월 기사 페이지 rate limit). 2026-10은 아직 미발표/미확인. next_release는 추정."
+ },
+ "jp_dept": {
+  "unit": "억엔",
+  "levels": {
+   "전국 매출액(억엔)": {
+    "2025-10": 4668,
+    "2025-11": 5214,
+    "2026-03": 5071,
+    "2026-07": 4889,
+    "2026-09": 4434,
+    "2026-10": 4874
+   },
+   "면세 매출(억엔)": {
+    "2025-10": 546,
+    "2025-11": 502,
+    "2026-03": 465,
+    "2026-05": 496.6,
+    "2026-06": 509.5,
+    "2026-07": 506.2,
+    "2026-08": 461.9,
+    "2026-09": 496.4
+   },
+   "면세 전년비(%)": {
+    "2025-10": 7.5,
+    "2025-11": -2.5,
+    "2026-03": 5.2,
+    "2026-05": 16.7,
+    "2026-06": 29.8,
+    "2026-07": 25.5,
+    "2026-08": 4.6,
+    "2026-09": 25.3
+   }
+  },
+  "signal": {
+   "2025-10": 4.3,
+   "2025-11": 0.9,
+   "2025-12": -1.1,
+   "2026-01": 2.3,
+   "2026-02": 1.6,
+   "2026-03": 3.2,
+   "2026-04": 5.2,
+   "2026-05": 8.3,
+   "2026-06": 2.3,
+   "2026-07": 5.1,
+   "2026-09": 4.2,
+   "2026-10": 6.0
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-24",
+  "src": [
+   {
+    "title": "全国百貨店売上高概況 2026年7月 (日本百貨店協会, 13개월 전년비 추이표 포함)",
+    "url": "https://www.depart.or.jp/store_sale/files/202607zenkokupp.pdf",
+    "date": "2026-08"
+   },
+   {
+    "title": "全国百貨店売上高概況 2026年3月 (日本百貨店協会)",
+    "url": "https://www.depart.or.jp/store_sale/files/202603zenkokupp.pdf",
+    "date": "2026-04"
+   },
+   {
+    "title": "10月の百貨店売上高、6%増4874億円 免税購買客は61万人と過去最多 (日本経済新聞, 검색결과 헤드라인)",
+    "url": "https://www.nikkei.com/article/DGXZQOUC2553S0V21C26A1000000/",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "9月の百貨店免税売上、前年比25.3%増で9月として過去最高 (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/10/30/department_202609/",
+    "date": "2026-10-30"
+   },
+   {
+    "title": "8月の百貨店免税売上、客数減でも購買単価は15.6%増 (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/10/01/department_202608/",
+    "date": "2026-10-01"
+   },
+   {
+    "title": "7月の百貨店免税売上、前年同月比25.5%増で5か月連続プラス (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/08/31/department_202607/",
+    "date": "2026-08-31"
+   },
+   {
+    "title": "6月の百貨店売上、中国が7か月ぶりにプラス転換 全体の免税売上高は3割増 (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/07/28/department_202606/",
+    "date": "2026-07-28"
+   },
+   {
+    "title": "5月の百貨店免税売上、香港や台湾など好調で3か月連続プラス (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/07/06/department_202605/",
+    "date": "2026-07-06"
+   },
+   {
+    "title": "11月の百貨店免税売上、2か月ぶりマイナスに (訪日ラボ)",
+    "url": "https://honichi.com/news/2026/01/07/department_202511/",
+    "date": "2026-01-07"
+   },
+   {
+    "title": "百貨店免税売上、10月として過去最高に 8か月ぶりプラス (訪日ラボ)",
+    "url": "https://honichi.com/news/2025/11/26/department_202510/",
+    "date": "2025-11-26"
+   }
+  ],
+  "note": "signal=전국 백화점 매출 전년비(점포수 조정후). 2025-10~2026-07은 협회 7월 개황 PDF 추이표, 2026-09는 협회 발표(4,434억엔, +4.2%), 2026-10은 닛케이 헤드라인 '6%증 4,874억엔'(반올림치, 원문 미열람·소수점 미확인). 2026-08 전국 전년비는 확보 실패(협회 8월 PDF 접근 불가). 면세 매출은 2025-12~2026-02, 2026-04, 2026-10 미확보(10월 면세 금액 미확인, 구매객 61만명 사상최다만 확인). next_release(11월분)는 추정."
+ },
+ "ppih": {
+  "unit": "%",
+  "levels": {
+   "국내리테일 기존점 매출 전년비(%)": {
+    "2025-10": 6.3,
+    "2025-11": 6.9,
+    "2025-12": 3.0,
+    "2026-01": 7.4,
+    "2026-02": 4.0,
+    "2026-03": 4.2,
+    "2026-04": 5.2,
+    "2026-05": 8.1,
+    "2026-06": -0.7,
+    "2026-07": 3.8,
+    "2026-08": 1.4,
+    "2026-09": 3.1,
+    "2026-10": 3.0
+   },
+   "국내리테일 전점 매출 전년비(%)": {
+    "2025-10": 7.8,
+    "2025-11": 8.5,
+    "2025-12": 4.3,
+    "2026-01": 9.0,
+    "2026-02": 5.2,
+    "2026-03": 5.3,
+    "2026-04": 7.2,
+    "2026-05": 10.2,
+    "2026-08": 3.5,
+    "2026-10": 4.9
+   }
+  },
+  "signal": {
+   "2025-10": 6.3,
+   "2025-11": 6.9,
+   "2025-12": 3.0,
+   "2026-01": 7.4,
+   "2026-02": 4.0,
+   "2026-03": 4.2,
+   "2026-04": 5.2,
+   "2026-05": 8.1,
+   "2026-06": -0.7,
+   "2026-07": 3.8,
+   "2026-08": 1.4,
+   "2026-09": 3.1,
+   "2026-10": 3.0
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-15",
+  "src": [
+   {
+    "title": "PPIH（ドン・キホーテ・ユニー）企業戦略 ニュース一覧・月次推移表 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/company/ppih",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "PPIH／10月の国内リテール既存店売上高3.0％増、食品・IP関連品など好調 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/sales/s112574.html",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "PPIH／9月の国内リテール既存店売上高3.1％増 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/sales/s102273.html",
+    "date": "2026-10-22"
+   },
+   {
+    "title": "PPIH／8月の国内リテール既存店売上高1.4％増 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/sales/s092872.html",
+    "date": "2026-09-28"
+   },
+   {
+    "title": "PPIH／7月の国内リテール既存店売上高3.8％増 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/sales/s082072.html",
+    "date": "2026-08-20"
+   },
+   {
+    "title": "PPIH／6月の国内リテール既存店売上高0.7％減 (流通ニュース)",
+    "url": "https://www.ryutsuu.biz/sales/s071772.html",
+    "date": "2026-07-17"
+   }
+  ],
+  "note": "국내 리테일 주요 5사(돈키호테·나가사키야·UD리테일·다치바나백화점·유니) 합산 기존점 매출 전년비. 2025-10~2026-05는 유통뉴스 월차 추이표(2025-10은 PPIH 영문 월차 PDF에선 106.4%로 표기되어 0.1%p 차이), 2026-06~10은 개별 기사. 2026-10 객수 +0.6%, 객단가 +2.4%, 디스카운트 사업 기존점 +4.0%. 免税売上高 전년비는 월차 공표자료/기사에서 확인 못해 미기재. 전점 매출 2026-06·07·09 미확인. next_release(11월분)는 추정."
+ },
+ "jp_realestate": {
+  "unit": "만엔",
+  "levels": {
+   "도쿄23구 신축맨션 평균(만엔)": {
+    "2026-07": 26520,
+    "2026-09": 13940,
+    "2026-10": 12937
+   },
+   "수도권 신축맨션 평균(만엔)": {
+    "2026-07": 16493,
+    "2026-10": 9308
+   }
+  },
+  "signal": {
+   "2026-07": 96.0,
+   "2026-09": 1.3,
+   "2026-10": -15.5
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-21",
+  "src": [
+   {
+    "title": "23区マンション4カ月ぶり下落 10月、高額物件販売されず (熊本日日新聞/共同)",
+    "url": "https://kumanichi.com/articles/2059658",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "9月の東京23区の新築マンション価格は+1.3%の1.3億円超！ (Japan Planners)",
+    "url": "https://www.japan-planners.com/blog/7799/",
+    "date": "2026-10-20"
+   },
+   {
+    "title": "23区マンション価格2・6億円 7月、建築費高で過去最高 (熊本日日新聞/共同)",
+    "url": "https://kumanichi.com/articles/2027127",
+    "date": "2026-08-20"
+   },
+   {
+    "title": "新築マンション、1億1千万円超 首都圏4~9月、21%上昇 (熊本日日新聞/共同)",
+    "url": "https://kumanichi.com/articles/2048561",
+    "date": "2026-10-20"
+   }
+  ],
+  "note": "不動産経済研究所 월간 수도권 신축맨션 시장동향 기준. 2026-07(2억6,520만엔, +96.0% 단월 사상최고), 2026-09(1억3,940만엔, +1.3%), 2026-10(1억2,937만엔, -15.5%, 4개월만의 하락)만 확인. 2025-10~2026-06, 2026-08 단월치 미확보. 참고: 2026년도 상반기(4~9월) 23구 평균 1억7,925만엔(+34.7%), 2025년도 23구 평균 1억3,784만엔(+18.5%). next_release(11월분)는 추정."
+ },
+ "tobacco": {
+  "unit": "억갑",
+  "levels": {},
+  "signal": {},
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "",
+  "src": [
+   {
+    "title": "국내 담배 판매량 2년째 감소…전자담배 비중 18.4% '역대 최고' (헤럴드경제, 2024년 연간)",
+    "url": "https://biz.heraldcorp.com/article/10468414",
+    "date": "2025-04-18"
+   }
+  ],
+  "note": "기재부(재경부) 담배시장 동향은 분기/반기/연간 발표로 월간 자료 없음. 2025년 연간 및 2026년 상반기 판매량 수치를 공개 기사에서 확인하지 못해 비움(관련 기사 robots 차단). 참고(2024년 연간): 국내 판매 35.3억갑(-2.2%), 궐련형 전자담배 6.6억갑(+8.3%)·비중 18.4%. KT&G 자체 집계상 NGP 국내 점유율 48.2%(기간 불명)는 시장 비중과 다른 개념이라 미반영."
+ },
+ "oldpaper": {
+  "unit": "원/kg",
+  "levels": {
+   "폐골판지(원/kg)": {
+    "2025-01": 105.1,
+    "2026-01": 81.6
+   }
+  },
+  "signal": {
+   "2026-01": -22.3
+  },
+  "signal_basis": "전년비(%)",
+  "updated": "2026-11-28",
+  "next_release": "2026-12-03",
+  "src": [
+   {
+    "title": "비싸진 펄프·골판지…종이값 줄인상 우려 (한국경제)",
+    "url": "https://www.hankyung.com/article/2026021199021",
+    "date": "2026-02-11"
+   },
+   {
+    "title": "폐지 값 1년 새 두 자릿수 하락…폐지 줍는 노인들 생계 직격탄 (전민일보, 자원순환정보시스템 인용)",
+    "url": "https://www.jeonmin.co.kr/news/articleView.html?idxno=431568",
+    "date": "2026-01-06"
+   },
+   {
+    "title": "한국환경공단_재활용가능자원 가격조사 (공공데이터포털, 2026년 9월분까지 등록)",
+    "url": "https://www.data.go.kr/data/3076421/fileData.do",
+    "date": "2026-09-30"
+   }
+  ],
+  "note": "한국환경공단 재활용가능자원 가격조사(전국 평균) 기준 2026-01 폐골판지 81.6원/kg(톤당 81,600원), 전년동월 105.1원 대비 -22.3%만 확인. 원자료(공공데이터포털 월간 파일, 2026-09분까지 등록, 다음 등록 2026-11-03 예정)는 프록시 차단으로 다운로드 못해 2026-02 이후 수치 미기재. 참고: 2025-06 88.7원/kg. next_release는 추정."
  }
 }
